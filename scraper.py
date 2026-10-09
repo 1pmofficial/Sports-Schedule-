@@ -1,24 +1,13 @@
 """
-Live Sports TV scraper — v4 (final).
+Live Sports TV scraper — v5 (league-driven categorization).
 
-Fetches https://www.livesportsontv.com, extracts every event, and writes
-a categorized JSON grouped by sport → league → events.
+Approach:
+  1. Fetch the rendered homepage.
+  2. Walk the DOM once, collecting every event along with its league header.
+  3. Categorize each event using the official league→sport mapping
+     (leagues.json) rather than guessing from the sport section header.
 
-Verified selectors from the live site (CSS Modules class names):
-  - Event row:        div.FixtureItem_container__kejZk
-  - Event time:       span.FixtureItem_time__2roux[data-fixture-time]
-  - Team names:       span.FixtureItem_teamName__AwoHS
-  - "at" sign:        span.FixtureItem_atSign__jX5PJ  (@ or vs.)
-  - Notes/round:      p.FixtureItem_restrictions__quJfN
-  - Title-only events span.FixtureItem_titleOnly__j53oU  (races, F1, golf)
-  - Channel chips:    [class*='FixtureItem_channelChip']
-      * name:         span.FixtureItem_channelChipText__85Ksi
-      * streaming:    class FixtureItem_streaming__AVFrm
-      * TV:           class FixtureItem_nonStreaming__zrRAs
-      * show-more:    class FixtureItem_showMore__i_kKo (skipped)
-      * logo img:     img.ChannelIcon_image__TkRf3[src]
-  - League header:    a.LeagueCard_cardTitleLink__S1OJM
-  - Sport header:     a.SectionDivider_content__2mTk3[href^='/sport/']
+This makes categorization authoritative and independent of page layout.
 """
 
 import json
@@ -32,6 +21,18 @@ from bs4 import BeautifulSoup
 URL = "https://www.livesportsontv.com"
 OUTPUT = Path("output/events.json")
 DEBUG_HTML = Path("output/debug.html")
+LEAGUES_FILE = Path("leagues.json")
+
+
+# ---------------------------------------------------------------- league map
+
+def load_league_map() -> dict:
+    """Load the official league → {sport, country, gender} mapping."""
+    if not LEAGUES_FILE.exists():
+        print(f"[warn] {LEAGUES_FILE} not found — categorization will be empty")
+        return {}
+    with LEAGUES_FILE.open(encoding="utf-8") as f:
+        return json.load(f)
 
 
 # ---------------------------------------------------------------- fetch
@@ -51,13 +52,13 @@ def fetch_html() -> str:
         )
         page = context.new_page()
 
-        # Navigate — don't wait for networkidle, it never fires on ad-heavy sites
+        # Navigate — don't wait for networkidle (never fires on ad-heavy sites)
         try:
             page.goto(URL, wait_until="domcontentloaded", timeout=60000)
         except Exception as e:
             print(f"[warn] goto: {e}")
 
-        # Wait until at least one event row exists
+        # Wait for the first event row
         try:
             page.wait_for_selector(
                 "div[class*='FixtureItem_container']", timeout=45000
@@ -66,7 +67,7 @@ def fetch_html() -> str:
         except Exception:
             print("[warn] no FixtureItem_container appeared; dumping anyway")
 
-        # Let React render remaining leagues
+        # Let React render all leagues
         page.wait_for_timeout(5000)
 
         # Scroll to trigger lazy loads
@@ -86,13 +87,12 @@ def fetch_html() -> str:
 # ---------------------------------------------------------------- helpers
 
 def _text(el) -> str:
-    """Safely extract trimmed text from a BS4 element."""
     if el is None:
         return ""
     return el.get_text(strip=True)
 
 
-# ---------------------------------------------------------------- parse
+# ---------------------------------------------------------------- extract
 
 def extract_event(row) -> dict | None:
     """Extract a single event from a FixtureItem_container div."""
@@ -105,7 +105,6 @@ def extract_event(row) -> dict | None:
     # ---- teams / title ----
     title_el = row.select_one("span[class*='FixtureItem_titleOnly']")
     if title_el:
-        # Title-only event (horse race, F1 practice, golf round, etc.)
         title = _text(title_el)
         away, home = None, None
     else:
@@ -119,7 +118,6 @@ def extract_event(row) -> dict | None:
             home = None
             title = away
         else:
-            # Fallback: read aria-label on the row link (e.g. "A - B")
             link = row.select_one("a[class*='FixtureItem_rowLink']")
             if link and link.get("aria-label"):
                 title = link["aria-label"]
@@ -129,7 +127,7 @@ def extract_event(row) -> dict | None:
             else:
                 return None
 
-    # ---- notes / round info ----
+    # ---- notes ----
     notes_el = row.select_one("p[class*='FixtureItem_restrictions']")
     notes = _text(notes_el) or None
 
@@ -138,7 +136,7 @@ def extract_event(row) -> dict | None:
     for chip in row.select("[class*='FixtureItem_channelChip']"):
         chip_classes = " ".join(chip.get("class", []))
 
-        # Skip the "Show more" pseudo-channel
+        # Skip "Show more"
         if "FixtureItem_showMore" in chip_classes:
             continue
 
@@ -149,16 +147,13 @@ def extract_event(row) -> dict | None:
         if not name:
             continue
 
-        is_streaming = "FixtureItem_streaming" in chip_classes
-
-        # Optional: channel logo URL
         img = chip.select_one("img[class*='ChannelIcon_image']")
         logo = img["src"] if img and img.get("src") else None
 
         channels.append(
             {
                 "name": name,
-                "streaming": is_streaming,
+                "streaming": "FixtureItem_streaming" in chip_classes,
                 "logo": logo,
             }
         )
@@ -173,60 +168,46 @@ def extract_event(row) -> dict | None:
     }
 
 
-def parse_events(html: str) -> list[dict]:
-    """Walk sport → league → event structure in the rendered HTML."""
+# ---------------------------------------------------------------- parse
+
+def parse_events(html: str, league_map: dict) -> list[dict]:
+    """
+    Walk the DOM. For each event, look up the closest enclosing league
+    header and use league_map to assign sport / country / gender.
+    """
     soup = BeautifulSoup(html, "lxml")
     events: list[dict] = []
 
-    # 1. Find all sport section headers
-    sport_headers = soup.select(
-        "a[class*='SectionDivider_content'][href^='/sport/']"
-    )
-    print(f"[info] found {len(sport_headers)} sport sections")
+    # Every event row
+    rows = soup.select("div[class*='FixtureItem_container']")
+    print(f"[info] found {len(rows)} raw event rows")
 
-    for sport_header in sport_headers:
-        # Sport name comes from the <img alt="...">
-        sport_img = sport_header.find("img")
-        sport = (
-            sport_img["alt"].strip()
-            if sport_img and sport_img.get("alt")
-            else _text(sport_header)
-        )
-        if not sport:
-            sport = "Unknown"
-
-        # Find the wrapper that contains this sport's leagues
-        sport_block = sport_header.find_parent(
+    for row in rows:
+        # Find the closest LeagueCard ancestor (if any)
+        league_card = row.find_parent(
             lambda tag: tag.name == "div"
-            and "FixtureListBySport_sport" in " ".join(tag.get("class", []))
+            and any("Card_card" in c for c in tag.get("class", []))
         )
-        if not sport_block:
+
+        league_name = None
+        if league_card:
+            link = league_card.select_one(
+                "a[class*='LeagueCard_cardTitleLink']"
+            )
+            league_name = _text(link) if link else None
+
+        event = extract_event(row)
+        if not event:
             continue
 
-        # 2. Iterate over league headers inside this sport block
-        for league_header in sport_block.select(
-            "a[class*='LeagueCard_cardTitleLink']"
-        ):
-            league = _text(league_header) or "Unknown"
+        # Look up official metadata
+        meta = league_map.get(league_name or "", {})
+        event["league"] = league_name or "Unknown"
+        event["sport"] = meta.get("sport", "Unknown")
+        event["country"] = meta.get("country", "Unknown")
+        event["gender"] = meta.get("gender", "mixed")
 
-            # The card that contains this league's events
-            league_card = league_header.find_parent(
-                lambda tag: tag.name == "div"
-                and any("Card_card" in c for c in tag.get("class", []))
-            )
-            if not league_card:
-                continue
-
-            # 3. Extract each event row
-            for row in league_card.select(
-                "div[class*='FixtureItem_container']"
-            ):
-                event = extract_event(row)
-                if not event:
-                    continue
-                event["sport"] = sport
-                event["league"] = league
-                events.append(event)
+        events.append(event)
 
     print(f"[info] parsed {len(events)} events")
     return events
@@ -235,7 +216,7 @@ def parse_events(html: str) -> list[dict]:
 # ---------------------------------------------------------------- group
 
 def group(events: list[dict]) -> dict:
-    """Group events: sport → league → events."""
+    """Group events by sport → league."""
     nested: dict[str, dict[str, list]] = {}
     for e in events:
         nested.setdefault(e["sport"], {}).setdefault(e["league"], []).append(
@@ -253,6 +234,24 @@ def group(events: list[dict]) -> dict:
                 "leagues": [
                     {
                         "league": league,
+                        "country": (
+                            events[0].get("country")
+                            if (events := next(
+                                (
+                                    evs
+                                    for evs in leagues.values()
+                                    if evs
+                                ),
+                                [],
+                            ))
+                            else None
+                        ),
+                        "gender": (
+                            next(
+                                (ev.get("gender") for ev in evs if ev),
+                                "mixed",
+                            )
+                        ),
                         "total_events": len(evs),
                         "events": evs,
                     }
@@ -267,20 +266,20 @@ def group(events: list[dict]) -> dict:
 # ---------------------------------------------------------------- main
 
 def main():
-    # Fetch
+    league_map = load_league_map()
+    print(f"[info] loaded {len(league_map)} leagues from {LEAGUES_FILE}")
+
     try:
         html = fetch_html()
     except Exception as e:
         print(f"[error] fetch_html failed: {e}")
         sys.exit(1)
 
-    # Always save the raw HTML so we can debug from the Actions artifact
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     DEBUG_HTML.write_text(html, encoding="utf-8")
     print(f"[info] saved raw HTML to {DEBUG_HTML}")
 
-    # Parse
-    events = parse_events(html)
+    events = parse_events(html, league_map)
 
     if not events:
         print("[error] parsed 0 events — check output/debug.html")
@@ -293,7 +292,6 @@ def main():
     else:
         grouped = group(events)
 
-    # Write JSON
     OUTPUT.write_text(
         json.dumps(grouped, indent=2, ensure_ascii=False), encoding="utf-8"
     )
