@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:01:08.449021+00:00",
+  "generated_at": "2026-10-09T23:17:43.015150+00:00",
   "source": "https://www.livesportsontv.com",
   "total_events": 85,
   "sports": [
@@ -9,8 +9,6 @@
       "leagues": [
         {
           "league": "CFL",
-          "country": "USA",
-          "gender": "male",
           "total_events": 1,
           "events": [
             {
@@ -53,8 +51,6 @@
         },
         {
           "league": "College Football",
-          "country": "USA",
-          "gender": "male",
           "total_events": 4,
           "events": [
             {
@@ -150,8 +146,6 @@
         },
         {
           "league": "Collegiate Sprint Football League",
-          "country": "USA",
-          "gender": "male",
           "total_events": 1,
           "events": [
             {
@@ -179,8 +173,6 @@
         },
         {
           "league": "High School Football",
-          "country": "USA",
-          "gender": "male",
           "total_events": 4,
           "events": [
             {
@@ -263,12 +255,32 @@
     },
     {
       "sport": "Basketball",
-      "total_events": 2,
+      "total_events": 4,
       "leagues": [
         {
+          "league": "LNB",
+          "total_events": 1,
+          "events": [
+            {
+              "time": "11:30 PM",
+              "title": "U. De Concepcion vs Valdivia",
+              "away": "U. De Concepcion",
+              "home": "Valdivia",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "Fanatiz",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fanatiz.jpg"
+                }
+              ],
+              "country": "Argentina",
+              "gender": "male"
+            }
+          ]
+        },
+        {
           "league": "Men's College Basketball",
-          "country": "USA",
-          "gender": "male",
           "total_events": 1,
           "events": [
             {
@@ -295,9 +307,29 @@
           ]
         },
         {
+          "league": "Other",
+          "total_events": 1,
+          "events": [
+            {
+              "time": "9:45 PM",
+              "title": "Lucas Oil Late Model Dirt Series at Eldora Speedway",
+              "away": null,
+              "home": null,
+              "notes": null,
+              "channels": [
+                {
+                  "name": "FloRacing",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/flosports.jpg"
+                }
+              ],
+              "country": "International",
+              "gender": "mixed"
+            }
+          ]
+        },
+        {
           "league": "WNBA",
-          "country": "USA",
-          "gender": "female",
           "total_events": 1,
           "events": [
             {
@@ -342,12 +374,10 @@
     },
     {
       "sport": "Football",
-      "total_events": 18,
+      "total_events": 21,
       "leagues": [
         {
           "league": "College Soccer",
-          "country": "USA",
-          "gender": "male",
           "total_events": 10,
           "events": [
             {
@@ -553,9 +583,92 @@
           ]
         },
         {
+          "league": "International Friendly Women",
+          "total_events": 1,
+          "events": [
+            {
+              "time": "11:00 PM",
+              "title": "Canada vs Denmark",
+              "away": "Canada",
+              "home": "Denmark",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "Fubo Sports",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
+                },
+                {
+                  "name": "FOX Soccer Plus",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
+                },
+                {
+                  "name": "TSN+",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
+                },
+                {
+                  "name": "RDS",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/rds.jpg"
+                },
+                {
+                  "name": "TSN5",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
+                }
+              ],
+              "country": "International",
+              "gender": "female"
+            }
+          ]
+        },
+        {
+          "league": "Primera Division",
+          "total_events": 2,
+          "events": [
+            {
+              "time": "9:00 PM",
+              "title": "Gimnasia La Plata vs Atlético Tucumán",
+              "away": "Gimnasia La Plata",
+              "home": "Atlético Tucumán",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "Fanatiz",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fanatiz.jpg"
+                }
+              ],
+              "country": "Argentina",
+              "gender": "male"
+            },
+            {
+              "time": "10:30 PM",
+              "title": "Instituto vs Boca Juniors",
+              "away": "Instituto",
+              "home": "Boca Juniors",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "Fanatiz",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fanatiz.jpg"
+                },
+                {
+                  "name": "ViX",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
+                }
+              ],
+              "country": "Argentina",
+              "gender": "male"
+            }
+          ]
+        },
+        {
           "league": "USL Championship",
-          "country": "USA",
-          "gender": "male",
           "total_events": 1,
           "events": [
             {
@@ -578,8 +691,6 @@
         },
         {
           "league": "Women's College Soccer",
-          "country": "USA",
-          "gender": "female",
           "total_events": 7,
           "events": [
             {
@@ -734,8 +845,6 @@
       "leagues": [
         {
           "league": "AHL",
-          "country": "USA",
-          "gender": "male",
           "total_events": 4,
           "events": [
             {
@@ -806,8 +915,6 @@
         },
         {
           "league": "College Ice Hockey",
-          "country": "USA",
-          "gender": "male",
           "total_events": 10,
           "events": [
             {
@@ -1004,8 +1111,6 @@
         },
         {
           "league": "NHL",
-          "country": "USA",
-          "gender": "male",
           "total_events": 3,
           "events": [
             {
@@ -1120,8 +1225,6 @@
         },
         {
           "league": "OHL",
-          "country": "USA",
-          "gender": "male",
           "total_events": 12,
           "events": [
             {
@@ -1320,8 +1423,6 @@
         },
         {
           "league": "USHL",
-          "country": "USA",
-          "gender": "male",
           "total_events": 1,
           "events": [
             {
@@ -1344,8 +1445,6 @@
         },
         {
           "league": "Women's College Ice Hockey",
-          "country": "USA",
-          "gender": "female",
           "total_events": 9,
           "events": [
             {
@@ -1522,8 +1621,6 @@
       "leagues": [
         {
           "league": "NASCAR Craftsman Truck Series",
-          "country": "International",
-          "gender": "mixed",
           "total_events": 1,
           "events": [
             {
@@ -1567,156 +1664,11 @@
       ]
     },
     {
-      "sport": "Unknown",
-      "total_events": 5,
-      "leagues": [
-        {
-          "league": "International Friendly Women",
-          "country": "Unknown",
-          "gender": "mixed",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "11:00 PM",
-              "title": "Canada vs Denmark",
-              "away": "Canada",
-              "home": "Denmark",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Soccer Plus",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "RDS",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/rds.jpg"
-                },
-                {
-                  "name": "TSN5",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
-            }
-          ]
-        },
-        {
-          "league": "LNB",
-          "country": "Unknown",
-          "gender": "mixed",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "11:30 PM",
-              "title": "U. De Concepcion vs Valdivia",
-              "away": "U. De Concepcion",
-              "home": "Valdivia",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fanatiz",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fanatiz.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
-            }
-          ]
-        },
-        {
-          "league": "Other",
-          "country": "Unknown",
-          "gender": "mixed",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "9:45 PM",
-              "title": "Lucas Oil Late Model Dirt Series at Eldora Speedway",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "FloRacing",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/flosports.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
-            }
-          ]
-        },
-        {
-          "league": "Primera Division",
-          "country": "Unknown",
-          "gender": "mixed",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "9:00 PM",
-              "title": "Gimnasia La Plata vs Atlético Tucumán",
-              "away": "Gimnasia La Plata",
-              "home": "Atlético Tucumán",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fanatiz",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fanatiz.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
-            },
-            {
-              "time": "10:30 PM",
-              "title": "Instituto vs Boca Juniors",
-              "away": "Instituto",
-              "home": "Boca Juniors",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fanatiz",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fanatiz.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Volleyball",
       "total_events": 10,
       "leagues": [
         {
           "league": "Women's College Volleyball",
-          "country": "USA",
-          "gender": "female",
           "total_events": 10,
           "events": [
             {
