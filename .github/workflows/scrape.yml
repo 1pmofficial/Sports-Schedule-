@@ -1,8 +1,9 @@
+# Scheduled workflow — cron re-registered 2026-10-09
 name: Scrape Live Sports
 
 on:
   schedule:
-    - cron: "0 * * * *"        # hourly
+    - cron: "17 * * * *"       # hourly at :17 UTC, avoids the congested :00 slot
   workflow_dispatch:
 
 permissions:
