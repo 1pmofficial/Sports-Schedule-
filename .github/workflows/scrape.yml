@@ -2,12 +2,11 @@ name: Scrape Live Sports
 
 on:
   schedule:
-    # Run every hour at :00
-    - cron: "0 * * * *"
-  workflow_dispatch:        # manual run button
+    - cron: "0 * * * *"        # hourly
+  workflow_dispatch:
 
 permissions:
-  contents: write           # required to push events.json back
+  contents: write
 
 jobs:
   scrape:
@@ -35,12 +34,14 @@ jobs:
       - name: Run scraper
         run: python scraper.py
 
-      - name: Upload debug HTML (for troubleshooting)
+      - name: Upload debug artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: debug-html
-          path: output/debug.html
+          name: debug-output
+          path: |
+            output/events.json
+            output/debug.html
           if-no-files-found: ignore
           retention-days: 7
 
