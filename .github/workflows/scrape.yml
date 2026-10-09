@@ -2,16 +2,17 @@ name: Scrape Live Sports
 
 on:
   schedule:
-    # Every 30 minutes
-    - cron: "*/30 * * * *"
-  workflow_dispatch:        # allow manual runs from the Actions tab
+    # Run every hour at :00
+    - cron: "0 * * * *"
+  workflow_dispatch:        # manual run button
 
 permissions:
-  contents: write           # needed to commit output back
+  contents: write           # required to push events.json back
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repo
@@ -21,21 +22,36 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          playwright install --with-deps chromium
+
+      - name: Install Playwright browser
+        run: playwright install --with-deps chromium
 
       - name: Run scraper
         run: python scraper.py
 
+      - name: Upload debug HTML (for troubleshooting)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-html
+          path: output/debug.html
+          if-no-files-found: ignore
+          retention-days: 7
+
       - name: Commit and push output
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/events.json
-          git diff --quiet && git diff --staged --quiet || \
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
             git commit -m "chore: update events.json [skip ci]"
-          git push
+            git push
+          fi
