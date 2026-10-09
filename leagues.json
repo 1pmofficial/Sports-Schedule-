@@ -1,12 +1,14 @@
 {
-  "NFL":       { "sport": "Football",     "keywords": ["NFL"] },
-  "NCAAF":     { "sport": "Football",     "keywords": ["Florida State", "Louisville", "Iowa State", "BYU"] },
-  "CFL":       { "sport": "Football",     "keywords": ["Edmonton Elks", "Hamilton Tiger-Cats", "BC Lions"] },
-  "NBA":       { "sport": "Basketball",   "keywords": ["Grizzlies", "Bulls", "Lakers", "Celtics"] },
-  "WNBA":      { "sport": "Basketball",   "keywords": ["Valkyries", "Aces"] },
-  "Premier League": { "sport": "Soccer",  "keywords": ["Arsenal", "Chelsea", "Aston Villa", "Brentford", "Fulham", "Sunderland"] },
-  "Bundesliga":{ "sport": "Soccer",       "keywords": ["Bayern", "Dortmund", "Hoffenheim", "Leverkusen", "Stuttgart"] },
-  "NHL":       { "sport": "Hockey",       "keywords": ["Rangers", "Penguins", "Capitals"] },
-  "F1":        { "sport": "Motorsports",  "keywords": ["Grand Prix"] },
-  "NASCAR":    { "sport": "Motorsports",  "keywords": ["Ecosave 250", "Blue Cross NC 250", "Late Model"] }
+  "NFL":            { "sport": "Football",     "keywords": ["NFL"] },
+  "NCAAF":          { "sport": "Football",     "keywords": ["Florida State", "Louisville", "Iowa State", "BYU", "Washington State", "Utah State", "Iowa", "Washington"] },
+  "CFL":            { "sport": "Football",     "keywords": ["Edmonton Elks", "Hamilton Tiger-Cats", "Ottawa RedBlacks", "BC Lions"] },
+  "NBA":            { "sport": "Basketball",   "keywords": ["Grizzlies", "Bulls", "Lakers", "Celtics", "Warriors", "Knicks"] },
+  "WNBA":           { "sport": "Basketball",   "keywords": ["Valkyries", "Aces"] },
+  "Premier League": { "sport": "Soccer",       "keywords": ["Arsenal", "Chelsea", "Aston Villa", "Brentford", "Fulham", "Sunderland", "Ipswich", "Brighton"] },
+  "Bundesliga":     { "sport": "Soccer",       "keywords": ["Bayern", "Dortmund", "Hoffenheim", "Leverkusen", "Stuttgart", "Augsburg", "Mainz", "Union Berlin"] },
+  "EFL Championship": { "sport": "Soccer",     "keywords": ["Charlton", "Swansea", "West Brom", "Blackburn", "Derby County", "Middlesbrough", "Watford", "Leicester City"] },
+  "NHL":            { "sport": "Hockey",       "keywords": ["Rangers", "Penguins", "Capitals", "Blue Jackets"] },
+  "F1":             { "sport": "Motorsports",  "keywords": ["Grand Prix"] },
+  "NASCAR":         { "sport": "Motorsports",  "keywords": ["Ecosave 250", "Blue Cross NC 250", "Late Model"] },
+  "AFL":            { "sport": "Australian Rules", "keywords": ["St. Kilda", "Collingwood", "Port Adelaide", "Geelong", "Richmond", "Melbourne Demons"] }
 }
