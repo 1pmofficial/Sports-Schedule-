@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:13:52.901433+00:00",
+  "generated_at": "2026-10-12T19:05:27.614491+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 42,
+  "total_events": 35,
   "sports": [
     {
       "sport": "American Football",
@@ -87,7 +87,7 @@
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
                 },
                 {
-                  "name": "FOX Sports 1",
+                  "name": "FOX 4K",
                   "streaming": false,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
                 }
@@ -194,6 +194,11 @@
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nba_tv.jpg"
                 },
                 {
+                  "name": "DAZN",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
+                },
+                {
                   "name": "Monumental SN",
                   "streaming": false,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/monumental.jpg"
@@ -214,6 +219,16 @@
               "home": "New York Knicks",
               "notes": "Preseason",
               "channels": [
+                {
+                  "name": "DAZN",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
+                },
+                {
+                  "name": "MSGSN",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/msg.jpg"
+                },
                 {
                   "name": "NBA TV",
                   "streaming": false,
@@ -251,7 +266,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 17,
+      "total_events": 14,
       "leagues": [
         {
           "league": "Canadian Premier League",
@@ -345,24 +360,8 @@
         },
         {
           "league": "Ekstraklasa",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "4:00 PM",
-              "title": "Radomiak Radom vs Lublin",
-              "away": "Radomiak Radom",
-              "home": "Lublin",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN SPORTS Xtra",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "Poland",
-              "gender": "male"
-            },
             {
               "time": "6:30 PM",
               "title": "GKS Katowice vs Wieczysta Kraków",
@@ -467,29 +466,8 @@
         },
         {
           "league": "LaLiga2",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "2:15 PM",
-              "title": "Burgos vs Granada",
-              "away": "Burgos",
-              "home": "Granada",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "Spain",
-              "gender": "male"
-            },
             {
               "time": "7:00 PM",
               "title": "Tenerife vs Girona",
@@ -580,34 +558,8 @@
         },
         {
           "league": "Serie A",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "4:30 PM",
-              "title": "Atalanta vs Venezia",
-              "away": "Atalanta",
-              "home": "Venezia",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "NBC Universo",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Italy",
-              "gender": "male"
-            },
             {
               "time": "6:45 PM",
               "title": "Torino vs Udinese",
@@ -698,44 +650,6 @@
               ],
               "country": "USA",
               "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Golf",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "College Golf",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "1:00 PM",
-              "title": "St. Andrews Links Collegiate",
-              "away": null,
-              "home": null,
-              "notes": "First Round",
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Golf Channel USA",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "Golf Channel Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
             }
           ]
         }
@@ -1002,92 +916,6 @@
               ],
               "country": "Canada",
               "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Tennis",
-      "total_events": 3,
-      "leagues": [
-        {
-          "league": "ATP",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "10:00 AM",
-              "title": "Shanghai Masters",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                },
-                {
-                  "name": "RDS",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/rds.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "WTA",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "11:30 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "2:00 PM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
             }
           ]
         }
