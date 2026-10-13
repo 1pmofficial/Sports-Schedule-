@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T17:36:48.122986+00:00",
+  "generated_at": "2026-10-13T22:46:26.770904+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 50,
+  "total_events": 29,
   "sports": [
     {
       "sport": "American Football",
@@ -38,93 +38,8 @@
     },
     {
       "sport": "Basketball",
-      "total_events": 6,
+      "total_events": 2,
       "leagues": [
-        {
-          "league": "Basketball Champions League",
-          "total_events": 4,
-          "events": [
-            {
-              "time": "6:00 PM",
-              "title": "Rytas vs Nanterre",
-              "away": "Rytas",
-              "home": "Nanterre",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Peristeri vs Varese",
-              "away": "Peristeri",
-              "home": "Varese",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Igokea vs Alba Berlin",
-              "away": "Igokea",
-              "home": "Alba Berlin",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Slavia Prague vs Bilbao",
-              "away": "Slavia Prague",
-              "home": "Bilbao",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
         {
           "league": "NBA",
           "total_events": 2,
@@ -245,145 +160,12 @@
     },
     {
       "sport": "Football",
-      "total_events": 27,
+      "total_events": 11,
       "leagues": [
-        {
-          "league": "3. Liga",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Rot-Weiss Essen vs Fortuna Köln",
-              "away": "Rot-Weiss Essen",
-              "home": "Fortuna Köln",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "Germany",
-              "gender": "male"
-            },
-            {
-              "time": "5:00 PM",
-              "title": "Saarbrücken vs MSV Duisburg",
-              "away": "Saarbrücken",
-              "home": "MSV Duisburg",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "Germany",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Championship",
-          "total_events": 3,
-          "events": [
-            {
-              "time": "6:45 PM",
-              "title": "Wolverhampton Wanderers vs Bolton Wanderers",
-              "away": "Wolverhampton Wanderers",
-              "home": "Bolton Wanderers",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
-            {
-              "time": "6:45 PM",
-              "title": "Wrexham vs West Bromwich Albion",
-              "away": "Wrexham",
-              "home": "West Bromwich Albion",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Stoke City vs Middlesbrough",
-              "away": "Stoke City",
-              "home": "Middlesbrough",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            }
-          ]
-        },
         {
           "league": "College Soccer",
           "total_events": 10,
           "events": [
-            {
-              "time": "8:00 PM",
-              "title": "Dartmouth vs UMass Amherst",
-              "away": "Dartmouth",
-              "home": "UMass Amherst",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "NESN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nesn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "10:00 PM",
               "title": "Virginia vs Gardner-Webb",
@@ -572,39 +354,34 @@
               ],
               "country": "USA",
               "gender": "male"
+            },
+            {
+              "time": "10:00 PM",
+              "title": "North Florida vs College of Charleston",
+              "away": "North Florida",
+              "home": "College of Charleston",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "male"
             }
           ]
         },
         {
           "league": "International Friendly Women",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "3:45 PM",
-              "title": "Germany vs Japan",
-              "away": "Germany",
-              "home": "Japan",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "CBS Golazo Network",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
             {
               "time": "11:00 PM",
               "title": "United States vs Spain",
@@ -639,313 +416,6 @@
                 }
               ],
               "country": "International",
-              "gender": "female"
-            }
-          ]
-        },
-        {
-          "league": "UEFA Champions League",
-          "total_events": 9,
-          "events": [
-            {
-              "time": "4:45 PM",
-              "title": "Lens vs Sporting CP",
-              "away": "Lens",
-              "home": "Sporting CP",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBSSN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "TUDN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tudn.jpg"
-                },
-                {
-                  "name": "UniMás",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/unimas.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "4:45 PM",
-              "title": "Sabah vs Slavia Praha",
-              "away": "Sabah",
-              "home": "Slavia Praha",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "OneSoccer",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Inter vs Club Brugge",
-              "away": "Inter",
-              "home": "Club Brugge",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Arsenal FC vs Lille",
-              "away": "Arsenal FC",
-              "home": "Lille",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Atletico Madrid vs Manchester United",
-              "away": "Atletico Madrid",
-              "home": "Manchester United",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "TUDN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tudn.jpg"
-                },
-                {
-                  "name": "UniMás",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/unimas.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "RB Leipzig vs PSV",
-              "away": "RB Leipzig",
-              "home": "PSV",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBSSN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Villarreal vs Napoli",
-              "away": "Villarreal",
-              "home": "Napoli",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "OneSoccer",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Galatasaray vs FC Barcelona",
-              "away": "Galatasaray",
-              "home": "FC Barcelona",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Viking vs Bayern München",
-              "away": "Viking",
-              "home": "Bayern München",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Women's College Soccer",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Cornell vs Holy Cross",
-              "away": "Cornell",
-              "home": "Holy Cross",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
               "gender": "female"
             }
           ]
@@ -1368,33 +838,12 @@
     },
     {
       "sport": "Wintersports",
-      "total_events": 2,
+      "total_events": 1,
       "leagues": [
         {
           "league": "Curling",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "7:00 PM",
-              "title": "Victoria",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Sportsnet",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                },
-                {
-                  "name": "SN NOW",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
             {
               "time": "10:30 PM",
               "title": "Victoria",
