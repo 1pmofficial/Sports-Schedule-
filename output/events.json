@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-13T01:22:40.454287+00:00",
+  "generated_at": "2026-10-13T09:26:23.957891+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 71,
+  "total_events": 62,
   "sports": [
     {
       "sport": "American Football",
-      "total_events": 2,
+      "total_events": 1,
       "leagues": [
         {
           "league": "College Football",
@@ -33,102 +33,12 @@
               "gender": "male"
             }
           ]
-        },
-        {
-          "league": "NFL",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "12:15 AM",
-              "title": "Buffalo Bills vs Los Angeles Rams",
-              "away": "Buffalo Bills",
-              "home": "Los Angeles Rams",
-              "notes": "Monday Night Football",
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "ABC",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/abc.jpg"
-                },
-                {
-                  "name": "ESPN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "ESPN2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Baseball",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "MLB",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "12:00 AM",
-              "title": "Cleveland Guardians vs Tampa Bay Rays",
-              "away": "Cleveland Guardians",
-              "home": "Tampa Bay Rays",
-              "notes": "American League Championship Series - Game 1",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                },
-                {
-                  "name": "MLB.TV",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/mlb.jpg"
-                },
-                {
-                  "name": "TBS",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tbs.jpg"
-                },
-                {
-                  "name": "truTV",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/trutv.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            }
-          ]
         }
       ]
     },
     {
       "sport": "Basketball",
-      "total_events": 7,
+      "total_events": 6,
       "leagues": [
         {
           "league": "Basketball Champions League",
@@ -217,39 +127,8 @@
         },
         {
           "league": "NBA",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "1:00 AM",
-              "title": "San Antonio Spurs vs Utah Jazz",
-              "away": "San Antonio Spurs",
-              "home": "Utah Jazz",
-              "notes": "Preseason",
-              "channels": [
-                {
-                  "name": "NBA League Pass",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nba_tv.jpg"
-                },
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "Jazz+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "KJZZ 14",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "11:00 PM",
               "title": "Cleveland Cavaliers vs Orlando Magic",
@@ -327,39 +206,6 @@
       ]
     },
     {
-      "sport": "Cycling",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Men's Road Cycling",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "4:30 AM",
-              "title": "Tour of Guangxi",
-              "away": null,
-              "home": null,
-              "notes": "Stage 1",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Fighting",
       "total_events": 1,
       "leagues": [
@@ -399,7 +245,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 36,
+      "total_events": 35,
       "leagues": [
         {
           "league": "3. Liga",
@@ -878,28 +724,6 @@
           ]
         },
         {
-          "league": "Serie A Brazil",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "12:00 AM",
-              "title": "RB Bragantino vs Cruzeiro",
-              "away": "RB Bragantino",
-              "home": "Cruzeiro",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fanatiz",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fanatiz.jpg"
-                }
-              ],
-              "country": "Brazil",
-              "gender": "male"
-            }
-          ]
-        },
-        {
           "league": "UEFA Champions League",
           "total_events": 9,
           "events": [
@@ -1302,48 +1126,12 @@
     },
     {
       "sport": "Ice Hockey",
-      "total_events": 12,
+      "total_events": 10,
       "leagues": [
         {
           "league": "NHL",
-          "total_events": 9,
+          "total_events": 8,
           "events": [
-            {
-              "time": "12:00 AM",
-              "title": "Vegas Golden Knights vs Minnesota Wild",
-              "away": "Vegas Golden Knights",
-              "home": "Minnesota Wild",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "Scripps 66",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "Wild+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "Sportsnet+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "10:00 PM",
               "title": "New Jersey Devils vs Detroit Red Wings",
@@ -1653,24 +1441,8 @@
         },
         {
           "league": "USHL",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "12:05 AM",
-              "title": "Lincoln Stars vs Sioux Falls Stampede",
-              "away": "Lincoln Stars",
-              "home": "Sioux Falls Stampede",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "FloHockey",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/flosports.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "11:00 PM",
               "title": "USA U18 vs Youngstown Phantoms",
@@ -1693,38 +1465,12 @@
     },
     {
       "sport": "Tennis",
-      "total_events": 5,
+      "total_events": 3,
       "leagues": [
         {
           "league": "ATP",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "4:00 AM",
-              "title": "Shanghai Masters",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN5",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
             {
               "time": "10:00 AM",
               "title": "Shanghai Masters",
@@ -1760,39 +1506,8 @@
         },
         {
           "league": "WTA",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "3:00 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "T2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
             {
               "time": "11:00 AM",
               "title": "Wuhan Open",
