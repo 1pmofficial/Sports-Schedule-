@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T09:26:23.957891+00:00",
+  "generated_at": "2026-10-13T17:36:48.122986+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 62,
+  "total_events": 50,
   "sports": [
     {
       "sport": "American Football",
@@ -245,7 +245,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 35,
+      "total_events": 27,
       "leagues": [
         {
           "league": "3. Liga",
@@ -297,72 +297,8 @@
         },
         {
           "league": "Championship",
-          "total_events": 8,
+          "total_events": 3,
           "events": [
-            {
-              "time": "6:45 PM",
-              "title": "Bristol City vs Blackburn Rovers",
-              "away": "Bristol City",
-              "home": "Blackburn Rovers",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
-            {
-              "time": "6:45 PM",
-              "title": "Burnley vs Charlton Athletic",
-              "away": "Burnley",
-              "home": "Charlton Athletic",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
-            {
-              "time": "6:45 PM",
-              "title": "Cardiff City vs Watford",
-              "away": "Cardiff City",
-              "home": "Watford",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
-            {
-              "time": "6:45 PM",
-              "title": "Millwall vs Swansea City",
-              "away": "Millwall",
-              "home": "Swansea City",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
             {
               "time": "6:45 PM",
               "title": "Wolverhampton Wanderers vs Bolton Wanderers",
@@ -384,22 +320,6 @@
               "title": "Wrexham vs West Bromwich Albion",
               "away": "Wrexham",
               "home": "West Bromwich Albion",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Birmingham City vs Preston North End",
-              "away": "Birmingham City",
-              "home": "Preston North End",
               "notes": null,
               "channels": [
                 {
@@ -784,6 +704,11 @@
                   "name": "DAZN Canada",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
+                },
+                {
+                  "name": "OneSoccer",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
                 }
               ],
               "country": "International",
@@ -934,6 +859,11 @@
                   "name": "DAZN Canada",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
+                },
+                {
+                  "name": "OneSoccer",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
                 }
               ],
               "country": "International",
@@ -994,70 +924,6 @@
           ]
         },
         {
-          "league": "UEFA Youth League",
-          "total_events": 3,
-          "events": [
-            {
-              "time": "12:00 PM",
-              "title": "RB Leipzig U19 vs PSV U19",
-              "away": "RB Leipzig U19",
-              "home": "PSV U19",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "2:00 PM",
-              "title": "Atlético Madrid U19 vs Manchester United U19",
-              "away": "Atlético Madrid U19",
-              "home": "Manchester United U19",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "MUTV",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/mutv.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "2:00 PM",
-              "title": "Villarreal U19 vs Napoli U19",
-              "away": "Villarreal U19",
-              "home": "Napoli U19",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
-        {
           "league": "Women's College Soccer",
           "total_events": 1,
           "events": [
@@ -1081,44 +947,6 @@
               ],
               "country": "USA",
               "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Golf",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "College Golf",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "1:00 PM",
-              "title": "St. Andrews Links Collegiate",
-              "away": null,
-              "home": null,
-              "notes": "Second Round",
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Golf Channel USA",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "Golf Channel Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
             }
           ]
         }
@@ -1458,107 +1286,6 @@
               ],
               "country": "USA",
               "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Tennis",
-      "total_events": 3,
-      "leagues": [
-        {
-          "league": "ATP",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "10:00 AM",
-              "title": "Shanghai Masters",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "RDS",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/rds.jpg"
-                },
-                {
-                  "name": "TSN5",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "WTA",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "11:00 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                },
-                {
-                  "name": "T2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "3:00 PM",
-              "title": "Mallorca Championship",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
             }
           ]
         }
