@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T13:45:04.600185+00:00",
+  "generated_at": "2026-10-14T18:39:13.104718+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 71,
+  "total_events": 66,
   "sports": [
     {
       "sport": "American Football",
@@ -38,7 +38,7 @@
     },
     {
       "sport": "Basketball",
-      "total_events": 8,
+      "total_events": 7,
       "leagues": [
         {
           "league": "ACB",
@@ -55,6 +55,11 @@
                   "name": "DAZN",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
+                },
+                {
+                  "name": "DAZN Canada",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
                 }
               ],
               "country": "Spain",
@@ -64,24 +69,8 @@
         },
         {
           "league": "Basketball Champions League",
-          "total_events": 4,
+          "total_events": 3,
           "events": [
-            {
-              "time": "4:00 PM",
-              "title": "Sabah Baku vs Trabzonspor",
-              "away": "Sabah Baku",
-              "home": "Trabzonspor",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
             {
               "time": "5:00 PM",
               "title": "Murcia vs Bamberg",
@@ -240,60 +229,6 @@
       ]
     },
     {
-      "sport": "Cycling",
-      "total_events": 2,
-      "leagues": [
-        {
-          "league": "Men's Road Cycling",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "12:20 PM",
-              "title": "Eneco Tour",
-              "away": null,
-              "home": null,
-              "notes": "Stage 1",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "1:30 PM",
-              "title": "Giro del Veneto",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Equestrian",
       "total_events": 1,
       "leagues": [
@@ -338,7 +273,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 43,
+      "total_events": 41,
       "leagues": [
         {
           "league": "3. Liga",
@@ -1142,54 +1077,6 @@
           ]
         },
         {
-          "league": "UEFA Youth League",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "12:00 PM",
-              "title": "AS Roma U19 vs Real Madrid U19",
-              "away": "AS Roma U19",
-              "home": "Real Madrid U19",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "2:00 PM",
-              "title": "Manchester City U19 vs PSG U19",
-              "away": "Manchester City U19",
-              "home": "PSG U19",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
-        {
           "league": "USL Championship",
           "total_events": 3,
           "events": [
@@ -1534,28 +1421,28 @@
       ]
     },
     {
-      "sport": "Tennis",
+      "sport": "Unknown",
       "total_events": 1,
       "leagues": [
         {
-          "league": "WTA",
+          "league": "FIBA Europe Cup",
           "total_events": 1,
           "events": [
             {
-              "time": "3:00 PM",
-              "title": "Mallorca Championship",
-              "away": null,
-              "home": null,
+              "time": "6:00 PM",
+              "title": "Slavia Prague vs Bilbao",
+              "away": "Slavia Prague",
+              "home": "Bilbao",
               "notes": null,
               "channels": [
                 {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
+                  "name": "DAZN Canada",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
                 }
               ],
-              "country": "International",
-              "gender": "female"
+              "country": "Unknown",
+              "gender": "mixed"
             }
           ]
         }
