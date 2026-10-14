@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T07:39:32.151579+00:00",
+  "generated_at": "2026-10-14T13:45:04.600185+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 78,
+  "total_events": 71,
   "sports": [
     {
       "sport": "American Football",
@@ -37,34 +37,6 @@
       ]
     },
     {
-      "sport": "Baseball",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "NPB",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "9:00 AM",
-              "title": "Nippon Ham Fighters vs Fukuoka",
-              "away": "Nippon Ham Fighters",
-              "home": "Fukuoka",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Next Level Sports",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "Japan",
-              "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Basketball",
       "total_events": 8,
       "leagues": [
@@ -81,11 +53,6 @@
               "channels": [
                 {
                   "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
                 }
@@ -108,11 +75,6 @@
               "channels": [
                 {
                   "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
                 }
@@ -186,6 +148,33 @@
           ]
         },
         {
+          "league": "Men's College Basketball",
+          "total_events": 1,
+          "events": [
+            {
+              "time": "10:00 PM",
+              "title": "Drexel vs St. John's",
+              "away": "Drexel",
+              "home": "St. John's",
+              "notes": "Exhibition Game",
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "male"
+            }
+          ]
+        },
+        {
           "league": "NBA",
           "total_events": 2,
           "events": [
@@ -247,60 +236,17 @@
               "gender": "male"
             }
           ]
-        },
-        {
-          "league": "NBL",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "8:30 AM",
-              "title": "New Zealand Breakers vs Sydney Kings",
-              "away": "New Zealand Breakers",
-              "home": "Sydney Kings",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "NBA TV",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nba_tv.jpg"
-                }
-              ],
-              "country": "Australia",
-              "gender": "male"
-            }
-          ]
         }
       ]
     },
     {
       "sport": "Cycling",
-      "total_events": 4,
+      "total_events": 2,
       "leagues": [
         {
           "league": "Men's Road Cycling",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "5:40 AM",
-              "title": "Tour of Guangxi",
-              "away": null,
-              "home": null,
-              "notes": "Stage 2",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
             {
               "time": "12:20 PM",
               "title": "Eneco Tour",
@@ -342,33 +288,6 @@
               ],
               "country": "International",
               "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Women's Road Cycling",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "8:35 AM",
-              "title": "Eneco Tour",
-              "away": null,
-              "home": null,
-              "notes": "Stage 1",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
             }
           ]
         }
@@ -419,7 +338,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 44,
+      "total_events": 43,
       "leagues": [
         {
           "league": "3. Liga",
@@ -1224,24 +1143,8 @@
         },
         {
           "league": "UEFA Youth League",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "10:00 AM",
-              "title": "LASK U19 vs Liverpool U19",
-              "away": "LASK U19",
-              "home": "Liverpool U19",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "All Red Video",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/lfctv.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
             {
               "time": "12:00 PM",
               "title": "AS Roma U19 vs Real Madrid U19",
@@ -1632,101 +1535,12 @@
     },
     {
       "sport": "Tennis",
-      "total_events": 4,
+      "total_events": 1,
       "leagues": [
         {
-          "league": "ATP",
+          "league": "WTA",
           "total_events": 1,
           "events": [
-            {
-              "time": "10:00 AM",
-              "title": "Shanghai Masters",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "RDS",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/rds.jpg"
-                },
-                {
-                  "name": "TSN3",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "WTA",
-          "total_events": 3,
-          "events": [
-            {
-              "time": "8:00 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "11:00 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                },
-                {
-                  "name": "T2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN5",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
             {
               "time": "3:00 PM",
               "title": "Mallorca Championship",
