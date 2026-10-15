@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T13:27:45.426158+00:00",
+  "generated_at": "2026-10-15T18:19:51.231753+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 94,
+  "total_events": 89,
   "sports": [
     {
       "sport": "American Football",
@@ -347,54 +347,12 @@
     },
     {
       "sport": "Football",
-      "total_events": 54,
+      "total_events": 52,
       "leagues": [
         {
           "league": "College Soccer",
-          "total_events": 5,
+          "total_events": 3,
           "events": [
-            {
-              "time": "4:00 PM",
-              "title": "Eastern Illinois vs Incarnate Word",
-              "away": "Eastern Illinois",
-              "home": "Incarnate Word",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
-            {
-              "time": "5:00 PM",
-              "title": "Western Illinois vs Houston Christian",
-              "away": "Western Illinois",
-              "home": "Houston Christian",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "8:00 PM",
               "title": "SIU Edwardsville vs Lindenwood",
@@ -1459,27 +1417,6 @@
           "total_events": 10,
           "events": [
             {
-              "time": "4:00 PM",
-              "title": "Temple vs Memphis",
-              "away": "Temple",
-              "home": "Memphis",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
               "time": "5:00 PM",
               "title": "UMBC vs Binghamton",
               "away": "UMBC",
@@ -1648,6 +1585,27 @@
                   "name": "MW+",
                   "streaming": false,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "9:00 PM",
+              "title": "IU Indianapolis vs Oakland",
+              "away": "IU Indianapolis",
+              "home": "Oakland",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
                 }
               ],
               "country": "USA",
@@ -2010,116 +1968,6 @@
       ]
     },
     {
-      "sport": "Swimming",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Swimming World Cup",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "1:00 PM",
-              "title": "Swimming World Cup",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Peacock",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/peacock.jpg"
-                },
-                {
-                  "name": "CBC Gem",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbc.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Tennis",
-      "total_events": 2,
-      "leagues": [
-        {
-          "league": "WTA",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "12:30 PM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "3:00 PM",
-              "title": "Mallorca Championship",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Unknown",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Euro U17 Qualification",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "3:00 PM",
-              "title": "Switzerland U17 vs Liechtenstein U17",
-              "away": "Switzerland U17",
-              "home": "Liechtenstein U17",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Volleyball",
       "total_events": 10,
       "leagues": [
@@ -2338,7 +2186,7 @@
     },
     {
       "sport": "Wintersports",
-      "total_events": 3,
+      "total_events": 4,
       "leagues": [
         {
           "league": "Curling",
@@ -2395,8 +2243,24 @@
         },
         {
           "league": "Speed Skating",
-          "total_events": 1,
+          "total_events": 2,
           "events": [
+            {
+              "time": "4:45 PM",
+              "title": "Canadian Long Track Junior World Cup",
+              "away": null,
+              "home": null,
+              "notes": null,
+              "channels": [
+                {
+                  "name": "CBC Gem",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbc.jpg"
+                }
+              ],
+              "country": "International",
+              "gender": "mixed"
+            },
             {
               "time": "5:00 PM",
               "title": "Canadian Long Track Junior World Cup Trials",
