@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T17:25:10.118842+00:00",
+  "generated_at": "2026-10-16T21:09:14.207451+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 127,
+  "total_events": 102,
   "sports": [
     {
       "sport": "American Football",
@@ -229,7 +229,7 @@
     },
     {
       "sport": "Basketball",
-      "total_events": 10,
+      "total_events": 8,
       "leagues": [
         {
           "league": "Men's College Basketball",
@@ -456,97 +456,6 @@
               "gender": "mixed"
             }
           ]
-        },
-        {
-          "league": "Super League Basketball",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Sheffield Sharks vs Caledonia Gladiators",
-              "away": "Sheffield Sharks",
-              "home": "Caledonia Gladiators",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "United Kingdom",
-              "gender": "male"
-            },
-            {
-              "time": "6:30 PM",
-              "title": "Manchester Basketball vs Newcastle Eagles",
-              "away": "Manchester Basketball",
-              "home": "Newcastle Eagles",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "United Kingdom",
-              "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Equestrian",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Horse Racing",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "America's Day at the Races",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Sports 2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "FOX One",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "FOX Sports Racing",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            }
-          ]
         }
       ]
     },
@@ -585,99 +494,8 @@
     },
     {
       "sport": "Football",
-      "total_events": 40,
+      "total_events": 24,
       "leagues": [
-        {
-          "league": "2. Bundesliga",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "4:30 PM",
-              "title": "Energie Cottbus vs 1. FC Nürnberg",
-              "away": "Energie Cottbus",
-              "home": "1. FC Nürnberg",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Germany",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "3. Liga",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Fortuna Köln vs Stuttgart II",
-              "away": "Fortuna Köln",
-              "home": "Stuttgart II",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "Germany",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Bundesliga",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Eintracht Frankfurt vs 1. FC Köln",
-              "away": "Eintracht Frankfurt",
-              "home": "1. FC Köln",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Peacock ES",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/peacock.jpg"
-                },
-                {
-                  "name": "NBC Universo",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "Fandango",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "OneSoccer",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "Germany",
-              "gender": "male"
-            }
-          ]
-        },
         {
           "league": "Canadian Premier League",
           "total_events": 1,
@@ -721,62 +539,9 @@
           ]
         },
         {
-          "league": "Championship",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "7:00 PM",
-              "title": "Burnley vs Wolverhampton Wanderers",
-              "away": "Burnley",
-              "home": "Wolverhampton Wanderers",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBS Golazo Network",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            }
-          ]
-        },
-        {
           "league": "College Soccer",
           "total_events": 10,
           "events": [
-            {
-              "time": "7:00 PM",
-              "title": "DePaul vs St. John's (NY)",
-              "away": "DePaul",
-              "home": "St. John's (NY)",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "9:00 PM",
               "title": "Georgetown vs Seton Hall",
@@ -874,22 +639,6 @@
             },
             {
               "time": "11:00 PM",
-              "title": "Rutgers vs Indiana",
-              "away": "Rutgers",
-              "home": "Indiana",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Big Ten Plus",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/big10.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
-            {
-              "time": "11:00 PM",
               "title": "Duke vs Virginia",
               "away": "Duke",
               "home": "Virginia",
@@ -950,83 +699,14 @@
               ],
               "country": "USA",
               "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Ekstraklasa",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "4:00 PM",
-              "title": "Wieczysta Kraków vs Raków Częstochowa",
-              "away": "Wieczysta Kraków",
-              "home": "Raków Częstochowa",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN USA",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN USA Espanol",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN SPORTS 4",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN Canada Espanol",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "Poland",
-              "gender": "male"
             },
             {
-              "time": "6:30 PM",
-              "title": "Widzew Łódź vs Wisła Kraków",
-              "away": "Widzew Łódź",
-              "home": "Wisła Kraków",
+              "time": "11:00 PM",
+              "title": "Marquette vs UConn",
+              "away": "Marquette",
+              "home": "UConn",
               "notes": null,
               "channels": [
-                {
-                  "name": "beIN SPORTS 4",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "Poland",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "La Liga",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "7:00 PM",
-              "title": "Deportivo La Coruña vs Levante",
-              "away": "Deportivo La Coruña",
-              "home": "Levante",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
                 {
                   "name": "ESPN Select",
                   "streaming": true,
@@ -1036,73 +716,30 @@
                   "name": "ESPN Unlimited",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "male"
+            },
+            {
+              "time": "11:00 PM",
+              "title": "Providence vs Akron",
+              "away": "Providence",
+              "home": "Akron",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
                 },
                 {
-                  "name": "ESPN Deportes",
-                  "streaming": false,
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
                 }
               ],
-              "country": "Spain",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Ligue 1",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "6:45 PM",
-              "title": "Le Mans vs Toulouse",
-              "away": "Le Mans",
-              "home": "Toulouse",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN USA",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN USA Espanol",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN Canada Espanol",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "France",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Premier League 2",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "6:00 PM",
-              "title": "Nottingham Forest U21 vs Manchester United U21",
-              "away": "Nottingham Forest U21",
-              "home": "Manchester United U21",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "MUTV",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/mutv.jpg"
-                }
-              ],
-              "country": "England",
+              "country": "USA",
               "gender": "male"
             }
           ]
@@ -1130,113 +767,6 @@
           ]
         },
         {
-          "league": "Pro League",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "3:00 PM",
-              "title": "Al Riyadh vs Al Hilal",
-              "away": "Al Riyadh",
-              "home": "Al Hilal",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Sports 2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "FOX One",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Belgium",
-              "gender": "male"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Al Ittihad vs Al Shabab",
-              "away": "Al Ittihad",
-              "home": "Al Shabab",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "FOX Deportes",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Belgium",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Scottish Championship",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Ayr United vs Partick Thistle",
-              "away": "Ayr United",
-              "home": "Partick Thistle",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                }
-              ],
-              "country": "Scotland",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Serie A",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "6:45 PM",
-              "title": "Frosinone vs Sassuolo",
-              "away": "Frosinone",
-              "home": "Sassuolo",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBSSN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Italy",
-              "gender": "male"
-            }
-          ]
-        },
-        {
           "league": "Serie A Brazil",
           "total_events": 1,
           "events": [
@@ -1254,33 +784,6 @@
                 }
               ],
               "country": "Brazil",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Serie B",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Hellas Verona vs Catanzaro",
-              "away": "Hellas Verona",
-              "home": "Catanzaro",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Soccer Plus",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Italy",
               "gender": "male"
             }
           ]
@@ -1324,78 +827,9 @@
           ]
         },
         {
-          "league": "Women's Bundesliga",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "4:30 PM",
-              "title": "Freiburg vs RB Leipzig",
-              "away": "Freiburg",
-              "home": "RB Leipzig",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Germany",
-              "gender": "female"
-            }
-          ]
-        },
-        {
           "league": "Women's College Soccer",
-          "total_events": 10,
+          "total_events": 9,
           "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Abilene Christian vs West Georgia",
-              "away": "Abilene Christian",
-              "home": "West Georgia",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "West Virginia vs UCF",
-              "away": "West Virginia",
-              "home": "UCF",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
             {
               "time": "9:00 PM",
               "title": "Arkansas State vs Appalachian State",
@@ -1418,28 +852,7 @@
               "gender": "female"
             },
             {
-              "time": "10:00 PM",
-              "title": "Kansas vs Iowa State",
-              "away": "Kansas",
-              "home": "Iowa State",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "11:00 PM",
+              "time": "9:00 PM",
               "title": "Maryland vs Iowa",
               "away": "Maryland",
               "home": "Iowa",
@@ -1455,21 +868,21 @@
               "gender": "female"
             },
             {
-              "time": "11:00 PM",
-              "title": "Boston College vs South Carolina State",
-              "away": "Boston College",
-              "home": "South Carolina State",
+              "time": "10:00 PM",
+              "title": "Kansas vs Iowa State",
+              "away": "Kansas",
+              "home": "Iowa State",
               "notes": null,
               "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
                 {
                   "name": "ESPN Unlimited",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "ACCNX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/accn.jpg"
                 }
               ],
               "country": "USA",
@@ -1558,44 +971,43 @@
               ],
               "country": "USA",
               "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Golf",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "PGA Tour Champions",
-          "total_events": 1,
-          "events": [
+            },
             {
-              "time": "6:00 PM",
-              "title": "SAS Championship",
-              "away": null,
-              "home": null,
-              "notes": "First Round",
+              "time": "11:30 PM",
+              "title": "Indiana vs Michigan State",
+              "away": "Indiana",
+              "home": "Michigan State",
+              "notes": null,
               "channels": [
                 {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Golf Channel USA",
+                  "name": "Big Ten Plus",
                   "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "Golf Channel Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/big10.jpg"
                 }
               ],
-              "country": "International",
-              "gender": "mixed"
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "11:30 PM",
+              "title": "Kansas State vs Colorado",
+              "away": "Kansas State",
+              "home": "Colorado",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
             }
           ]
         }
@@ -2272,106 +1684,6 @@
           "total_events": 10,
           "events": [
             {
-              "time": "3:00 PM",
-              "title": "St. Lawrence vs New Hampshire",
-              "away": "St. Lawrence",
-              "home": "New Hampshire",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Lindenwood vs Penn State",
-              "away": "Lindenwood",
-              "home": "Penn State",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Big Ten Plus",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/big10.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Long Island University vs Sacred Heart",
-              "away": "Long Island University",
-              "home": "Sacred Heart",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Maine vs Rensselaer",
-              "away": "Maine",
-              "home": "Rensselaer",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "Franklin Pierce vs Clarkson",
-              "away": "Franklin Pierce",
-              "home": "Clarkson",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
               "time": "10:00 PM",
               "title": "Northeastern vs Quinnipiac",
               "away": "Northeastern",
@@ -2470,6 +1782,96 @@
               ],
               "country": "USA",
               "gender": "female"
+            },
+            {
+              "time": "10:00 PM",
+              "title": "UConn vs Princeton",
+              "away": "UConn",
+              "home": "Princeton",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "10:00 PM",
+              "title": "Vermont vs Cornell",
+              "away": "Vermont",
+              "home": "Cornell",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "11:00 PM",
+              "title": "Minnesota Duluth vs Bemidji State",
+              "away": "Minnesota Duluth",
+              "home": "Bemidji State",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "Big Ten Plus",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/big10.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "11:00 PM",
+              "title": "St. Cloud State vs St. Thomas (MN)",
+              "away": "St. Cloud State",
+              "home": "St. Thomas (MN)",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "Big Ten Plus",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/big10.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "11:00 PM",
+              "title": "Ohio State vs Minnesota",
+              "away": "Ohio State",
+              "home": "Minnesota",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "Big Ten Plus",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/big10.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
             }
           ]
         }
@@ -2477,46 +1879,8 @@
     },
     {
       "sport": "Motorsports",
-      "total_events": 4,
+      "total_events": 2,
       "leagues": [
-        {
-          "league": "GT World Challenge",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "4:30 PM",
-              "title": "GT World Challenge Europe",
-              "away": null,
-              "home": null,
-              "notes": "Qualifying",
-              "channels": [
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
-            {
-              "time": "4:55 PM",
-              "title": "GT World Challenge Europe",
-              "away": null,
-              "home": null,
-              "notes": "Qualifying",
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            }
-          ]
-        },
         {
           "league": "NASCAR Craftsman Truck Series",
           "total_events": 2,
@@ -2583,39 +1947,6 @@
       ]
     },
     {
-      "sport": "Rugby Union",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Women's College Rugby",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "11:00 PM",
-              "title": "American International vs Sacred Heart",
-              "away": "American International",
-              "home": "Sacred Heart",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Unknown",
       "total_events": 1,
       "leagues": [
@@ -2666,64 +1997,6 @@
           "league": "Women's College Volleyball",
           "total_events": 10,
           "events": [
-            {
-              "time": "4:00 PM",
-              "title": "Middle Tennessee vs Western Kentucky",
-              "away": "Middle Tennessee",
-              "home": "Western Kentucky",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "4:00 PM",
-              "title": "Charleston Southern vs Stony Brook",
-              "away": "Charleston Southern",
-              "home": "Stony Brook",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "FloSports",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/flosports.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "7:00 PM",
-              "title": "VCU vs George Mason",
-              "away": "VCU",
-              "home": "George Mason",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
             {
               "time": "9:00 PM",
               "title": "Duquesne vs Rhode Island",
@@ -2870,6 +2143,69 @@
               ],
               "country": "USA",
               "gender": "female"
+            },
+            {
+              "time": "10:00 PM",
+              "title": "Creighton vs Villanova",
+              "away": "Creighton",
+              "home": "Villanova",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "10:00 PM",
+              "title": "Florida Gulf Coast vs Jacksonville",
+              "away": "Florida Gulf Coast",
+              "home": "Jacksonville",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
+              "time": "10:00 PM",
+              "title": "Stetson vs North Florida",
+              "away": "Stetson",
+              "home": "North Florida",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
             }
           ]
         }
@@ -2877,33 +2213,12 @@
     },
     {
       "sport": "Wintersports",
-      "total_events": 3,
+      "total_events": 1,
       "leagues": [
         {
           "league": "Curling",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "7:00 PM",
-              "title": "Grand Slam of Curling",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Sportsnet",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                },
-                {
-                  "name": "SN NOW",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
             {
               "time": "10:30 PM",
               "title": "Grand Slam of Curling",
@@ -2920,28 +2235,6 @@
                   "name": "SN NOW",
                   "streaming": false,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            }
-          ]
-        },
-        {
-          "league": "Speed Skating",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "3:45 PM",
-              "title": "Canadian Long Track Championships",
-              "away": null,
-              "home": null,
-              "notes": "Day 1",
-              "channels": [
-                {
-                  "name": "CBC Gem",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbc.jpg"
                 }
               ],
               "country": "International",
