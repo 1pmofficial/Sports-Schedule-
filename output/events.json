@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T12:25:59.870861+00:00",
+  "generated_at": "2026-10-16T17:25:10.118842+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 136,
+  "total_events": 127,
   "sports": [
     {
       "sport": "American Football",
@@ -508,67 +508,13 @@
       ]
     },
     {
-      "sport": "Cycling",
+      "sport": "Equestrian",
       "total_events": 1,
       "leagues": [
         {
-          "league": "Men's Road Cycling",
+          "league": "Horse Racing",
           "total_events": 1,
           "events": [
-            {
-              "time": "12:20 PM",
-              "title": "Eneco Tour",
-              "away": null,
-              "home": null,
-              "notes": "Stage 3",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Equestrian",
-      "total_events": 2,
-      "leagues": [
-        {
-          "league": "Horse Racing",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "1:25 PM",
-              "title": "Riyadh Season Horse Racing",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
             {
               "time": "5:00 PM",
               "title": "America's Day at the Races",
@@ -606,73 +552,14 @@
     },
     {
       "sport": "Fighting",
-      "total_events": 4,
+      "total_events": 1,
       "leagues": [
         {
-          "league": "Boxing",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "11:00 AM",
-              "title": "U19 Boxing World Championships",
-              "away": null,
-              "home": null,
-              "notes": "Ring A",
-              "channels": [
-                {
-                  "name": "CBC Gem",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbc.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
-            {
-              "time": "11:00 AM",
-              "title": "U19 Boxing World Championships",
-              "away": null,
-              "home": null,
-              "notes": "Ring B",
-              "channels": [
-                {
-                  "name": "CBC Gem",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbc.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            }
-          ]
-        },
-        {
           "league": "MMA",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
             {
-              "time": "1:30 PM",
-              "title": "One Friday Fights",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN USA",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "10:00 PM",
+              "time": "10:30 PM",
               "title": "Professional Fighters League",
               "away": null,
               "home": null,
@@ -698,7 +585,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 41,
+      "total_events": 40,
       "leagues": [
         {
           "league": "2. Bundesliga",
@@ -808,7 +695,12 @@
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
                 },
                 {
-                  "name": "FOX Soccer Plus",
+                  "name": "FOX Sports 2",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
+                },
+                {
+                  "name": "FOX One",
                   "streaming": false,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
                 },
@@ -1239,24 +1131,8 @@
         },
         {
           "league": "Pro League",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "1:15 PM",
-              "title": "Al Quadisiya vs Abha",
-              "away": "Al Quadisiya",
-              "home": "Abha",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "FOX Deportes",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Belgium",
-              "gender": "male"
-            },
             {
               "time": "3:00 PM",
               "title": "Al Riyadh vs Al Hilal",
@@ -2433,6 +2309,27 @@
               "gender": "female"
             },
             {
+              "time": "6:00 PM",
+              "title": "Long Island University vs Sacred Heart",
+              "away": "Long Island University",
+              "home": "Sacred Heart",
+              "notes": null,
+              "channels": [
+                {
+                  "name": "ESPN Select",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
+                },
+                {
+                  "name": "ESPN Unlimited",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
+                }
+              ],
+              "country": "USA",
+              "gender": "female"
+            },
+            {
               "time": "7:00 PM",
               "title": "Maine vs Rensselaer",
               "away": "Maine",
@@ -2573,27 +2470,6 @@
               ],
               "country": "USA",
               "gender": "female"
-            },
-            {
-              "time": "10:00 PM",
-              "title": "UConn vs Princeton",
-              "away": "UConn",
-              "home": "Princeton",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
             }
           ]
         }
@@ -2601,11 +2477,11 @@
     },
     {
       "sport": "Motorsports",
-      "total_events": 3,
+      "total_events": 4,
       "leagues": [
         {
           "league": "GT World Challenge",
-          "total_events": 1,
+          "total_events": 2,
           "events": [
             {
               "time": "4:30 PM",
@@ -2616,6 +2492,22 @@
               "channels": [
                 {
                   "name": "DAZN Canada",
+                  "streaming": true,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
+                }
+              ],
+              "country": "International",
+              "gender": "mixed"
+            },
+            {
+              "time": "4:55 PM",
+              "title": "GT World Challenge Europe",
+              "away": null,
+              "home": null,
+              "notes": "Qualifying",
+              "channels": [
+                {
+                  "name": "DAZN",
                   "streaming": true,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
                 }
@@ -2668,6 +2560,11 @@
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
                 },
                 {
+                  "name": "FOX Sports 1",
+                  "streaming": false,
+                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
+                },
+                {
                   "name": "FOX Sports 2",
                   "streaming": false,
                   "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
@@ -2712,98 +2609,6 @@
                 }
               ],
               "country": "USA",
-              "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Swimming",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Swimming World Cup",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "1:00 PM",
-              "title": "Swimming World Cup",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Peacock",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/peacock.jpg"
-                },
-                {
-                  "name": "CBC Gem",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbc.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Tennis",
-      "total_events": 2,
-      "leagues": [
-        {
-          "league": "WTA",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "11:00 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "T2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TVA Sports",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tvasports.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "1:00 PM",
-              "title": "Mallorca Championship",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
               "gender": "female"
             }
           ]
@@ -3072,7 +2877,7 @@
     },
     {
       "sport": "Wintersports",
-      "total_events": 4,
+      "total_events": 3,
       "leagues": [
         {
           "league": "Curling",
@@ -3124,24 +2929,8 @@
         },
         {
           "league": "Speed Skating",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "1:30 PM",
-              "title": "Canadian Long Track Junior World Cup Trials",
-              "away": null,
-              "home": null,
-              "notes": "Day 2",
-              "channels": [
-                {
-                  "name": "CBC Gem",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbc.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
             {
               "time": "3:45 PM",
               "title": "Canadian Long Track Championships",
