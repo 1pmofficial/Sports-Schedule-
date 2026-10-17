@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17T09:22:57.105425+00:00",
+  "generated_at": "2026-10-17T13:44:17.986399+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 250,
+  "total_events": 236,
   "sports": [
     {
       "sport": "American Football",
@@ -366,44 +366,6 @@
       ]
     },
     {
-      "sport": "Aus Football",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "AFL Women",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "8:15 AM",
-              "title": "West Coast Eagles - Geelong Cats",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Sports 2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "FOX One",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Australia",
-              "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Basketball",
       "total_events": 6,
       "leagues": [
@@ -566,7 +528,7 @@
     },
     {
       "sport": "Cycling",
-      "total_events": 4,
+      "total_events": 3,
       "leagues": [
         {
           "league": "Cyclo-cross",
@@ -640,33 +602,6 @@
               ],
               "country": "International",
               "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Women's Road Cycling",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "10:35 AM",
-              "title": "Eneco Tour",
-              "away": null,
-              "home": null,
-              "notes": "Stage 4",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
             }
           ]
         }
@@ -1270,7 +1205,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 102,
+      "total_events": 97,
       "leagues": [
         {
           "league": "2. Bundesliga",
@@ -1338,33 +1273,6 @@
                 }
               ],
               "country": "Germany",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "A-League",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "8:40 AM",
-              "title": "Central Coast Mariners vs Newcastle Jets",
-              "away": "Central Coast Mariners",
-              "home": "Newcastle Jets",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "Australia",
               "gender": "male"
             }
           ]
@@ -1616,60 +1524,8 @@
         },
         {
           "league": "Championship",
-          "total_events": 6,
+          "total_events": 4,
           "events": [
-            {
-              "time": "11:30 AM",
-              "title": "Middlesbrough vs Cardiff City",
-              "away": "Middlesbrough",
-              "home": "Cardiff City",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBSSN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
-            {
-              "time": "11:30 AM",
-              "title": "Watford vs Charlton Athletic",
-              "away": "Watford",
-              "home": "Charlton Athletic",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBS Golazo Network",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
             {
               "time": "2:00 PM",
               "title": "Norwich City vs Portsmouth",
@@ -2758,34 +2614,8 @@
         },
         {
           "league": "Premier League",
-          "total_events": 5,
+          "total_events": 4,
           "events": [
-            {
-              "time": "11:30 AM",
-              "title": "Everton vs Chelsea",
-              "away": "Everton",
-              "home": "Chelsea",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "NBC Universo",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "USA Network",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/usa_network.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "male"
-            },
             {
               "time": "2:00 PM",
               "title": "Brentford vs Liverpool FC",
@@ -3167,38 +2997,6 @@
               ],
               "country": "Brazil",
               "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Serie A Women",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "10:30 AM",
-              "title": "Sassuolo vs Napoli",
-              "away": "Sassuolo",
-              "home": "Napoli",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Soccer Plus",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Italy",
-              "gender": "female"
             }
           ]
         },
@@ -3755,40 +3553,8 @@
     },
     {
       "sport": "Golf",
-      "total_events": 2,
+      "total_events": 1,
       "leagues": [
-        {
-          "league": "DP World Tour",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "8:00 AM",
-              "title": "DP World India Championship",
-              "away": null,
-              "home": null,
-              "notes": "Third Round",
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Golf Channel USA",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "Golf Channel Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
         {
           "league": "PGA Tour Champions",
           "total_events": 1,
@@ -5227,54 +4993,12 @@
     },
     {
       "sport": "Motorsports",
-      "total_events": 6,
+      "total_events": 4,
       "leagues": [
         {
           "league": "FIA World Endurance Championship",
-          "total_events": 3,
+          "total_events": 1,
           "events": [
-            {
-              "time": "9:40 AM",
-              "title": "6 Hours of Barcelona",
-              "away": null,
-              "home": null,
-              "notes": "Qualifying",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
-            {
-              "time": "10:40 AM",
-              "title": "6 Hours of Barcelona",
-              "away": null,
-              "home": null,
-              "notes": "Free Practice 3",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
             {
               "time": "1:25 PM",
               "title": "6 Hours of Barcelona",
@@ -5524,49 +5248,12 @@
     },
     {
       "sport": "Tennis",
-      "total_events": 7,
+      "total_events": 3,
       "leagues": [
         {
           "league": "ATP",
-          "total_events": 3,
+          "total_events": 1,
           "events": [
-            {
-              "time": "8:30 AM",
-              "title": "Shanghai Masters",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN4",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "11:00 AM",
-              "title": "Daniil Medvedev vs Rafael Jodar",
-              "away": "Daniil Medvedev",
-              "home": "Rafael Jodar",
-              "notes": "Semifinal Shanghai Masters",
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
             {
               "time": "1:00 PM",
               "title": "Shanghai Masters",
@@ -5592,60 +5279,8 @@
         },
         {
           "league": "WTA",
-          "total_events": 4,
+          "total_events": 2,
           "events": [
-            {
-              "time": "9:00 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "T2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN5",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TVA Sports",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tvasports.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "10:00 AM",
-              "title": "Mallorca Championship",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
             {
               "time": "1:00 PM",
               "title": "Australian Open",
