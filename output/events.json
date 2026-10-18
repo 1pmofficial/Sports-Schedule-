@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T11:06:08.840268+00:00",
+  "generated_at": "2026-10-18T14:35:44.092814+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 168,
+  "total_events": 151,
   "sports": [
     {
       "sport": "American Football",
@@ -461,75 +461,12 @@
     },
     {
       "sport": "Basketball",
-      "total_events": 19,
+      "total_events": 16,
       "leagues": [
         {
           "league": "ACB",
-          "total_events": 6,
+          "total_events": 3,
           "events": [
-            {
-              "time": "10:00 AM",
-              "title": "Forca Lleida vs Basket Zaragoza",
-              "away": "Forca Lleida",
-              "home": "Basket Zaragoza",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Spain",
-              "gender": "male"
-            },
-            {
-              "time": "10:00 AM",
-              "title": "Leyma Coruna vs Basquet Girona",
-              "away": "Leyma Coruna",
-              "home": "Basquet Girona",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Spain",
-              "gender": "male"
-            },
-            {
-              "time": "10:30 AM",
-              "title": "Bilbao vs Real Madrid",
-              "away": "Bilbao",
-              "home": "Real Madrid",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Spain",
-              "gender": "male"
-            },
             {
               "time": "3:00 PM",
               "title": "Murcia vs Valencia",
@@ -872,33 +809,12 @@
     },
     {
       "sport": "Cycling",
-      "total_events": 5,
+      "total_events": 3,
       "leagues": [
         {
           "league": "Men's Road Cycling",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "12:30 PM",
-              "title": "Eneco Tour",
-              "away": null,
-              "home": null,
-              "notes": "Stage 5",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
             {
               "time": "1:20 PM",
               "title": "Veneto Classic",
@@ -967,33 +883,6 @@
               ],
               "country": "International",
               "gender": "mixed"
-            }
-          ]
-        },
-        {
-          "league": "Women's Road Cycling",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "10:30 AM",
-              "title": "Eneco Tour",
-              "away": null,
-              "home": null,
-              "notes": "Stage 5",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
             }
           ]
         }
@@ -1069,41 +958,8 @@
       ]
     },
     {
-      "sport": "Fighting",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Kickboxing",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "12:30 PM",
-              "title": "Fight Clubbing 44",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Football",
-      "total_events": 80,
+      "total_events": 73,
       "leagues": [
         {
           "league": "3. Liga",
@@ -1419,24 +1275,8 @@
         },
         {
           "league": "Ekstraklasa",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "10:15 AM",
-              "title": "Górnik Zabrze vs Piast Gliwice",
-              "away": "Górnik Zabrze",
-              "home": "Piast Gliwice",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN SPORTS 4",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "Poland",
-              "gender": "male"
-            },
             {
               "time": "12:45 PM",
               "title": "Zagłębie Lubin vs Jagiellonia Białystok",
@@ -1478,34 +1318,8 @@
         },
         {
           "league": "Eredivisie",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "12:30 PM",
-              "title": "SC Cambuur vs AZ",
-              "away": "SC Cambuur",
-              "home": "AZ",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "Sportsnet+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "Netherlands",
-              "gender": "male"
-            },
             {
               "time": "2:45 PM",
               "title": "Groningen vs Ajax",
@@ -1546,39 +1360,8 @@
         },
         {
           "league": "La Liga",
-          "total_events": 4,
+          "total_events": 3,
           "events": [
-            {
-              "time": "12:00 PM",
-              "title": "Osasuna vs Racing Santander",
-              "away": "Osasuna",
-              "home": "Racing Santander",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "Spain",
-              "gender": "male"
-            },
             {
               "time": "2:15 PM",
               "title": "Celta de Vigo vs Deportivo Alavés",
@@ -2341,29 +2124,8 @@
         },
         {
           "league": "Serie A",
-          "total_events": 4,
+          "total_events": 3,
           "events": [
-            {
-              "time": "10:30 AM",
-              "title": "Udinese vs Lecce",
-              "away": "Udinese",
-              "home": "Lecce",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Italy",
-              "gender": "male"
-            },
             {
               "time": "1:00 PM",
               "title": "Fiorentina vs Como",
@@ -2536,34 +2298,8 @@
         },
         {
           "league": "Serie A Women",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "10:30 AM",
-              "title": "Juventus vs Como 1907",
-              "away": "Juventus",
-              "home": "Como 1907",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Soccer Plus",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Italy",
-              "gender": "female"
-            },
             {
               "time": "4:00 PM",
               "title": "Inter Milan vs Parma",
@@ -2959,75 +2695,8 @@
         },
         {
           "league": "Women's Super League",
-          "total_events": 6,
+          "total_events": 4,
           "events": [
-            {
-              "time": "11:00 AM",
-              "title": "Chelsea Women vs Tottenham Hotspur",
-              "away": "Chelsea Women",
-              "home": "Tottenham Hotspur",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBS Golazo Network",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "SN One",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                },
-                {
-                  "name": "SN NOW",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "female"
-            },
-            {
-              "time": "11:00 AM",
-              "title": "Crystal Palace vs West Ham United",
-              "away": "Crystal Palace",
-              "home": "West Ham United",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "CBSSN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/cbs.jpg"
-                },
-                {
-                  "name": "SN NOW",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                },
-                {
-                  "name": "Sportsnet+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "England",
-              "gender": "female"
-            },
             {
               "time": "1:00 PM",
               "title": "Aston Villa vs Liverpool",
@@ -3707,33 +3376,12 @@
     },
     {
       "sport": "Motorsports",
-      "total_events": 4,
+      "total_events": 3,
       "leagues": [
         {
           "league": "FIA World Endurance Championship",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "9:30 AM",
-              "title": "6 Hours of Barcelona",
-              "away": null,
-              "home": null,
-              "notes": "Race",
-              "channels": [
-                {
-                  "name": "Sling TV",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sling_tv.jpg"
-                },
-                {
-                  "name": "HBO Max",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/max.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "mixed"
-            },
             {
               "time": "12:45 PM",
               "title": "6 Hours of Barcelona",
@@ -3817,103 +3465,6 @@
               ],
               "country": "International",
               "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Tennis",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "WTA",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "10:30 AM",
-              "title": "Wuhan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TSN5",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                },
-                {
-                  "name": "TVA Sports",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tvasports.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Unknown",
-      "total_events": 2,
-      "leagues": [
-        {
-          "league": "Euro U17 Qualification",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "11:00 AM",
-              "title": "Switzerland U17 vs Spain U17",
-              "away": "Switzerland U17",
-              "home": "Spain U17",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
-            },
-            {
-              "time": "11:00 AM",
-              "title": "Liechtenstein U17 vs Israel U17",
-              "away": "Liechtenstein U17",
-              "home": "Israel U17",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Unknown",
-              "gender": "mixed"
             }
           ]
         }
