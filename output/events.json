@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T07:47:12.716946+00:00",
+  "generated_at": "2026-10-19T15:36:41.775663+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 31,
+  "total_events": 27,
   "sports": [
     {
       "sport": "Basketball",
@@ -684,60 +684,12 @@
     },
     {
       "sport": "Tennis",
-      "total_events": 6,
+      "total_events": 2,
       "leagues": [
         {
           "league": "ATP",
-          "total_events": 4,
+          "total_events": 1,
           "events": [
-            {
-              "time": "6:30 AM",
-              "title": "Almaty Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "10:00 AM",
-              "title": "European Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
-            {
-              "time": "1:00 PM",
-              "title": "Lyon Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            },
             {
               "time": "5:00 PM",
               "title": "Lyon Open",
@@ -758,24 +710,8 @@
         },
         {
           "league": "WTA",
-          "total_events": 2,
+          "total_events": 1,
           "events": [
-            {
-              "time": "11:30 AM",
-              "title": "Ningbo Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
             {
               "time": "5:00 PM",
               "title": "Lyon Open",
