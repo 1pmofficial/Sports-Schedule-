@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T15:36:41.775663+00:00",
+  "generated_at": "2026-10-19T21:03:35.238917+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 27,
+  "total_events": 13,
   "sports": [
     {
       "sport": "Basketball",
@@ -49,7 +49,7 @@
     },
     {
       "sport": "Football",
-      "total_events": 19,
+      "total_events": 7,
       "leagues": [
         {
           "league": "College Soccer",
@@ -95,28 +95,6 @@
           ]
         },
         {
-          "league": "Ekstraklasa",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Wisła Płock vs Radomiak Radom",
-              "away": "Wisła Płock",
-              "home": "Radomiak Radom",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN SPORTS 4",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "Poland",
-              "gender": "male"
-            }
-          ]
-        },
-        {
           "league": "La Liga",
           "total_events": 1,
           "events": [
@@ -154,28 +132,6 @@
                 }
               ],
               "country": "Spain",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Ligue 2",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "6:45 PM",
-              "title": "Rodez vs Montpellier",
-              "away": "Rodez",
-              "home": "Montpellier",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN SPORTS 6",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "France",
               "gender": "male"
             }
           ]
@@ -251,97 +207,6 @@
           ]
         },
         {
-          "league": "Pro League",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "3:05 PM",
-              "title": "Al Fayha vs Al Ahli",
-              "away": "Al Fayha",
-              "home": "Al Ahli",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "FOX Deportes",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Belgium",
-              "gender": "male"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Al Hilal vs Al Hazm",
-              "away": "Al Hilal",
-              "home": "Al Hazm",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Soccer Plus",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Belgium",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Serie A",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "4:30 PM",
-              "title": "Monza vs Cagliari",
-              "away": "Monza",
-              "home": "Cagliari",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Italy",
-              "gender": "male"
-            },
-            {
-              "time": "6:45 PM",
-              "title": "Parma vs Torino",
-              "away": "Parma",
-              "home": "Torino",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Paramount+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/paramount_plus.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Italy",
-              "gender": "male"
-            }
-          ]
-        },
-        {
           "league": "Serie A Brazil",
           "total_events": 1,
           "events": [
@@ -360,165 +225,6 @@
               ],
               "country": "Brazil",
               "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Süper Lig",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Trabzonspor vs Beşiktaş",
-              "away": "Trabzonspor",
-              "home": "Beşiktaş",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "beIN USA",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN USA Espanol",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN Canada",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                },
-                {
-                  "name": "beIN Canada Espanol",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/bein_sport.jpg"
-                }
-              ],
-              "country": "Turkiye",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "U17 Women's World Cup",
-          "total_events": 4,
-          "events": [
-            {
-              "time": "3:00 PM",
-              "title": "Spain U17 vs Mexico U17",
-              "away": "Spain U17",
-              "home": "Mexico U17",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "NBC Universo",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "3:00 PM",
-              "title": "Kenya U17 vs China PR U17",
-              "away": "Kenya U17",
-              "home": "China PR U17",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "Australia U17 vs Chile U17",
-              "away": "Australia U17",
-              "home": "Chile U17",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "6:00 PM",
-              "title": "United States U17 vs Samoa U17",
-              "away": "United States U17",
-              "home": "Samoa U17",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "FOX Sports 2",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "FOX One",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                },
-                {
-                  "name": "NBC Universo",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "TSN+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tsn.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            }
-          ]
-        },
-        {
-          "league": "Women's Bundesliga",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "4:00 PM",
-              "title": "Bayern München vs Stuttgart",
-              "away": "Bayern München",
-              "home": "Stuttgart",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "DAZN",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                },
-                {
-                  "name": "DAZN Canada",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/dazn.jpg"
-                }
-              ],
-              "country": "Germany",
-              "gender": "female"
             }
           ]
         }
@@ -677,56 +383,6 @@
               ],
               "country": "USA",
               "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Tennis",
-      "total_events": 2,
-      "leagues": [
-        {
-          "league": "ATP",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Lyon Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "WTA",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "5:00 PM",
-              "title": "Lyon Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
             }
           ]
         }
