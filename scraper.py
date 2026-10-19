@@ -291,42 +291,101 @@ def events_from_text(text):
 # Categorization
 # --------------------------------------------------------------------------
 
+def _norm(s):
+    return re.sub(r"\s+", " ", str(s).replace("’", "'")).strip().lower()
+
+
+# League names too generic to trust when they only appear inside an event title.
+GENERIC_NAMES = {
+    "championship", "wrestling", "marathon", "boxing", "skeleton",
+    "speedway", "curling", "judo", "luge",
+}
+
+
 def load_league_map():
+    """
+    leagues.json is grouped by sport:
+        {"Soccer": {"Premier League": {"country": "England", "gender": "male"}, ...}, ...}
+    Flattened here into lookups by league name and by sport name.
+    """
+    lm = {"by_name": {}, "ordered": [], "sports": {}}
     if not LEAGUE_MAP_FILE.exists():
         print(f"[warn] {LEAGUE_MAP_FILE} not found; everything will be 'Other'")
-        return []
+        return lm
     data = json.loads(LEAGUE_MAP_FILE.read_text(encoding="utf-8"))
-    # Flatten to (keyword, sport, league), longest keyword first so
-    # "Washington Capitals" beats "Washington".
-    rules = []
-    for league, meta in data.items():
-        for kw in meta.get("keywords", []):
-            rules.append((kw, meta.get("sport", "Other"), league))
-    rules.sort(key=lambda r: len(r[0]), reverse=True)
-    return rules
+    for sport, leagues in data.items():
+        lm["sports"][_norm(sport)] = sport
+        for league, meta in leagues.items():
+            key = _norm(league)
+            lm["by_name"][key] = (sport, league, meta)
+            lm["ordered"].append((key, league, sport, meta))
+    # Longest name first so "Women's College Soccer" beats "College Soccer".
+    lm["ordered"].sort(key=lambda r: len(r[0]), reverse=True)
+    return lm
 
 
-def categorize(event, rules):
-    if event.get("sport") and event.get("league"):
-        return event["sport"], event["league"]
-    # Team/title text decides first; the page's section heading is only a fallback.
-    haystack = " ".join(str(x) for x in (event.get("title"), event.get("raw")) if x)
-    for kw, sport, league in rules:
-        if re.search(rf"(?<!\w){re.escape(kw)}(?!\w)", haystack, re.I):
-            return sport, league
-    # Fall back to the page's own heading ("Show more from College Soccer").
-    if event.get("section"):
-        return event["section"], event["section"]
-    return event.get("sport") or "Other", event.get("league") or "Other"
+def categorize(event, lm):
+    """Return (sport, league, meta). meta is {"country", "gender"} or None."""
+    by_name = lm["by_name"]
+    league_field = event.get("league")
+    section = event.get("section")
+
+    # 1. Exact league name from the data (JSON field or page heading).
+    for value in (league_field, section):
+        if value and _norm(value) in by_name:
+            return by_name[_norm(value)]
+
+    # 2. The source itself named a sport and league we don't know: keep them.
+    if event.get("sport") and league_field:
+        return event["sport"], league_field, None
+
+    # 3. League name appears inside the heading ("Show more from NCAA College Soccer").
+    if section:
+        s = _norm(section)
+        for key, league, sport, meta in lm["ordered"]:
+            if re.search(rf"(?<!\w){re.escape(key)}(?!\w)", s):
+                return sport, league, meta
+
+    # 4. League name appears in the matchup title (acronyms like NFL, or 5+ characters).
+    title = event.get("title")
+    if title:
+        t = _norm(title)
+        for key, league, sport, meta in lm["ordered"]:
+            if key in GENERIC_NAMES:
+                continue
+            if not (len(key) >= 5 or (league.isupper() and len(key) >= 3)):
+                continue
+            if re.search(rf"(?<!\w){re.escape(key)}(?!\w)", t):
+                return sport, league, meta
+
+    # 5. The heading is a sport, not a league ("Show more from Basketball").
+    if section and _norm(section) in lm["sports"]:
+        sport = lm["sports"][_norm(section)]
+        other = f"Other {sport}"
+        if _norm(other) in by_name:
+            return by_name[_norm(other)]
+        return sport, other, None
+
+    # 6. Unknown: keep the heading as the league so nothing is silently lost.
+    return event.get("sport") or "Other", league_field or section or "Other", None
 
 
-def group(events, rules):
-    nested = {}
+def group(events, lm):
+    nested = {}   # sport -> league -> {"meta": ..., "events": [...]}
     for e in events:
-        sport, league = categorize(e, rules)
+        sport, league, meta = categorize(e, lm)
         slim = {k: v for k, v in e.items() if k not in ("sport", "league", "section")}
         slim["raw"] = slim["raw"] if isinstance(slim["raw"], str) else None  # keep file small
-        nested.setdefault(sport, {}).setdefault(league, []).append(slim)
+        entry = nested.setdefault(sport, {}).setdefault(league, {"meta": meta, "events": []})
+        entry["events"].append(slim)
+
+    def league_obj(name, entry):
+        obj = {"league": name}
+        if entry["meta"]:
+            obj.update(entry["meta"])   # country, gender
+        obj["events"] = entry["events"]
+        return obj
+
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": URL,
@@ -335,7 +394,7 @@ def group(events, rules):
         "sports": [
             {
                 "sport": s,
-                "leagues": [{"league": l, "events": evs} for l, evs in sorted(ls.items())],
+                "leagues": [league_obj(l, entry) for l, entry in sorted(ls.items())],
             }
             for s, ls in sorted(nested.items())
         ],
