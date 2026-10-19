@@ -1,13 +1,16 @@
-# Scheduled workflow — cron re-registered 2026-10-09
 name: Scrape Live Sports
 
 on:
   schedule:
-    - cron: "17 * * * *"       # hourly at :17 UTC, avoids the congested :00 slot
-  workflow_dispatch:
+    - cron: "7 * * * *"      # hourly, off the :00 mark so runs are less likely to be delayed
+  workflow_dispatch:          # manual "Run workflow" button
 
 permissions:
-  contents: write
+  contents: write             # needed to push events.json back
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false   # never run two scrapes (and two pushes) at once
 
 jobs:
   scrape:
@@ -24,29 +27,27 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
-      - name: Install Playwright browser
-        run: playwright install --with-deps chromium
+          playwright install --with-deps chromium
 
       - name: Run scraper
         run: python scraper.py
 
-      - name: Upload debug artifacts
+      # Runs even when the scraper fails, so you can see what the runner saw.
+      - name: Upload debug files
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: debug-output
-          path: |
-            output/events.json
-            output/debug.html
+          name: debug
+          path: output/debug/
           if-no-files-found: ignore
           retention-days: 7
 
-      - name: Commit and push output
+      # Only reached when the scraper succeeded, so an empty result never overwrites good data.
+      - name: Commit and push events.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -55,5 +56,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update events.json [skip ci]"
+            git pull --rebase
             git push
           fi
