@@ -1,56 +1,8 @@
 {
-  "generated_at": "2026-10-19T01:18:11.987766+00:00",
+  "generated_at": "2026-10-19T07:47:12.716946+00:00",
   "source": "https://www.livesportsontv.com",
-  "total_events": 43,
+  "total_events": 31,
   "sports": [
-    {
-      "sport": "American Football",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "NFL",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "12:20 AM",
-              "title": "Dallas Cowboys vs Green Bay Packers",
-              "away": "Dallas Cowboys",
-              "home": "Green Bay Packers",
-              "notes": "Sunday Night Football",
-              "channels": [
-                {
-                  "name": "Peacock",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/peacock.jpg"
-                },
-                {
-                  "name": "NFL+",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nfl_plus.jpg"
-                },
-                {
-                  "name": "NBC",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "NBC Universo",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/nbc.jpg"
-                },
-                {
-                  "name": "TeleXitos",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            }
-          ]
-        }
-      ]
-    },
     {
       "sport": "Basketball",
       "total_events": 2,
@@ -97,28 +49,12 @@
     },
     {
       "sport": "Football",
-      "total_events": 26,
+      "total_events": 19,
       "leagues": [
         {
           "league": "College Soccer",
-          "total_events": 3,
+          "total_events": 2,
           "events": [
-            {
-              "time": "2:00 AM",
-              "title": "Grand Canyon vs Utah Tech",
-              "away": "Grand Canyon",
-              "home": "Utah Tech",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "MW+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "11:00 PM",
               "title": "Pittsburgh vs Georgetown",
@@ -223,76 +159,6 @@
           ]
         },
         {
-          "league": "Liga MX",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "1:00 AM",
-              "title": "Monterrey vs Pachuca",
-              "away": "Monterrey",
-              "home": "Pachuca",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "TUDN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tudn.jpg"
-                },
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                }
-              ],
-              "country": "Mexico",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Liga MX Femenil",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "12:06 AM",
-              "title": "Tigres UANL vs Querétaro",
-              "away": "Tigres UANL",
-              "home": "Querétaro",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Estrella TV",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "WMBC TV 63",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "Mexico",
-              "gender": "female"
-            },
-            {
-              "time": "1:00 AM",
-              "title": "América vs Pachuca",
-              "away": "América",
-              "home": "Pachuca",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ViX",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/vix.jpg"
-                }
-              ],
-              "country": "Mexico",
-              "gender": "female"
-            }
-          ]
-        },
-        {
           "league": "Ligue 2",
           "total_events": 1,
           "events": [
@@ -342,28 +208,6 @@
                 }
               ],
               "country": "England",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "league": "Primera A",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "1:10 AM",
-              "title": "Deportivo Cali vs Junior",
-              "away": "Deportivo Cali",
-              "home": "Junior",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "FOX Deportes",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fox.jpg"
-                }
-              ],
-              "country": "Colombia",
               "gender": "male"
             }
           ]
@@ -677,49 +521,6 @@
               "gender": "female"
             }
           ]
-        },
-        {
-          "league": "Women's College Soccer",
-          "total_events": 2,
-          "events": [
-            {
-              "time": "1:00 AM",
-              "title": "Nevada vs Air Force",
-              "away": "Nevada",
-              "home": "Air Force",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "MW+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            },
-            {
-              "time": "2:00 AM",
-              "title": "Grand Canyon vs Utah Tech",
-              "away": "Grand Canyon",
-              "home": "Utah Tech",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "AZFS",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "MW+",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "female"
-            }
-          ]
         }
       ]
     },
@@ -763,48 +564,12 @@
     },
     {
       "sport": "Ice Hockey",
-      "total_events": 4,
+      "total_events": 3,
       "leagues": [
         {
           "league": "NHL",
-          "total_events": 4,
+          "total_events": 3,
           "events": [
-            {
-              "time": "12:00 AM",
-              "title": "Carolina Hurricanes vs Calgary Flames",
-              "away": "Carolina Hurricanes",
-              "home": "Calgary Flames",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "ESPN Select",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espnplus.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "HHN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/default.jpg"
-                },
-                {
-                  "name": "SN West",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                },
-                {
-                  "name": "SN NOW",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/sportsnet_ca.jpg"
-                }
-              ],
-              "country": "USA",
-              "gender": "male"
-            },
             {
               "time": "11:00 PM",
               "title": "Anaheim Ducks vs New York Rangers",
@@ -919,7 +684,7 @@
     },
     {
       "sport": "Tennis",
-      "total_events": 8,
+      "total_events": 6,
       "leagues": [
         {
           "league": "ATP",
@@ -993,40 +758,8 @@
         },
         {
           "league": "WTA",
-          "total_events": 4,
+          "total_events": 2,
           "events": [
-            {
-              "time": "2:30 AM",
-              "title": "Japan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
-            {
-              "time": "4:00 AM",
-              "title": "Japan Open",
-              "away": null,
-              "home": null,
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Tennis Channel",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/tennis_channel.jpg"
-                }
-              ],
-              "country": "International",
-              "gender": "female"
-            },
             {
               "time": "11:30 AM",
               "title": "Ningbo Open",
@@ -1057,44 +790,6 @@
                 }
               ],
               "country": "International",
-              "gender": "female"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Volleyball",
-      "total_events": 1,
-      "leagues": [
-        {
-          "league": "Women's College Volleyball",
-          "total_events": 1,
-          "events": [
-            {
-              "time": "12:30 AM",
-              "title": "Florida vs Texas",
-              "away": "Florida",
-              "home": "Texas",
-              "notes": null,
-              "channels": [
-                {
-                  "name": "Fubo Sports",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/fubo.jpg"
-                },
-                {
-                  "name": "ESPN Unlimited",
-                  "streaming": true,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                },
-                {
-                  "name": "ESPN",
-                  "streaming": false,
-                  "logo": "https://res.cloudinary.com/roninventure/image/upload/w_48,h_48,c_fit,q_auto,f_auto/icons/channels/espn.jpg"
-                }
-              ],
-              "country": "USA",
               "gender": "female"
             }
           ]
