@@ -1,313 +1,403 @@
 """
-Live Sports TV scraper — v6 (full pass, verified).
+Live sports TV schedule scraper (v2).
 
-- Scrolls until the page stops growing (fixes "only 85 events" issue)
-- Logs the live DOM count so we can verify against the site's own 307
-- Robust league lookup with fallbacks for ambiguous names
-- Skips the "Show more" pseudo-channel
+Why v1 returned 0 events:
+  * parse_events() looked at the text of the *time element only*, so the
+    teams/channels (siblings) were never in the same string -> no match.
+  * The site is a Next.js app, so the data usually lives in a JSON blob
+    (__NEXT_DATA__) or an XHR response, not in neat HTML rows.
+
+v2 tries four sources in order and uses the first that yields events:
+  1. __NEXT_DATA__ JSON embedded in the page
+  2. JSON responses captured from the network while the page loads
+  3. The rendered page text (line-based parser, no CSS selectors needed)
+  4. Nothing found -> exit non-zero, keep the old events.json, save diagnostics
+
+Diagnostics are written to output/debug/ and uploaded by the workflow.
 """
 
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
-from bs4 import BeautifulSoup
-
 URL = "https://www.livesportsontv.com"
 OUTPUT = Path("output/events.json")
-DEBUG_HTML = Path("output/debug.html")
-LEAGUES_FILE = Path("leagues.json")
+DEBUG_DIR = Path("output/debug")
+LEAGUE_MAP_FILE = Path("leagues.json")
+TIMEZONE = "America/New_York"  # times on the page are shown in this zone
+
+TIME_RE = re.compile(r"^(\d{1,2}:\d{2}\s*[AP]M)\b\s*(.*)$", re.I)
+SHOW_MORE_RE = re.compile(r"^Show more from (.+)$", re.I)
+VS_RE = re.compile(r"\s+(?:@|vs\.?|v)\s+", re.I)
 
 
-# ---------------------------------------------------------------- config
+# --------------------------------------------------------------------------
+# Fetching
+# --------------------------------------------------------------------------
 
-def load_league_map() -> dict:
-    if not LEAGUES_FILE.exists():
-        print(f"[warn] {LEAGUES_FILE} not found")
-        return {}
-    with LEAGUES_FILE.open(encoding="utf-8") as f:
-        return json.load(f)
+def fetch_page():
+    """Render the page. Returns (html, visible_text, captured_json_responses)."""
+    from playwright.sync_api import sync_playwright  # imported here so parsers are testable
 
+    DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+    captured = []
 
-# ---------------------------------------------------------------- fetch
-
-def fetch_html() -> str:
-    print(f"[info] fetching {URL}")
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
         context = browser.new_context(
             user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/125.0 Safari/537.36"
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
             ),
             viewport={"width": 1366, "height": 900},
+            locale="en-US",
+            timezone_id=TIMEZONE,
         )
         page = context.new_page()
 
+        def on_response(resp):
+            try:
+                ctype = resp.headers.get("content-type", "")
+                if "json" not in ctype:
+                    return
+                body = resp.text()
+                if len(body) < 300:
+                    return
+                captured.append({"url": resp.url, "status": resp.status, "body": body})
+            except Exception:
+                pass  # some responses can't be read; ignore
+
+        page.on("response", on_response)
+
+        status = None
         try:
-            page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+            resp = page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+            status = resp.status if resp else None
         except Exception as e:
-            print(f"[warn] goto: {e}")
+            print(f"[warn] goto problem (continuing with what loaded): {e}")
+        print(f"[info] main document status: {status}")
 
-        try:
-            page.wait_for_selector(
-                "div[class*='FixtureItem_container']", timeout=45000
-            )
-            print("[info] first event rows detected")
-        except Exception:
-            print("[warn] no FixtureItem_container appeared")
+        page.wait_for_timeout(6000)
 
-        # ---- Scroll until scrollHeight stops growing ----
-        last_height = page.evaluate("document.body.scrollHeight")
-        print(f"[info] initial scrollHeight: {last_height}px")
-        for i in range(60):
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(1200)
-            new_height = page.evaluate("document.body.scrollHeight")
-            if new_height == last_height:
-                print(f"[info] page stopped growing after {i+1} scrolls "
-                      f"at {new_height}px")
+        # Dismiss ad-block / consent overlays if present (best effort).
+        for sel in [
+            "text=Continue without supporting us",
+            "button:has-text('Accept')",
+            "button:has-text('Continue')",
+        ]:
+            try:
+                page.click(sel, timeout=1500)
+                print(f"[info] clicked overlay button: {sel}")
                 break
-            last_height = new_height
-        else:
-            print(f"[warn] hit 60 scroll iterations; final {last_height}px")
+            except Exception:
+                pass
 
-        page.wait_for_timeout(4000)
-
-        # ---- Verify we have all events in the live DOM ----
-        live_count = page.locator(
-            "div[class*='FixtureItem_container']"
-        ).count()
-        print(f"[info] live DOM has {live_count} FixtureItem rows")
+        # Scroll to trigger lazy-loaded sections.
+        for _ in range(6):
+            page.mouse.wheel(0, 2500)
+            page.wait_for_timeout(1200)
 
         html = page.content()
+        try:
+            text = page.inner_text("body")
+        except Exception:
+            text = ""
+        try:
+            page.screenshot(path=str(DEBUG_DIR / "page.png"), full_page=False)
+        except Exception:
+            pass
         browser.close()
 
-    print(f"[info] fetched {len(html):,} bytes")
-    return html
+    print(f"[info] html={len(html):,} bytes, text={len(text):,} chars, "
+          f"json responses captured={len(captured)}")
+    return html, text, captured
 
 
-# ---------------------------------------------------------------- helpers
+# --------------------------------------------------------------------------
+# Source 1 + 2: JSON (Next.js data / XHR)
+# --------------------------------------------------------------------------
 
-def _text(el) -> str:
-    return "" if el is None else el.get_text(strip=True)
-
-
-def _lookup_league(name: str, league_map: dict) -> dict:
-    """
-    Look up a league's metadata, trying several disambiguation suffixes.
-    Returns {} when nothing matches.
-    """
-    if not name:
-        return {}
-
-    # exact
-    if name in league_map:
-        return league_map[name]
-
-    # <name> <Sport>
-    for suffix in (
-        "Football", "Basketball", "Ice Hockey", "American Football",
-        "Rugby Union", "Rugby League", "Tennis", "Baseball", "Volleyball",
-    ):
-        key = f"{name} {suffix}"
-        if key in league_map:
-            return league_map[key]
-
-    # <name> <Country>
-    for suffix in (
-        "Argentina", "Chile", "Guatemala", "Honduras", "Australia",
-        "New Zealand", "Belgium", "Saudi Arabia", "Spain", "Italy",
-        "Portugal", "USA", "Canada", "Mexico", "Japan", "Germany",
-        "England", "France", "Netherlands", "Scotland", "Sweden",
-        "Denmark", "Poland", "Greece", "Turkiye", "Brazil", "India",
-        "Ireland", "Puerto Rico", "Venezuela", "Dominican Republic",
-    ):
-        key = f"{name} {suffix}"
-        if key in league_map:
-            return league_map[key]
-
-    return {}
-
-
-# ---------------------------------------------------------------- extract
-
-def extract_event(row) -> dict | None:
-    time_el = row.select_one(
-        "span[class*='FixtureItem_time__'][data-fixture-time]"
+def extract_next_data(html):
+    m = re.search(
+        r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S
     )
-    time_str = _text(time_el) or None
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return None
 
-    title_el = row.select_one("span[class*='FixtureItem_titleOnly']")
-    if title_el:
-        title = _text(title_el)
-        away, home = None, None
-    else:
-        team_els = row.select("span[class*='FixtureItem_teamName']")
-        if len(team_els) >= 2:
-            away = _text(team_els[0])
-            home = _text(team_els[1])
-            title = f"{away} vs {home}"
-        elif len(team_els) == 1:
-            away = _text(team_els[0])
-            home = None
-            title = away
-        else:
-            link = row.select_one("a[class*='FixtureItem_rowLink']")
-            if link and link.get("aria-label"):
-                title = link["aria-label"]
-                parts = [p.strip() for p in title.split(" - ", 1)]
-                away = parts[0] if parts else None
-                home = parts[1] if len(parts) > 1 else None
-            else:
-                return None
 
-    notes_el = row.select_one("p[class*='FixtureItem_restrictions']")
-    notes = _text(notes_el) or None
+def _keys(d):
+    return {k.lower(): k for k in d.keys()}
 
-    channels: list[dict] = []
-    for chip in row.select("[class*='FixtureItem_channelChip']"):
-        chip_classes = " ".join(chip.get("class", []))
-        if "FixtureItem_showMore" in chip_classes:
-            continue
-        name_el = chip.select_one(
-            "span[class*='FixtureItem_channelChipText']"
-        )
-        name = _text(name_el)
-        if not name:
-            continue
-        img = chip.select_one("img[class*='ChannelIcon_image']")
-        logo = img["src"] if img and img.get("src") else None
-        channels.append({
-            "name": name,
-            "streaming": "FixtureItem_streaming" in chip_classes,
-            "logo": logo,
-        })
 
+def looks_like_event(d):
+    if not isinstance(d, dict) or len(d) < 3:
+        return False
+    keys = _keys(d)
+    has_time = any(any(t in k for t in ("time", "start", "date", "kickoff")) for k in keys)
+    has_name = any(
+        any(t in k for t in ("team", "home", "away", "title", "name", "event", "match"))
+        for k in keys
+    )
+    return has_time and has_name
+
+
+def find_event_lists(obj, depth=0):
+    """Yield every list in the JSON that looks like a list of events."""
+    if depth > 12:
+        return
+    if isinstance(obj, list):
+        dicts = [x for x in obj if isinstance(x, dict)]
+        if len(dicts) >= 3 and sum(looks_like_event(x) for x in dicts) / len(dicts) >= 0.6:
+            yield obj
+        for x in obj:
+            yield from find_event_lists(x, depth + 1)
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            yield from find_event_lists(v, depth + 1)
+
+
+def _first(d, *needles):
+    """First non-empty value whose key contains any needle (case-insensitive)."""
+    for k, v in d.items():
+        kl = k.lower()
+        if any(n in kl for n in needles) and v not in (None, "", [], {}):
+            return v
+    return None
+
+
+def _flatten_names(v):
+    out = []
+    if isinstance(v, str):
+        out.append(v)
+    elif isinstance(v, dict):
+        name = _first(v, "name", "title", "label")
+        if isinstance(name, str):
+            out.append(name)
+    elif isinstance(v, list):
+        for x in v:
+            out.extend(_flatten_names(x))
+    return out
+
+
+def normalize_json_event(d):
+    title = _first(d, "title", "event", "name", "match")
+    home = _first(d, "home")
+    away = _first(d, "away", "visitor")
+    home = _flatten_names(home)[0] if _flatten_names(home) else None
+    away = _flatten_names(away)[0] if _flatten_names(away) else None
+    if not title and home and away:
+        title = f"{away} @ {home}"
     return {
-        "time": time_str,
-        "title": title,
+        "time": _first(d, "start", "time", "kickoff", "date"),
+        "title": title if isinstance(title, str) else None,
         "away": away,
         "home": home,
-        "notes": notes,
-        "channels": channels,
+        "channels": _flatten_names(_first(d, "channel", "network", "broadcast", "tv")),
+        "sport": _flatten_names(_first(d, "sport"))[:1] or None,
+        "league": _flatten_names(_first(d, "league", "competition", "tournament"))[:1] or None,
+        "raw": d,
     }
 
 
-# ---------------------------------------------------------------- parse
+def events_from_json(obj):
+    best = []
+    for lst in find_event_lists(obj):
+        evs = [normalize_json_event(x) for x in lst if isinstance(x, dict) and looks_like_event(x)]
+        if len(evs) > len(best):
+            best = evs
+    for e in best:
+        e["sport"] = e["sport"][0] if e["sport"] else None
+        e["league"] = e["league"][0] if e["league"] else None
+    return best
 
-def parse_events(html: str, league_map: dict) -> list[dict]:
-    soup = BeautifulSoup(html, "lxml")
-    events: list[dict] = []
 
-    rows = soup.select("div[class*='FixtureItem_container']")
-    print(f"[info] parsed HTML contains {len(rows)} FixtureItem rows")
+# --------------------------------------------------------------------------
+# Source 3: visible page text
+# --------------------------------------------------------------------------
 
-    for row in rows:
-        league_card = row.find_parent(
-            lambda tag: tag.name == "div"
-            and any("Card_card" in c for c in tag.get("class", []))
-        )
-        league_name = None
-        if league_card:
-            link = league_card.select_one(
-                "a[class*='LeagueCard_cardTitleLink']"
-            )
-            league_name = _text(link) if link else None
+def events_from_text(text):
+    """
+    The page reads like:
+        6:30 AM
+        Centre College vs Millsaps
+        FloSports
+        ...
+        Show more from College Soccer
+    A time line starts an event; "Show more from X" closes a group named X.
+    """
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    events, pending, current = [], [], None
 
-        event = extract_event(row)
-        if not event:
+    def close_current():
+        nonlocal current
+        if current:
+            pending.append(current)
+            current = None
+
+    for line in lines:
+        m = TIME_RE.match(line)
+        if m:
+            close_current()
+            current = {"time": m.group(1).upper(), "lines": [m.group(2)] if m.group(2) else []}
             continue
+        h = SHOW_MORE_RE.match(line)
+        if h:
+            close_current()
+            for e in pending:
+                e["section"] = h.group(1).strip()
+            events.extend(pending)
+            pending = []
+            continue
+        if current is not None and len(current["lines"]) < 14:
+            current["lines"].append(line)
 
-        meta = _lookup_league(league_name or "", league_map)
-        event["league"] = league_name or "Unknown"
-        event["sport"] = meta.get("sport", "Unknown")
-        event["country"] = meta.get("country", "Unknown")
-        event["gender"] = meta.get("gender", "mixed")
-        events.append(event)
+    close_current()
+    events.extend(pending)
 
-    # ---- Diagnostics: count by league ----
-    from collections import Counter
-    counts = Counter(e["league"] for e in events)
-    print("[info] events per league (top 30):")
-    for league, n in counts.most_common(30):
-        print(f"        {n:>4}  {league}")
-    unknown = counts.get("Unknown", 0)
-    if unknown:
-        print(f"[warn] {unknown} events have league='Unknown' "
-              f"(couldn't match a header)")
-
-    print(f"[info] parsed {len(events)} events")
-    return events
-
-
-# ---------------------------------------------------------------- group
-
-def group(events: list[dict]) -> dict:
-    nested: dict[str, dict[str, list]] = {}
+    out = []
     for e in events:
-        nested.setdefault(e["sport"], {}).setdefault(e["league"], []).append(
-            {k: v for k, v in e.items() if k not in ("sport", "league")}
-        )
+        body = e["lines"]
+        title_idx = next((i for i, l in enumerate(body) if VS_RE.search(l)), 0 if body else None)
+        if title_idx is None:
+            continue
+        title = body[title_idx]
+        details = body[:title_idx] + body[title_idx + 1:]
+        parts = VS_RE.split(title, maxsplit=1)
+        away, home = (parts + [None])[:2] if len(parts) == 2 else (None, None)
+        out.append({
+            "time": e["time"],
+            "title": title,
+            "away": away,
+            "home": home,
+            "channels": details,   # channels + notes; split further once real DOM is known
+            "sport": None,
+            "league": None,
+            "section": e.get("section"),
+            "raw": " | ".join(body),
+        })
+    return out
 
+
+# --------------------------------------------------------------------------
+# Categorization
+# --------------------------------------------------------------------------
+
+def load_league_map():
+    if not LEAGUE_MAP_FILE.exists():
+        print(f"[warn] {LEAGUE_MAP_FILE} not found; everything will be 'Other'")
+        return []
+    data = json.loads(LEAGUE_MAP_FILE.read_text(encoding="utf-8"))
+    # Flatten to (keyword, sport, league), longest keyword first so
+    # "Washington Capitals" beats "Washington".
+    rules = []
+    for league, meta in data.items():
+        for kw in meta.get("keywords", []):
+            rules.append((kw, meta.get("sport", "Other"), league))
+    rules.sort(key=lambda r: len(r[0]), reverse=True)
+    return rules
+
+
+def categorize(event, rules):
+    if event.get("sport") and event.get("league"):
+        return event["sport"], event["league"]
+    # Team/title text decides first; the page's section heading is only a fallback.
+    haystack = " ".join(str(x) for x in (event.get("title"), event.get("raw")) if x)
+    for kw, sport, league in rules:
+        if re.search(rf"(?<!\w){re.escape(kw)}(?!\w)", haystack, re.I):
+            return sport, league
+    # Fall back to the page's own heading ("Show more from College Soccer").
+    if event.get("section"):
+        return event["section"], event["section"]
+    return event.get("sport") or "Other", event.get("league") or "Other"
+
+
+def group(events, rules):
+    nested = {}
+    for e in events:
+        sport, league = categorize(e, rules)
+        slim = {k: v for k, v in e.items() if k not in ("sport", "league", "section")}
+        slim["raw"] = slim["raw"] if isinstance(slim["raw"], str) else None  # keep file small
+        nested.setdefault(sport, {}).setdefault(league, []).append(slim)
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": URL,
+        "timezone": TIMEZONE,
         "total_events": len(events),
         "sports": [
             {
-                "sport": sport,
-                "total_events": sum(len(v) for v in leagues.values()),
-                "leagues": [
-                    {
-                        "league": league,
-                        "total_events": len(evs),
-                        "events": evs,
-                    }
-                    for league, evs in sorted(leagues.items())
-                ],
+                "sport": s,
+                "leagues": [{"league": l, "events": evs} for l, evs in sorted(ls.items())],
             }
-            for sport, leagues in sorted(nested.items())
+            for s, ls in sorted(nested.items())
         ],
     }
 
 
-# ---------------------------------------------------------------- main
+# --------------------------------------------------------------------------
+# Main
+# --------------------------------------------------------------------------
+
+def save_debug(html, text, captured):
+    DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+    (DEBUG_DIR / "page.html").write_text(html, encoding="utf-8")
+    (DEBUG_DIR / "page.txt").write_text(text, encoding="utf-8")
+    (DEBUG_DIR / "network.json").write_text(
+        json.dumps(
+            [{"url": c["url"], "status": c["status"], "bytes": len(c["body"])} for c in captured],
+            indent=2,
+        )
+    )
+    for i, c in enumerate(captured[:10]):
+        (DEBUG_DIR / f"response_{i}.json").write_text(c["body"][:500_000], encoding="utf-8")
+
 
 def main():
-    league_map = load_league_map()
-    print(f"[info] loaded {len(league_map)} leagues from {LEAGUES_FILE}")
+    rules = load_league_map()
+    html, text, captured = fetch_page()
+    save_debug(html, text, captured)
 
-    try:
-        html = fetch_html()
-    except Exception as e:
-        print(f"[error] fetch_html failed: {e}")
-        sys.exit(1)
+    events, source = [], None
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    DEBUG_HTML.write_text(html, encoding="utf-8")
-    print(f"[info] saved raw HTML to {DEBUG_HTML}")
-
-    events = parse_events(html, league_map)
+    nd = extract_next_data(html)
+    if nd:
+        events = events_from_json(nd)
+        source = "__NEXT_DATA__" if events else None
 
     if not events:
-        grouped = {
-            "generated_at": datetime.now(timezone.utc).isoformat(),
-            "source": URL,
-            "total_events": 0,
-            "sports": [],
-        }
-    else:
-        grouped = group(events)
+        for c in captured:
+            try:
+                evs = events_from_json(json.loads(c["body"]))
+            except json.JSONDecodeError:
+                continue
+            if len(evs) > len(events):
+                events, source = evs, f"xhr:{c['url']}"
 
-    OUTPUT.write_text(
-        json.dumps(grouped, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
-    print(f"[info] wrote {OUTPUT}")
-    print(f"[info] total events: {grouped['total_events']}")
+    if not events:
+        events = events_from_text(text)
+        source = "page-text" if events else None
+
+    print(f"[info] source={source} events={len(events)}")
+
+    if not events:
+        print("[error] 0 events found. Existing events.json left untouched.")
+        print("[error] Check output/debug/ (uploaded as a workflow artifact): "
+              "page.txt, page.png, network.json.")
+        sys.exit(1)
+
+    result = group(events, rules)
+    result["parsed_from"] = source
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"[info] wrote {OUTPUT} ({len(events)} events)")
 
 
 if __name__ == "__main__":
