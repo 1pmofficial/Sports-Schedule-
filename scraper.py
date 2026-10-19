@@ -17,8 +17,10 @@ Diagnostics are written to output/debug/ and uploaded by the workflow.
 """
 
 import json
+import os
 import re
 import sys
+from urllib.parse import urljoin
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -32,13 +34,68 @@ TIME_RE = re.compile(r"^(\d{1,2}:\d{2}\s*[AP]M)\b\s*(.*)$", re.I)
 SHOW_MORE_RE = re.compile(r"^Show more from (.+)$", re.I)
 VS_RE = re.compile(r"\s+(?:@|vs\.?|v)\s+", re.I)
 
+# How many individual match pages to open per run (each one lists every broadcaster).
+# Override in the workflow with an env var, e.g. MAX_MATCH_PAGES=100.
+MAX_MATCH_PAGES = int(os.environ.get("MAX_MATCH_PAGES", "60"))
+
+MATCH_LINK_RE = re.compile(
+    r'href=["\']((?:https?://(?:www\.)?livesportsontv\.com)?/match/[^"\'#?\s]+)(?:[?#][^"\']*)?["\']',
+    re.I,
+)
+LD_RE = re.compile(
+    r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)(?:</script>|\Z)', re.S | re.I
+)
+
+# The site calls American football just "Football" (breadcrumb: Football > NFL).
+SITE_SPORT_ALIASES = {"football": "American Football"}
+
+# Channel logos are usually <img> tags with no visible text. fetch_page() writes each
+# logo's alt text on its own line, prefixed with this marker, so the parser can use it.
+IMG_MARK = "[[img]] "
+
+# Lines that describe the event rather than where to watch it.
+NOTE_RE = re.compile(
+    r"\b(preseason|regular season|postseason|playoffs?|quarterfinals?|semifinals?|finals?|"
+    r"round \d+|game \d+|race|laps?|qualifying|practice|sprint|match ?day|group [a-z]\b)",
+    re.I,
+)
+
+# Runs in the page: grabs sample row HTML for debugging, then exposes logo alt text.
+PAGE_JS = """
+() => {
+  const samples = [];
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  let n;
+  while ((n = walker.nextNode()) && samples.length < 3) {
+    if (/^\\s*\\d{1,2}:\\d{2}\\s*[AP]M\\s*$/i.test(n.nodeValue)) {
+      let el = n.parentElement;
+      for (let i = 0; i < 3 && el && el.parentElement; i++) el = el.parentElement;
+      if (el) samples.push(el.outerHTML.slice(0, 6000));
+    }
+  }
+  let added = 0;
+  document.querySelectorAll('img[alt], [role="img"][aria-label], svg title').forEach(el => {
+    const label = (el.getAttribute('alt') || el.getAttribute('aria-label') || el.textContent || '').trim();
+    if (!label || label.length > 60 || /^(logo|image|icon|channel)$/i.test(label)) return;
+    const host = el.tagName.toLowerCase() === 'title' ? el.closest('svg') : el;
+    if (!host || !host.parentNode) return;
+    const d = document.createElement('div');
+    d.style.display = 'block';
+    d.textContent = '[[img]] ' + label;
+    host.parentNode.insertBefore(d, host.nextSibling);
+    added++;
+  });
+  return {added: added, samples: samples};
+}
+"""
+
 
 # --------------------------------------------------------------------------
 # Fetching
 # --------------------------------------------------------------------------
 
 def fetch_page():
-    """Render the page. Returns (html, visible_text, captured_json_responses)."""
+    """Render the page. Returns (html, visible_text, captured_json_responses, match_pages)."""
     from playwright.sync_api import sync_playwright  # imported here so parsers are testable
 
     DEBUG_DIR.mkdir(parents=True, exist_ok=True)
@@ -102,6 +159,15 @@ def fetch_page():
             page.mouse.wheel(0, 2500)
             page.wait_for_timeout(1200)
 
+        try:
+            info = page.evaluate(PAGE_JS)
+            print(f"[info] logo labels exposed: {info['added']}, row samples: {len(info['samples'])}")
+            (DEBUG_DIR / "event_samples.html").write_text(
+                "\n\n<!-- ===== next sample ===== -->\n\n".join(info["samples"]), encoding="utf-8"
+            )
+        except Exception as e:
+            print(f"[warn] page script failed: {e}")
+
         html = page.content()
         try:
             text = page.inner_text("body")
@@ -111,11 +177,123 @@ def fetch_page():
             page.screenshot(path=str(DEBUG_DIR / "page.png"), full_page=False)
         except Exception:
             pass
+        # Each match page carries schema.org JSON-LD with the full broadcaster list.
+        match_pages = {}
+        urls = extract_match_urls(html)
+        print(f"[info] match links on page: {len(urls)} (opening up to {MAX_MATCH_PAGES})")
+        for u in urls[:MAX_MATCH_PAGES]:
+            try:
+                r = context.request.get(u, timeout=30000, headers={"Referer": URL})
+                if r.status == 200:
+                    match_pages[u] = r.text()
+                else:
+                    print(f"[warn] HTTP {r.status} for {u}")
+            except Exception as e:
+                print(f"[warn] could not fetch {u}: {e}")
+            page.wait_for_timeout(700)   # be gentle with the site
+        print(f"[info] match pages fetched: {len(match_pages)}")
+
         browser.close()
 
     print(f"[info] html={len(html):,} bytes, text={len(text):,} chars, "
           f"json responses captured={len(captured)}")
-    return html, text, captured
+    return html, text, captured, match_pages
+
+
+# --------------------------------------------------------------------------
+# Source 0: schema.org JSON-LD on match pages (best: has every channel)
+# --------------------------------------------------------------------------
+
+def extract_match_urls(html):
+    seen, out = set(), []
+    for m in MATCH_LINK_RE.finditer(html):
+        u = urljoin(URL, m.group(1))
+        if u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
+
+
+def _walk_ld(obj):
+    if isinstance(obj, dict):
+        yield obj
+        for v in obj.values():
+            yield from _walk_ld(v)
+    elif isinstance(obj, list):
+        for x in obj:
+            yield from _walk_ld(x)
+
+
+def _has_type(node, name):
+    t = node.get("@type")
+    return name in (t if isinstance(t, list) else [t])
+
+
+def _ld_name(v):
+    if isinstance(v, dict):
+        return v.get("name")
+    if isinstance(v, list):
+        return _ld_name(v[0]) if v else None
+    return v if isinstance(v, str) else None
+
+
+def events_from_ldjson(html, url=None):
+    """
+    Parse <script type="application/ld+json"> blocks. A match page contains:
+      SportsEvent   -> name, startDate (ISO with UTC offset), homeTeam, awayTeam, location
+        subEvent[]  -> BroadcastEvent.publishedOn.name  = one channel / streaming service
+      BreadcrumbList -> Home > <Sport> > <League> > <match>
+    """
+    out = []
+    for m in LD_RE.finditer(html):
+        try:
+            data = json.loads(m.group(1))
+        except json.JSONDecodeError:
+            continue
+        nodes = list(_walk_ld(data))
+
+        crumbs = []
+        for n in nodes:
+            if _has_type(n, "BreadcrumbList"):
+                items = [i for i in n.get("itemListElement", []) if isinstance(i, dict)]
+                items.sort(key=lambda i: i.get("position", 0))
+                crumbs = [i.get("name") for i in items]
+                break
+
+        for n in nodes:
+            if not _has_type(n, "SportsEvent"):
+                continue
+            home, away = _ld_name(n.get("homeTeam")), _ld_name(n.get("awayTeam"))
+            title = f"{away} @ {home}" if home and away else n.get("name")
+
+            subs = n.get("subEvent") or []
+            if isinstance(subs, dict):
+                subs = [subs]
+            channels = []
+            for sub in subs:
+                name = _ld_name(sub.get("publishedOn")) if isinstance(sub, dict) else None
+                if name and name not in channels:
+                    channels.append(name)
+
+            sport = crumbs[1] if len(crumbs) >= 3 else n.get("sport")
+            if isinstance(sport, str):
+                sport = SITE_SPORT_ALIASES.get(sport.strip().lower(), sport)
+            league = (crumbs[2] if len(crumbs) >= 4 else None) or _ld_name(n.get("organizer"))
+
+            out.append({
+                "time": n.get("startDate"),
+                "title": title,
+                "away": away,
+                "home": home,
+                "channels": channels,
+                "notes": [],
+                "venue": _ld_name(n.get("location")),
+                "sport": sport,
+                "league": league,
+                "section": None,
+                "raw": url or n.get("url"),
+            })
+    return out
 
 
 # --------------------------------------------------------------------------
@@ -201,7 +379,9 @@ def normalize_json_event(d):
         "title": title if isinstance(title, str) else None,
         "away": away,
         "home": home,
-        "channels": _flatten_names(_first(d, "channel", "network", "broadcast", "tv")),
+        "channels": _flatten_names(
+            _first(d, "channel", "network", "broadcast", "stream", "watch", "provider", "tv")
+        ),
         "sport": _flatten_names(_first(d, "sport"))[:1] or None,
         "league": _flatten_names(_first(d, "league", "competition", "tournament"))[:1] or None,
         "raw": d,
@@ -265,7 +445,9 @@ def events_from_text(text):
 
     out = []
     for e in events:
-        body = e["lines"]
+        all_lines = e["lines"]
+        logo_labels = [l[len(IMG_MARK):].strip() for l in all_lines if l.startswith(IMG_MARK)]
+        body = [l for l in all_lines if not l.startswith(IMG_MARK)]
         title_idx = next((i for i, l in enumerate(body) if VS_RE.search(l)), 0 if body else None)
         if title_idx is None:
             continue
@@ -273,16 +455,27 @@ def events_from_text(text):
         details = body[:title_idx] + body[title_idx + 1:]
         parts = VS_RE.split(title, maxsplit=1)
         away, home = (parts + [None])[:2] if len(parts) == 2 else (None, None)
+
+        notes = [l for l in details if NOTE_RE.search(l)]
+        channels = []
+        for name in [l for l in details if l not in notes] + logo_labels:
+            for piece in re.split(r"\s*[,|]\s*", name):
+                piece = piece.strip()
+                # skip blanks, repeats, and team-logo alt text (a team already in the title)
+                if piece and piece not in channels and piece.lower() not in title.lower():
+                    channels.append(piece)
+
         out.append({
             "time": e["time"],
             "title": title,
             "away": away,
             "home": home,
-            "channels": details,   # channels + notes; split further once real DOM is known
+            "channels": channels,
+            "notes": notes,
             "sport": None,
             "league": None,
             "section": e.get("section"),
-            "raw": " | ".join(body),
+            "raw": " | ".join(all_lines),
         })
     return out
 
@@ -405,7 +598,7 @@ def group(events, lm):
 # Main
 # --------------------------------------------------------------------------
 
-def save_debug(html, text, captured):
+def save_debug(html, text, captured, match_pages=None):
     DEBUG_DIR.mkdir(parents=True, exist_ok=True)
     (DEBUG_DIR / "page.html").write_text(html, encoding="utf-8")
     (DEBUG_DIR / "page.txt").write_text(text, encoding="utf-8")
@@ -417,19 +610,35 @@ def save_debug(html, text, captured):
     )
     for i, c in enumerate(captured[:10]):
         (DEBUG_DIR / f"response_{i}.json").write_text(c["body"][:500_000], encoding="utf-8")
+    if match_pages:
+        first_url, first_html = next(iter(match_pages.items()))
+        blocks = [m.group(1) for m in LD_RE.finditer(first_html)]
+        (DEBUG_DIR / "match_sample_jsonld.json").write_text(
+            f"// {first_url}\n" + "\n\n".join(blocks), encoding="utf-8"
+        )
 
 
 def main():
     rules = load_league_map()
-    html, text, captured = fetch_page()
-    save_debug(html, text, captured)
+    html, text, captured, match_pages = fetch_page()
+    save_debug(html, text, captured, match_pages)
 
     events, source = [], None
 
-    nd = extract_next_data(html)
-    if nd:
-        events = events_from_json(nd)
-        source = "__NEXT_DATA__" if events else None
+    # 0. JSON-LD on the individual match pages (full channel lists), then on the homepage.
+    for url, body in match_pages.items():
+        events.extend(events_from_ldjson(body, url))
+    if events:
+        source = f"jsonld:{len(match_pages)} match pages"
+    else:
+        events = events_from_ldjson(html)
+        source = "jsonld:homepage" if events else None
+
+    if not events:
+        nd = extract_next_data(html)
+        if nd:
+            events = events_from_json(nd)
+            source = "__NEXT_DATA__" if events else None
 
     if not events:
         for c in captured:
@@ -454,6 +663,12 @@ def main():
 
     result = group(events, rules)
     result["parsed_from"] = source
+    unknown = sorted({
+        (s["sport"], l["league"])
+        for s in result["sports"] for l in s["leagues"] if "country" not in l
+    })
+    if unknown:
+        print(f"[info] leagues not in leagues.json (add them to categorize properly): {unknown}")
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[info] wrote {OUTPUT} ({len(events)} events)")
