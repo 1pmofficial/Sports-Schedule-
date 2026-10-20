@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T23:26:03.830768+00:00",
+  "generated_at": "2026-10-20T01:02:17.566859+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 17,
+  "total_events": 14,
   "sports": [
     {
       "sport": "American Football",
@@ -108,18 +108,6 @@
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-10-19T18:00:00-04:00",
-              "title": "Virginia Tech @ Maryland",
-              "away": "Virginia Tech",
-              "home": "Maryland",
-              "channels": [
-                "Big Ten Plus"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/maryland-virginia-tech-1983468"
-            },
             {
               "time": "2026-10-19T19:00:00-04:00",
               "title": "UConn @ Texas",
@@ -274,30 +262,6 @@
           "league": "Primera Division",
           "events": [
             {
-              "time": "2026-10-19T18:00:00-04:00",
-              "title": "Central Córdoba SdE @ Newell's Old Boys",
-              "away": "Central Córdoba SdE",
-              "home": "Newell's Old Boys",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/newells-old-boys-central-cordoba-sde-1840191"
-            },
-            {
-              "time": "2026-10-19T18:00:00-04:00",
-              "title": "Barracas Central @ Sarmiento",
-              "away": "Barracas Central",
-              "home": "Sarmiento",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/sarmiento-barracas-central-1840194"
-            },
-            {
               "time": "2026-10-19T20:15:00-04:00",
               "title": "Unión @ Deportivo Riestra",
               "away": "Unión",
@@ -357,5 +321,5 @@
       ]
     }
   ],
-  "parsed_from": "jsonld:17 match pages"
+  "parsed_from": "jsonld:14 match pages"
 }
