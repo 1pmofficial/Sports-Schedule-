@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:55:01.993332+00:00",
+  "generated_at": "2026-10-20T11:24:56.837414+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -54,41 +54,6 @@
               "notes": [],
               "venue": "Joan C. Edwards Stadium, Huntington, WV",
               "raw": "https://www.livesportsontv.com/match/marshall-south-alabama-1949035"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Baseball",
-      "leagues": [
-        {
-          "league": "MLB",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-20T20:00:00-04:00",
-              "title": "Cleveland Guardians @ Tampa Bay Rays",
-              "away": "Cleveland Guardians",
-              "home": "Tampa Bay Rays",
-              "channels": [
-                "Sling TV",
-                "HBO Max (US)",
-                "MLB.TV",
-                "TBS",
-                "truTV",
-                "TUDN",
-                "UniMás",
-                "Univision",
-                "ViX",
-                "Sportsnet One",
-                "Sportsnet NOW",
-                "RDS 2"
-              ],
-              "notes": [],
-              "venue": "Tropicana Field (St. Petersburg, FL)",
-              "raw": "https://www.livesportsontv.com/match/al-higher-seed-al-lower-seed-1947616"
             }
           ]
         }
@@ -428,6 +393,23 @@
               "notes": [],
               "venue": "Climate Pledge Arena",
               "raw": "https://www.livesportsontv.com/match/seattle-kraken-detroit-red-wings-1930437"
+            },
+            {
+              "time": "2026-10-20T22:00:00-04:00",
+              "title": "Carolina Hurricanes @ Vancouver Canucks",
+              "away": "Carolina Hurricanes",
+              "home": "Vancouver Canucks",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Hurricanes Hockey Network",
+                "Sportsnet",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Rogers Arena",
+              "raw": "https://www.livesportsontv.com/match/vancouver-canucks-carolina-hurricanes-1930438"
             }
           ]
         }
@@ -447,7 +429,8 @@
               "away": "Alianza",
               "home": "Marathón",
               "channels": [
-                "Paramount+ (US)"
+                "Paramount+ (US)",
+                "CBS Sports Golazo Network"
               ],
               "notes": [],
               "venue": "TBD",
@@ -491,18 +474,6 @@
               "notes": [],
               "venue": "GW Soccer Field, Washington, District of Columbia",
               "raw": "https://www.livesportsontv.com/match/george-washington-saint-josephs-1971811"
-            },
-            {
-              "time": "2026-10-20T16:00:00-04:00",
-              "title": "Western Michigan @ DePaul",
-              "away": "Western Michigan",
-              "home": "DePaul",
-              "channels": [
-                "Marquee Sports Network"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/depaul-western-michigan-1984397"
             },
             {
               "time": "2026-10-20T18:00:00-04:00",
@@ -604,6 +575,19 @@
               "notes": [],
               "venue": "Emmitt Field at Holmes Stadium",
               "raw": "https://www.livesportsontv.com/match/bucknell-cornell-1971815"
+            },
+            {
+              "time": "2026-10-20T19:00:00-04:00",
+              "title": "Akron @ Cleveland State",
+              "away": "Akron",
+              "home": "Cleveland State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Krenzler Field, Cleveland, Ohio",
+              "raw": "https://www.livesportsontv.com/match/cleveland-state-akron-1971816"
             }
           ]
         },
@@ -850,6 +834,7 @@
                 "Paramount+ (US)",
                 "TUDN",
                 "UniMás",
+                "CBS Sports Golazo Network",
                 "ViX",
                 "DAZN Canada"
               ],
@@ -953,6 +938,7 @@
               "channels": [
                 "Paramount+ (US)",
                 "DAZN US",
+                "CBS Sports Golazo Network",
                 "DAZN Canada"
               ],
               "notes": [],
