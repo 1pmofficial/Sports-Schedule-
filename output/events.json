@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:24:56.837414+00:00",
+  "generated_at": "2026-10-20T16:50:31.555203+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -234,6 +234,44 @@
       "sport": "Ice Hockey",
       "leagues": [
         {
+          "league": "AHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-20T22:00:00-04:00",
+              "title": "Calgary Wranglers @ Ontario Reign",
+              "away": "Calgary Wranglers",
+              "home": "Ontario Reign",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/ontario-reign-calgary-wranglers-1924283"
+            }
+          ]
+        },
+        {
+          "league": "College Ice Hockey",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-20T18:00:00-04:00",
+              "title": "Robert Morris @ Penn State",
+              "away": "Robert Morris",
+              "home": "Penn State",
+              "channels": [
+                "Big Ten Plus"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/penn-state-robert-morris-1976803"
+            }
+          ]
+        },
+        {
           "league": "NHL",
           "country": "USA",
           "gender": "male",
@@ -410,6 +448,22 @@
               "notes": [],
               "venue": "Rogers Arena",
               "raw": "https://www.livesportsontv.com/match/vancouver-canucks-carolina-hurricanes-1930438"
+            },
+            {
+              "time": "2026-10-20T22:30:00-04:00",
+              "title": "Tampa Bay Lightning @ Vegas Golden Knights",
+              "away": "Tampa Bay Lightning",
+              "home": "Vegas Golden Knights",
+              "channels": [
+                "Fubo Sports",
+                "ESPN Select",
+                "ESPN Unlimited",
+                "ESPN",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "T-Mobile Arena",
+              "raw": "https://www.livesportsontv.com/match/vegas-golden-knights-tampa-bay-lightning-1930439"
             }
           ]
         }
@@ -430,7 +484,8 @@
               "home": "Marathón",
               "channels": [
                 "Paramount+ (US)",
-                "CBS Sports Golazo Network"
+                "CBS Sports Golazo Network",
+                "OneSoccer"
               ],
               "notes": [],
               "venue": "TBD",
@@ -819,7 +874,8 @@
               "channels": [
                 "Paramount+ (US)",
                 "ViX",
-                "DAZN Canada"
+                "DAZN Canada",
+                "OneSoccer"
               ],
               "notes": [],
               "venue": "Chobani Stadyumu Fenerbahce Sukru Saracoglu Spor Kompleksi (Istanbul, Turkiye)",
@@ -939,56 +995,12 @@
                 "Paramount+ (US)",
                 "DAZN US",
                 "CBS Sports Golazo Network",
-                "DAZN Canada"
+                "DAZN Canada",
+                "OneSoccer"
               ],
               "notes": [],
               "venue": "MHPArena (Stuttgart, Germany)",
               "raw": "https://www.livesportsontv.com/match/vfb-stuttgart-atletico-madrid-1961217"
-            }
-          ]
-        },
-        {
-          "league": "UEFA Youth League",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-20T08:00:00-04:00",
-              "title": "Barcelona U19 @ PSG U19",
-              "away": "Barcelona U19",
-              "home": "PSG U19",
-              "channels": [
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/psg-u19-barcelona-u19-1963244"
-            },
-            {
-              "time": "2026-10-20T10:00:00-04:00",
-              "title": "Villarreal U19 @ Liverpool U19",
-              "away": "Villarreal U19",
-              "home": "Liverpool U19",
-              "channels": [
-                "All Red Video"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/liverpool-u19-villarreal-u19-1963242"
-            },
-            {
-              "time": "2026-10-20T10:00:00-04:00",
-              "title": "AEK Athens U19 @ Manchester City U19",
-              "away": "AEK Athens U19",
-              "home": "Manchester City U19",
-              "channels": [
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/manchester-city-u19-aek-athens-u19-1982307"
             }
           ]
         }
