@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T20:28:11.646147+00:00",
+  "generated_at": "2026-10-20T23:47:56.565803+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 60,
+  "total_events": 48,
   "sports": [
     {
       "sport": "American Football",
@@ -100,21 +100,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "Boston Celtics @ Detroit Pistons",
-              "away": "Boston Celtics",
-              "home": "Detroit Pistons",
-              "channels": [
-                "Peacock",
-                "NBC",
-                "Sportsnet",
-                "Sportsnet NOW"
-              ],
-              "notes": [],
-              "venue": "Detroit Little Caesars Arena",
-              "raw": "https://www.livesportsontv.com/match/detroit-pistons-boston-celtics-1948246"
-            },
-            {
               "time": "2026-10-20T19:00:00-04:00",
               "title": "Philadelphia 76ers @ New York Knicks",
               "away": "Philadelphia 76ers",
@@ -166,32 +151,6 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/oregon-bushnell-1983599"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Golf",
-      "leagues": [
-        {
-          "league": "College Golf",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-20T16:00:00-04:00",
-              "title": "Abilene Christian Intercollegiate",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Fubo Sports",
-                "Golf Channel USA",
-                "Golf Channel Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/abilene-christian-intercollegiate-1984398"
             }
           ]
         }
@@ -524,25 +483,6 @@
           ]
         },
         {
-          "league": "Championship",
-          "country": "England",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-20T14:45:00-04:00",
-              "title": "Portsmouth @ Wolverhampton Wanderers",
-              "away": "Portsmouth",
-              "home": "Wolverhampton Wanderers",
-              "channels": [
-                "Paramount+ (US)"
-              ],
-              "notes": [],
-              "venue": "Molineux Stadium (Wolverhampton, England)",
-              "raw": "https://www.livesportsontv.com/match/wolverhampton-wanderers-portsmouth-1931844"
-            }
-          ]
-        },
-        {
           "league": "College Soccer",
           "country": "USA",
           "gender": "male",
@@ -699,45 +639,6 @@
           ]
         },
         {
-          "league": "League One",
-          "country": "England",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-20T14:45:00-04:00",
-              "title": "Leicester City @ Bromley",
-              "away": "Leicester City",
-              "home": "Bromley",
-              "channels": [
-                "Paramount+ (US)"
-              ],
-              "notes": [],
-              "venue": "Hayes Lane",
-              "raw": "https://www.livesportsontv.com/match/bromley-leicester-city-1911787"
-            }
-          ]
-        },
-        {
-          "league": "League Two",
-          "country": "England",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "Port Vale @ Gillingham",
-              "away": "Port Vale",
-              "home": "Gillingham",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Priestfield Stadium",
-              "raw": "https://www.livesportsontv.com/match/gillingham-port-vale-1912121"
-            }
-          ]
-        },
-        {
           "league": "Liga MX",
           "country": "Mexico",
           "gender": "male",
@@ -794,117 +695,6 @@
               "notes": [],
               "venue": "Estadio Universitario",
               "raw": "https://www.livesportsontv.com/match/tigres-uanl-leon-1900113"
-            }
-          ]
-        },
-        {
-          "league": "UEFA Champions League",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "FC Barcelona @ PSG",
-              "away": "FC Barcelona",
-              "home": "PSG",
-              "channels": [
-                "Paramount+ (US)",
-                "TUDN",
-                "UniMás",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Parc des Princes (Paris, France)",
-              "raw": "https://www.livesportsontv.com/match/psg-fc-barcelona-1959893"
-            },
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "PSV @ Porto",
-              "away": "PSV",
-              "home": "Porto",
-              "channels": [
-                "Fubo Sports",
-                "Paramount+ (US)",
-                "CBS Sports Network",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Estadio do Dragao (Porto, Portugal)",
-              "raw": "https://www.livesportsontv.com/match/porto-psv-1959901"
-            },
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "Villarreal @ Liverpool FC",
-              "away": "Villarreal",
-              "home": "Liverpool FC",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Anfield (Liverpool, England)",
-              "raw": "https://www.livesportsontv.com/match/liverpool-fc-villarreal-1961138"
-            },
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "AEK Athens @ Manchester City",
-              "away": "AEK Athens",
-              "home": "Manchester City",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Etihad Stadium (Manchester, England)",
-              "raw": "https://www.livesportsontv.com/match/manchester-city-aek-athens-1961146"
-            },
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "Slovan Bratislava @ Roma",
-              "away": "Slovan Bratislava",
-              "home": "Roma",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stadio Olimpico, Rome (Rome, Italy)",
-              "raw": "https://www.livesportsontv.com/match/roma-slovan-bratislava-1961161"
-            },
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "Bodø / Glimt @ Napoli",
-              "away": "Bodø / Glimt",
-              "home": "Napoli",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Diego Armando Maradona (Naples, Italy)",
-              "raw": "https://www.livesportsontv.com/match/napoli-bod-glimt-1961195"
-            },
-            {
-              "time": "2026-10-20T15:00:00-04:00",
-              "title": "Atletico Madrid @ VfB Stuttgart",
-              "away": "Atletico Madrid",
-              "home": "VfB Stuttgart",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN US",
-                "CBS Sports Golazo Network",
-                "DAZN Canada",
-                "OneSoccer"
-              ],
-              "notes": [],
-              "venue": "MHPArena (Stuttgart, Germany)",
-              "raw": "https://www.livesportsontv.com/match/vfb-stuttgart-atletico-madrid-1961217"
             }
           ]
         }
@@ -1025,5 +815,5 @@
       ]
     }
   ],
-  "parsed_from": "jsonld:60 match pages"
+  "parsed_from": "jsonld:48 match pages"
 }
