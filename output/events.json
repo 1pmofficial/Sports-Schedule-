@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T10:01:45.002374+00:00",
+  "generated_at": "2026-10-21T15:03:48.546076+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -559,7 +559,7 @@
               "raw": "https://www.livesportsontv.com/match/toluca-tijuana-1900116"
             },
             {
-              "time": "2026-10-21T23:00:00-04:00",
+              "time": "2026-10-21T23:10:00-04:00",
               "title": "Cruz Azul @ Pachuca",
               "away": "Cruz Azul",
               "home": "Pachuca",
