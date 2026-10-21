@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T04:30:45.188642+00:00",
+  "generated_at": "2026-10-21T10:01:45.002374+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -150,6 +150,7 @@
               "home": "Orlando Magic",
               "channels": [
                 "NBA League Pass",
+                "Prime Video (US)",
                 "DAZN US",
                 "Atlanta News First",
                 "Peachtree Sports Network",
