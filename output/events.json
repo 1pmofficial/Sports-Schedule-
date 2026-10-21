@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T19:15:03.768455+00:00",
+  "generated_at": "2026-10-21T23:12:23.550157+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -34,39 +34,6 @@
     {
       "sport": "Basketball",
       "leagues": [
-        {
-          "league": "Basketball Champions League",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-21T14:00:00-04:00",
-              "title": "Juventus @ Reggiana",
-              "away": "Juventus",
-              "home": "Reggiana",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/reggiana-juventus-1932701"
-            },
-            {
-              "time": "2026-10-21T14:00:00-04:00",
-              "title": "Telekom Baskets Bonn @ Joventut Badalona",
-              "away": "Telekom Baskets Bonn",
-              "home": "Joventut Badalona",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/joventut-badalona-telekom-baskets-bonn-1932719"
-            }
-          ]
-        },
         {
           "league": "Men's College Basketball",
           "country": "USA",
@@ -327,6 +294,129 @@
       ]
     },
     {
+      "sport": "Ice Hockey",
+      "leagues": [
+        {
+          "league": "AHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "Manitoba Moose @ Grand Rapids Griffins",
+              "away": "Manitoba Moose",
+              "home": "Grand Rapids Griffins",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/grand-rapids-griffins-manitoba-moose-1924284"
+            },
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "Syracuse Crunch @ Laval Rocket",
+              "away": "Syracuse Crunch",
+              "home": "Laval Rocket",
+              "channels": [
+                "FloHockey",
+                "RDS 2"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/laval-rocket-syracuse-crunch-1924285"
+            },
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "Hamilton Hammers @ Toronto Marlies",
+              "away": "Hamilton Hammers",
+              "home": "Toronto Marlies",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/toronto-marlies-hamilton-1924286"
+            },
+            {
+              "time": "2026-10-21T19:05:00-04:00",
+              "title": "Utica Comets @ Rochester Americans",
+              "away": "Utica Comets",
+              "home": "Rochester Americans",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/rochester-americans-utica-comets-1924287"
+            },
+            {
+              "time": "2026-10-21T20:00:00-04:00",
+              "title": "Milwaukee Admirals @ Iowa Wild",
+              "away": "Milwaukee Admirals",
+              "home": "Iowa Wild",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/iowa-wild-milwaukee-admirals-1924288"
+            },
+            {
+              "time": "2026-10-21T22:00:00-04:00",
+              "title": "Coachella Valley Firebirds @ San Diego Gulls",
+              "away": "Coachella Valley Firebirds",
+              "home": "San Diego Gulls",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/san-diego-gulls-coachella-valley-firebirds-1924289"
+            }
+          ]
+        },
+        {
+          "league": "NHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-21T19:30:00-04:00",
+              "title": "Philadelphia Flyers @ Buffalo Sabres",
+              "away": "Philadelphia Flyers",
+              "home": "Buffalo Sabres",
+              "channels": [
+                "Sling TV",
+                "HBO Max (US)",
+                "TNT",
+                "truTV",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "KeyBank Center",
+              "raw": "https://www.livesportsontv.com/match/buffalo-sabres-philadelphia-flyers-1930583"
+            },
+            {
+              "time": "2026-10-21T19:30:00-04:00",
+              "title": "Florida Panthers @ Ottawa Senators",
+              "away": "Florida Panthers",
+              "home": "Ottawa Senators",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Scripps 66",
+                "Prime Video (CA)"
+              ],
+              "notes": [],
+              "venue": "Canadian Tire Centre",
+              "raw": "https://www.livesportsontv.com/match/ottawa-senators-florida-panthers-1930584"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "sport": "Soccer",
       "leagues": [
         {
@@ -392,19 +482,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-21T13:30:00-04:00",
-              "title": "UC Riverside @ CSU Bakersfield",
-              "away": "UC Riverside",
-              "home": "CSU Bakersfield",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "CSUB Main Soccer Field, Bakersfield",
-              "raw": "https://www.livesportsontv.com/match/csu-bakersfield-uc-riverside-1971920"
-            },
             {
               "time": "2026-10-21T18:00:00-04:00",
               "title": "Saint Peter's @ Sacred Heart",
@@ -522,6 +599,19 @@
               "notes": [],
               "venue": "Wendell & Vickie Bell Soccer Complex, Lexington, Kentucky",
               "raw": "https://www.livesportsontv.com/match/kentucky-coastal-carolina-1971913"
+            },
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "George Mason @ La Salle",
+              "away": "George Mason",
+              "home": "La Salle",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "McCarthy Stadium (Philadelphia), Philadelphia, Pennsylvania",
+              "raw": "https://www.livesportsontv.com/match/la-salle-george-mason-1971914"
             }
           ]
         },
@@ -548,25 +638,24 @@
           ]
         },
         {
-          "league": "La Liga",
-          "country": "Spain",
+          "league": "Copa Sudamericana",
+          "country": "International",
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-21T14:00:00-04:00",
-              "title": "Athletic Club @ Levante",
-              "away": "Athletic Club",
-              "home": "Levante",
+              "time": "2026-10-21T18:00:00-04:00",
+              "title": "Atlético Mineiro @ Torque",
+              "away": "Atlético Mineiro",
+              "home": "Torque",
               "channels": [
-                "Fubo Sports",
-                "ESPN Select",
-                "ESPN Unlimited",
-                "ESPN Deportes",
-                "TSN+"
+                "beIN Sport USA",
+                "beIN Sport USA Espanol",
+                "beIN Sport Canada",
+                "beIN Sport Canada Espanol"
               ],
               "notes": [],
-              "venue": "Estadio Ciudad de Valencia (Valencia, Spain)",
-              "raw": "https://www.livesportsontv.com/match/levante-athletic-club-1922616"
+              "venue": "Estadio Centenario",
+              "raw": "https://www.livesportsontv.com/match/torque-atletico-mineiro-1969612"
             }
           ]
         },
@@ -658,112 +747,23 @@
           ]
         },
         {
-          "league": "UEFA Champions League",
-          "country": "International",
+          "league": "U.S. Open Cup",
+          "country": "USA",
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-21T15:00:00-04:00",
-              "title": "Arsenal FC @ Bayern München",
-              "away": "Arsenal FC",
-              "home": "Bayern München",
-              "channels": [
-                "Paramount+ (US)",
-                "TUDN",
-                "UniMás",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Allianz Arena (Munich, Germany)",
-              "raw": "https://www.livesportsontv.com/match/bayern-munchen-arsenal-fc-1959894"
-            },
-            {
-              "time": "2026-10-21T15:00:00-04:00",
-              "title": "RB Leipzig @ Real Madrid",
-              "away": "RB Leipzig",
-              "home": "Real Madrid",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Estadio Bernabeu (Madrid, Spain)",
-              "raw": "https://www.livesportsontv.com/match/real-madrid-rb-leipzig-1961136"
-            },
-            {
-              "time": "2026-10-21T15:00:00-04:00",
-              "title": "Shakhtar Donetsk @ Inter",
-              "away": "Shakhtar Donetsk",
-              "home": "Inter",
+              "time": "2026-10-21T20:00:00-04:00",
+              "title": "St. Louis City @ Columbus Crew",
+              "away": "St. Louis City",
+              "home": "Columbus Crew",
               "channels": [
                 "Fubo Sports",
                 "Paramount+ (US)",
-                "CBS Sports Network",
-                "ViX",
-                "DAZN Canada"
+                "CBS Sports Network"
               ],
               "notes": [],
-              "venue": "Giuseppe Meazza (Milano, Italy)",
-              "raw": "https://www.livesportsontv.com/match/inter-shakhtar-donetsk-1961142"
-            },
-            {
-              "time": "2026-10-21T15:00:00-04:00",
-              "title": "LASK @ Sporting CP",
-              "away": "LASK",
-              "home": "Sporting CP",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Estadio Jose Alvalade (Lisbon, Portugal)",
-              "raw": "https://www.livesportsontv.com/match/sporting-cp-lask-1961165"
-            },
-            {
-              "time": "2026-10-21T15:00:00-04:00",
-              "title": "Viking @ Aston Villa",
-              "away": "Viking",
-              "home": "Aston Villa",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Villa Park (Birmingham, England)",
-              "raw": "https://www.livesportsontv.com/match/aston-villa-viking-1961168"
-            },
-            {
-              "time": "2026-10-21T15:00:00-04:00",
-              "title": "Lens @ Club Brugge",
-              "away": "Lens",
-              "home": "Club Brugge",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Jan Breydel Stadion (Bruges, Belgium)",
-              "raw": "https://www.livesportsontv.com/match/club-brugge-lens-1961176"
-            },
-            {
-              "time": "2026-10-21T15:00:00-04:00",
-              "title": "Feyenoord @ Real Betis",
-              "away": "Feyenoord",
-              "home": "Real Betis",
-              "channels": [
-                "Paramount+ (US)",
-                "CBS Sports Golazo Network",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Estadio Benito Villamarin (Seville, Spain)",
-              "raw": "https://www.livesportsontv.com/match/real-betis-feyenoord-1961179"
+              "venue": "ScottsMiracle-Gro Field",
+              "raw": "https://www.livesportsontv.com/match/columbus-crew-st-louis-city-1968916"
             }
           ]
         },
@@ -837,19 +837,6 @@
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-10-21T16:00:00-04:00",
-              "title": "Georgetown @ DePaul",
-              "away": "Georgetown",
-              "home": "DePaul",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Wish Field, Chicago, Illinois",
-              "raw": "https://www.livesportsontv.com/match/depaul-georgetown-1971927"
-            },
             {
               "time": "2026-10-21T18:00:00-04:00",
               "title": "Southern Mississippi @ Appalachian State",
@@ -966,6 +953,19 @@
               "notes": [],
               "venue": "County University Soccer Stadium, Spartanburg",
               "raw": "https://www.livesportsontv.com/match/south-carolina-upstate-south-carolina-state-1971936"
+            },
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "UConn @ Creighton",
+              "away": "UConn",
+              "home": "Creighton",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Morrison Stadium, Papillion, Nebraska",
+              "raw": "https://www.livesportsontv.com/match/creighton-uconn-1981176"
             }
           ]
         }
