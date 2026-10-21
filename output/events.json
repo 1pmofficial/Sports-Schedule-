@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:03:48.546076+00:00",
+  "generated_at": "2026-10-21T19:15:03.768455+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -39,32 +39,6 @@
           "country": "International",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-21T12:00:00-04:00",
-              "title": "Antwerp Giants @ AEK Athens",
-              "away": "Antwerp Giants",
-              "home": "AEK Athens",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/aek-athens-antwerp-giants-1928654"
-            },
-            {
-              "time": "2026-10-21T12:30:00-04:00",
-              "title": "FC Porto @ Bnei Herzliya",
-              "away": "FC Porto",
-              "home": "Bnei Herzliya",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/bnei-herzliya-fc-porto-1932718"
-            },
             {
               "time": "2026-10-21T14:00:00-04:00",
               "title": "Juventus @ Reggiana",
@@ -356,23 +330,68 @@
       "sport": "Soccer",
       "leagues": [
         {
+          "league": "CONCACAF Central American Cup",
+          "country": "International",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-21T20:30:00-04:00",
+              "title": "Deportivo Saprissa @ Firpo",
+              "away": "Deportivo Saprissa",
+              "home": "Firpo",
+              "channels": [
+                "Paramount+ (US)"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/firpo-deportivo-saprissa-1969617"
+            },
+            {
+              "time": "2026-10-21T22:30:00-04:00",
+              "title": "Olimpia @ Cartaginés",
+              "away": "Olimpia",
+              "home": "Cartaginés",
+              "channels": [
+                "Paramount+ (US)",
+                "CBS Sports Golazo Network"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/cartagines-olimpia-1969607"
+            }
+          ]
+        },
+        {
+          "league": "Canadian Championship",
+          "country": "Canada",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "Forge FC @ CF Montreal",
+              "away": "Forge FC",
+              "home": "CF Montreal",
+              "channels": [
+                "Fubo Sports",
+                "FOX Sports 2",
+                "FOX One",
+                "TSN+",
+                "RDS",
+                "TSN1",
+                "TSN3",
+                "OneSoccer"
+              ],
+              "notes": [],
+              "venue": "Saputo Stadium",
+              "raw": "https://www.livesportsontv.com/match/cf-montreal-forge-fc-1968894"
+            }
+          ]
+        },
+        {
           "league": "College Soccer",
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-21T13:00:00-04:00",
-              "title": "American @ Army",
-              "away": "American",
-              "home": "Army",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Malek Stadium at Clinton Field, West Point",
-              "raw": "https://www.livesportsontv.com/match/army-american-1981071"
-            },
             {
               "time": "2026-10-21T13:30:00-04:00",
               "title": "UC Riverside @ CSU Bakersfield",
@@ -490,6 +509,41 @@
               "notes": [],
               "venue": "Jordan Field, Boston, Massachusetts",
               "raw": "https://www.livesportsontv.com/match/harvard-stonehill-1971912"
+            },
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "Coastal Carolina @ Kentucky",
+              "away": "Coastal Carolina",
+              "home": "Kentucky",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Wendell & Vickie Bell Soccer Complex, Lexington, Kentucky",
+              "raw": "https://www.livesportsontv.com/match/kentucky-coastal-carolina-1971913"
+            }
+          ]
+        },
+        {
+          "league": "Copa Libertadores",
+          "country": "International",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-21T20:30:00-04:00",
+              "title": "Fluminense @ Palmeiras",
+              "away": "Fluminense",
+              "home": "Palmeiras",
+              "channels": [
+                "beIN Sport USA",
+                "beIN Sport USA Espanol",
+                "beIN Sport Canada",
+                "beIN Sport Canada Espanol"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/palmeiras-fluminense-1968945"
             }
           ]
         },
@@ -608,37 +662,6 @@
           "country": "International",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-21T12:45:00-04:00",
-              "title": "Galatasaray @ Lille",
-              "away": "Galatasaray",
-              "home": "Lille",
-              "channels": [
-                "Paramount+ (US)",
-                "CBS Sports Golazo Network",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Decathlon Arena-Stade Pierre-Mauroy (Villeneuve d'Ascq, France)",
-              "raw": "https://www.livesportsontv.com/match/lille-galatasaray-1961187"
-            },
-            {
-              "time": "2026-10-21T12:45:00-04:00",
-              "title": "Manchester United @ Como",
-              "away": "Manchester United",
-              "home": "Como",
-              "channels": [
-                "Paramount+ (US)",
-                "TUDN",
-                "UniMás",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stadio G. Sinigaglia (Como, Italy)",
-              "raw": "https://www.livesportsontv.com/match/como-manchester-united-1961227"
-            },
             {
               "time": "2026-10-21T15:00:00-04:00",
               "title": "Arsenal FC @ Bayern München",
@@ -815,19 +838,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-10-21T13:00:00-04:00",
-              "title": "Marist @ Iona",
-              "away": "Marist",
-              "home": "Iona",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Mazzella Field, New Rochelle",
-              "raw": "https://www.livesportsontv.com/match/iona-marist-1971926"
-            },
-            {
               "time": "2026-10-21T16:00:00-04:00",
               "title": "Georgetown @ DePaul",
               "away": "Georgetown",
@@ -943,6 +953,19 @@
               "notes": [],
               "venue": "Edens Field at Martin Stadium",
               "raw": "https://www.livesportsontv.com/match/presbyterian-high-point-1971935"
+            },
+            {
+              "time": "2026-10-21T19:00:00-04:00",
+              "title": "South Carolina State @ South Carolina Upstate",
+              "away": "South Carolina State",
+              "home": "South Carolina Upstate",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "County University Soccer Stadium, Spartanburg",
+              "raw": "https://www.livesportsontv.com/match/south-carolina-upstate-south-carolina-state-1971936"
             }
           ]
         }
