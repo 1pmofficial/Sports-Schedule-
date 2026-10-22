@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:10:23.003618+00:00",
+  "generated_at": "2026-10-22T23:19:30.818006+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -239,8 +239,95 @@
       ]
     },
     {
+      "sport": "Fighting",
+      "leagues": [
+        {
+          "league": "Bare Knuckle Fighting",
+          "country": "International",
+          "gender": "mixed",
+          "events": [
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "BKFC Fight Night",
+              "away": null,
+              "home": null,
+              "channels": [
+                "DAZN US",
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/bkfc-fight-night-2-1985787"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Golf",
+      "leagues": [
+        {
+          "league": "LPGA Tour",
+          "country": "International",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-22T22:00:00-04:00",
+              "title": "BMW Ladies Championship",
+              "away": null,
+              "home": null,
+              "channels": [
+                "Fubo Sports",
+                "Golf Channel USA",
+                "Golf Channel Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/bmw-ladies-championship-1980464"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "sport": "Ice Hockey",
       "leagues": [
+        {
+          "league": "College Ice Hockey",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Boston University @ UConn",
+              "away": "Boston University",
+              "home": "UConn",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Toscano Family Ice Forum, Storrs, CT",
+              "raw": "https://www.livesportsontv.com/match/uconn-boston-university-1981472"
+            },
+            {
+              "time": "2026-10-22T20:00:00-04:00",
+              "title": "North Dakota @ Minnesota",
+              "away": "North Dakota",
+              "home": "Minnesota",
+              "channels": [
+                "Fubo Sports",
+                "FOX",
+                "Big Ten Plus",
+                "Midco Sports Plus",
+                "KMSP-FOX"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/minnesota-north-dakota-1980509"
+            }
+          ]
+        },
         {
           "league": "NHL",
           "country": "USA",
@@ -436,6 +523,171 @@
               "notes": [],
               "venue": "Climate Pledge Arena",
               "raw": "https://www.livesportsontv.com/match/seattle-kraken-utah-mammoth-1931039"
+            },
+            {
+              "time": "2026-10-22T22:00:00-04:00",
+              "title": "Detroit Red Wings @ Vancouver Canucks",
+              "away": "Detroit Red Wings",
+              "home": "Vancouver Canucks",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Detroit SportsNet",
+                "Delmarva Sports Network",
+                "Sportsnet",
+                "Sportsnet Pacific",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Rogers Arena",
+              "raw": "https://www.livesportsontv.com/match/vancouver-canucks-detroit-red-wings-1931040"
+            }
+          ]
+        },
+        {
+          "league": "OHL",
+          "country": "Canada",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Owen Sound Attack @ Barrie Colts",
+              "away": "Owen Sound Attack",
+              "home": "Barrie Colts",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/barrie-colts-owen-sound-attack-1908237"
+            },
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Sudbury Wolves @ North Bay Battalion",
+              "away": "Sudbury Wolves",
+              "home": "North Bay Battalion",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/north-bay-battalion-sudbury-wolves-1908238"
+            },
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Sherbrooke Phoenix @ Victoriaville Tigres",
+              "away": "Sherbrooke Phoenix",
+              "home": "Victoriaville Tigres",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/victoriaville-tigres-sherbrooke-phoenix-1908697"
+            },
+            {
+              "time": "2026-10-22T19:05:00-04:00",
+              "title": "Oshawa Generals @ Peterborough Petes",
+              "away": "Oshawa Generals",
+              "home": "Peterborough Petes",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/peterborough-petes-oshawa-generals-1908239"
+            },
+            {
+              "time": "2026-10-22T19:07:00-04:00",
+              "title": "Windsor Spitfires @ Sault Ste. Marie Greyhounds",
+              "away": "Windsor Spitfires",
+              "home": "Sault Ste. Marie Greyhounds",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/sault-ste-marie-greyhounds-windsor-spitfires-1908240"
+            }
+          ]
+        },
+        {
+          "league": "USHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-22T20:05:00-04:00",
+              "title": "Cedar Rapids @ Fargo Force",
+              "away": "Cedar Rapids",
+              "home": "Fargo Force",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/fargo-force-cedar-rapids-1909434"
+            }
+          ]
+        },
+        {
+          "league": "Women's College Ice Hockey",
+          "country": "USA",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Lindenwood @ Minnesota",
+              "away": "Lindenwood",
+              "home": "Minnesota",
+              "channels": [
+                "Big Ten Plus"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/minnesota-lindenwood-1971949"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Motorsports",
+      "leagues": [
+        {
+          "league": "F1 Academy",
+          "country": "International",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-22T17:30:00-04:00",
+              "title": "United States Grand Prix",
+              "away": null,
+              "home": null,
+              "channels": [
+                "YouTube US"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/united-states-grand-prix-1980469"
+            }
+          ]
+        },
+        {
+          "league": "Other",
+          "events": [
+            {
+              "time": "2026-10-22T17:30:00-04:00",
+              "title": "Volunteer Speedway",
+              "away": null,
+              "home": null,
+              "channels": [
+                "FloRacing"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/volunteer-speedway-1984187"
             }
           ]
         }
@@ -491,18 +743,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-22T13:00:00-04:00",
-              "title": "Fairleigh Dickinson @ Long Island University",
-              "away": "Fairleigh Dickinson",
-              "home": "Long Island University",
-              "channels": [
-                "NEC Front Row"
-              ],
-              "notes": [],
-              "venue": "LIU Soccer Park, Brookville",
-              "raw": "https://www.livesportsontv.com/match/long-island-university-fairleigh-dickinson-1982790"
-            },
-            {
               "time": "2026-10-22T20:00:00-04:00",
               "title": "Charlotte @ Tulsa",
               "away": "Charlotte",
@@ -540,309 +780,6 @@
           ]
         },
         {
-          "league": "U17 Women's World Cup",
-          "country": "International",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-10-22T14:00:00-04:00",
-              "title": "Mexico U17 @ Chile U17",
-              "away": "Mexico U17",
-              "home": "Chile U17",
-              "channels": [
-                "Fubo Sports",
-                "FOX Soccer Plus",
-                "NBC Universo",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/chile-u17-mexico-u17-1894417"
-            },
-            {
-              "time": "2026-10-22T14:00:00-04:00",
-              "title": "Kenya U17 @ United States U17",
-              "away": "Kenya U17",
-              "home": "United States U17",
-              "channels": [
-                "Fubo Sports",
-                "FOX Sports 2",
-                "FOX One",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/united-states-u17-kenya-u17-1928240"
-            }
-          ]
-        },
-        {
-          "league": "UEFA Conference League",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Gent @ Sporting Braga",
-              "away": "Gent",
-              "home": "Sporting Braga",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Estadio Municipal de Braga (Braga, Portugal)",
-              "raw": "https://www.livesportsontv.com/match/sporting-braga-gent-1960157"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Sint-Truiden @ FC Midtjylland",
-              "away": "Sint-Truiden",
-              "home": "FC Midtjylland",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX"
-              ],
-              "notes": [],
-              "venue": "MCH Arena (Herning, Denmark)",
-              "raw": "https://www.livesportsontv.com/match/fc-midtjylland-sint-truiden-1960162"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Hajduk Split @ Thun",
-              "away": "Hajduk Split",
-              "home": "Thun",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX"
-              ],
-              "notes": [],
-              "venue": "Arena Thun (Thun, Switzerland)",
-              "raw": "https://www.livesportsontv.com/match/thun-hajduk-split-1960171"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Atalanta @ Ajax",
-              "away": "Atalanta",
-              "home": "Ajax",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Johan Cruijff ArenA (Amsterdam, Netherlands)",
-              "raw": "https://www.livesportsontv.com/match/ajax-atalanta-1961388"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Freiburg @ Monaco",
-              "away": "Freiburg",
-              "home": "Monaco",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stade Louis II, Monaco (Monaco, France)",
-              "raw": "https://www.livesportsontv.com/match/monaco-freiburg-1961391"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "FC Twente @ Lincoln Red Imps",
-              "away": "FC Twente",
-              "home": "Lincoln Red Imps",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX"
-              ],
-              "notes": [],
-              "venue": "Victoria Stadium (Gibraltar, Gibraltar)",
-              "raw": "https://www.livesportsontv.com/match/lincoln-red-imps-fc-twente-1961407"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "KuPS @ Borac Banja Luka",
-              "away": "KuPS",
-              "home": "Borac Banja Luka",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX"
-              ],
-              "notes": [],
-              "venue": "Banja Luka Stadium (Banja Luka, Bosnia and Herzegovina)",
-              "raw": "https://www.livesportsontv.com/match/borac-banja-luka-kups-1961410"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Egnatia Rrogozhinë @ AGF",
-              "away": "Egnatia Rrogozhinë",
-              "home": "AGF",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX"
-              ],
-              "notes": [],
-              "venue": "Ceres Park Vejlby (Aarhus, Denmark)",
-              "raw": "https://www.livesportsontv.com/match/agf-egnatia-rrogozhine-1961432"
-            }
-          ]
-        },
-        {
-          "league": "UEFA Europa League",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Sparta Praha @ Olympiakos Piraeus",
-              "away": "Sparta Praha",
-              "home": "Olympiakos Piraeus",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Karaiskakis Stadium (Piraeus, Greece)",
-              "raw": "https://www.livesportsontv.com/match/olympiakos-piraeus-sparta-praha-1960143"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Celta de Vigo @ Celtic",
-              "away": "Celta de Vigo",
-              "home": "Celtic",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Celtic Park (Glasgow, Scotland)",
-              "raw": "https://www.livesportsontv.com/match/celtic-celta-de-vigo-1960147"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Levski Sofia @ Viktoria Plzeň",
-              "away": "Levski Sofia",
-              "home": "Viktoria Plzeň",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Doosan Arena Plzen (Plzen, Czechia)",
-              "raw": "https://www.livesportsontv.com/match/viktoria-plzen-levski-sofia-1961491"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "AC Milan @ AFC Bournemouth",
-              "away": "AC Milan",
-              "home": "AFC Bournemouth",
-              "channels": [
-                "Fubo Sports",
-                "Paramount+ (US)",
-                "CBS Sports Network",
-                "TUDN",
-                "UniMás",
-                "ViX",
-                "DAZN Canada",
-                "OneSoccer"
-              ],
-              "notes": [],
-              "venue": "Vitality Stadium (Bournemouth, England)",
-              "raw": "https://www.livesportsontv.com/match/afc-bournemouth-ac-milan-1961510"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "FC Red Bull Salzburg @ Celje",
-              "away": "FC Red Bull Salzburg",
-              "home": "Celje",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stadion Z'dezele (Celje, Slovenia)",
-              "raw": "https://www.livesportsontv.com/match/celje-fc-red-bull-salzburg-1961516"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Anderlecht @ Jagiellonia Białystok",
-              "away": "Anderlecht",
-              "home": "Jagiellonia Białystok",
-              "channels": [
-                "Paramount+ (US)",
-                "ViX",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stadion Miejski, Bialystok (Bialystok, Poland)",
-              "raw": "https://www.livesportsontv.com/match/jagiellonia-biaystok-anderlecht-1961518"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Benfica @ Omonia Nicosia",
-              "away": "Benfica",
-              "home": "Omonia Nicosia",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Neo GSP Stadium (Nicosia, Cyprus)",
-              "raw": "https://www.livesportsontv.com/match/omonia-nicosia-benfica-1961521"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Lyon @ TSG 1899 Hoffenheim",
-              "away": "Lyon",
-              "home": "TSG 1899 Hoffenheim",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "SNP Arena (Sinsheim, Germany)",
-              "raw": "https://www.livesportsontv.com/match/tsg-1899-hoffenheim-lyon-1961525"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Crystal Palace @ Beşiktaş",
-              "away": "Crystal Palace",
-              "home": "Beşiktaş",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Tupras Stadyumu (Istanbul, Turkiye)",
-              "raw": "https://www.livesportsontv.com/match/besiktas-crystal-palace-1961528"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Real Sociedad @ Lillestrøm",
-              "away": "Real Sociedad",
-              "home": "Lillestrøm",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Aaraasen Stadion (Skedsmo, Norway)",
-              "raw": "https://www.livesportsontv.com/match/lillestrm-real-sociedad-1961535"
-            }
-          ]
-        },
-        {
           "league": "USL Super League",
           "country": "USA",
           "gender": "female",
@@ -867,133 +804,243 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-10-22T13:00:00-04:00",
-              "title": "Northern Kentucky @ Detroit Mercy",
-              "away": "Northern Kentucky",
-              "home": "Detroit Mercy",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "James Madison @ Coastal Carolina",
+              "away": "James Madison",
+              "home": "Coastal Carolina",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Titan Field",
-              "raw": "https://www.livesportsontv.com/match/detroit-mercy-northern-kentucky-1972781"
+              "venue": "CCU Soccer Stadium, Conway",
+              "raw": "https://www.livesportsontv.com/match/coastal-carolina-james-madison-1972793"
             },
             {
-              "time": "2026-10-22T13:00:00-04:00",
-              "title": "Milwaukee @ Purdue Fort Wayne",
-              "away": "Milwaukee",
-              "home": "Purdue Fort Wayne",
-              "channels": [
-                "YouTube US"
-              ],
-              "notes": [],
-              "venue": "Hefner Soccer Complex, Fort Wayne",
-              "raw": "https://www.livesportsontv.com/match/purdue-fort-wayne-milwaukee-1982791"
-            },
-            {
-              "time": "2026-10-22T14:00:00-04:00",
-              "title": "Portland State @ Northern Colorado",
-              "away": "Portland State",
-              "home": "Northern Colorado",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Southern Utah @ Eastern Washington",
+              "away": "Southern Utah",
+              "home": "Eastern Washington",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Jackson Stadium, Greeley",
-              "raw": "https://www.livesportsontv.com/match/northern-colorado-portland-state-1972782"
+              "venue": "EWU Soccer Field",
+              "raw": "https://www.livesportsontv.com/match/eastern-washington-southern-utah-1972794"
             },
             {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "SMU @ California",
-              "away": "SMU",
-              "home": "California",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "Edwards Stadium, Berkeley",
-              "raw": "https://www.livesportsontv.com/match/california-smu-1972783"
-            },
-            {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "Loyola Chicago @ George Washington",
-              "away": "Loyola Chicago",
-              "home": "George Washington",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Rhode Island @ George Mason",
+              "away": "Rhode Island",
+              "home": "George Mason",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "GW Soccer Field, Washington, District of Columbia",
-              "raw": "https://www.livesportsontv.com/match/george-washington-loyola-chicago-1972784"
+              "venue": "George Mason Stadium, Fairfax",
+              "raw": "https://www.livesportsontv.com/match/george-mason-rhode-island-1972795"
             },
             {
-              "time": "2026-10-22T15:00:00-04:00",
-              "title": "IU Indianapolis @ Robert Morris",
-              "away": "IU Indianapolis",
-              "home": "Robert Morris",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "New Hampshire @ UMass Lowell",
+              "away": "New Hampshire",
+              "home": "UMass Lowell",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "North Athletic Complex, Moon Township",
-              "raw": "https://www.livesportsontv.com/match/robert-morris-iu-indianapolis-1972786"
+              "venue": "Cushing Field Complex, Lowell",
+              "raw": "https://www.livesportsontv.com/match/umass-lowell-new-hampshire-1972796"
             },
             {
-              "time": "2026-10-22T16:00:00-04:00",
-              "title": "NJIT @ Binghamton",
-              "away": "NJIT",
-              "home": "Binghamton",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "UAlbany @ Vermont",
+              "away": "UAlbany",
+              "home": "Vermont",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Bearcats Sports Complex",
-              "raw": "https://www.livesportsontv.com/match/binghamton-njit-1972785"
+              "venue": "Virtue Field, Burlington, Vermont",
+              "raw": "https://www.livesportsontv.com/match/vermont-ualbany-1972797"
             },
             {
-              "time": "2026-10-22T16:00:00-04:00",
-              "title": "VCU @ Richmond",
-              "away": "VCU",
-              "home": "Richmond",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Northern Illinois @ Youngstown State",
+              "away": "Northern Illinois",
+              "home": "Youngstown State",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "President's Field at River Road, Richmond, Virginia",
-              "raw": "https://www.livesportsontv.com/match/richmond-vcu-1972791"
+              "venue": "Farmers National Bank Field, Youngstown, Ohio",
+              "raw": "https://www.livesportsontv.com/match/youngstown-state-northern-illinois-1972798"
             },
             {
-              "time": "2026-10-22T17:00:00-04:00",
-              "title": "South Alabama @ Arkansas State",
-              "away": "South Alabama",
-              "home": "Arkansas State",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Penn State @ Michigan State",
+              "away": "Penn State",
+              "home": "Michigan State",
+              "channels": [
+                "Big Ten Network"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/michigan-state-penn-state-1984400"
+            },
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Purdue @ Indiana",
+              "away": "Purdue",
+              "home": "Indiana",
+              "channels": [
+                "Big Ten Plus"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/indiana-purdue-1971950"
+            },
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Maryland @ Michigan",
+              "away": "Maryland",
+              "home": "Michigan",
+              "channels": [
+                "Big Ten Plus"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/michigan-maryland-1971951"
+            },
+            {
+              "time": "2026-10-22T19:00:00-04:00",
+              "title": "Rutgers @ Ohio State",
+              "away": "Rutgers",
+              "home": "Ohio State",
+              "channels": [
+                "Big Ten Plus"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/ohio-state-rutgers-1971952"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Tennis",
+      "leagues": [
+        {
+          "league": "WTA",
+          "country": "International",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-22T22:30:00-04:00",
+              "title": "Japan Open",
+              "away": null,
+              "home": null,
+              "channels": [
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/japan-open-1982507"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Volleyball",
+      "leagues": [
+        {
+          "league": "Women's College Volleyball",
+          "country": "USA",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Oakland @ Cleveland State",
+              "away": "Oakland",
+              "home": "Cleveland State",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "A-State Soccer Park",
-              "raw": "https://www.livesportsontv.com/match/arkansas-state-south-alabama-1972787"
+              "venue": "Woodling Gymnasium, Cleveland, Ohio",
+              "raw": "https://www.livesportsontv.com/match/cleveland-state-oakland-1972838"
             },
             {
-              "time": "2026-10-22T17:00:00-04:00",
-              "title": "Troy @ Georgia Southern",
-              "away": "Troy",
-              "home": "Georgia Southern",
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Eastern Michigan @ Kent State",
+              "away": "Eastern Michigan",
+              "home": "Kent State",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Bo Pitts Field at Erk Russell Athletic Park, Statesboro, Georgia",
-              "raw": "https://www.livesportsontv.com/match/georgia-southern-troy-1972788"
+              "venue": "M.A.C. Center, Kent, Ohio",
+              "raw": "https://www.livesportsontv.com/match/kent-state-eastern-michigan-1972839"
+            },
+            {
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Little Rock @ Eastern Kentucky",
+              "away": "Little Rock",
+              "home": "Eastern Kentucky",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Baptist Health Arena, Richmond, Kentucky",
+              "raw": "https://www.livesportsontv.com/match/eastern-kentucky-little-rock-1972840"
+            },
+            {
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "The Citadel @ Wofford",
+              "away": "The Citadel",
+              "home": "Wofford",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Jerry Richardson Indoor Stadium, Spartanburg, South Carolina",
+              "raw": "https://www.livesportsontv.com/match/wofford-the-citadel-1972841"
+            },
+            {
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Mercer @ Western Carolina",
+              "away": "Mercer",
+              "home": "Western Carolina",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Ramsey Center, Cullowhee, North Carolina",
+              "raw": "https://www.livesportsontv.com/match/western-carolina-mercer-1972842"
+            },
+            {
+              "time": "2026-10-22T18:00:00-04:00",
+              "title": "Hampton @ Towson",
+              "away": "Hampton",
+              "home": "Towson",
+              "channels": [
+                "FloSports"
+              ],
+              "notes": [],
+              "venue": "SECU Arena, Towson, Maryland",
+              "raw": "https://www.livesportsontv.com/match/towson-hampton-1982792"
             }
           ]
         }
