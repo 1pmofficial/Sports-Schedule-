@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:03:02.490101+00:00",
+  "generated_at": "2026-10-22T15:05:16.810339+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -136,6 +136,8 @@
               "home": "Chicago Bears",
               "channels": [
                 "Prime Video (US)",
+                "WFLD-FOX",
+                "WCVB-ABC",
                 "TSN+",
                 "TSN1",
                 "RDS 2",
