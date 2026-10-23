@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:57:19.865034+00:00",
+  "generated_at": "2026-10-23T15:06:30.899840+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -40,7 +40,7 @@
                 "TSN+",
                 "TSN1",
                 "TSN3",
-                "TSN5"
+                "TSN4"
               ],
               "notes": [],
               "venue": "TBD",
@@ -329,6 +329,7 @@
                 "MLB.TV",
                 "FOX",
                 "FOX Deportes",
+                "FOX 4K",
                 "FOX One",
                 "Univision",
                 "Sportsnet",
