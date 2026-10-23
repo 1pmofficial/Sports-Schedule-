@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:06:04.441916+00:00",
+  "generated_at": "2026-10-23T22:03:14.010817+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -630,39 +630,6 @@
           ]
         },
         {
-          "league": "Super League Basketball",
-          "country": "United Kingdom",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-23T14:30:00-04:00",
-              "title": "Manchester Basketball @ Leicester Riders",
-              "away": "Manchester Basketball",
-              "home": "Leicester Riders",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/leicester-riders-manchester-basketball-1955109"
-            },
-            {
-              "time": "2026-10-23T14:30:00-04:00",
-              "title": "Surrey 89ers @ Newcastle Eagles",
-              "away": "Surrey 89ers",
-              "home": "Newcastle Eagles",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/newcastle-eagles-surrey-89ers-1955110"
-            }
-          ]
-        },
-        {
           "league": "Women's College Basketball",
           "country": "USA",
           "gender": "female",
@@ -809,29 +776,6 @@
           ]
         },
         {
-          "league": "La Liga",
-          "country": "Spain",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-23T15:00:00-04:00",
-              "title": "Málaga @ Deportivo Alavés",
-              "away": "Málaga",
-              "home": "Deportivo Alavés",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Select",
-                "ESPN Unlimited",
-                "ESPN Deportes",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "Estadio Mendizorroza (Vitoria, Spain)",
-              "raw": "https://www.livesportsontv.com/match/deportivo-alaves-malaga-1922650"
-            }
-          ]
-        },
-        {
           "league": "NWSL",
           "country": "USA",
           "gender": "female",
@@ -876,62 +820,10 @@
           ]
         },
         {
-          "league": "Premier League",
-          "country": "England",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-23T15:00:00-04:00",
-              "title": "Nottingham Forest @ Ipswich Town",
-              "away": "Nottingham Forest",
-              "home": "Ipswich Town",
-              "channels": [
-                "USA Network",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Portman Road (Ipswich, England)",
-              "raw": "https://www.livesportsontv.com/match/ipswich-town-nottingham-forest-1914794"
-            }
-          ]
-        },
-        {
-          "league": "Serie A",
-          "events": [
-            {
-              "time": "2026-10-23T14:45:00-04:00",
-              "title": "Monza @ Torino",
-              "away": "Monza",
-              "home": "Torino",
-              "channels": [
-                "Paramount+ (US)",
-                "CBS Sports Golazo Network",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/torino-monza-1899099"
-            }
-          ]
-        },
-        {
           "league": "Women's College Soccer",
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-10-23T15:00:00-04:00",
-              "title": "Samford @ The Citadel",
-              "away": "Samford",
-              "home": "The Citadel",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Washington Light Infantry Field, Charleston, Illinois",
-              "raw": "https://www.livesportsontv.com/match/the-citadel-samford-1973417"
-            },
             {
               "time": "2026-10-23T16:00:00-04:00",
               "title": "Boston University @ Holy Cross",
@@ -944,6 +836,85 @@
               "notes": [],
               "venue": "Linda Johnson Smith Soccer Stadium",
               "raw": "https://www.livesportsontv.com/match/holy-cross-boston-university-1973416"
+            },
+            {
+              "time": "2026-10-23T17:00:00-04:00",
+              "title": "UNC Greensboro @ Chattanooga",
+              "away": "UNC Greensboro",
+              "home": "Chattanooga",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Finley Stadium, Chattanooga, Tennessee",
+              "raw": "https://www.livesportsontv.com/match/chattanooga-unc-greensboro-1973418"
+            },
+            {
+              "time": "2026-10-23T18:00:00-04:00",
+              "title": "Stanford @ North Carolina",
+              "away": "Stanford",
+              "home": "North Carolina",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network",
+                "ACC Network X"
+              ],
+              "notes": [],
+              "venue": "Dorrance Field, Chapel Hill, North Carolina",
+              "raw": "https://www.livesportsontv.com/match/north-carolina-stanford-1973419"
+            },
+            {
+              "time": "2026-10-23T19:00:00-04:00",
+              "title": "Syracuse @ Louisville",
+              "away": "Syracuse",
+              "home": "Louisville",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network X"
+              ],
+              "notes": [],
+              "venue": "Dr. Mark and Cindy Lynn Stadium, Louisville, Kentucky",
+              "raw": "https://www.livesportsontv.com/match/louisville-syracuse-1973420"
+            },
+            {
+              "time": "2026-10-23T19:00:00-04:00",
+              "title": "American @ Navy",
+              "away": "American",
+              "home": "Navy",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Glenn Warner Soccer Facility, Annapolis",
+              "raw": "https://www.livesportsontv.com/match/navy-american-1973421"
+            },
+            {
+              "time": "2026-10-23T19:00:00-04:00",
+              "title": "University of Georgia @ South Carolina",
+              "away": "University of Georgia",
+              "home": "South Carolina",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Eugene E. Stone III Stadium, Columbia, South Carolina",
+              "raw": "https://www.livesportsontv.com/match/south-carolina-university-of-georgia-1973422"
+            },
+            {
+              "time": "2026-10-23T19:00:00-04:00",
+              "title": "Mercer @ Western Carolina",
+              "away": "Mercer",
+              "home": "Western Carolina",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Catamount Athletic Complex",
+              "raw": "https://www.livesportsontv.com/match/western-carolina-mercer-1973423"
             }
           ]
         }
