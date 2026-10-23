@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T04:34:41.154841+00:00",
+  "generated_at": "2026-10-23T09:57:19.865034+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 59,
+  "total_events": 60,
   "sports": [
     {
       "sport": "American Football",
@@ -40,7 +40,7 @@
                 "TSN+",
                 "TSN1",
                 "TSN3",
-                "TSN4"
+                "TSN5"
               ],
               "notes": [],
               "venue": "TBD",
@@ -444,7 +444,8 @@
                 "NBA League Pass",
                 "Bucks+",
                 "MY24",
-                "Chicago Sports Network"
+                "Chicago Sports Network",
+                "Sportsnet+"
               ],
               "notes": [],
               "venue": "Milwaukee Fiserv Forum",
@@ -918,6 +919,19 @@
           "gender": "female",
           "events": [
             {
+              "time": "2026-10-23T15:00:00-04:00",
+              "title": "Samford @ The Citadel",
+              "away": "Samford",
+              "home": "The Citadel",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Washington Light Infantry Field, Charleston, Illinois",
+              "raw": "https://www.livesportsontv.com/match/the-citadel-samford-1973417"
+            },
+            {
               "time": "2026-10-23T16:00:00-04:00",
               "title": "Boston University @ Holy Cross",
               "away": "Boston University",
@@ -935,5 +949,5 @@
       ]
     }
   ],
-  "parsed_from": "jsonld:59 match pages"
+  "parsed_from": "jsonld:60 match pages"
 }
