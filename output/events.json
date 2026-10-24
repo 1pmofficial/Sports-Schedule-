@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:48:15.254625+00:00",
+  "generated_at": "2026-10-24T14:27:11.678930+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -170,7 +170,8 @@
                 "Fubo Sports",
                 "FOX",
                 "FOX Deportes",
-                "FOX 4K"
+                "FOX 4K",
+                "FOX One"
               ],
               "notes": [],
               "venue": "Michigan Stadium, Ann Arbor, MI",
@@ -484,23 +485,6 @@
           ]
         },
         {
-          "league": "NBL",
-          "events": [
-            {
-              "time": "2026-10-24T04:30:00-04:00",
-              "title": "Adelaide @ South East Melbourne",
-              "away": "Adelaide",
-              "home": "South East Melbourne",
-              "channels": [
-                "NBA TV"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/south-east-melbourne-adelaide-1900564"
-            }
-          ]
-        },
-        {
           "league": "Super League Basketball",
           "country": "United Kingdom",
           "gender": "male",
@@ -592,26 +576,30 @@
       "sport": "Soccer",
       "leagues": [
         {
+          "league": "College Soccer",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-24T12:00:00-04:00",
+              "title": "Georgetown @ Villanova",
+              "away": "Georgetown",
+              "home": "Villanova",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Higgins Soccer Complex, Villanova",
+              "raw": "https://www.livesportsontv.com/match/villanova-georgetown-1973676"
+            }
+          ]
+        },
+        {
           "league": "La Liga",
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-24T08:00:00-04:00",
-              "title": "Elche @ Rayo Vallecano",
-              "away": "Elche",
-              "home": "Rayo Vallecano",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Select",
-                "ESPN Unlimited",
-                "ESPN Deportes",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "Campo de Futbol de Vallecas (Madrid, Spain)",
-              "raw": "https://www.livesportsontv.com/match/rayo-vallecano-elche-1922656"
-            },
             {
               "time": "2026-10-24T10:15:00-04:00",
               "title": "Espanyol @ Racing Santander",
@@ -848,24 +836,43 @@
           ]
         },
         {
+          "league": "NWSL",
+          "country": "USA",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-24T18:30:00-04:00",
+              "title": "Racing Louisville @ Denver Summit FC",
+              "away": "Racing Louisville",
+              "home": "Denver Summit FC",
+              "channels": [
+                "ION",
+                "TSN+",
+                "TSN1"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/denver-summit-fc-racing-louisville-1871631"
+            },
+            {
+              "time": "2026-10-24T21:45:00-04:00",
+              "title": "Bay @ Angel City",
+              "away": "Bay",
+              "home": "Angel City",
+              "channels": [
+                "ION"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/angel-city-bay-1855523"
+            }
+          ]
+        },
+        {
           "league": "Premier League",
           "country": "England",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-24T07:30:00-04:00",
-              "title": "Manchester City @ Aston Villa",
-              "away": "Manchester City",
-              "home": "Aston Villa",
-              "channels": [
-                "NBC Universo",
-                "USA Network",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Villa Park (Birmingham, England)",
-              "raw": "https://www.livesportsontv.com/match/aston-villa-manchester-city-1914789"
-            },
             {
               "time": "2026-10-24T10:00:00-04:00",
               "title": "Everton @ Arsenal FC",
