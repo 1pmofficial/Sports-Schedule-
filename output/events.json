@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:27:11.678930+00:00",
+  "generated_at": "2026-10-24T18:03:49.194996+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -52,143 +52,134 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "St. Thomas (MN) @ Marist",
-              "away": "St. Thomas (MN)",
-              "home": "Marist",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Bucknell @ Holy Cross",
+              "away": "Bucknell",
+              "home": "Holy Cross",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Tenney Stadium at Leonidoff Field, Poughkeepsie, NY",
-              "raw": "https://www.livesportsontv.com/match/marist-st-thomas-mn-1956542"
+              "venue": "Fitton Field, Worcester, MA",
+              "raw": "https://www.livesportsontv.com/match/holy-cross-bucknell-1956543"
             },
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Cornell @ Brown",
-              "away": "Cornell",
-              "home": "Brown",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Lafayette @ Fordham",
+              "away": "Lafayette",
+              "home": "Fordham",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "SNY"
+              ],
+              "notes": [],
+              "venue": "Moglia Stadium at Jack Coffey Field, Bronx, NY",
+              "raw": "https://www.livesportsontv.com/match/fordham-lafayette-1956544"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Benedict College @ Albany State (GA)",
+              "away": "Benedict College",
+              "home": "Albany State (GA)",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Brown Stadium (RI), Providence, RI",
-              "raw": "https://www.livesportsontv.com/match/brown-cornell-1956780"
+              "venue": "Albany State University Coliseum, Albany, GA",
+              "raw": "https://www.livesportsontv.com/match/albany-state-ga-benedict-college-1956735"
             },
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "New Hampshire @ Merrimack",
-              "away": "New Hampshire",
-              "home": "Merrimack",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Butler @ Drake",
+              "away": "Butler",
+              "home": "Drake",
               "channels": [
                 "ESPN Select",
-                "ESPN Unlimited",
-                "NESN"
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Duane Stadium, North Andover, MA",
-              "raw": "https://www.livesportsontv.com/match/merrimack-new-hampshire-1963943"
+              "venue": "Drake Stadium (IA), Des Moines, IA",
+              "raw": "https://www.livesportsontv.com/match/drake-butler-1956781"
             },
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "California @ SMU",
-              "away": "California",
-              "home": "SMU",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Presbyterian @ Valparaiso Beacons",
+              "away": "Presbyterian",
+              "home": "Valparaiso Beacons",
               "channels": [
-                "ESPN Unlimited",
-                "CW",
-                "MyNetworkTV",
-                "Peachtree TV",
-                "KUNS-TV",
-                "WGN Canada"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Gerald J. Ford Stadium, Dallas, TX",
-              "raw": "https://www.livesportsontv.com/match/smu-california-1982445"
+              "venue": "Brown Field, Valparaiso, IN",
+              "raw": "https://www.livesportsontv.com/match/valparaiso-beacons-presbyterian-1956782"
             },
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "West Virginia @ TCU",
-              "away": "West Virginia",
-              "home": "TCU",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Akron @ Kent State",
+              "away": "Akron",
+              "home": "Kent State",
               "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN2",
-                "TSN+"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Amon G. Carter Stadium, Fort Worth, TX",
-              "raw": "https://www.livesportsontv.com/match/tcu-west-virginia-1982446"
+              "venue": "Zoeller Field at Dix Stadium, Kent, OH",
+              "raw": "https://www.livesportsontv.com/match/kent-state-akron-1982449"
             },
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Rice @ Florida Atlantic",
-              "away": "Rice",
-              "home": "Florida Atlantic",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Miami (OH) @ Central Michigan",
+              "away": "Miami (OH)",
+              "home": "Central Michigan",
               "channels": [
-                "ESPN Unlimited",
-                "ESPN U"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Flagler Credit Union Stadium, Boca Raton, FL",
-              "raw": "https://www.livesportsontv.com/match/florida-atlantic-rice-1982447"
+              "venue": "Kelly/Shorts Stadium, Mount Pleasant, MI",
+              "raw": "https://www.livesportsontv.com/match/central-michigan-miami-oh-1982450"
             },
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Western Michigan @ Toledo",
-              "away": "Western Michigan",
-              "home": "Toledo",
-              "channels": [
-                "Fubo Sports",
-                "CBS Sports Network"
-              ],
-              "notes": [],
-              "venue": "Glass Bowl, Toledo, OH",
-              "raw": "https://www.livesportsontv.com/match/toledo-western-michigan-1982448"
-            },
-            {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Stonehill College @ Long Island University",
-              "away": "Stonehill College",
-              "home": "Long Island University",
-              "channels": [
-                "NEC Front Row"
-              ],
-              "notes": [],
-              "venue": "Shark Stadium, Brookville, NY",
-              "raw": "https://www.livesportsontv.com/match/long-island-university-stonehill-college-1982584"
-            },
-            {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Indiana @ Michigan",
-              "away": "Indiana",
-              "home": "Michigan",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Campbell @ Maine",
+              "away": "Campbell",
+              "home": "Maine",
               "channels": [
                 "Fubo Sports",
                 "FOX",
-                "FOX Deportes",
-                "FOX 4K",
-                "FOX One"
+                "FloSports"
               ],
               "notes": [],
-              "venue": "Michigan Stadium, Ann Arbor, MI",
-              "raw": "https://www.livesportsontv.com/match/michigan-indiana-1982585"
+              "venue": "Harold Alfond Sports Stadium, Orono, ME",
+              "raw": "https://www.livesportsontv.com/match/maine-campbell-1982589"
             },
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Rutgers @ Northwestern",
-              "away": "Rutgers",
-              "home": "Northwestern",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "McKendree @ Lincoln (MO)",
+              "away": "McKendree",
+              "home": "Lincoln (MO)",
               "channels": [
-                "Peacock",
-                "NBC Sports Network Extra"
+                "GLVC Sport Network"
               ],
               "notes": [],
-              "venue": "Ryan Field, Evanston, IL",
-              "raw": "https://www.livesportsontv.com/match/northwestern-rutgers-1982586"
+              "venue": "Dwight T. Reed Stadium, Jefferson City, MO",
+              "raw": "https://www.livesportsontv.com/match/lincoln-mo-mckendree-1982637"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Northern State @ Minnesota State",
+              "away": "Northern State",
+              "home": "Minnesota State",
+              "channels": [
+                "Midco Sports Plus"
+              ],
+              "notes": [],
+              "venue": "Scheels Field at Nemzek Stadium, Moorhead, MN",
+              "raw": "https://www.livesportsontv.com/match/minnesota-state-northern-state-1982639"
             }
           ]
         },
@@ -251,19 +242,6 @@
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "San Pablo Burgos @ Manresa",
-              "away": "San Pablo Burgos",
-              "home": "Manresa",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/manresa-san-pablo-burgos-1949934"
-            },
             {
               "time": "2026-10-24T13:30:00-04:00",
               "title": "Leyma Coruna @ Murcia",
@@ -581,17 +559,105 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Georgetown @ Villanova",
-              "away": "Georgetown",
-              "home": "Villanova",
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Lafayette @ American",
+              "away": "Lafayette",
+              "home": "American",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Higgins Soccer Complex, Villanova",
-              "raw": "https://www.livesportsontv.com/match/villanova-georgetown-1973676"
+              "venue": "Reeves Field, Washington, District of Columbia",
+              "raw": "https://www.livesportsontv.com/match/american-lafayette-1973677"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Canisius @ Fairfield",
+              "away": "Canisius",
+              "home": "Fairfield",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Lessing Field",
+              "raw": "https://www.livesportsontv.com/match/fairfield-canisius-1973678"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Pennsylvania @ Harvard",
+              "away": "Pennsylvania",
+              "home": "Harvard",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Jordan Field, Boston, Massachusetts",
+              "raw": "https://www.livesportsontv.com/match/harvard-pennsylvania-1973679"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Virginia @ Syracuse",
+              "away": "Virginia",
+              "home": "Syracuse",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network X"
+              ],
+              "notes": [],
+              "venue": "SU Soccer Stadium, Syracuse",
+              "raw": "https://www.livesportsontv.com/match/syracuse-virginia-1973680"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "La Salle @ St. Bonaventure",
+              "away": "La Salle",
+              "home": "St. Bonaventure",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Marra Athletics Fields Complex, Saint Bonaventure",
+              "raw": "https://www.livesportsontv.com/match/st-bonaventure-la-salle-1973690"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Stony Brook @ Monmouth",
+              "away": "Stony Brook",
+              "home": "Monmouth",
+              "channels": [
+                "FloSports"
+              ],
+              "notes": [],
+              "venue": "Hesse Field on The Great Lawn, West Long Branch",
+              "raw": "https://www.livesportsontv.com/match/monmouth-stony-brook-1982833"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Hofstra @ Northeastern",
+              "away": "Hofstra",
+              "home": "Northeastern",
+              "channels": [
+                "FloSports"
+              ],
+              "notes": [],
+              "venue": "Parsons Field, Brookline, Massachusetts",
+              "raw": "https://www.livesportsontv.com/match/northeastern-hofstra-1982834"
+            },
+            {
+              "time": "2026-10-24T13:00:00-04:00",
+              "title": "Nebraska-Omaha @ St. Thomas (MN)",
+              "away": "Nebraska-Omaha",
+              "home": "St. Thomas (MN)",
+              "channels": [
+                "Midco Sports Plus"
+              ],
+              "notes": [],
+              "venue": "South Field (MN)",
+              "raw": "https://www.livesportsontv.com/match/st-thomas-mn-nebraska-omaha-1982836"
             }
           ]
         },
@@ -600,22 +666,6 @@
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-24T10:15:00-04:00",
-              "title": "Espanyol @ Racing Santander",
-              "away": "Espanyol",
-              "home": "Racing Santander",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Select",
-                "ESPN Unlimited",
-                "ESPN Deportes",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "Estadio El Sardinero",
-              "raw": "https://www.livesportsontv.com/match/racing-santander-espanyol-1922655"
-            },
             {
               "time": "2026-10-24T12:30:00-04:00",
               "title": "Villarreal @ Valencia",
@@ -874,35 +924,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-24T10:00:00-04:00",
-              "title": "Everton @ Arsenal FC",
-              "away": "Everton",
-              "home": "Arsenal FC",
-              "channels": [
-                "NBC Universo",
-                "Telemundo",
-                "USA Network",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Emirates Stadium (London, England)",
-              "raw": "https://www.livesportsontv.com/match/arsenal-fc-everton-1914788"
-            },
-            {
-              "time": "2026-10-24T10:00:00-04:00",
-              "title": "Fulham @ Coventry City",
-              "away": "Fulham",
-              "home": "Coventry City",
-              "channels": [
-                "Peacock",
-                "NBC Sports Network",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Coventry Building Society Arena (Coventry, England)",
-              "raw": "https://www.livesportsontv.com/match/coventry-city-fulham-1914791"
-            },
-            {
               "time": "2026-10-24T12:30:00-04:00",
               "title": "Tottenham Hotspur @ Chelsea",
               "away": "Tottenham Hotspur",
@@ -922,48 +943,6 @@
         {
           "league": "Serie A",
           "events": [
-            {
-              "time": "2026-10-24T09:00:00-04:00",
-              "title": "Bologna @ Cagliari",
-              "away": "Bologna",
-              "home": "Cagliari",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/cagliari-bologna-1899092"
-            },
-            {
-              "time": "2026-10-24T09:00:00-04:00",
-              "title": "Sassuolo @ Como",
-              "away": "Sassuolo",
-              "home": "Como",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/como-sassuolo-1899093"
-            },
-            {
-              "time": "2026-10-24T12:00:00-04:00",
-              "title": "Roma @ Napoli",
-              "away": "Roma",
-              "home": "Napoli",
-              "channels": [
-                "Paramount+ (US)",
-                "NBC Universo",
-                "CBS Sports Golazo Network",
-                "TLN",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/napoli-roma-1899098"
-            },
             {
               "time": "2026-10-24T14:45:00-04:00",
               "title": "Parma @ Lazio",
