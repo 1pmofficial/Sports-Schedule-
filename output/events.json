@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:03:14.010817+00:00",
+  "generated_at": "2026-10-24T00:29:26.203319+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -53,20 +53,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-23T17:00:00-04:00",
-              "title": "North Carolina Central @ Delaware State",
-              "away": "North Carolina Central",
-              "home": "Delaware State",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN2"
-              ],
-              "notes": [],
-              "venue": "Alumni Stadium (DE), Dover, DE",
-              "raw": "https://www.livesportsontv.com/match/delaware-state-north-carolina-central-1956541"
-            },
             {
               "time": "2026-10-23T19:00:00-04:00",
               "title": "Duke @ Virginia",
@@ -436,22 +422,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-23T16:00:00-04:00",
-              "title": "Chicago Bulls @ Milwaukee Bucks",
-              "away": "Chicago Bulls",
-              "home": "Milwaukee Bucks",
-              "channels": [
-                "NBA League Pass",
-                "Bucks+",
-                "MY24",
-                "Chicago Sports Network",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Milwaukee Fiserv Forum",
-              "raw": "https://www.livesportsontv.com/match/milwaukee-bucks-chicago-bulls-1950494"
-            },
             {
               "time": "2026-10-23T19:00:00-04:00",
               "title": "New York Knicks @ Boston Celtics",
@@ -825,46 +795,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-10-23T16:00:00-04:00",
-              "title": "Boston University @ Holy Cross",
-              "away": "Boston University",
-              "home": "Holy Cross",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Linda Johnson Smith Soccer Stadium",
-              "raw": "https://www.livesportsontv.com/match/holy-cross-boston-university-1973416"
-            },
-            {
-              "time": "2026-10-23T17:00:00-04:00",
-              "title": "UNC Greensboro @ Chattanooga",
-              "away": "UNC Greensboro",
-              "home": "Chattanooga",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Finley Stadium, Chattanooga, Tennessee",
-              "raw": "https://www.livesportsontv.com/match/chattanooga-unc-greensboro-1973418"
-            },
-            {
-              "time": "2026-10-23T18:00:00-04:00",
-              "title": "Stanford @ North Carolina",
-              "away": "Stanford",
-              "home": "North Carolina",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "Dorrance Field, Chapel Hill, North Carolina",
-              "raw": "https://www.livesportsontv.com/match/north-carolina-stanford-1973419"
-            },
-            {
               "time": "2026-10-23T19:00:00-04:00",
               "title": "Syracuse @ Louisville",
               "away": "Syracuse",
@@ -915,6 +845,71 @@
               "notes": [],
               "venue": "Catamount Athletic Complex",
               "raw": "https://www.livesportsontv.com/match/western-carolina-mercer-1973423"
+            },
+            {
+              "time": "2026-10-23T19:30:00-04:00",
+              "title": "Mississippi @ Kentucky",
+              "away": "Mississippi",
+              "home": "Kentucky",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Wendell & Vickie Bell Soccer Complex, Lexington, Kentucky",
+              "raw": "https://www.livesportsontv.com/match/kentucky-mississippi-1973424"
+            },
+            {
+              "time": "2026-10-23T20:00:00-04:00",
+              "title": "Tennessee @ Alabama",
+              "away": "Tennessee",
+              "home": "Alabama",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Alabama Soccer Complex, Tuscaloosa, Alabama",
+              "raw": "https://www.livesportsontv.com/match/alabama-tennessee-1973425"
+            },
+            {
+              "time": "2026-10-23T20:00:00-04:00",
+              "title": "Boston College @ Miami",
+              "away": "Boston College",
+              "home": "Miami",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network X"
+              ],
+              "notes": [],
+              "venue": "Cobb Stadium, Miami, Florida",
+              "raw": "https://www.livesportsontv.com/match/miami-boston-college-1973426"
+            },
+            {
+              "time": "2026-10-23T20:00:00-04:00",
+              "title": "Arkansas @ Oklahoma",
+              "away": "Arkansas",
+              "home": "Oklahoma",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "John Crain Field, Norman",
+              "raw": "https://www.livesportsontv.com/match/oklahoma-arkansas-1973427"
+            },
+            {
+              "time": "2026-10-23T20:00:00-04:00",
+              "title": "Texas @ Vanderbilt",
+              "away": "Texas",
+              "home": "Vanderbilt",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Vanderbilt Soccer/Lacrosse Complex, Nashville, Tennessee",
+              "raw": "https://www.livesportsontv.com/match/vanderbilt-texas-1973428"
             }
           ]
         }
