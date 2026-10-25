@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:56:45.465540+00:00",
+  "generated_at": "2026-10-25T11:14:26.948034+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -324,6 +324,23 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/alba-berlin-ratiopharm-ulm-1939966"
+            }
+          ]
+        },
+        {
+          "league": "LNB",
+          "events": [
+            {
+              "time": "2026-10-25T19:30:00-04:00",
+              "title": "Leones Quilpue @ U. De Concepcion",
+              "away": "Leones Quilpue",
+              "home": "U. De Concepcion",
+              "channels": [
+                "Fanatiz"
+              ],
+              "notes": [],
+              "venue": "Gimnasio de la Casa del Deporte",
+              "raw": "https://www.livesportsontv.com/match/u-de-concepcion-leones-quilpue-1982201"
             }
           ]
         },
@@ -665,19 +682,6 @@
               "notes": [],
               "venue": "LIU Soccer Park, Brookville",
               "raw": "https://www.livesportsontv.com/match/long-island-university-stonehill-1982869"
-            },
-            {
-              "time": "2026-10-25T14:00:00-04:00",
-              "title": "Drake @ Bradley",
-              "away": "Drake",
-              "home": "Bradley",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Shea Stadium",
-              "raw": "https://www.livesportsontv.com/match/bradley-drake-1974869"
             }
           ]
         },
