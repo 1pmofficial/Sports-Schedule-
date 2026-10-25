@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:14:26.948034+00:00",
+  "generated_at": "2026-10-25T16:01:26.115095+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -12,27 +12,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-25T09:30:00-04:00",
-              "title": "Pittsburgh Steelers @ New Orleans Saints",
-              "away": "Pittsburgh Steelers",
-              "home": "New Orleans Saints",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "NFL+",
-                "NFL Network",
-                "ESPN Deportes",
-                "WTAE-ABC",
-                "WDSU-NBC",
-                "TSN+",
-                "RDS 2",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stade de France (Paris, France)",
-              "raw": "https://www.livesportsontv.com/match/new-orleans-saints-pittsburgh-steelers-1894798"
-            },
             {
               "time": "2026-10-25T13:00:00-04:00",
               "title": "San Francisco 49ers @ Atlanta Falcons",
@@ -228,45 +207,6 @@
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-25T07:00:00-04:00",
-              "title": "Joventut Badalona @ Basquet Girona",
-              "away": "Joventut Badalona",
-              "home": "Basquet Girona",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/basquet-girona-joventut-badalona-1949935"
-            },
-            {
-              "time": "2026-10-25T07:00:00-04:00",
-              "title": "MoraBanc Andorra @ Bilbao",
-              "away": "MoraBanc Andorra",
-              "home": "Bilbao",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/bilbao-morabanc-andorra-1949938"
-            },
-            {
-              "time": "2026-10-25T08:00:00-04:00",
-              "title": "Obradoiro CAB @ Tenerife",
-              "away": "Obradoiro CAB",
-              "home": "Tenerife",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/tenerife-obradoiro-cab-1949939"
-            },
             {
               "time": "2026-10-25T12:00:00-04:00",
               "title": "Saski Baskonia @ Valencia",
@@ -682,6 +622,82 @@
               "notes": [],
               "venue": "LIU Soccer Park, Brookville",
               "raw": "https://www.livesportsontv.com/match/long-island-university-stonehill-1982869"
+            },
+            {
+              "time": "2026-10-25T14:00:00-04:00",
+              "title": "Drake @ Bradley",
+              "away": "Drake",
+              "home": "Bradley",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Shea Stadium",
+              "raw": "https://www.livesportsontv.com/match/bradley-drake-1974869"
+            },
+            {
+              "time": "2026-10-25T14:00:00-04:00",
+              "title": "Clemson @ Virginia Tech",
+              "away": "Clemson",
+              "home": "Virginia Tech",
+              "channels": [
+                "ESPN Unlimited",
+                "ESPN U"
+              ],
+              "notes": [],
+              "venue": "Thompson Field, Blacksburg",
+              "raw": "https://www.livesportsontv.com/match/virginia-tech-clemson-1974870"
+            },
+            {
+              "time": "2026-10-25T14:00:00-04:00",
+              "title": "West Virginia @ Georgia Southern",
+              "away": "West Virginia",
+              "home": "Georgia Southern",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Bo Pitts Field at Erk Russell Athletic Park, Statesboro, Georgia",
+              "raw": "https://www.livesportsontv.com/match/georgia-southern-west-virginia-1974879"
+            },
+            {
+              "time": "2026-10-25T14:00:00-04:00",
+              "title": "Cleveland State @ Northern Illinois",
+              "away": "Cleveland State",
+              "home": "Northern Illinois",
+              "channels": [
+                "YouTube US"
+              ],
+              "notes": [],
+              "venue": "NIU Soccer and Track & Field Complex, Dekalb",
+              "raw": "https://www.livesportsontv.com/match/northern-illinois-cleveland-state-1984906"
+            },
+            {
+              "time": "2026-10-25T15:00:00-04:00",
+              "title": "Notre Dame @ Louisville",
+              "away": "Notre Dame",
+              "home": "Louisville",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network X"
+              ],
+              "notes": [],
+              "venue": "Dr. Mark and Cindy Lynn Stadium, Louisville, Kentucky",
+              "raw": "https://www.livesportsontv.com/match/louisville-notre-dame-1974871"
+            },
+            {
+              "time": "2026-10-25T15:00:00-04:00",
+              "title": "Belmont @ Bowling Green",
+              "away": "Belmont",
+              "home": "Bowling Green",
+              "channels": [
+                "YouTube US"
+              ],
+              "notes": [],
+              "venue": "Cochrane Soccer Stadium, Bowling Green, Ohio",
+              "raw": "https://www.livesportsontv.com/match/bowling-green-belmont-1982872"
             }
           ]
         },
@@ -690,21 +706,6 @@
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-25T09:00:00-04:00",
-              "title": "Getafe @ Athletic Club",
-              "away": "Getafe",
-              "home": "Athletic Club",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Select",
-                "ESPN Unlimited",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "San Mames (Bilbao, Spain)",
-              "raw": "https://www.livesportsontv.com/match/athletic-club-getafe-1922651"
-            },
             {
               "time": "2026-10-25T11:15:00-04:00",
               "title": "Real Betis @ Celta de Vigo",
@@ -902,22 +903,6 @@
         {
           "league": "Serie A",
           "events": [
-            {
-              "time": "2026-10-25T07:30:00-04:00",
-              "title": "Fiorentina @ Inter",
-              "away": "Fiorentina",
-              "home": "Inter",
-              "channels": [
-                "Fubo Sports",
-                "Paramount+ (US)",
-                "CBS Sports Network",
-                "Telemundo",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/inter-fiorentina-1899095"
-            },
             {
               "time": "2026-10-25T10:00:00-04:00",
               "title": "Frosinone @ Atalanta",
