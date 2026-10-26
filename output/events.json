@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T04:36:21.488136+00:00",
+  "generated_at": "2026-10-26T11:03:42.968560+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 46,
+  "total_events": 48,
   "sports": [
     {
       "sport": "American Football",
@@ -32,6 +32,7 @@
                 "TSN3",
                 "TSN4",
                 "RDS 2",
+                "CTV2",
                 "DAZN Canada"
               ],
               "notes": [],
@@ -333,6 +334,27 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/east-lake-cup-1985803"
+            }
+          ]
+        },
+        {
+          "league": "PGA Tour",
+          "country": "International",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-26T08:00:00-04:00",
+              "title": "Bermuda Championship",
+              "away": null,
+              "home": null,
+              "channels": [
+                "Fubo Sports",
+                "Golf Channel USA",
+                "Golf Channel Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/bermuda-championship-1986458"
             }
           ]
         }
@@ -798,6 +820,19 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/swiss-indoors-basel-1985804"
+            },
+            {
+              "time": "2026-10-26T15:00:00-04:00",
+              "title": "Erste Bank Open",
+              "away": null,
+              "home": null,
+              "channels": [
+                "Tennis Channel",
+                "RDS 2"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/erste-bank-open-1986534"
             }
           ]
         },
@@ -847,5 +882,5 @@
       ]
     }
   ],
-  "parsed_from": "jsonld:46 match pages"
+  "parsed_from": "jsonld:48 match pages"
 }
