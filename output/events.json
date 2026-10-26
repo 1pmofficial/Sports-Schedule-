@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T11:03:42.968560+00:00",
+  "generated_at": "2026-10-26T22:36:12.967182+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 48,
+  "total_events": 26,
   "sports": [
     {
       "sport": "American Football",
@@ -314,53 +314,6 @@
       ]
     },
     {
-      "sport": "Golf",
-      "leagues": [
-        {
-          "league": "College Golf",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T15:00:00-04:00",
-              "title": "East Lake Cup",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Fubo Sports",
-                "Golf Channel USA",
-                "Golf Channel Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/east-lake-cup-1985803"
-            }
-          ]
-        },
-        {
-          "league": "PGA Tour",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T08:00:00-04:00",
-              "title": "Bermuda Championship",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Fubo Sports",
-                "Golf Channel USA",
-                "Golf Channel Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/bermuda-championship-1986458"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "sport": "Ice Hockey",
       "leagues": [
         {
@@ -416,26 +369,6 @@
               "raw": "https://www.livesportsontv.com/match/edmonton-oilers-detroit-red-wings-1934282"
             }
           ]
-        },
-        {
-          "league": "Women's College Ice Hockey",
-          "country": "USA",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-10-26T11:00:00-04:00",
-              "title": "Minnesota State @ Boston College",
-              "away": "Minnesota State",
-              "home": "Boston College",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Conte Forum, Chestnut Hill, MA",
-              "raw": "https://www.livesportsontv.com/match/boston-college-minnesota-state-1975929"
-            }
-          ]
         }
       ]
     },
@@ -458,107 +391,6 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/michigan-washington-1985948"
-            }
-          ]
-        },
-        {
-          "league": "La Liga",
-          "country": "Spain",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T16:00:00-04:00",
-              "title": "Osasuna @ Sevilla",
-              "away": "Osasuna",
-              "home": "Sevilla",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Select",
-                "ESPN Unlimited",
-                "ESPN Deportes",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "Estadio R. Sanchez Pizjuan (Seville, Spain)",
-              "raw": "https://www.livesportsontv.com/match/sevilla-osasuna-1922658"
-            }
-          ]
-        },
-        {
-          "league": "League Two",
-          "country": "England",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T16:00:00-04:00",
-              "title": "Salford City @ Walsall",
-              "away": "Salford City",
-              "home": "Walsall",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Bescot Stadium",
-              "raw": "https://www.livesportsontv.com/match/walsall-salford-city-1912137"
-            }
-          ]
-        },
-        {
-          "league": "Liga Portugal",
-          "country": "Portugal",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T14:45:00-04:00",
-              "title": "Benfica @ Santa Clara",
-              "away": "Benfica",
-              "home": "Santa Clara",
-              "channels": [
-                "beIN SPORTS 5"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/santa-clara-benfica-1920098"
-            }
-          ]
-        },
-        {
-          "league": "Ligue 1",
-          "country": "France",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T15:30:00-04:00",
-              "title": "Lyon @ PSG",
-              "away": "Lyon",
-              "home": "PSG",
-              "channels": [
-                "beIN Sport USA Espanol",
-                "beIN Sport Canada Espanol"
-              ],
-              "notes": [],
-              "venue": "Parc des Princes (Paris, France)",
-              "raw": "https://www.livesportsontv.com/match/psg-lyon-1915107"
-            }
-          ]
-        },
-        {
-          "league": "Ligue 2",
-          "country": "France",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T15:45:00-04:00",
-              "title": "Red Star @ Montpellier",
-              "away": "Red Star",
-              "home": "Montpellier",
-              "channels": [
-                "beIN SPORTS 6"
-              ],
-              "notes": [],
-              "venue": "Stade de la Mosson",
-              "raw": "https://www.livesportsontv.com/match/montpellier-red-star-1900709"
             }
           ]
         },
@@ -632,69 +464,10 @@
           ]
         },
         {
-          "league": "Süper Lig",
-          "country": "Turkiye",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T12:00:00-04:00",
-              "title": "Istanbul Basaksehir @ Beşiktaş",
-              "away": "Istanbul Basaksehir",
-              "home": "Beşiktaş",
-              "channels": [
-                "beIN Sport USA",
-                "beIN Sport Canada"
-              ],
-              "notes": [],
-              "venue": "Besiktas Park",
-              "raw": "https://www.livesportsontv.com/match/besiktas-istanbul-basaksehir-1923927"
-            },
-            {
-              "time": "2026-10-26T12:00:00-04:00",
-              "title": "Trabzonspor @ Rizespor",
-              "away": "Trabzonspor",
-              "home": "Rizespor",
-              "channels": [
-                "beIN Sport USA Espanol",
-                "beIN Sport Canada Espanol"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/rizespor-trabzonspor-1923933"
-            },
-            {
-              "time": "2026-10-26T14:30:00-04:00",
-              "title": "Fenerbahçe @ Galatasaray",
-              "away": "Fenerbahçe",
-              "home": "Galatasaray",
-              "channels": [
-                "beIN Sport USA",
-                "beIN Sport Canada"
-              ],
-              "notes": [],
-              "venue": "Rams Park",
-              "raw": "https://www.livesportsontv.com/match/galatasaray-fenerbahce-1923929"
-            }
-          ]
-        },
-        {
           "league": "Women's College Soccer",
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-10-26T16:00:00-04:00",
-              "title": "Portland State @ Northern Arizona",
-              "away": "Portland State",
-              "home": "Northern Arizona",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/northern-arizona-portland-state-1986459"
-            },
             {
               "time": "2026-10-26T19:00:00-04:00",
               "title": "BYU @ Iowa State",
@@ -716,143 +489,10 @@
       "sport": "Tennis",
       "leagues": [
         {
-          "league": "ATP",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T08:30:00-04:00",
-              "title": "Erste Bank Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "TSN+",
-                "TSN3"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/erste-bank-open-1983452"
-            },
-            {
-              "time": "2026-10-26T08:30:00-04:00",
-              "title": "Swiss Indoors Basel",
-              "away": null,
-              "home": null,
-              "channels": [
-                "TSN+",
-                "TSN3"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/swiss-indoors-basel-1984257"
-            },
-            {
-              "time": "2026-10-26T10:30:00-04:00",
-              "title": "Erste Bank Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/erste-bank-open-1985768"
-            },
-            {
-              "time": "2026-10-26T12:30:00-04:00",
-              "title": "Swiss Indoors Basel",
-              "away": null,
-              "home": null,
-              "channels": [
-                "TSN+",
-                "TSN3"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/swiss-indoors-basel-1984258"
-            },
-            {
-              "time": "2026-10-26T12:30:00-04:00",
-              "title": "Erste Bank Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/erste-bank-open-1985801"
-            },
-            {
-              "time": "2026-10-26T13:15:00-04:00",
-              "title": "Swiss Indoors Basel",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel",
-                "TSN+",
-                "TSN3"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/swiss-indoors-basel-1985802"
-            },
-            {
-              "time": "2026-10-26T14:05:00-04:00",
-              "title": "Erste Bank Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/erste-bank-open-1985769"
-            },
-            {
-              "time": "2026-10-26T15:00:00-04:00",
-              "title": "Swiss Indoors Basel",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/swiss-indoors-basel-1985804"
-            },
-            {
-              "time": "2026-10-26T15:00:00-04:00",
-              "title": "Erste Bank Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel",
-                "RDS 2"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/erste-bank-open-1986534"
-            }
-          ]
-        },
-        {
           "league": "WTA",
           "country": "International",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-10-26T06:00:00-04:00",
-              "title": "Guangzhou Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/guangzhou-open-1985799"
-            },
             {
               "time": "2026-10-26T21:30:00-04:00",
               "title": "Pan Pacific Open",
@@ -882,5 +522,5 @@
       ]
     }
   ],
-  "parsed_from": "jsonld:48 match pages"
+  "parsed_from": "jsonld:26 match pages"
 }
