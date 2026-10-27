@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:22:14.016994+00:00",
+  "generated_at": "2026-10-27T20:01:37.799960+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -86,19 +86,6 @@
           "country": "International",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-27T12:00:00-04:00",
-              "title": "Nanterre @ Sabah Baku",
-              "away": "Nanterre",
-              "home": "Sabah Baku",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/sabah-baku-nanterre-1928613"
-            },
             {
               "time": "2026-10-27T14:00:00-04:00",
               "title": "Varese @ Bamberg",
@@ -345,6 +332,88 @@
       ]
     },
     {
+      "sport": "Ice Hockey",
+      "leagues": [
+        {
+          "league": "NHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-27T19:00:00-04:00",
+              "title": "Columbus Blue Jackets @ Philadelphia Flyers",
+              "away": "Columbus Blue Jackets",
+              "home": "Philadelphia Flyers",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "NBC Sports Philadelphia",
+                "Blue Jackets Hockey Network",
+                "Sportsnet Pacific",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Xfinity Mobile Arena",
+              "raw": "https://www.livesportsontv.com/match/philadelphia-flyers-columbus-blue-jackets-1935082"
+            },
+            {
+              "time": "2026-10-27T20:00:00-04:00",
+              "title": "Boston Bruins @ Carolina Hurricanes",
+              "away": "Boston Bruins",
+              "home": "Carolina Hurricanes",
+              "channels": [
+                "Fubo Sports",
+                "ESPN Select",
+                "ESPN Unlimited",
+                "ESPN",
+                "ESPN Deportes",
+                "Sportsnet 360",
+                "Sportsnet NOW"
+              ],
+              "notes": [],
+              "venue": "Lenovo Center",
+              "raw": "https://www.livesportsontv.com/match/carolina-hurricanes-boston-bruins-1935083"
+            },
+            {
+              "time": "2026-10-27T20:00:00-04:00",
+              "title": "Los Angeles Kings @ Chicago Blackhawks",
+              "away": "Los Angeles Kings",
+              "home": "Chicago Blackhawks",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Chicago Sports Network",
+                "Angels Broadcast Television",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "United Center",
+              "raw": "https://www.livesportsontv.com/match/chicago-blackhawks-los-angeles-kings-1935084"
+            },
+            {
+              "time": "2026-10-27T20:00:00-04:00",
+              "title": "Montreal Canadiens @ St. Louis Blues",
+              "away": "Montreal Canadiens",
+              "home": "St. Louis Blues",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Blue Note+",
+                "Sportsnet+",
+                "TSN+",
+                "RDS",
+                "TSN2"
+              ],
+              "notes": [],
+              "venue": "Enterprise Center",
+              "raw": "https://www.livesportsontv.com/match/st-louis-blues-montreal-canadiens-1935085"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "sport": "Soccer",
       "leagues": [
         {
@@ -359,7 +428,8 @@
               "home": "Alianza",
               "channels": [
                 "Paramount+ (US)",
-                "CBS Sports Golazo Network"
+                "CBS Sports Golazo Network",
+                "OneSoccer"
               ],
               "notes": [],
               "venue": "TBD",
@@ -372,19 +442,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-27T13:00:00-04:00",
-              "title": "Oral Roberts @ Liberty",
-              "away": "Oral Roberts",
-              "home": "Liberty",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Osborne Stadium, Lynchburg, Virginia",
-              "raw": "https://www.livesportsontv.com/match/liberty-oral-roberts-1976100"
-            },
             {
               "time": "2026-10-27T18:00:00-04:00",
               "title": "Green Bay @ Michigan State",
@@ -500,6 +557,19 @@
               "notes": [],
               "venue": "Linda Johnson Smith Soccer Stadium, Worcester",
               "raw": "https://www.livesportsontv.com/match/holy-cross-brown-1976105"
+            },
+            {
+              "time": "2026-10-27T19:00:00-04:00",
+              "title": "Davidson @ Presbyterian",
+              "away": "Davidson",
+              "home": "Presbyterian",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Edens Field at Martin Stadium",
+              "raw": "https://www.livesportsontv.com/match/presbyterian-davidson-1976106"
             }
           ]
         },
@@ -580,54 +650,6 @@
           "country": "Germany",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-27T13:00:00-04:00",
-              "title": "FSV Mainz 05 @ VfL Bochum",
-              "away": "FSV Mainz 05",
-              "home": "VfL Bochum",
-              "channels": [
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Vonovia Ruhrstadion (Bochum, Germany)",
-              "raw": "https://www.livesportsontv.com/match/vfl-bochum-fsv-mainz-05-1964293"
-            },
-            {
-              "time": "2026-10-27T13:00:00-04:00",
-              "title": "FC Augsburg @ Sonnenhof Großaspach",
-              "away": "FC Augsburg",
-              "home": "Sonnenhof Großaspach",
-              "channels": [
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "WIRmachenDRUCK Arena",
-              "raw": "https://www.livesportsontv.com/match/sonnenhof-groaspach-fc-augsburg-1964298"
-            },
-            {
-              "time": "2026-10-27T13:00:00-04:00",
-              "title": "Eintracht Frankfurt @ Hamburger SV",
-              "away": "Eintracht Frankfurt",
-              "home": "Hamburger SV",
-              "channels": [
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Volksparkstadion (Hamburg, Germany)",
-              "raw": "https://www.livesportsontv.com/match/hamburger-sv-eintracht-frankfurt-1964299"
-            },
-            {
-              "time": "2026-10-27T13:00:00-04:00",
-              "title": "RB Leipzig @ Rot-Weiss Essen",
-              "away": "RB Leipzig",
-              "home": "Rot-Weiss Essen",
-              "channels": [
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stadion an der Hafenstrasse (Essen, Germany)",
-              "raw": "https://www.livesportsontv.com/match/rot-weiss-essen-rb-leipzig-1964304"
-            },
             {
               "time": "2026-10-27T15:45:00-04:00",
               "title": "Karlsruher SC @ Borussia Mönchengladbach",
@@ -859,6 +881,19 @@
               "notes": [],
               "venue": "Ironmongery Direct Stadium (Braintree, England)",
               "raw": "https://www.livesportsontv.com/match/braintree-town-dagenham-redbridge-1941906"
+            },
+            {
+              "time": "2026-10-27T15:45:00-04:00",
+              "title": "Ebbsfleet United @ Maidstone United",
+              "away": "Ebbsfleet United",
+              "home": "Maidstone United",
+              "channels": [
+                "DAZN US",
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "Gallagher Stadium (Maidstone, England)",
+              "raw": "https://www.livesportsontv.com/match/maidstone-united-ebbsfleet-united-1941911"
             }
           ]
         },
@@ -883,20 +918,6 @@
         {
           "league": "Serie A",
           "events": [
-            {
-              "time": "2026-10-27T13:30:00-04:00",
-              "title": "Lazio @ Sassuolo",
-              "away": "Lazio",
-              "home": "Sassuolo",
-              "channels": [
-                "Paramount+ (US)",
-                "NBC Universo",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/sassuolo-lazio-1899108"
-            },
             {
               "time": "2026-10-27T15:45:00-04:00",
               "title": "Cagliari @ Roma",
@@ -926,6 +947,26 @@
               "notes": [],
               "venue": "Stadio Olimpico Grande Torino (Turin, Italy)",
               "raw": "https://www.livesportsontv.com/match/torino-como-1899109"
+            }
+          ]
+        },
+        {
+          "league": "Serie B",
+          "country": "Italy",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-27T15:00:00-04:00",
+              "title": "Sampdoria @ Ascoli",
+              "away": "Sampdoria",
+              "home": "Ascoli",
+              "channels": [
+                "Fubo Sports",
+                "FOX Soccer Plus"
+              ],
+              "notes": [],
+              "venue": "Stadio Cino e Lillo Del Duca",
+              "raw": "https://www.livesportsontv.com/match/ascoli-sampdoria-1933887"
             }
           ]
         }
