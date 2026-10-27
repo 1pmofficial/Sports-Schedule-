@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T22:36:12.967182+00:00",
+  "generated_at": "2026-10-27T02:02:25.729110+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 26,
+  "total_events": 13,
   "sports": [
     {
       "sport": "American Football",
@@ -79,112 +79,10 @@
       "sport": "Basketball",
       "leagues": [
         {
-          "league": "LNB",
-          "events": [
-            {
-              "time": "2026-10-26T19:30:00-04:00",
-              "title": "CD Puerto Varas @ Espanol Osorno",
-              "away": "CD Puerto Varas",
-              "home": "Espanol Osorno",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "Gimnasio Monumental Maria Gallardo",
-              "raw": "https://www.livesportsontv.com/match/espanol-osorno-cd-puerto-varas-1982444"
-            }
-          ]
-        },
-        {
-          "league": "Men's College Basketball",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T19:30:00-04:00",
-              "title": "Kansas State @ Nebraska",
-              "away": "Kansas State",
-              "home": "Nebraska",
-              "channels": [
-                "Big Ten Plus"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/nebraska-kansas-st-1985790"
-            }
-          ]
-        },
-        {
           "league": "NBA",
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-26T19:00:00-04:00",
-              "title": "Washington Wizards @ Charlotte Hornets",
-              "away": "Washington Wizards",
-              "home": "Charlotte Hornets",
-              "channels": [
-                "NBA League Pass",
-                "DAZN US",
-                "Monumental Sports Network",
-                "Monumental Sports Network+",
-                "TV 64"
-              ],
-              "notes": [],
-              "venue": "Charlotte Spectrum Center",
-              "raw": "https://www.livesportsontv.com/match/charlotte-hornets-washington-wizards-1950514"
-            },
-            {
-              "time": "2026-10-26T19:00:00-04:00",
-              "title": "Minnesota Timberwolves @ Cleveland Cavaliers",
-              "away": "Minnesota Timberwolves",
-              "home": "Cleveland Cavaliers",
-              "channels": [
-                "NBA League Pass",
-                "DAZN US",
-                "Rock Entertainment Sports Network",
-                "WUAB"
-              ],
-              "notes": [],
-              "venue": "Cleveland Rocket Arena",
-              "raw": "https://www.livesportsontv.com/match/cleveland-cavaliers-minnesota-timberwolves-1950515"
-            },
-            {
-              "time": "2026-10-26T19:30:00-04:00",
-              "title": "Chicago Bulls @ Boston Celtics",
-              "away": "Chicago Bulls",
-              "home": "Boston Celtics",
-              "channels": [
-                "NBA League Pass",
-                "Peacock",
-                "NBC Sports Boston",
-                "Chicago Sports Network",
-                "NBA TV Canada"
-              ],
-              "notes": [],
-              "venue": "Boston TD Garden",
-              "raw": "https://www.livesportsontv.com/match/boston-celtics-chicago-bulls-1950516"
-            },
-            {
-              "time": "2026-10-26T19:30:00-04:00",
-              "title": "Dallas Mavericks @ Miami Heat",
-              "away": "Dallas Mavericks",
-              "home": "Miami Heat",
-              "channels": [
-                "MavsTV+",
-                "NBA TV",
-                "KFAA 29",
-                "WPLG Local 10",
-                "Local10+ Platinum",
-                "Sportsnet",
-                "Sportsnet One",
-                "Sportsnet NOW"
-              ],
-              "notes": [],
-              "venue": "Miami Kaseya Center",
-              "raw": "https://www.livesportsontv.com/match/miami-heat-dallas-mavericks-1950517"
-            },
             {
               "time": "2026-10-26T20:00:00-04:00",
               "title": "Indiana Pacers @ Milwaukee Bucks",
@@ -290,26 +188,6 @@
               "raw": "https://www.livesportsontv.com/match/golden-state-valkyries-atlanta-dream-1984691"
             }
           ]
-        },
-        {
-          "league": "Women's College Basketball",
-          "country": "USA",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-10-26T19:00:00-04:00",
-              "title": "Taylor University @ Purdue Fort Wayne",
-              "away": "Taylor University",
-              "home": "Purdue Fort Wayne",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/purdue-fort-wayne-taylor-1985805"
-            }
-          ]
         }
       ]
     },
@@ -321,23 +199,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-26T19:00:00-04:00",
-              "title": "Los Angeles Kings @ New York Rangers",
-              "away": "Los Angeles Kings",
-              "home": "New York Rangers",
-              "channels": [
-                "Fubo Sports",
-                "MSG Sportsnet",
-                "NHL Network",
-                "Angels Broadcast Television",
-                "Sportsnet+",
-                "TVA Sports"
-              ],
-              "notes": [],
-              "venue": "Madison Square Garden",
-              "raw": "https://www.livesportsontv.com/match/new-york-rangers-los-angeles-kings-1934280"
-            },
             {
               "time": "2026-10-26T20:30:00-04:00",
               "title": "Toronto Maple Leafs @ Calgary Flames",
@@ -376,60 +237,8 @@
       "sport": "Soccer",
       "leagues": [
         {
-          "league": "College Soccer",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T19:00:00-04:00",
-              "title": "Washington @ Michigan",
-              "away": "Washington",
-              "home": "Michigan",
-              "channels": [
-                "Big Ten Network"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/michigan-washington-1985948"
-            }
-          ]
-        },
-        {
-          "league": "Northern Super League",
-          "country": "Canada",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-10-26T19:00:00-04:00",
-              "title": "Halifax Tides @ AFC Toronto",
-              "away": "Halifax Tides",
-              "home": "AFC Toronto",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/afc-toronto-halifax-tides-fc-1983496"
-            }
-          ]
-        },
-        {
           "league": "Primera Division",
           "events": [
-            {
-              "time": "2026-10-26T18:00:00-04:00",
-              "title": "Estudiantes @ Unión",
-              "away": "Estudiantes",
-              "home": "Unión",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/union-estudiantes-1840210"
-            },
             {
               "time": "2026-10-26T20:15:00-04:00",
               "title": "Deportivo Riestra @ Instituto",
@@ -441,45 +250,6 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/instituto-deportivo-riestra-1840204"
-            }
-          ]
-        },
-        {
-          "league": "Serie A Brazil",
-          "country": "Brazil",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-26T18:30:00-04:00",
-              "title": "Grêmio @ Coritiba",
-              "away": "Grêmio",
-              "home": "Coritiba",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/coritiba-gremio-1844103"
-            }
-          ]
-        },
-        {
-          "league": "Women's College Soccer",
-          "country": "USA",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-10-26T19:00:00-04:00",
-              "title": "BYU @ Iowa State",
-              "away": "BYU",
-              "home": "Iowa State",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Cyclone Sports Complex, Ames",
-              "raw": "https://www.livesportsontv.com/match/iowa-state-byu-1975928"
             }
           ]
         }
@@ -522,5 +292,5 @@
       ]
     }
   ],
-  "parsed_from": "jsonld:26 match pages"
+  "parsed_from": "jsonld:13 match pages"
 }
