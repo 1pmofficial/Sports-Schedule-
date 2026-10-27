@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:41:58.357753+00:00",
+  "generated_at": "2026-10-27T14:22:14.016994+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -358,7 +358,8 @@
               "away": "Marathón",
               "home": "Alianza",
               "channels": [
-                "Paramount+ (US)"
+                "Paramount+ (US)",
+                "CBS Sports Golazo Network"
               ],
               "notes": [],
               "venue": "TBD",
