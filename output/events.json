@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:47:51.670296+00:00",
+  "generated_at": "2026-10-28T23:07:24.615969+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -80,86 +80,6 @@
     {
       "sport": "Basketball",
       "leagues": [
-        {
-          "league": "AmeriCup 3x3",
-          "events": [
-            {
-              "time": "2026-10-28T13:45:00-04:00",
-              "title": "El Salvador",
-              "away": null,
-              "home": null,
-              "channels": [
-                "beIN Sport USA",
-                "beIN Sport USA Espanol",
-                "beIN SPORTS 5",
-                "beIN Sport Canada",
-                "beIN Sport Canada Espanol"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/el-salvador-1986623"
-            }
-          ]
-        },
-        {
-          "league": "Basketball Champions League",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-28T13:30:00-04:00",
-              "title": "Trabzonspor @ Rytas",
-              "away": "Trabzonspor",
-              "home": "Rytas",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/rytas-trabzonspor-1970334"
-            },
-            {
-              "time": "2026-10-28T14:00:00-04:00",
-              "title": "Hapoel Holon @ RASTA Vechta II",
-              "away": "Hapoel Holon",
-              "home": "RASTA Vechta II",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/rasta-vechta-ii-hapoel-holon-1973303"
-            },
-            {
-              "time": "2026-10-28T15:00:00-04:00",
-              "title": "Bilbao @ Alba Berlin",
-              "away": "Bilbao",
-              "home": "Alba Berlin",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/alba-berlin-bilbao-1928646"
-            },
-            {
-              "time": "2026-10-28T15:00:00-04:00",
-              "title": "Subotica @ Cholet",
-              "away": "Subotica",
-              "home": "Cholet",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/cholet-subotica-1932712"
-            }
-          ]
-        },
         {
           "league": "Men's College Basketball",
           "country": "USA",
@@ -502,36 +422,62 @@
       "sport": "Soccer",
       "leagues": [
         {
+          "league": "CONCACAF Caribbean Cup",
+          "country": "International",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-28T19:00:00-04:00",
+              "title": "Portmore United @ Violette AC",
+              "away": "Portmore United",
+              "home": "Violette AC",
+              "channels": [
+                "Paramount+ (US)",
+                "OneSoccer"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/violette-ac-portmore-united-1969638"
+            }
+          ]
+        },
+        {
+          "league": "CONCACAF Central American Cup",
+          "country": "International",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-28T20:30:00-04:00",
+              "title": "Firpo @ Deportivo Saprissa",
+              "away": "Firpo",
+              "home": "Deportivo Saprissa",
+              "channels": [
+                "CBS Sports Golazo Network"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/deportivo-saprissa-firpo-1969619"
+            },
+            {
+              "time": "2026-10-28T23:00:00-04:00",
+              "title": "Cartaginés @ Olimpia",
+              "away": "Cartaginés",
+              "home": "Olimpia",
+              "channels": [
+                "CBS Sports Golazo Network",
+                "OneSoccer"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/olimpia-cartagines-1969610"
+            }
+          ]
+        },
+        {
           "league": "College Soccer",
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-28T14:00:00-04:00",
-              "title": "Niagara @ Mount St. Mary's",
-              "away": "Niagara",
-              "home": "Mount St. Mary's",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Waldron Family Stadium",
-              "raw": "https://www.livesportsontv.com/match/mount-st-marys-niagara-1976225"
-            },
-            {
-              "time": "2026-10-28T15:30:00-04:00",
-              "title": "American @ Boston College",
-              "away": "American",
-              "home": "Boston College",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "Newton Campus Lacrosse & Soccer Field, Chestnut Hill",
-              "raw": "https://www.livesportsontv.com/match/boston-college-american-1976226"
-            },
             {
               "time": "2026-10-28T18:00:00-04:00",
               "title": "Sacred Heart @ Manhattan",
@@ -595,79 +541,63 @@
               "notes": [],
               "venue": "Billy J. Murphy Soccer/Track & Field Complex, Memphis",
               "raw": "https://www.livesportsontv.com/match/memphis-charlotte-1976230"
+            },
+            {
+              "time": "2026-10-28T20:00:00-04:00",
+              "title": "UAB @ Missouri State",
+              "away": "UAB",
+              "home": "Missouri State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Betty and Bobby Allison South Stadium, Springfield",
+              "raw": "https://www.livesportsontv.com/match/missouri-state-uab-1976231"
+            },
+            {
+              "time": "2026-10-28T21:00:00-04:00",
+              "title": "UNLV @ UC Davis",
+              "away": "UNLV",
+              "home": "UC Davis",
+              "channels": [
+                "MW+"
+              ],
+              "notes": [],
+              "venue": "Aggie Soccer Field, Davis, California",
+              "raw": "https://www.livesportsontv.com/match/uc-davis-unlv-1984909"
+            },
+            {
+              "time": "2026-10-28T22:00:00-04:00",
+              "title": "Grand Canyon @ San Jose State",
+              "away": "Grand Canyon",
+              "home": "San Jose State",
+              "channels": [
+                "MW+"
+              ],
+              "notes": [],
+              "venue": "Spartan Soccer Complex, San Jose, California",
+              "raw": "https://www.livesportsontv.com/match/san-jose-state-grand-canyon-1984910"
             }
           ]
         },
         {
-          "league": "English League Cup",
-          "country": "England",
+          "league": "Liga MX",
+          "country": "Mexico",
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-28T15:30:00-04:00",
-              "title": "Brighton & Hove Albion @ Manchester City",
-              "away": "Brighton & Hove Albion",
-              "home": "Manchester City",
+              "time": "2026-10-28T23:00:00-04:00",
+              "title": "Tijuana @ América",
+              "away": "Tijuana",
+              "home": "América",
               "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
+                "TUDN",
+                "ViX"
               ],
               "notes": [],
-              "venue": "Etihad Stadium",
-              "raw": "https://www.livesportsontv.com/match/manchester-city-brighton-hove-albion-1969621"
-            },
-            {
-              "time": "2026-10-28T15:45:00-04:00",
-              "title": "Aston Villa @ AFC Bournemouth",
-              "away": "Aston Villa",
-              "home": "AFC Bournemouth",
-              "channels": [
-                "Paramount+ (US)",
-                "CBS Sports Golazo Network",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Vitality Stadium",
-              "raw": "https://www.livesportsontv.com/match/afc-bournemouth-aston-villa-1968937"
-            },
-            {
-              "time": "2026-10-28T15:45:00-04:00",
-              "title": "Crystal Palace @ Fulham",
-              "away": "Crystal Palace",
-              "home": "Fulham",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Craven Cottage",
-              "raw": "https://www.livesportsontv.com/match/fulham-crystal-palace-1968941"
-            },
-            {
-              "time": "2026-10-28T15:45:00-04:00",
-              "title": "Brentford @ Sunderland",
-              "away": "Brentford",
-              "home": "Sunderland",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Stadium of Light",
-              "raw": "https://www.livesportsontv.com/match/sunderland-brentford-1968943"
-            },
-            {
-              "time": "2026-10-28T16:00:00-04:00",
-              "title": "Chelsea @ Liverpool FC",
-              "away": "Chelsea",
-              "home": "Liverpool FC",
-              "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Anfield",
-              "raw": "https://www.livesportsontv.com/match/liverpool-fc-chelsea-1968942"
+              "venue": "Estadio Banorte",
+              "raw": "https://www.livesportsontv.com/match/america-tijuana-1900046"
             }
           ]
         },
@@ -855,76 +785,139 @@
           ]
         },
         {
-          "league": "Serie A",
+          "league": "Women's College Soccer",
+          "country": "USA",
+          "gender": "female",
           "events": [
             {
-              "time": "2026-10-28T13:30:00-04:00",
-              "title": "Bologna @ AC Milan",
-              "away": "Bologna",
-              "home": "AC Milan",
+              "time": "2026-10-28T18:00:00-04:00",
+              "title": "Santa Clara @ Pepperdine",
+              "away": "Santa Clara",
+              "home": "Pepperdine",
               "channels": [
-                "Paramount+ (US)",
-                "TLN",
-                "DAZN Canada"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/ac-milan-bologna-1899101"
+              "venue": "Tari Frahm Rokus Field",
+              "raw": "https://www.livesportsontv.com/match/pepperdine-santa-clara-1976233"
             },
             {
-              "time": "2026-10-28T13:30:00-04:00",
-              "title": "Udinese @ Parma",
-              "away": "Udinese",
-              "home": "Parma",
+              "time": "2026-10-28T18:00:00-04:00",
+              "title": "California Baptist @ Sacramento State",
+              "away": "California Baptist",
+              "home": "Sacramento State",
               "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/parma-udinese-1899107"
+              "venue": "Hornet Field, Sacramento, California",
+              "raw": "https://www.livesportsontv.com/match/sacramento-state-california-baptist-1976234"
             },
             {
-              "time": "2026-10-28T13:30:00-04:00",
-              "title": "Inter @ Venezia",
-              "away": "Inter",
-              "home": "Venezia",
+              "time": "2026-10-28T18:00:00-04:00",
+              "title": "Marquette @ Seton Hall",
+              "away": "Marquette",
+              "home": "Seton Hall",
               "channels": [
-                "Paramount+ (US)",
-                "NBC Universo",
-                "DAZN Canada"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Stadio Pierluigi Penzo (Venice, Italy)",
-              "raw": "https://www.livesportsontv.com/match/venezia-inter-1899110"
+              "venue": "Mike Sheppard, Sr. Stadium at Owen T. Carroll Field, South Orange",
+              "raw": "https://www.livesportsontv.com/match/seton-hall-marquette-1976235"
             },
             {
-              "time": "2026-10-28T15:45:00-04:00",
-              "title": "Juventus @ Genoa",
-              "away": "Juventus",
-              "home": "Genoa",
+              "time": "2026-10-28T18:00:00-04:00",
+              "title": "Winthrop @ UNC Asheville",
+              "away": "Winthrop",
+              "home": "UNC Asheville",
               "channels": [
-                "Paramount+ (US)",
-                "NBC Universo",
-                "TLN",
-                "DAZN Canada"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/genoa-juventus-1899105"
+              "venue": "Greenwood Soccer Field, Asheville, North Carolina",
+              "raw": "https://www.livesportsontv.com/match/unc-asheville-winthrop-1976236"
             },
             {
-              "time": "2026-10-28T15:45:00-04:00",
-              "title": "Napoli @ Monza",
-              "away": "Napoli",
-              "home": "Monza",
+              "time": "2026-10-28T18:30:00-04:00",
+              "title": "Butler @ UConn",
+              "away": "Butler",
+              "home": "UConn",
               "channels": [
-                "Paramount+ (US)",
-                "DAZN Canada"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/monza-napoli-1899106"
+              "venue": "Joseph J. Morrone Stadium at Rizza Performance Center, Storrs",
+              "raw": "https://www.livesportsontv.com/match/uconn-butler-1976237"
+            },
+            {
+              "time": "2026-10-28T18:30:00-04:00",
+              "title": "Providence @ Xavier",
+              "away": "Providence",
+              "home": "Xavier",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Corcoran Field, Cincinnati, Ohio",
+              "raw": "https://www.livesportsontv.com/match/xavier-providence-1976238"
+            },
+            {
+              "time": "2026-10-28T19:00:00-04:00",
+              "title": "South Carolina Upstate @ Gardner-Webb",
+              "away": "South Carolina Upstate",
+              "home": "Gardner-Webb",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Greene-Harbison Field, Boiling Springs, North Carolina",
+              "raw": "https://www.livesportsontv.com/match/gardner-webb-south-carolina-upstate-1976239"
+            },
+            {
+              "time": "2026-10-28T19:00:00-04:00",
+              "title": "Creighton @ Georgetown",
+              "away": "Creighton",
+              "home": "Georgetown",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Shaw Field, Washington, District of Columbia",
+              "raw": "https://www.livesportsontv.com/match/georgetown-creighton-1976240"
+            },
+            {
+              "time": "2026-10-28T19:00:00-04:00",
+              "title": "Charleston Southern @ High Point",
+              "away": "Charleston Southern",
+              "home": "High Point",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Vert Stadium, High Point, North Carolina",
+              "raw": "https://www.livesportsontv.com/match/high-point-charleston-southern-1976241"
+            },
+            {
+              "time": "2026-10-28T19:00:00-04:00",
+              "title": "San Francisco @ San Diego",
+              "away": "San Francisco",
+              "home": "San Diego",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Torero Stadium, San Diego, California",
+              "raw": "https://www.livesportsontv.com/match/san-diego-san-francisco-1976242"
             }
           ]
         }
