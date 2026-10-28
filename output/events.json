@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:41:22.023866+00:00",
+  "generated_at": "2026-10-28T18:47:51.670296+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -507,19 +507,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-28T11:00:00-04:00",
-              "title": "Saint Peter's @ Marist",
-              "away": "Saint Peter's",
-              "home": "Marist",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Tenney Stadium at Leonidoff Field, Poughkeepsie",
-              "raw": "https://www.livesportsontv.com/match/marist-saint-peters-1976224"
-            },
-            {
               "time": "2026-10-28T14:00:00-04:00",
               "title": "Niagara @ Mount St. Mary's",
               "away": "Niagara",
@@ -595,6 +582,19 @@
               "notes": [],
               "venue": "Leyva Family Field at FIU Soccer Stadium, Miami, Florida",
               "raw": "https://www.livesportsontv.com/match/florida-international-tulsa-1976229"
+            },
+            {
+              "time": "2026-10-28T20:00:00-04:00",
+              "title": "Charlotte @ Memphis",
+              "away": "Charlotte",
+              "home": "Memphis",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Billy J. Murphy Soccer/Track & Field Complex, Memphis",
+              "raw": "https://www.livesportsontv.com/match/memphis-charlotte-1976230"
             }
           ]
         },
