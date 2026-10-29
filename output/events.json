@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:48:26.969362+00:00",
+  "generated_at": "2026-10-29T16:52:46.011334+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -143,7 +143,6 @@
                 "TSN1",
                 "TSN4",
                 "RDS 2",
-                "CTV2",
                 "DAZN Canada"
               ],
               "notes": [],
@@ -157,6 +156,24 @@
     {
       "sport": "Basketball",
       "leagues": [
+        {
+          "league": "AmeriCup 3x3",
+          "events": [
+            {
+              "time": "2026-10-29T15:10:00-04:00",
+              "title": "El Salvador",
+              "away": null,
+              "home": null,
+              "channels": [
+                "beIN Sport USA",
+                "beIN Sport Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/el-salvador-1987989"
+            }
+          ]
+        },
         {
           "league": "LNB",
           "events": [
@@ -804,21 +821,6 @@
               "notes": [],
               "venue": "Joie Stadium (Manchester, England)",
               "raw": "https://www.livesportsontv.com/match/manchester-city-psg-1964276"
-            },
-            {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "FC Barcelona Femení @ HB Køge",
-              "away": "FC Barcelona Femení",
-              "home": "HB Køge",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "Paramount+ (US)",
-                "ESPN Deportes"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/hb-kge-fc-barcelona-femeni-1964281"
             }
           ]
         },
