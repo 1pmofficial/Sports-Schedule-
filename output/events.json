@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:31:13.788402+00:00",
+  "generated_at": "2026-10-30T15:50:03.134469+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -616,6 +616,7 @@
               "home": "Juárez",
               "channels": [
                 "Estrella TV",
+                "FOX Deportes",
                 "NBC Universo",
                 "WMBC TV 63"
               ],
