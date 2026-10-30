@@ -1,105 +1,17 @@
 {
-  "generated_at": "2026-10-29T21:45:06.330079+00:00",
+  "generated_at": "2026-10-30T01:51:32.917815+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 60,
+  "total_events": 44,
   "sports": [
     {
       "sport": "American Football",
       "leagues": [
         {
-          "league": "College Football",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "South Carolina State @ Morgan State",
-              "away": "South Carolina State",
-              "home": "Morgan State",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN U",
-                "ESPN Deportes"
-              ],
-              "notes": [],
-              "venue": "Hughes Stadium (MD), Baltimore, MD",
-              "raw": "https://www.livesportsontv.com/match/morgan-state-south-carolina-state-1949055"
-            },
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Fort Valley State @ Miles College",
-              "away": "Fort Valley State",
-              "home": "Miles College",
-              "channels": [
-                "SIAC Network"
-              ],
-              "notes": [],
-              "venue": "Albert J. H. Sloan - Alumni Stadium, Fairfield, AL",
-              "raw": "https://www.livesportsontv.com/match/miles-college-fort-valley-state-1984467"
-            },
-            {
-              "time": "2026-10-29T19:30:00-04:00",
-              "title": "Florida Atlantic @ North Texas",
-              "away": "Florida Atlantic",
-              "home": "North Texas",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "DATCU Stadium, Denton, TX",
-              "raw": "https://www.livesportsontv.com/match/north-texas-florida-atlantic-1985956"
-            },
-            {
-              "time": "2026-10-29T19:30:00-04:00",
-              "title": "Troy @ James Madison",
-              "away": "Troy",
-              "home": "James Madison",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN2",
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "Bridgeforth Stadium, Harrisonburg, VA",
-              "raw": "https://www.livesportsontv.com/match/james-madison-troy-1985957"
-            }
-          ]
-        },
-        {
           "league": "High School Football",
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Hempfield at Central Catholic",
-              "away": null,
-              "home": null,
-              "channels": [
-                "SportsNet Pittsburgh"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/hempfield-at-central-catholic-1986590"
-            },
-            {
-              "time": "2026-10-29T19:30:00-04:00",
-              "title": "Dickinson - Clear Falls",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Space City Home Network"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/dickinson-clear-falls-1986597"
-            },
             {
               "time": "2026-10-29T20:00:00-04:00",
               "title": "Harker Heights - Copperas Cove",
@@ -159,23 +71,6 @@
     {
       "sport": "Basketball",
       "leagues": [
-        {
-          "league": "LNB",
-          "events": [
-            {
-              "time": "2026-10-29T19:30:00-04:00",
-              "title": "Leones Quilpue @ Ancud",
-              "away": "Leones Quilpue",
-              "home": "Ancud",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "Gimnasio Fiscal de Ancud",
-              "raw": "https://www.livesportsontv.com/match/ancud-leones-quilpue-1982995"
-            }
-          ]
-        },
         {
           "league": "NBA",
           "country": "USA",
@@ -242,31 +137,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Rochester Christian @ Michigan",
-              "away": "Rochester Christian",
-              "home": "Michigan",
-              "channels": [
-                "Big Ten Plus"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/michigan-rochester-christian-1986596"
-            },
-            {
-              "time": "2026-10-29T19:30:00-04:00",
-              "title": "Washburn @ Kansas",
-              "away": "Washburn",
-              "home": "Kansas",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/kansas-washburn-1987046"
-            },
-            {
               "time": "2026-10-29T20:00:00-04:00",
               "title": "LSU @ Loyola New Orleans",
               "away": "LSU",
@@ -296,6 +166,52 @@
       ]
     },
     {
+      "sport": "Golf",
+      "leagues": [
+        {
+          "league": "Amateur Golf",
+          "country": "International",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-29T21:00:00-04:00",
+              "title": "Asia-Pacific Amateur Championship",
+              "away": null,
+              "home": null,
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/asia-pacific-amateur-championship-1986602"
+            }
+          ]
+        },
+        {
+          "league": "LPGA Tour",
+          "country": "International",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-29T21:30:00-04:00",
+              "title": "Maybank Championship",
+              "away": null,
+              "home": null,
+              "channels": [
+                "Fubo Sports",
+                "Golf Channel USA",
+                "Golf Channel Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/maybank-championship-1983568"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "sport": "Ice Hockey",
       "leagues": [
         {
@@ -304,16 +220,35 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Hartford Wolf Pack @ Hamilton Hammers",
-              "away": "Hartford Wolf Pack",
-              "home": "Hamilton Hammers",
+              "time": "2026-10-29T21:00:00-04:00",
+              "title": "Laval Rocket @ Calgary Wranglers",
+              "away": "Laval Rocket",
+              "home": "Calgary Wranglers",
               "channels": [
                 "FloHockey"
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/hamilton-hartford-wolf-pack-1924760"
+              "raw": "https://www.livesportsontv.com/match/calgary-wranglers-laval-rocket-1924761"
+            }
+          ]
+        },
+        {
+          "league": "ECHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-10-29T20:05:00-04:00",
+              "title": "Wichita Thunder @ Tulsa Oilers",
+              "away": "Wichita Thunder",
+              "home": "Tulsa Oilers",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/tulsa-oilers-wichita-thunder-1903685"
             }
           ]
         },
@@ -322,75 +257,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Winnipeg Jets @ Tampa Bay Lightning",
-              "away": "Winnipeg Jets",
-              "home": "Tampa Bay Lightning",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "The Spot",
-                "Sportsnet+",
-                "TSN+",
-                "TSN3"
-              ],
-              "notes": [],
-              "venue": "Benchmark International Arena",
-              "raw": "https://www.livesportsontv.com/match/tampa-bay-lightning-winnipeg-jets-1935947"
-            },
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Utah Mammoth @ Pittsburgh Penguins",
-              "away": "Utah Mammoth",
-              "home": "Pittsburgh Penguins",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "SportsNet Pittsburgh",
-                "Utah 16",
-                "Mammoth+",
-                "Sportsnet",
-                "Sportsnet NOW",
-                "Sportsnet+",
-                "TVA Sports"
-              ],
-              "notes": [],
-              "venue": "PPG Paints Arena",
-              "raw": "https://www.livesportsontv.com/match/pittsburgh-penguins-utah-mammoth-1935948"
-            },
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Columbus Blue Jackets @ Carolina Hurricanes",
-              "away": "Columbus Blue Jackets",
-              "home": "Carolina Hurricanes",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Blue Jackets Hockey Network",
-                "Hurricanes Hockey Network",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Lenovo Center",
-              "raw": "https://www.livesportsontv.com/match/carolina-hurricanes-columbus-blue-jackets-1935949"
-            },
-            {
-              "time": "2026-10-29T19:30:00-04:00",
-              "title": "Chicago Blackhawks @ Detroit Red Wings",
-              "away": "Chicago Blackhawks",
-              "home": "Detroit Red Wings",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Hulu",
-                "Disney+",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Little Caesars Arena",
-              "raw": "https://www.livesportsontv.com/match/detroit-red-wings-chicago-blackhawks-1935946"
-            },
             {
               "time": "2026-10-29T20:00:00-04:00",
               "title": "Boston Bruins @ St. Louis Blues",
@@ -510,6 +376,25 @@
               "raw": "https://www.livesportsontv.com/match/san-jose-sharks-vancouver-canucks-1935956"
             }
           ]
+        },
+        {
+          "league": "Women's College Ice Hockey",
+          "country": "USA",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-29T20:15:00-04:00",
+              "title": "Robert Morris @ Lindenwood",
+              "away": "Robert Morris",
+              "home": "Lindenwood",
+              "channels": [
+                "FloSports"
+              ],
+              "notes": [],
+              "venue": "Centene Community Ice Center, Maryland Heights, MO",
+              "raw": "https://www.livesportsontv.com/match/lindenwood-robert-morris-1984859"
+            }
+          ]
         }
       ]
     },
@@ -543,58 +428,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "SIU Edwardsville @ Western Illinois",
-              "away": "SIU Edwardsville",
-              "home": "Western Illinois",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "John MacKenzie Alumni Field",
-              "raw": "https://www.livesportsontv.com/match/western-illinois-siu-edwardsville-1976642"
-            },
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Georgia State @ UCF",
-              "away": "Georgia State",
-              "home": "UCF",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "UCF Soccer and Track Complex, Orlando, Florida",
-              "raw": "https://www.livesportsontv.com/match/ucf-georgia-state-1976643"
-            },
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Coastal Carolina @ West Virginia",
-              "away": "Coastal Carolina",
-              "home": "West Virginia",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Dick Dlesk Soccer Stadium, Morgantown",
-              "raw": "https://www.livesportsontv.com/match/west-virginia-coastal-carolina-1976644"
-            },
-            {
-              "time": "2026-10-29T19:30:00-04:00",
-              "title": "Incarnate Word @ UT Rio Grande Valley",
-              "away": "Incarnate Word",
-              "home": "UT Rio Grande Valley",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Gayle and Tom Benson Stadium, San Antonio",
-              "raw": "https://www.livesportsontv.com/match/incarnate-word-ut-rio-grande-valley-1976646"
-            },
-            {
               "time": "2026-10-29T20:00:00-04:00",
               "title": "Lindenwood @ Houston Christian",
               "away": "Lindenwood",
@@ -606,105 +439,6 @@
               "notes": [],
               "venue": "Sorrels Field, Houston, Texas",
               "raw": "https://www.livesportsontv.com/match/houston-christian-lindenwood-1976645"
-            }
-          ]
-        },
-        {
-          "league": "Copa del Rey",
-          "country": "Spain",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "Deportivo La Coruña @ Auriense",
-              "away": "Deportivo La Coruña",
-              "home": "Auriense",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/auriense-deportivo-la-coruna-1980600"
-            },
-            {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "Racing Santander @ Ribadesella CF",
-              "away": "Racing Santander",
-              "home": "Ribadesella CF",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/ribadesella-cf-racing-santander-1980632"
-            },
-            {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "Athletic Club @ Prat",
-              "away": "Athletic Club",
-              "home": "Prat",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/prat-athletic-club-1982287"
-            },
-            {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "Sevilla @ Hortaleza",
-              "away": "Sevilla",
-              "home": "Hortaleza",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/hortaleza-sevilla-1982288"
-            }
-          ]
-        },
-        {
-          "league": "English League Cup",
-          "country": "England",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-29T15:45:00-04:00",
-              "title": "Newcastle United @ Everton",
-              "away": "Newcastle United",
-              "home": "Everton",
-              "channels": [
-                "Paramount+ (US)",
-                "CBS Sports Golazo Network",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Hill Dickinson Stadium",
-              "raw": "https://www.livesportsontv.com/match/everton-newcastle-united-1968939"
-            }
-          ]
-        },
-        {
-          "league": "Liga 1",
-          "country": "Peru",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-29T16:30:00-04:00",
-              "title": "Alianza Lima @ Sporting Cristal",
-              "away": "Alianza Lima",
-              "home": "Sporting Cristal",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/sporting-cristal-alianza-lima-1913360"
             }
           ]
         },
@@ -738,72 +472,10 @@
           ]
         },
         {
-          "league": "Primera A",
-          "country": "Colombia",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-29T19:15:00-04:00",
-              "title": "Fortaleza CEIF @ América de Cali",
-              "away": "Fortaleza CEIF",
-              "home": "América de Cali",
-              "channels": [
-                "FOX Deportes"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/america-de-cali-fortaleza-ceif-1964350"
-            }
-          ]
-        },
-        {
-          "league": "Serie A",
-          "events": [
-            {
-              "time": "2026-10-29T15:45:00-04:00",
-              "title": "Atalanta @ Fiorentina",
-              "away": "Atalanta",
-              "home": "Fiorentina",
-              "channels": [
-                "Paramount+ (US)",
-                "NBC Universo",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/fiorentina-atalanta-1899103"
-            }
-          ]
-        },
-        {
           "league": "Serie A Brazil",
           "country": "Brazil",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-29T18:30:00-04:00",
-              "title": "Cruzeiro @ Atlético Mineiro",
-              "away": "Cruzeiro",
-              "home": "Atlético Mineiro",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/atletico-mineiro-cruzeiro-1844111"
-            },
-            {
-              "time": "2026-10-29T19:00:00-04:00",
-              "title": "Flamengo @ Vasco da Gama",
-              "away": "Flamengo",
-              "home": "Vasco da Gama",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/vasco-da-gama-flamengo-1844107"
-            },
             {
               "time": "2026-10-29T20:30:00-04:00",
               "title": "Athletico Paranaense @ Grêmio",
@@ -819,184 +491,280 @@
           ]
         },
         {
-          "league": "UEFA Women's Champions League",
-          "country": "International",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "PSG @ Manchester City",
-              "away": "PSG",
-              "home": "Manchester City",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Paramount+ (US)",
-                "CBS Sports Network",
-                "OneSoccer"
-              ],
-              "notes": [],
-              "venue": "Joie Stadium (Manchester, England)",
-              "raw": "https://www.livesportsontv.com/match/manchester-city-psg-1964276"
-            },
-            {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "FC Barcelona Femení @ HB Køge",
-              "away": "FC Barcelona Femení",
-              "home": "HB Køge",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "Paramount+ (US)",
-                "ESPN Deportes"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/hb-kge-fc-barcelona-femeni-1964281"
-            }
-          ]
-        },
-        {
           "league": "Women's College Soccer",
           "country": "USA",
           "gender": "female",
           "events": [
             {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "Idaho @ Portland State",
-              "away": "Idaho",
-              "home": "Portland State",
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Tarleton State @ Abilene Christian",
+              "away": "Tarleton State",
+              "home": "Abilene Christian",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Hillsboro Stadium, Portland, Oregon",
-              "raw": "https://www.livesportsontv.com/match/portland-state-idaho-1983501"
+              "venue": "Elmer Gray Stadium",
+              "raw": "https://www.livesportsontv.com/match/abilene-christian-tarleton-state-1976666"
             },
             {
-              "time": "2026-10-29T16:00:00-04:00",
-              "title": "South Dakota State @ North Dakota",
-              "away": "South Dakota State",
-              "home": "North Dakota",
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Duke @ Florida State",
+              "away": "Duke",
+              "home": "Florida State",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network"
+              ],
+              "notes": [],
+              "venue": "Seminole Soccer Complex, Tallahassee",
+              "raw": "https://www.livesportsontv.com/match/florida-state-duke-1976667"
+            },
+            {
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Oral Roberts @ Nebraska-Omaha",
+              "away": "Oral Roberts",
+              "home": "Nebraska-Omaha",
+              "channels": [
+                "Midco Sports Plus"
+              ],
+              "notes": [],
+              "venue": "Caniglia Field, Papillion, Nebraska",
+              "raw": "https://www.livesportsontv.com/match/nebraska-omaha-oral-roberts-1984916"
+            },
+            {
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Austin Peay @ North Alabama",
+              "away": "Austin Peay",
+              "home": "North Alabama",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Cox Creek Spring Sports Complex, Florence",
+              "raw": "https://www.livesportsontv.com/match/north-alabama-austin-peay-1986969"
+            },
+            {
+              "time": "2026-10-29T20:30:00-04:00",
+              "title": "Grand Canyon @ New Mexico",
+              "away": "Grand Canyon",
+              "home": "New Mexico",
+              "channels": [
+                "MW+"
+              ],
+              "notes": [],
+              "venue": "Albuquerque, New Mexico",
+              "raw": "https://www.livesportsontv.com/match/new-mexico-grand-canyon-1976735"
+            },
+            {
+              "time": "2026-10-29T21:00:00-04:00",
+              "title": "Northern Arizona @ Idaho State",
+              "away": "Northern Arizona",
+              "home": "Idaho State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Davis Field, Pocatello",
+              "raw": "https://www.livesportsontv.com/match/idaho-state-northern-arizona-1976648"
+            },
+            {
+              "time": "2026-10-29T21:00:00-04:00",
+              "title": "Northern Colorado @ Weber State",
+              "away": "Northern Colorado",
+              "home": "Weber State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Wildcat Soccer Field",
+              "raw": "https://www.livesportsontv.com/match/weber-state-northern-colorado-1976668"
+            },
+            {
+              "time": "2026-10-29T22:00:00-04:00",
+              "title": "NC State @ Stanford",
+              "away": "NC State",
+              "home": "Stanford",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network X"
+              ],
+              "notes": [],
+              "venue": "Maloney Field at Laird Q. Cagan Stadium",
+              "raw": "https://www.livesportsontv.com/match/stanford-nc-state-1976669"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Tennis",
+      "leagues": [
+        {
+          "league": "WTA",
+          "country": "International",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-29T21:30:00-04:00",
+              "title": "Pan Pacific Open",
+              "away": null,
+              "home": null,
+              "channels": [
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/pan-pacific-open-1982137"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Volleyball",
+      "leagues": [
+        {
+          "league": "Women's College Volleyball",
+          "country": "USA",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Santa Clara @ Denver",
+              "away": "Santa Clara",
+              "home": "Denver",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Hamilton Gymnasium, Denver, Colorado",
+              "raw": "https://www.livesportsontv.com/match/denver-santa-clara-1976686"
+            },
+            {
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Montana @ Utah Tech",
+              "away": "Montana",
+              "home": "Utah Tech",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Burns Arena, St. George, Utah",
+              "raw": "https://www.livesportsontv.com/match/utah-tech-montana-1976687"
+            },
+            {
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Weber State @ Northern Colorado",
+              "away": "Weber State",
+              "home": "Northern Colorado",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Bank of Colorado Arena, Greeley, Colorado",
+              "raw": "https://www.livesportsontv.com/match/northern-colorado-weber-state-1976688"
+            },
+            {
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Kansas City @ North Dakota State",
+              "away": "Kansas City",
+              "home": "North Dakota State",
+              "channels": [
+                "Midco Sports Plus"
+              ],
+              "notes": [],
+              "venue": "Bentson Bunker Fieldhouse, Fargo, North Dakota",
+              "raw": "https://www.livesportsontv.com/match/north-dakota-state-kansas-city-1984832"
+            },
+            {
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "St. Thomas (MN) @ South Dakota State",
+              "away": "St. Thomas (MN)",
+              "home": "South Dakota State",
               "channels": [
                 "Summit League Network",
                 "Midco Sports Plus"
               ],
               "notes": [],
-              "venue": "Bronson Field, Grand Forks, North Dakota",
-              "raw": "https://www.livesportsontv.com/match/north-dakota-south-dakota-state-1984911"
+              "venue": "First Bank & Trust Arena, Brookings, South Dakota",
+              "raw": "https://www.livesportsontv.com/match/south-dakota-state-st-thomas-mn-1984834"
             },
             {
-              "time": "2026-10-29T17:00:00-04:00",
-              "title": "Eastern Washington @ Montana",
-              "away": "Eastern Washington",
-              "home": "Montana",
+              "time": "2026-10-29T20:00:00-04:00",
+              "title": "Nebraska-Omaha @ South Dakota",
+              "away": "Nebraska-Omaha",
+              "home": "South Dakota",
+              "channels": [
+                "Summit League Network",
+                "Midco Sports Plus"
+              ],
+              "notes": [],
+              "venue": "Sanford Coyote Sports Center, Vermillion, South Dakota",
+              "raw": "https://www.livesportsontv.com/match/south-dakota-nebraska-omaha-1984835"
+            },
+            {
+              "time": "2026-10-29T20:30:00-04:00",
+              "title": "Montana State @ Southern Utah",
+              "away": "Montana State",
+              "home": "Southern Utah",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "South Campus Stadium, Missoula",
-              "raw": "https://www.livesportsontv.com/match/montana-eastern-washington-1976652"
+              "venue": "America First Events Center, Cedar City, Utah",
+              "raw": "https://www.livesportsontv.com/match/southern-utah-montana-state-1976689"
             },
             {
-              "time": "2026-10-29T18:00:00-04:00",
-              "title": "Kent State @ Buffalo",
-              "away": "Kent State",
-              "home": "Buffalo",
+              "time": "2026-10-29T20:30:00-04:00",
+              "title": "Grand Canyon @ New Mexico",
+              "away": "Grand Canyon",
+              "home": "New Mexico",
+              "channels": [
+                "MW+"
+              ],
+              "notes": [],
+              "venue": "Johnson Center, Albuquerque, New Mexico",
+              "raw": "https://www.livesportsontv.com/match/new-mexico-grand-canyon-1984836"
+            },
+            {
+              "time": "2026-10-29T21:00:00-04:00",
+              "title": "Cincinnati @ Colorado",
+              "away": "Cincinnati",
+              "home": "Colorado",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Broadview Stadium, Buffalo",
-              "raw": "https://www.livesportsontv.com/match/buffalo-kent-state-1976653"
+              "venue": "CU Events Center, Boulder, Colorado",
+              "raw": "https://www.livesportsontv.com/match/colorado-cincinnati-1976690"
             },
             {
-              "time": "2026-10-29T18:00:00-04:00",
-              "title": "Notre Dame @ California",
-              "away": "Notre Dame",
-              "home": "California",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "Edwards Stadium, Berkeley",
-              "raw": "https://www.livesportsontv.com/match/california-notre-dame-1976654"
-            },
-            {
-              "time": "2026-10-29T18:00:00-04:00",
-              "title": "Louisville @ Virginia",
-              "away": "Louisville",
-              "home": "Virginia",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "Klockner Stadium, Charlottesville",
-              "raw": "https://www.livesportsontv.com/match/virginia-louisville-1976655"
-            },
-            {
-              "time": "2026-10-29T18:00:00-04:00",
-              "title": "Eastern Kentucky @ West Georgia",
-              "away": "Eastern Kentucky",
-              "home": "West Georgia",
+              "time": "2026-10-29T21:00:00-04:00",
+              "title": "Loyola Marymount @ Portland",
+              "away": "Loyola Marymount",
+              "home": "Portland",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "University Soccer Field",
-              "raw": "https://www.livesportsontv.com/match/west-georgia-eastern-kentucky-1976656"
-            },
-            {
-              "time": "2026-10-29T18:00:00-04:00",
-              "title": "Tennessee Tech @ Western Carolina",
-              "away": "Tennessee Tech",
-              "home": "Western Carolina",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Catamount Athletic Complex",
-              "raw": "https://www.livesportsontv.com/match/western-carolina-tennessee-tech-1976657"
-            },
-            {
-              "time": "2026-10-29T18:00:00-04:00",
-              "title": "VMI @ Wofford",
-              "away": "VMI",
-              "home": "Wofford",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Snyder Field, Spartanburg",
-              "raw": "https://www.livesportsontv.com/match/wofford-vmi-1976658"
-            },
-            {
-              "time": "2026-10-29T18:30:00-04:00",
-              "title": "Eastern Michigan @ Akron",
-              "away": "Eastern Michigan",
-              "home": "Akron",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "FirstEnergy Stadium, Akron",
-              "raw": "https://www.livesportsontv.com/match/akron-eastern-michigan-1976659"
+              "venue": "Chiles Center, Portland, Oregon",
+              "raw": "https://www.livesportsontv.com/match/portland-loyola-marymount-1976691"
             }
           ]
         }
       ]
     }
   ],
-  "parsed_from": "jsonld:60 match pages"
+  "parsed_from": "jsonld:44 match pages"
 }
