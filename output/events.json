@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:35:15.792965+00:00",
+  "generated_at": "2026-10-31T18:27:58.359763+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -53,139 +53,134 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Bowling Green @ Western Michigan",
-              "away": "Bowling Green",
-              "home": "Western Michigan",
-              "channels": [
-                "Fubo Sports",
-                "CBS Sports Network"
-              ],
-              "notes": [],
-              "venue": "Waldo Stadium, Kalamazoo, MI",
-              "raw": "https://www.livesportsontv.com/match/western-michigan-bowling-green-1949061"
-            },
-            {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "North Dakota @ Youngstown State",
-              "away": "North Dakota",
-              "home": "Youngstown State",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Stambaugh Stadium, Youngstown, OH",
-              "raw": "https://www.livesportsontv.com/match/youngstown-state-north-dakota-1949062"
-            },
-            {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Wagner @ Merrimack",
-              "away": "Wagner",
-              "home": "Merrimack",
+              "time": "2026-10-31T12:30:00-04:00",
+              "title": "Villanova @ Lafayette",
+              "away": "Villanova",
+              "home": "Lafayette",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited",
-                "NESN+"
+                "NBC Sports Philadelphia"
               ],
               "notes": [],
-              "venue": "Duane Stadium, North Andover, MA",
-              "raw": "https://www.livesportsontv.com/match/merrimack-wagner-1956336"
+              "venue": "Fisher Stadium, Easton, PA",
+              "raw": "https://www.livesportsontv.com/match/lafayette-villanova-1956599"
             },
             {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Pennsylvania @ Brown",
-              "away": "Pennsylvania",
-              "home": "Brown",
+              "time": "2026-10-31T12:30:00-04:00",
+              "title": "Michigan @ Rutgers",
+              "away": "Michigan",
+              "home": "Rutgers",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
+                "Big Ten Network"
               ],
               "notes": [],
-              "venue": "Brown Stadium (RI), Providence, RI",
-              "raw": "https://www.livesportsontv.com/match/brown-pennsylvania-1956595"
+              "venue": "SHI Stadium, Piscataway, NJ",
+              "raw": "https://www.livesportsontv.com/match/rutgers-michigan-1984622"
             },
             {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Yale @ Columbia",
-              "away": "Yale",
-              "home": "Columbia",
+              "time": "2026-10-31T12:45:00-04:00",
+              "title": "Auburn @ Mississippi",
+              "away": "Auburn",
+              "home": "Mississippi",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Lawrence A. Wien Stadium, New York, NY",
-              "raw": "https://www.livesportsontv.com/match/columbia-yale-1956596"
-            },
-            {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Bucknell @ Lehigh",
-              "away": "Bucknell",
-              "home": "Lehigh",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Goodman Stadium, Bethlehem, PA",
-              "raw": "https://www.livesportsontv.com/match/lehigh-bucknell-1956597"
-            },
-            {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Duquesne @ New Haven",
-              "away": "Duquesne",
-              "home": "New Haven",
-              "channels": [
-                "ESPN Select",
                 "ESPN Unlimited",
-                "SportsNet Pittsburgh",
-                "YES",
-                "NEC Front Row"
+                "SEC Network",
+                "TSN+"
               ],
               "notes": [],
-              "venue": "Ralph F. DellaCamera Stadium, West Haven, CT",
-              "raw": "https://www.livesportsontv.com/match/new-haven-duquesne-1956598"
+              "venue": "Vaught-Hemingway Stadium, Oxford, MS",
+              "raw": "https://www.livesportsontv.com/match/mississippi-auburn-1984402"
             },
             {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Cornell @ Princeton",
-              "away": "Cornell",
-              "home": "Princeton",
+              "time": "2026-10-31T13:00:00-04:00",
+              "title": "Drake @ Morehead State",
+              "away": "Drake",
+              "home": "Morehead State",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Princeton Stadium, Princeton, NJ",
-              "raw": "https://www.livesportsontv.com/match/princeton-cornell-1956785"
+              "venue": "Jayne Stadium, Morehead, KY",
+              "raw": "https://www.livesportsontv.com/match/morehead-state-drake-1956600"
             },
             {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Maine @ Rhode Island",
-              "away": "Maine",
-              "home": "Rhode Island",
+              "time": "2026-10-31T13:00:00-04:00",
+              "title": "William & Mary @ Colgate",
+              "away": "William & Mary",
+              "home": "Colgate",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Andy Kerr Stadium, Hamilton, NY",
+              "raw": "https://www.livesportsontv.com/match/colgate-william-mary-1956601"
+            },
+            {
+              "time": "2026-10-31T13:00:00-04:00",
+              "title": "Richmond @ Holy Cross",
+              "away": "Richmond",
+              "home": "Holy Cross",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Fitton Field, Worcester, MA",
+              "raw": "https://www.livesportsontv.com/match/holy-cross-richmond-1956602"
+            },
+            {
+              "time": "2026-10-31T13:00:00-04:00",
+              "title": "VMI @ Chattanooga",
+              "away": "VMI",
+              "home": "Chattanooga",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Finley Stadium, Chattanooga, TN",
+              "raw": "https://www.livesportsontv.com/match/chattanooga-vmi-1956603"
+            },
+            {
+              "time": "2026-10-31T13:00:00-04:00",
+              "title": "Butler @ Presbyterian",
+              "away": "Butler",
+              "home": "Presbyterian",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Bailey Memorial Stadium, Clinton, SC",
+              "raw": "https://www.livesportsontv.com/match/presbyterian-butler-1956786"
+            },
+            {
+              "time": "2026-10-31T13:00:00-04:00",
+              "title": "Elon @ North Carolina A&T",
+              "away": "Elon",
+              "home": "North Carolina A&T",
               "channels": [
                 "FloSports"
               ],
               "notes": [],
-              "venue": "Centreville Bank Stadium, Pawtucket, RI",
-              "raw": "https://www.livesportsontv.com/match/rhode-island-maine-1984303"
+              "venue": "Truist Stadium, Greensboro, NC",
+              "raw": "https://www.livesportsontv.com/match/north-carolina-at-elon-1984304"
             },
             {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "SMU @ Syracuse",
-              "away": "SMU",
-              "home": "Syracuse",
+              "time": "2026-10-31T13:00:00-04:00",
+              "title": "Hampton @ Towson",
+              "away": "Hampton",
+              "home": "Towson",
               "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN2",
-                "TSN+"
+                "Monumental Sports Network",
+                "FloSports"
               ],
               "notes": [],
-              "venue": "JMA Wireless Dome, Syracuse, NY",
-              "raw": "https://www.livesportsontv.com/match/syracuse-smu-1984339"
+              "venue": "Johnny Unitas Stadium, Towson, MD",
+              "raw": "https://www.livesportsontv.com/match/towson-hampton-1984305"
             }
           ]
         }
@@ -514,19 +509,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-10-31T12:00:00-04:00",
-              "title": "Providence @ Quinnipiac",
-              "away": "Providence",
-              "home": "Quinnipiac",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "M&T Bank Arena, Hamden, CT",
-              "raw": "https://www.livesportsontv.com/match/quinnipiac-providence-1979359"
-            },
-            {
               "time": "2026-10-31T16:00:00-04:00",
               "title": "New Hampshire @ Vermont",
               "away": "New Hampshire",
@@ -640,6 +622,20 @@
               "notes": [],
               "venue": "Bentley Arena, Waltham, MA",
               "raw": "https://www.livesportsontv.com/match/bentley-holy-cross-1986972"
+            },
+            {
+              "time": "2026-10-31T19:00:00-04:00",
+              "title": "Northeastern @ Boston College",
+              "away": "Northeastern",
+              "home": "Boston College",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "NESN"
+              ],
+              "notes": [],
+              "venue": "Conte Forum, Chestnut Hill, MA",
+              "raw": "https://www.livesportsontv.com/match/boston-college-northeastern-1979410"
             }
           ]
         },
