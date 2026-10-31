@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:41:37.132222+00:00",
+  "generated_at": "2026-10-31T00:41:21.637256+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -136,27 +136,6 @@
     {
       "sport": "Basketball",
       "leagues": [
-        {
-          "league": "AmeriCup 3x3",
-          "events": [
-            {
-              "time": "2026-10-30T18:00:00-04:00",
-              "title": "El Salvador",
-              "away": null,
-              "home": null,
-              "channels": [
-                "beIN Sport USA",
-                "beIN Sport USA Espanol",
-                "beIN SPORTS 6",
-                "beIN Sport Canada",
-                "beIN Sport Canada Espanol"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/el-salvador-1986896"
-            }
-          ]
-        },
         {
           "league": "NBA",
           "country": "USA",
@@ -316,71 +295,12 @@
                 "Suns+",
                 "Altitude+",
                 "Sportsnet",
-                "Sportsnet One",
-                "Sportsnet NOW"
+                "Sportsnet NOW",
+                "Sportsnet+"
               ],
               "notes": [],
               "venue": "Phoenix Mortgage Matchup Center",
               "raw": "https://www.livesportsontv.com/match/phoenix-suns-denver-nuggets-1950107"
-            }
-          ]
-        },
-        {
-          "league": "Super League Basketball",
-          "country": "United Kingdom",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-10-30T15:00:00-04:00",
-              "title": "Sheffield Sharks @ London Lions",
-              "away": "Sheffield Sharks",
-              "home": "London Lions",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/london-lions-sheffield-sharks-1955117"
-            },
-            {
-              "time": "2026-10-30T15:30:00-04:00",
-              "title": "Manchester Basketball @ Bristol Flyers",
-              "away": "Manchester Basketball",
-              "home": "Bristol Flyers",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/bristol-flyers-manchester-basketball-1955114"
-            },
-            {
-              "time": "2026-10-30T15:30:00-04:00",
-              "title": "Newcastle Eagles @ Leicester Riders",
-              "away": "Newcastle Eagles",
-              "home": "Leicester Riders",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/leicester-riders-newcastle-eagles-1955115"
-            },
-            {
-              "time": "2026-10-30T15:30:00-04:00",
-              "title": "Cheshire Phoenix @ Liverpool",
-              "away": "Cheshire Phoenix",
-              "home": "Liverpool",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/liverpool-cheshire-phoenix-1955116"
             }
           ]
         },
@@ -834,6 +754,91 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/fort-wayne-komets-wheeling-nailers-1903694"
+            },
+            {
+              "time": "2026-10-30T20:00:00-04:00",
+              "title": "Indy Fuel @ Bloomington Bison",
+              "away": "Indy Fuel",
+              "home": "Bloomington Bison",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/bloomington-bison-indy-fuel-1903695"
+            },
+            {
+              "time": "2026-10-30T20:05:00-04:00",
+              "title": "Wichita Thunder @ Tulsa Oilers",
+              "away": "Wichita Thunder",
+              "home": "Tulsa Oilers",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/tulsa-oilers-wichita-thunder-1903696"
+            },
+            {
+              "time": "2026-10-30T20:10:00-04:00",
+              "title": "Idaho Steelheads @ Allen Americans",
+              "away": "Idaho Steelheads",
+              "home": "Allen Americans",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/allen-americans-idaho-steelheads-1903697"
+            },
+            {
+              "time": "2026-10-30T21:00:00-04:00",
+              "title": "Rapid City Rush @ New Mexico Goatheads",
+              "away": "Rapid City Rush",
+              "home": "New Mexico Goatheads",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/new-mexico-goatheads-rapid-city-rush-1903698"
+            },
+            {
+              "time": "2026-10-30T22:00:00-04:00",
+              "title": "Kansas City @ Tahoe Knight Monsters",
+              "away": "Kansas City",
+              "home": "Tahoe Knight Monsters",
+              "channels": [
+                "SSSEN",
+                "KVVU-FOX",
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/tahoe-knight-monsters-kansas-city-1903699"
+            }
+          ]
+        },
+        {
+          "league": "International Friendly Women",
+          "events": [
+            {
+              "time": "2026-10-30T19:00:00-04:00",
+              "title": "Canada @ USA",
+              "away": "Canada",
+              "home": "USA",
+              "channels": [
+                "Fubo Sports",
+                "NHL Network",
+                "TSN+",
+                "RDS",
+                "TSN1",
+                "TSN4",
+                "RDS 2"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/usa-canada-1983926"
             }
           ]
         },
@@ -842,22 +847,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-10-30T18:00:00-04:00",
-              "title": "New Jersey Devils @ Vegas Golden Knights",
-              "away": "New Jersey Devils",
-              "home": "Vegas Golden Knights",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "MSG Sportsnet",
-                "Scripps 66",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "T-Mobile Arena",
-              "raw": "https://www.livesportsontv.com/match/vegas-golden-knights-new-jersey-devils-1936308"
-            },
             {
               "time": "2026-10-30T19:00:00-04:00",
               "title": "Winnipeg Jets @ Florida Panthers",
