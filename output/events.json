@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:08:10.750408+00:00",
+  "generated_at": "2026-11-01T15:59:08.251971+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -221,45 +221,6 @@
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-01T06:00:00-05:00",
-              "title": "Bilbao @ Joventut Badalona",
-              "away": "Bilbao",
-              "home": "Joventut Badalona",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/joventut-badalona-bilbao-1949946"
-            },
-            {
-              "time": "2026-11-01T06:00:00-05:00",
-              "title": "Breogan @ Obradoiro CAB",
-              "away": "Breogan",
-              "home": "Obradoiro CAB",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/obradoiro-cab-breogan-1949947"
-            },
-            {
-              "time": "2026-11-01T06:30:00-05:00",
-              "title": "San Pablo Burgos @ Real Madrid",
-              "away": "San Pablo Burgos",
-              "home": "Real Madrid",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/real-madrid-san-pablo-burgos-1949948"
-            },
             {
               "time": "2026-11-01T11:00:00-05:00",
               "title": "Manresa @ Saski Baskonia",
@@ -957,6 +918,49 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/sault-ste-marie-greyhounds-london-knights-1908284"
+            },
+            {
+              "time": "2026-11-01T18:05:00-05:00",
+              "title": "Ottawa 67s @ Oshawa Generals",
+              "away": "Ottawa 67s",
+              "home": "Oshawa Generals",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/oshawa-generals-ottawa-67s-1908285"
+            }
+          ]
+        },
+        {
+          "league": "QMJHL",
+          "country": "Canada",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-01T14:00:00-05:00",
+              "title": "Saint John Sea Dogs @ Cape Breton Eagles",
+              "away": "Saint John Sea Dogs",
+              "home": "Cape Breton Eagles",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/cape-breton-eagles-saint-john-sea-dogs-1908730"
+            },
+            {
+              "time": "2026-11-01T15:00:00-05:00",
+              "title": "Baie-Comeau Drakkar @ Quebec Remparts",
+              "away": "Baie-Comeau Drakkar",
+              "home": "Quebec Remparts",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/quebec-remparts-baie-comeau-drakkar-1908731"
             }
           ]
         }
