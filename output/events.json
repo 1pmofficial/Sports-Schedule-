@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:26:51.267467+00:00",
+  "generated_at": "2026-11-03T17:43:28.434190+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -801,6 +801,7 @@
                 "Paramount+ (US)",
                 "TUDN",
                 "UniMás",
+                "CBS Sports Golazo Network",
                 "ViX",
                 "DAZN Canada"
               ],
@@ -887,6 +888,7 @@
               "home": "Feyenoord",
               "channels": [
                 "Paramount+ (US)",
+                "CBS Sports Golazo Network",
                 "ViX",
                 "DAZN Canada"
               ],
