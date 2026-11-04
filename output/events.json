@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:19:47.126813+00:00",
+  "generated_at": "2026-11-04T21:15:47.367811+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -66,32 +66,6 @@
           "country": "International",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-04T12:00:00-05:00",
-              "title": "Galatasaray @ Legia Warsawa",
-              "away": "Galatasaray",
-              "home": "Legia Warsawa",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/legia-warsawa-galatasaray-1928622"
-            },
-            {
-              "time": "2026-11-04T12:00:00-05:00",
-              "title": "AEK Athens @ Szombathely",
-              "away": "AEK Athens",
-              "home": "Szombathely",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/szombathely-aek-athens-1928655"
-            },
             {
               "time": "2026-11-04T14:00:00-05:00",
               "title": "Bnei Herzliya @ Telekom Baskets Bonn",
@@ -490,58 +464,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-11-04T12:00:00-05:00",
-              "title": "LeTourneau @ Houston Christian",
-              "away": "LeTourneau",
-              "home": "Houston Christian",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Sharp Gymnasium, Houston, TX",
-              "raw": "https://www.livesportsontv.com/match/houston-christian-letourneau-1989405"
-            },
-            {
-              "time": "2026-11-04T12:00:00-05:00",
-              "title": "Wingate @ High Point",
-              "away": "Wingate",
-              "home": "High Point",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Qubein Center, High Point, NC",
-              "raw": "https://www.livesportsontv.com/match/high-point-wingate-1989406"
-            },
-            {
-              "time": "2026-11-04T12:00:00-05:00",
-              "title": "Arkansas-Pine Bluff @ Tarleton State",
-              "away": "Arkansas-Pine Bluff",
-              "home": "Tarleton State",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "ECCU Center, Stephenville, TX",
-              "raw": "https://www.livesportsontv.com/match/tarleton-state-arkansas-pine-bluff-1989407"
-            },
-            {
-              "time": "2026-11-04T12:00:00-05:00",
-              "title": "University of Dallas @ Stephen F. Austin",
-              "away": "University of Dallas",
-              "home": "Stephen F. Austin",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "William R. Johnson Coliseum, Nacogdoches, TX",
-              "raw": "https://www.livesportsontv.com/match/stephen-f-austin-university-of-dallas-1991082"
-            },
-            {
               "time": "2026-11-04T16:30:00-05:00",
               "title": "Clinton College @ UNC Asheville",
               "away": "Clinton College",
@@ -619,6 +541,56 @@
               "notes": [],
               "venue": "Reilly Center, Saint Bonaventure, NY",
               "raw": "https://www.livesportsontv.com/match/st-bonaventure-dyouville-1991084"
+            },
+            {
+              "time": "2026-11-04T18:00:00-05:00",
+              "title": "Georgian Court @ Delaware State",
+              "away": "Georgian Court",
+              "home": "Delaware State",
+              "channels": [
+                "MEAC Network"
+              ],
+              "notes": [],
+              "venue": "Memorial Hall (DE), Dover, DE",
+              "raw": "https://www.livesportsontv.com/match/delaware-state-georgian-court-1991624"
+            },
+            {
+              "time": "2026-11-04T18:00:00-05:00",
+              "title": "Johnson C. Smith @ North Carolina Central",
+              "away": "Johnson C. Smith",
+              "home": "North Carolina Central",
+              "channels": [
+                "MEAC Network"
+              ],
+              "notes": [],
+              "venue": "McDougald-McLendon Arena, Durham, NC",
+              "raw": "https://www.livesportsontv.com/match/north-carolina-central-johnson-c-smith-1991625"
+            },
+            {
+              "time": "2026-11-04T18:30:00-05:00",
+              "title": "Johnson University (TN) @ South Carolina Upstate",
+              "away": "Johnson University (TN)",
+              "home": "South Carolina Upstate",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "G.B. Hodge Center, Spartanburg, SC",
+              "raw": "https://www.livesportsontv.com/match/south-carolina-upstate-johnson-university-tn-1989411"
+            },
+            {
+              "time": "2026-11-04T18:30:00-05:00",
+              "title": "East Texas A&M University @ Cincinnati",
+              "away": "East Texas A&M University",
+              "home": "Cincinnati",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Fifth Third Arena, Cincinnati, OH",
+              "raw": "https://www.livesportsontv.com/match/cincinnati-east-texas-am-university-1989412"
             }
           ]
         }
@@ -841,18 +813,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-04T10:30:00-05:00",
-              "title": "Kingston Frontenacs @ Ottawa 67s",
-              "away": "Kingston Frontenacs",
-              "home": "Ottawa 67s",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/ottawa-67s-kingston-frontenacs-1908287"
-            },
-            {
               "time": "2026-11-04T18:00:00-05:00",
               "title": "Sudbury Wolves @ Barrie Colts",
               "away": "Sudbury Wolves",
@@ -918,6 +878,42 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/edmonton-oil-kings-lethbridge-hurricanes-1958216"
+            },
+            {
+              "time": "2026-11-04T22:00:00-05:00",
+              "title": "Medicine Hat Tigers @ Portland Winterhawks",
+              "away": "Medicine Hat Tigers",
+              "home": "Portland Winterhawks",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/portland-winterhawks-medicine-hat-tigers-1958217"
+            },
+            {
+              "time": "2026-11-04T22:00:00-05:00",
+              "title": "Moose Jaw Warriors @ Prince George Cougars",
+              "away": "Moose Jaw Warriors",
+              "home": "Prince George Cougars",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/prince-george-cougars-moose-jaw-warriors-1958218"
+            },
+            {
+              "time": "2026-11-04T22:05:00-05:00",
+              "title": "Spokane Chiefs @ Kelowna Rockets",
+              "away": "Spokane Chiefs",
+              "home": "Kelowna Rockets",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/kelowna-rockets-spokane-chiefs-1958219"
             }
           ]
         }
