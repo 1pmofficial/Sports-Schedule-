@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T10:44:12.190973+00:00",
+  "generated_at": "2026-11-05T18:41:04.213204+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -247,19 +247,6 @@
             },
             {
               "time": "2026-11-05T18:00:00-05:00",
-              "title": "Chicago State @ Incarnate Word",
-              "away": "Chicago State",
-              "home": "Incarnate Word",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "McDermott Center, San Antonio, TX",
-              "raw": "https://www.livesportsontv.com/match/incarnate-word-chicago-state-1989138"
-            },
-            {
-              "time": "2026-11-05T18:00:00-05:00",
               "title": "Mount Saint Mary (NY) @ Army",
               "away": "Mount Saint Mary (NY)",
               "home": "Army",
@@ -297,6 +284,19 @@
               "notes": [],
               "venue": "Prudential Center, Newark, NJ",
               "raw": "https://www.livesportsontv.com/match/seton-hall-long-island-university-1980678"
+            },
+            {
+              "time": "2026-11-05T19:00:00-05:00",
+              "title": "Chicago State @ Incarnate Word",
+              "away": "Chicago State",
+              "home": "Incarnate Word",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "McDermott Center, San Antonio, TX",
+              "raw": "https://www.livesportsontv.com/match/incarnate-word-chicago-state-1989138"
             },
             {
               "time": "2026-11-05T19:00:00-05:00",
@@ -359,31 +359,6 @@
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-11-05T11:00:00-05:00",
-              "title": "North Florida @ Florida State",
-              "away": "North Florida",
-              "home": "Florida State",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "Tucker Center, Tallahassee, FL",
-              "raw": "https://www.livesportsontv.com/match/florida-state-north-florida-1989423"
-            },
-            {
-              "time": "2026-11-05T11:00:00-05:00",
-              "title": "Frostburg State @ Towson",
-              "away": "Frostburg State",
-              "home": "Towson",
-              "channels": [
-                "FloSports"
-              ],
-              "notes": [],
-              "venue": "SECU Arena, Towson, MD",
-              "raw": "https://www.livesportsontv.com/match/towson-frostburg-state-1991627"
-            },
             {
               "time": "2026-11-05T12:00:00-05:00",
               "title": "Miami (OH) @ Southeast Missouri State",
@@ -486,6 +461,32 @@
               "notes": [],
               "venue": "The Sobrato Center, San Francisco, CA",
               "raw": "https://www.livesportsontv.com/match/san-francisco-hawaii-1989429"
+            },
+            {
+              "time": "2026-11-05T16:00:00-05:00",
+              "title": "UIC @ Robert Morris",
+              "away": "UIC",
+              "home": "Robert Morris",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "UPMC Events Center, Moon Township, PA",
+              "raw": "https://www.livesportsontv.com/match/robert-morris-uic-1989430"
+            },
+            {
+              "time": "2026-11-05T16:30:00-05:00",
+              "title": "UCF @ Florida",
+              "away": "UCF",
+              "home": "Florida",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Stephen C. O'Connell Center, Gainesville, FL",
+              "raw": "https://www.livesportsontv.com/match/florida-ucf-1983147"
             }
           ]
         }
@@ -555,37 +556,6 @@
               "notes": [],
               "venue": "Taffy Abel Arena, Sault Sainte Marie, MI",
               "raw": "https://www.livesportsontv.com/match/lake-superior-state-maryville-mo-1986975"
-            }
-          ]
-        },
-        {
-          "league": "ECHL",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-05T10:30:00-05:00",
-              "title": "Maine Mariners @ Greensboro Gargoyles",
-              "away": "Maine Mariners",
-              "home": "Greensboro Gargoyles",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/greensboro-gargoyles-maine-mariners-1903901"
-            },
-            {
-              "time": "2026-11-05T10:30:00-05:00",
-              "title": "Atlanta Gladiators @ Savannah Ghost Pirates",
-              "away": "Atlanta Gladiators",
-              "home": "Savannah Ghost Pirates",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/savannah-ghost-pirates-atlanta-gladiators-1903902"
             }
           ]
         },
@@ -962,6 +932,34 @@
               "notes": [],
               "venue": "Selhurst Park (London, England)",
               "raw": "https://www.livesportsontv.com/match/crystal-palace-tsg-1899-hoffenheim-1961509"
+            },
+            {
+              "time": "2026-11-05T12:45:00-05:00",
+              "title": "Omonia Nicosia @ NEC",
+              "away": "Omonia Nicosia",
+              "home": "NEC",
+              "channels": [
+                "Paramount+ (US)",
+                "ViX",
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "Stadion De Goffert (Nijmegen, Netherlands)",
+              "raw": "https://www.livesportsontv.com/match/nec-omonia-nicosia-1961532"
+            },
+            {
+              "time": "2026-11-05T12:45:00-05:00",
+              "title": "Viktoria Plzeň @ Lillestrøm",
+              "away": "Viktoria Plzeň",
+              "home": "Lillestrøm",
+              "channels": [
+                "Paramount+ (US)",
+                "ViX",
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "Aaraasen Stadion (Skedsmo, Norway)",
+              "raw": "https://www.livesportsontv.com/match/lillestrm-viktoria-plzen-1961536"
             }
           ]
         }
