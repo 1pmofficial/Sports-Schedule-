@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:07:17.516755+00:00",
+  "generated_at": "2026-11-06T20:50:04.927333+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -659,109 +659,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-11-06T11:30:00-05:00",
-              "title": "Northwestern State @ Arkansas",
-              "away": "Northwestern State",
-              "home": "Arkansas",
-              "channels": [
-                "ESPN Unlimited",
-                "SEC Network +"
-              ],
-              "notes": [],
-              "venue": "Bud Walton Arena, Fayetteville, AR",
-              "raw": "https://www.livesportsontv.com/match/arkansas-northwestern-state-1983149"
-            },
-            {
-              "time": "2026-11-06T11:30:00-05:00",
-              "title": "Indiana State @ Seton Hall",
-              "away": "Indiana State",
-              "home": "Seton Hall",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Walsh Gymnasium, South Orange, NJ",
-              "raw": "https://www.livesportsontv.com/match/seton-hall-indiana-state-1989482"
-            },
-            {
-              "time": "2026-11-06T12:00:00-05:00",
-              "title": "Life University @ Jacksonville State",
-              "away": "Life University",
-              "home": "Jacksonville State",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Pete Mathews Coliseum, Jacksonville, AL",
-              "raw": "https://www.livesportsontv.com/match/jacksonville-state-life-university-1989483"
-            },
-            {
-              "time": "2026-11-06T12:00:00-05:00",
-              "title": "Drake @ Kansas",
-              "away": "Drake",
-              "home": "Kansas",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Allen Fieldhouse, Lawrence, KS",
-              "raw": "https://www.livesportsontv.com/match/kansas-drake-1989484"
-            },
-            {
-              "time": "2026-11-06T12:00:00-05:00",
-              "title": "UT Rio Grande Valley @ South Dakota",
-              "away": "UT Rio Grande Valley",
-              "home": "South Dakota",
-              "channels": [
-                "Summit League Network"
-              ],
-              "notes": [],
-              "venue": "Sanford Coyote Sports Center, Vermillion, SD",
-              "raw": "https://www.livesportsontv.com/match/south-dakota-ut-rio-grande-valley-1989485"
-            },
-            {
-              "time": "2026-11-06T12:00:00-05:00",
-              "title": "Purdue Fort Wayne @ DePaul",
-              "away": "Purdue Fort Wayne",
-              "home": "DePaul",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Wintrust Arena, Chicago, IL",
-              "raw": "https://www.livesportsontv.com/match/depaul-purdue-fort-wayne-1989486"
-            },
-            {
-              "time": "2026-11-06T12:00:00-05:00",
-              "title": "Life University @ South Carolina",
-              "away": "Life University",
-              "home": "South Carolina",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/south-carolina-life-university-1992532"
-            },
-            {
-              "time": "2026-11-06T13:00:00-05:00",
-              "title": "Southern Utah @ New Mexico State",
-              "away": "Southern Utah",
-              "home": "New Mexico State",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Pan American Center, Las Cruces, NM",
-              "raw": "https://www.livesportsontv.com/match/new-mexico-state-southern-utah-1989487"
-            },
-            {
               "time": "2026-11-06T16:00:00-05:00",
               "title": "UC Davis @ Eastern Washington",
               "away": "UC Davis",
@@ -785,6 +682,110 @@
               "notes": [],
               "venue": "Dee Glen Smith Spectrum, Logan, UT",
               "raw": "https://www.livesportsontv.com/match/utah-state-loyola-marymount-1991599"
+            },
+            {
+              "time": "2026-11-06T17:00:00-05:00",
+              "title": "Ohio Christian @ Wright State",
+              "away": "Ohio Christian",
+              "home": "Wright State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Nutter Center, Dayton, OH",
+              "raw": "https://www.livesportsontv.com/match/wright-state-ohio-christian-1989490"
+            },
+            {
+              "time": "2026-11-06T18:00:00-05:00",
+              "title": "Morgan State @ Oklahoma State",
+              "away": "Morgan State",
+              "home": "Oklahoma State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Gallagher-Iba Arena, Stillwater, OK",
+              "raw": "https://www.livesportsontv.com/match/oklahoma-state-morgan-state-1988106"
+            },
+            {
+              "time": "2026-11-06T18:00:00-05:00",
+              "title": "Northeastern @ Boston University",
+              "away": "Northeastern",
+              "home": "Boston University",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Case Gym, Boston, MA",
+              "raw": "https://www.livesportsontv.com/match/boston-university-northeastern-1989491"
+            },
+            {
+              "time": "2026-11-06T18:00:00-05:00",
+              "title": "North Carolina A&T @ Marshall",
+              "away": "North Carolina A&T",
+              "home": "Marshall",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Cam Henderson Center, Huntington, WV",
+              "raw": "https://www.livesportsontv.com/match/marshall-north-carolina-at-1989492"
+            },
+            {
+              "time": "2026-11-06T18:00:00-05:00",
+              "title": "St. Francis (PA) @ Yale",
+              "away": "St. Francis (PA)",
+              "home": "Yale",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "John J. Lee Amphitheater, New Haven, CT",
+              "raw": "https://www.livesportsontv.com/match/yale-st-francis-pa-1989493"
+            },
+            {
+              "time": "2026-11-06T18:00:00-05:00",
+              "title": "Rhode Island @ Columbia",
+              "away": "Rhode Island",
+              "home": "Columbia",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Curb Event Center Arena, Nashville, TN",
+              "raw": "https://www.livesportsontv.com/match/columbia-rhode-island-1989494"
+            },
+            {
+              "time": "2026-11-06T18:00:00-05:00",
+              "title": "Princeton @ Richmond",
+              "away": "Princeton",
+              "home": "Richmond",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Robins Center, Richmond, VA",
+              "raw": "https://www.livesportsontv.com/match/richmond-princeton-1989495"
+            },
+            {
+              "time": "2026-11-06T18:00:00-05:00",
+              "title": "Lehigh @ Monmouth",
+              "away": "Lehigh",
+              "home": "Monmouth",
+              "channels": [
+                "NBC Sports Philadelphia Plus",
+                "FloSports"
+              ],
+              "notes": [],
+              "venue": "OceanFirst Bank Center, West Long Branch, NJ",
+              "raw": "https://www.livesportsontv.com/match/monmouth-lehigh-1991600"
             }
           ]
         }
