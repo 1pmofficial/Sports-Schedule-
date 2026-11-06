@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:23:52.826943+00:00",
+  "generated_at": "2026-11-06T15:07:17.516755+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -787,37 +787,6 @@
               "raw": "https://www.livesportsontv.com/match/utah-state-loyola-marymount-1991599"
             }
           ]
-        },
-        {
-          "league": "World Tour 3x3",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-06T02:25:00-05:00",
-              "title": "Dubai",
-              "away": null,
-              "home": null,
-              "channels": [
-                "beIN SPORTS 6"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/dubai-1991464"
-            },
-            {
-              "time": "2026-11-06T07:00:00-05:00",
-              "title": "Dubai",
-              "away": null,
-              "home": null,
-              "channels": [
-                "CBC Gem"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/dubai-1991340"
-            }
-          ]
         }
       ]
     },
@@ -864,6 +833,31 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/grand-rapids-griffins-milwaukee-admirals-1924799"
+            },
+            {
+              "time": "2026-11-06T19:00:00-05:00",
+              "title": "Providence Bruins @ Hamilton Hammers",
+              "away": "Providence Bruins",
+              "home": "Hamilton Hammers",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/hamilton-providence-bruins-1924800"
+            },
+            {
+              "time": "2026-11-06T19:00:00-05:00",
+              "title": "Cleveland Monsters @ Laval Rocket",
+              "away": "Cleveland Monsters",
+              "home": "Laval Rocket",
+              "channels": [
+                "FloHockey",
+                "RDS"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/laval-rocket-cleveland-monsters-1924801"
             }
           ]
         },
