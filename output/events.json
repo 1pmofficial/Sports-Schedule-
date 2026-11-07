@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T07:01:23.539254+00:00",
+  "generated_at": "2026-11-07T13:54:43.318264+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -619,23 +619,6 @@
           ]
         },
         {
-          "league": "NBL",
-          "events": [
-            {
-              "time": "2026-11-07T03:30:00-05:00",
-              "title": "Brisbane Bullets @ Melbourne United",
-              "away": "Brisbane Bullets",
-              "home": "Melbourne United",
-              "channels": [
-                "NBA TV"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/melbourne-united-brisbane-bullets-1900580"
-            }
-          ]
-        },
-        {
           "league": "Women's College Basketball",
           "country": "USA",
           "gender": "female",
@@ -935,6 +918,22 @@
               "notes": [],
               "venue": "American Airlines Center",
               "raw": "https://www.livesportsontv.com/match/dallas-stars-san-jose-sharks-1943601"
+            },
+            {
+              "time": "2026-11-07T20:00:00-05:00",
+              "title": "Tampa Bay Lightning @ Minnesota Wild",
+              "away": "Tampa Bay Lightning",
+              "home": "Minnesota Wild",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "The Spot",
+                "Wild+",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Grand Casino Arena",
+              "raw": "https://www.livesportsontv.com/match/minnesota-wild-tampa-bay-lightning-1943602"
             }
           ]
         }
