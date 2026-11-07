@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:54:43.318264+00:00",
+  "generated_at": "2026-11-07T18:40:27.557961+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -624,19 +624,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-11-07T11:00:00-05:00",
-              "title": "Kent State @ Northern Kentucky",
-              "away": "Kent State",
-              "home": "Northern Kentucky",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Truist Arena, Highland Heights, KY",
-              "raw": "https://www.livesportsontv.com/match/northern-kentucky-kent-state-1989520"
-            },
-            {
               "time": "2026-11-07T12:00:00-05:00",
               "title": "North Carolina Central @ UNC Wilmington",
               "away": "North Carolina Central",
@@ -750,26 +737,18 @@
               "notes": [],
               "venue": "Michael J. Hagan '85 Arena, Philadelphia, PA",
               "raw": "https://www.livesportsontv.com/match/saint-josephs-kutztown-pa-1991136"
-            }
-          ]
-        },
-        {
-          "league": "World Tour 3x3",
-          "country": "International",
-          "gender": "male",
-          "events": [
+            },
             {
-              "time": "2026-11-07T08:00:00-05:00",
-              "title": "Dubai",
-              "away": null,
-              "home": null,
+              "time": "2026-11-07T13:00:00-05:00",
+              "title": "Avila @ Nebraska-Omaha",
+              "away": "Avila",
+              "home": "Nebraska-Omaha",
               "channels": [
-                "beIN SPORTS 6",
-                "CBC Gem"
+                "Midco Sports Plus"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/dubai-1991465"
+              "venue": "Baxter Arena, Omaha, NE",
+              "raw": "https://www.livesportsontv.com/match/nebraska-omaha-avila-1992409"
             }
           ]
         }
@@ -934,6 +913,22 @@
               "notes": [],
               "venue": "Grand Casino Arena",
               "raw": "https://www.livesportsontv.com/match/minnesota-wild-tampa-bay-lightning-1943602"
+            },
+            {
+              "time": "2026-11-07T21:00:00-05:00",
+              "title": "Detroit Red Wings @ Colorado Avalanche",
+              "away": "Detroit Red Wings",
+              "home": "Colorado Avalanche",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Altitude",
+                "Detroit SportsNet",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Ball Arena",
+              "raw": "https://www.livesportsontv.com/match/colorado-avalanche-detroit-red-wings-1943603"
             }
           ]
         }
