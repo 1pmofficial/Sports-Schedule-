@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T10:10:15.345749+00:00",
+  "generated_at": "2026-11-08T17:01:12.014538+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -12,26 +12,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-08T09:30:00-05:00",
-              "title": "Cincinnati Bengals @ Atlanta Falcons",
-              "away": "Cincinnati Bengals",
-              "home": "Atlanta Falcons",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "NFL Network",
-                "ESPN Deportes",
-                "Atlanta News First",
-                "WLWT-NBC",
-                "TSN+",
-                "RDS 2",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Santiago Bernabeu (Madrid, Spain)",
-              "raw": "https://www.livesportsontv.com/match/atlanta-falcons-cincinnati-bengals-1894826"
-            },
             {
               "time": "2026-11-08T13:00:00-05:00",
               "title": "Denver Broncos @ Carolina Panthers",
@@ -241,45 +221,6 @@
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-08T06:00:00-05:00",
-              "title": "Breogan @ Barcelona",
-              "away": "Breogan",
-              "home": "Barcelona",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/barcelona-breogan-1949955"
-            },
-            {
-              "time": "2026-11-08T06:30:00-05:00",
-              "title": "Valencia @ San Pablo Burgos",
-              "away": "Valencia",
-              "home": "San Pablo Burgos",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/san-pablo-burgos-valencia-1949956"
-            },
-            {
-              "time": "2026-11-08T07:00:00-05:00",
-              "title": "Joventut Badalona @ Tenerife",
-              "away": "Joventut Badalona",
-              "home": "Tenerife",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/tenerife-joventut-badalona-1949957"
-            },
             {
               "time": "2026-11-08T11:00:00-05:00",
               "title": "Unicaja @ Basket Zaragoza",
@@ -874,6 +815,44 @@
       "sport": "Ice Hockey",
       "leagues": [
         {
+          "league": "AHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-08T17:00:00-05:00",
+              "title": "Iowa Wild @ Rockford IceHogs",
+              "away": "Iowa Wild",
+              "home": "Rockford IceHogs",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/rockford-icehogs-iowa-wild-1924828"
+            }
+          ]
+        },
+        {
+          "league": "ECHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-08T15:00:00-05:00",
+              "title": "Florida Everblades @ Jacksonville IceMen",
+              "away": "Florida Everblades",
+              "home": "Jacksonville IceMen",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/jacksonville-icemen-florida-everblades-1903930"
+            }
+          ]
+        },
+        {
           "league": "NHL",
           "country": "USA",
           "gender": "male",
@@ -949,6 +928,41 @@
               "notes": [],
               "venue": "Scotiabank Arena",
               "raw": "https://www.livesportsontv.com/match/toronto-maple-leafs-new-jersey-devils-1944448"
+            },
+            {
+              "time": "2026-11-08T19:00:00-05:00",
+              "title": "Philadelphia Flyers @ Calgary Flames",
+              "away": "Philadelphia Flyers",
+              "home": "Calgary Flames",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "NBC Sports Philadelphia",
+                "Sportsnet West",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Scotiabank Saddledome",
+              "raw": "https://www.livesportsontv.com/match/calgary-flames-philadelphia-flyers-1944450"
+            },
+            {
+              "time": "2026-11-08T20:00:00-05:00",
+              "title": "Pittsburgh Penguins @ Anaheim Ducks",
+              "away": "Pittsburgh Penguins",
+              "home": "Anaheim Ducks",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Prime Video (US)",
+                "SportsNet Pittsburgh",
+                "Sportsnet",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Honda Center",
+              "raw": "https://www.livesportsontv.com/match/anaheim-ducks-pittsburgh-penguins-1944451"
             }
           ]
         }
