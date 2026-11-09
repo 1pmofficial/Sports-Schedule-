@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T07:52:50.433057+00:00",
+  "generated_at": "2026-11-09T18:42:27.580208+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
-  "total_events": 58,
+  "total_events": 53,
   "sports": [
     {
       "sport": "American Football",
@@ -59,19 +59,6 @@
               "notes": [],
               "venue": "Schottenstein Center, Columbus, OH",
               "raw": "https://www.livesportsontv.com/match/ohio-state-marshall-1981923"
-            },
-            {
-              "time": "2026-11-09T18:00:00-05:00",
-              "title": "Baptist (FL) @ West Florida",
-              "away": "Baptist (FL)",
-              "home": "West Florida",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "UWF Field House, Pensacola, FL",
-              "raw": "https://www.livesportsontv.com/match/west-florida-baptist-fl-1989668"
             },
             {
               "time": "2026-11-09T18:00:00-05:00",
@@ -179,6 +166,19 @@
               "notes": [],
               "venue": "Moody Center, Austin, TX",
               "raw": "https://www.livesportsontv.com/match/texas-grambling-state-1981927"
+            },
+            {
+              "time": "2026-11-09T19:00:00-05:00",
+              "title": "Radford @ Tennessee",
+              "away": "Radford",
+              "home": "Tennessee",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Food City Center, Knoxville, TN",
+              "raw": "https://www.livesportsontv.com/match/tennessee-radford-1983123"
             }
           ]
         },
@@ -333,8 +333,7 @@
               "away": "Agua Caliente Clippers",
               "home": "Coachella Valley Lakers",
               "channels": [
-                "NBA App",
-                "NBAGLeague.com"
+                "NBA App"
               ],
               "notes": [],
               "venue": "TBD",
@@ -347,32 +346,6 @@
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-11-09T11:00:00-05:00",
-              "title": "Otterbein @ Ohio",
-              "away": "Otterbein",
-              "home": "Ohio",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Convocation Center (OH), Athens, OH",
-              "raw": "https://www.livesportsontv.com/match/ohio-otterbein-1989663"
-            },
-            {
-              "time": "2026-11-09T11:30:00-05:00",
-              "title": "Pensacola Christian @ West Florida",
-              "away": "Pensacola Christian",
-              "home": "West Florida",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "UWF Field House, Pensacola, FL",
-              "raw": "https://www.livesportsontv.com/match/west-florida-pensacola-christian-1989664"
-            },
             {
               "time": "2026-11-09T12:00:00-05:00",
               "title": "Northwestern State @ Oklahoma State",
@@ -473,6 +446,32 @@
               "notes": [],
               "venue": "McDougald-McLendon Arena, Durham, NC",
               "raw": "https://www.livesportsontv.com/match/north-carolina-central-fayetteville-state-1991937"
+            },
+            {
+              "time": "2026-11-09T18:30:00-05:00",
+              "title": "South Alabama @ UCF",
+              "away": "South Alabama",
+              "home": "UCF",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Addition Financial Arena, Orlando, FL",
+              "raw": "https://www.livesportsontv.com/match/ucf-south-alabama-1989674"
+            },
+            {
+              "time": "2026-11-09T18:30:00-05:00",
+              "title": "Akron @ Xavier",
+              "away": "Akron",
+              "home": "Xavier",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Cintas Center, Cincinnati, OH",
+              "raw": "https://www.livesportsontv.com/match/xavier-akron-1989675"
             }
           ]
         }
@@ -652,6 +651,26 @@
           ]
         },
         {
+          "league": "LaLiga2",
+          "country": "Spain",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-09T14:30:00-05:00",
+              "title": "Eldense @ Las Palmas",
+              "away": "Eldense",
+              "home": "Las Palmas",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Estadio de Gran Canaria",
+              "raw": "https://www.livesportsontv.com/match/las-palmas-eldense-1918302"
+            }
+          ]
+        },
+        {
           "league": "Women's Bundesliga",
           "country": "Germany",
           "gender": "female",
@@ -806,54 +825,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-09T07:00:00-05:00",
-              "title": "Stockholm Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "TSN+"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/stockholm-open-1987419"
-            },
-            {
-              "time": "2026-11-09T07:00:00-05:00",
-              "title": "Cameron Norrie @ James Duckworth",
-              "away": "Cameron Norrie",
-              "home": "James Duckworth",
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/j-duckworth-c-norrie-1994887"
-            },
-            {
-              "time": "2026-11-09T08:10:00-05:00",
-              "title": "A. Vallejo - U. Humbert",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/a-vallejo-u-humbert-1994890"
-            },
-            {
-              "time": "2026-11-09T13:30:00-05:00",
-              "title": "Toby Samuel @ Leo Borg",
-              "away": "Toby Samuel",
-              "home": "Leo Borg",
-              "channels": [
-                "Tennis Channel"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/stockholm-open-1994767"
-            },
-            {
               "time": "2026-11-09T14:00:00-05:00",
               "title": "Stockholm Open",
               "away": null,
@@ -868,25 +839,6 @@
           ]
         },
         {
-          "league": "ATP Challenger Tour",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-09T11:00:00-05:00",
-              "title": "Orleans Open",
-              "away": null,
-              "home": null,
-              "channels": [
-                "T2"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/orleans-open-1992479"
-            }
-          ]
-        },
-        {
           "league": "WTA",
           "country": "International",
           "gender": "female",
@@ -897,6 +849,7 @@
               "away": null,
               "home": null,
               "channels": [
+                "Tennis Channel",
                 "TSN+",
                 "TVA Sports 2",
                 "TSN2",
@@ -905,19 +858,6 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/wta-finals-1988911"
-            },
-            {
-              "time": "2026-11-09T17:00:00-05:00",
-              "title": "WTA Finals",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Tennis Channel",
-                "TVA Sports 2"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/wta-finals-1992401"
             },
             {
               "time": "2026-11-09T19:00:00-05:00",
@@ -936,5 +876,5 @@
       ]
     }
   ],
-  "parsed_from": "jsonld:58 match pages"
+  "parsed_from": "jsonld:53 match pages"
 }
