@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:54:55.345389+00:00",
+  "generated_at": "2026-11-12T18:49:55.093838+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -50,7 +50,7 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T11:00:00-05:00",
+              "time": "2026-11-12T14:00:00-05:00",
               "title": "IHSAA Class A Tournament",
               "away": null,
               "home": null,
@@ -59,7 +59,7 @@
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/ihsaa-class-a-tournament-1996255"
+              "raw": "https://www.livesportsontv.com/match/ihsaa-class-a-tournament-1996658"
             }
           ]
         },
@@ -380,45 +380,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-11-12T11:00:00-05:00",
-              "title": "Chattanooga @ Northern Kentucky",
-              "away": "Chattanooga",
-              "home": "Northern Kentucky",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Truist Arena, Highland Heights, KY",
-              "raw": "https://www.livesportsontv.com/match/northern-kentucky-chattanooga-1989881"
-            },
-            {
-              "time": "2026-11-12T11:00:00-05:00",
-              "title": "West Virginia State @ Marshall",
-              "away": "West Virginia State",
-              "home": "Marshall",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Cam Henderson Center, Huntington, WV",
-              "raw": "https://www.livesportsontv.com/match/marshall-west-virginia-state-1989882"
-            },
-            {
-              "time": "2026-11-12T11:30:00-05:00",
-              "title": "UNC Wilmington @ Wake Forest",
-              "away": "UNC Wilmington",
-              "home": "Wake Forest",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "LJVM Coliseum, Winston-Salem, NC",
-              "raw": "https://www.livesportsontv.com/match/wake-forest-unc-wilmington-1989883"
-            },
-            {
               "time": "2026-11-12T12:00:00-05:00",
               "title": "Spalding @ Southern Indiana",
               "away": "Spalding",
@@ -507,6 +468,45 @@
               "notes": [],
               "venue": "Pizzitola Sports Center, Providence, RI",
               "raw": "https://www.livesportsontv.com/match/brown-holy-cross-1989888"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "South Florida @ Florida",
+              "away": "South Florida",
+              "home": "Florida",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Stephen C. O'Connell Center, Gainesville, FL",
+              "raw": "https://www.livesportsontv.com/match/florida-south-florida-1983173"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Oklahoma State @ Tulsa",
+              "away": "Oklahoma State",
+              "home": "Tulsa",
+              "channels": [
+                "ESPN Unlimited",
+                "ESPN U"
+              ],
+              "notes": [],
+              "venue": "Reynolds Center, Tulsa, OK",
+              "raw": "https://www.livesportsontv.com/match/tulsa-oklahoma-state-1987899"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Longwood @ Pennsylvania",
+              "away": "Longwood",
+              "home": "Pennsylvania",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "The Palestra, Philadelphia, PA",
+              "raw": "https://www.livesportsontv.com/match/pennsylvania-longwood-1989891"
             }
           ]
         }
@@ -584,18 +584,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-12T11:35:00-05:00",
-              "title": "Tulsa Oilers @ Kansas City",
-              "away": "Tulsa Oilers",
-              "home": "Kansas City",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/kansas-city-tulsa-oilers-1903943"
-            },
             {
               "time": "2026-11-12T19:00:00-05:00",
               "title": "Worcester Railers @ Greensboro Gargoyles",
@@ -837,18 +825,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T11:00:00-05:00",
-              "title": "Kitchener Rangers @ Erie Otters",
-              "away": "Kitchener Rangers",
-              "home": "Erie Otters",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/erie-otters-kitchener-rangers-1992821"
-            },
-            {
               "time": "2026-11-12T19:00:00-05:00",
               "title": "Sarnia Sting @ North Bay Battalion",
               "away": "Sarnia Sting",
@@ -938,6 +914,39 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/shawinigan-cataractes-drummondville-voltigeurs-1992825"
+            }
+          ]
+        },
+        {
+          "league": "Women's College Ice Hockey",
+          "country": "USA",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Vermont @ New Hampshire",
+              "away": "Vermont",
+              "home": "New Hampshire",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "TSN+"
+              ],
+              "notes": [],
+              "venue": "Whittemore Center, Durham, NH",
+              "raw": "https://www.livesportsontv.com/match/new-hampshire-vermont-1987965"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Robert Morris @ University of Delaware",
+              "away": "Robert Morris",
+              "home": "University of Delaware",
+              "channels": [
+                "FloSports"
+              ],
+              "notes": [],
+              "venue": "Fred Rust Ice Arena, Newark, DE",
+              "raw": "https://www.livesportsontv.com/match/university-of-delaware-robert-morris-1991945"
             }
           ]
         }
