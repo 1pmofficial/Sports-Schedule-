@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T18:49:55.093838+00:00",
+  "generated_at": "2026-11-13T00:08:05.456611+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -45,25 +45,6 @@
           ]
         },
         {
-          "league": "High School Football",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-12T14:00:00-05:00",
-              "title": "IHSAA Class A Tournament",
-              "away": null,
-              "home": null,
-              "channels": [
-                "Marquee Sports Network"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/ihsaa-class-a-tournament-1996658"
-            }
-          ]
-        },
-        {
           "league": "NFL",
           "country": "USA",
           "gender": "male",
@@ -100,18 +81,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-12T15:00:00-05:00",
-              "title": "Kansas City @ George Mason",
-              "away": "Kansas City",
-              "home": "George Mason",
-              "channels": [
-                "YouTube US"
-              ],
-              "notes": [],
-              "venue": "McArthur Center, St. Petersburg, FL",
-              "raw": "https://www.livesportsontv.com/match/george-mason-kansas-city-1991582"
-            },
             {
               "time": "2026-11-12T18:00:00-05:00",
               "title": "Johnson & Wales @ Boston University",
@@ -226,6 +195,19 @@
               "notes": [],
               "venue": "William H. Pitt Center, Fairfield, CT",
               "raw": "https://www.livesportsontv.com/match/sacred-heart-central-connecticut-1989900"
+            },
+            {
+              "time": "2026-11-12T19:00:00-05:00",
+              "title": "Monmouth @ Quinnipiac",
+              "away": "Monmouth",
+              "home": "Quinnipiac",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "M&T Bank Arena, Hamden, CT",
+              "raw": "https://www.livesportsontv.com/match/quinnipiac-monmouth-1989901"
             }
           ]
         },
@@ -380,96 +362,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-11-12T12:00:00-05:00",
-              "title": "Spalding @ Southern Indiana",
-              "away": "Spalding",
-              "home": "Southern Indiana",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Liberty Arena (IN), Evansville, IN",
-              "raw": "https://www.livesportsontv.com/match/southern-indiana-spalding-1989884"
-            },
-            {
-              "time": "2026-11-12T12:00:00-05:00",
-              "title": "Central Methodist @ SIU Edwardsville",
-              "away": "Central Methodist",
-              "home": "SIU Edwardsville",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "First Community Arena, Edwardsville, IL",
-              "raw": "https://www.livesportsontv.com/match/siu-edwardsville-central-methodist-1989885"
-            },
-            {
-              "time": "2026-11-12T12:00:00-05:00",
-              "title": "Morehead State @ Murray State",
-              "away": "Morehead State",
-              "home": "Murray State",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "CFSB Center, Murray, KY",
-              "raw": "https://www.livesportsontv.com/match/murray-state-morehead-state-1989886"
-            },
-            {
-              "time": "2026-11-12T14:00:00-05:00",
-              "title": "College of Charleston @ California",
-              "away": "College of Charleston",
-              "home": "California",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network X"
-              ],
-              "notes": [],
-              "venue": "Haas Pavilion, Berkeley, CA",
-              "raw": "https://www.livesportsontv.com/match/california-college-of-charleston-1984436"
-            },
-            {
-              "time": "2026-11-12T14:00:00-05:00",
-              "title": "Portland State @ UC San Diego",
-              "away": "Portland State",
-              "home": "UC San Diego",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "LionTree Arena, San Diego, CA",
-              "raw": "https://www.livesportsontv.com/match/uc-san-diego-portland-state-1989887"
-            },
-            {
-              "time": "2026-11-12T14:00:00-05:00",
-              "title": "CSU Fullerton @ UC Davis",
-              "away": "CSU Fullerton",
-              "home": "UC Davis",
-              "channels": [
-                "MW+"
-              ],
-              "notes": [],
-              "venue": "University Credit Union Center, Davis, CA",
-              "raw": "https://www.livesportsontv.com/match/uc-davis-csu-fullerton-1991828"
-            },
-            {
-              "time": "2026-11-12T16:30:00-05:00",
-              "title": "Holy Cross @ Brown",
-              "away": "Holy Cross",
-              "home": "Brown",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Pizzitola Sports Center, Providence, RI",
-              "raw": "https://www.livesportsontv.com/match/brown-holy-cross-1989888"
-            },
-            {
               "time": "2026-11-12T18:00:00-05:00",
               "title": "South Florida @ Florida",
               "away": "South Florida",
@@ -507,6 +399,100 @@
               "notes": [],
               "venue": "The Palestra, Philadelphia, PA",
               "raw": "https://www.livesportsontv.com/match/pennsylvania-longwood-1989891"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Sacramento State @ Buffalo",
+              "away": "Sacramento State",
+              "home": "Buffalo",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Broadview Arena, Buffalo, NY",
+              "raw": "https://www.livesportsontv.com/match/buffalo-sacramento-state-1989892"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Southern Illinois @ Eastern Kentucky",
+              "away": "Southern Illinois",
+              "home": "Eastern Kentucky",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Baptist Health Arena, Richmond, KY",
+              "raw": "https://www.livesportsontv.com/match/eastern-kentucky-southern-illinois-1989893"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Virginia Tech @ VCU",
+              "away": "Virginia Tech",
+              "home": "VCU",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "MASN"
+              ],
+              "notes": [],
+              "venue": "Siegel Center, Richmond, VA",
+              "raw": "https://www.livesportsontv.com/match/vcu-virginia-tech-1989894"
+            },
+            {
+              "time": "2026-11-12T18:00:00-05:00",
+              "title": "Old Dominion @ Richmond",
+              "away": "Old Dominion",
+              "home": "Richmond",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Robins Center, Richmond, VA",
+              "raw": "https://www.livesportsontv.com/match/richmond-old-dominion-1989895"
+            },
+            {
+              "time": "2026-11-12T18:30:00-05:00",
+              "title": "UConn @ Ohio State",
+              "away": "UConn",
+              "home": "Ohio State",
+              "channels": [
+                "Fubo Sports",
+                "FOX Sports 1",
+                "FOX One",
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "Schottenstein Center, Columbus, OH",
+              "raw": "https://www.livesportsontv.com/match/ohio-state-uconn-1982476"
+            },
+            {
+              "time": "2026-11-12T18:30:00-05:00",
+              "title": "Middle Tennessee @ Tennessee",
+              "away": "Middle Tennessee",
+              "home": "Tennessee",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network +"
+              ],
+              "notes": [],
+              "venue": "Food City Center, Knoxville, TN",
+              "raw": "https://www.livesportsontv.com/match/tennessee-middle-tennessee-1983172"
+            },
+            {
+              "time": "2026-11-12T18:30:00-05:00",
+              "title": "Western Carolina @ UNC Asheville",
+              "away": "Western Carolina",
+              "home": "UNC Asheville",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Kimmel Arena, Asheville, NC",
+              "raw": "https://www.livesportsontv.com/match/unc-asheville-western-carolina-1989896"
             }
           ]
         }
@@ -627,24 +613,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-12T12:00:00-05:00",
-              "title": "Carolina Hurricanes @ Seattle Kraken",
-              "away": "Carolina Hurricanes",
-              "home": "Seattle Kraken",
-              "channels": [
-                "Fubo Sports",
-                "Prime Video (US)",
-                "NHL Network",
-                "KONG",
-                "Hurricanes Hockey Network",
-                "Sportsnet+",
-                "TVA Sports"
-              ],
-              "notes": [],
-              "venue": "Veikkaus Arena",
-              "raw": "https://www.livesportsontv.com/match/seattle-kraken-carolina-hurricanes-1947043"
-            },
             {
               "time": "2026-11-12T19:00:00-05:00",
               "title": "Montreal Canadiens @ Boston Bruins",
@@ -947,6 +915,44 @@
               "notes": [],
               "venue": "Fred Rust Ice Arena, Newark, DE",
               "raw": "https://www.livesportsontv.com/match/university-of-delaware-robert-morris-1991945"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "leagues": [
+        {
+          "league": "College Soccer",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-12T17:00:00-05:00",
+              "title": "Akron @ Creighton",
+              "away": "Akron",
+              "home": "Creighton",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Maryland SoccerPlex, Boyds, Maryland",
+              "raw": "https://www.livesportsontv.com/match/creighton-akron-1994452"
+            },
+            {
+              "time": "2026-11-12T17:30:00-05:00",
+              "title": "NC State @ North Carolina",
+              "away": "NC State",
+              "home": "North Carolina",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network"
+              ],
+              "notes": [],
+              "venue": "WakeMed Soccer Park, Cary, North Carolina",
+              "raw": "https://www.livesportsontv.com/match/nc-state-north-carolina-1994879"
             }
           ]
         }
