@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:08:05.456611+00:00",
+  "generated_at": "2026-11-13T06:32:04.911786+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -13,10 +13,22 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T20:00:00-05:00",
-              "title": "Memphis @ South Florida",
-              "away": "Memphis",
-              "home": "South Florida",
+              "time": "2026-11-13T18:00:00-05:00",
+              "title": "Montclair State @ Rowan",
+              "away": "Montclair State",
+              "home": "Rowan",
+              "channels": [
+                "YouTube US"
+              ],
+              "notes": [],
+              "venue": "Richard Wackar Stadium, Glassboro, NJ",
+              "raw": "https://www.livesportsontv.com/match/rowan-montclair-state-1991699"
+            },
+            {
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Florida State @ Pittsburgh",
+              "away": "Florida State",
+              "home": "Pittsburgh",
               "channels": [
                 "Fubo Sports",
                 "ESPN Unlimited",
@@ -24,50 +36,111 @@
                 "TSN+"
               ],
               "notes": [],
-              "venue": "Raymond James Stadium, Tampa, FL",
-              "raw": "https://www.livesportsontv.com/match/south-florida-memphis-1986782"
+              "venue": "Acrisure Stadium, Pittsburgh, PA",
+              "raw": "https://www.livesportsontv.com/match/pittsburgh-florida-state-1952222"
             },
             {
-              "time": "2026-11-12T21:00:00-05:00",
-              "title": "Louisiana @ UL Monroe",
-              "away": "Louisiana",
-              "home": "UL Monroe",
+              "time": "2026-11-13T21:00:00-05:00",
+              "title": "Illinois @ UCLA",
+              "away": "Illinois",
+              "home": "UCLA",
+              "channels": [
+                "Fubo Sports",
+                "FOX",
+                "FOX Deportes",
+                "FOX One"
+              ],
+              "notes": [],
+              "venue": "Rose Bowl, Pasadena, CA",
+              "raw": "https://www.livesportsontv.com/match/ucla-illinois-1952223"
+            },
+            {
+              "time": "2026-11-13T22:00:00-05:00",
+              "title": "Southern Utah @ Portland State",
+              "away": "Southern Utah",
+              "home": "Portland State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Rose City SportsNet"
+              ],
+              "notes": [],
+              "venue": "Hillsboro Stadium, Portland, OR",
+              "raw": "https://www.livesportsontv.com/match/portland-state-southern-utah-1956665"
+            },
+            {
+              "time": "2026-11-13T22:15:00-05:00",
+              "title": "Houston @ Colorado",
+              "away": "Houston",
+              "home": "Colorado",
               "channels": [
                 "Fubo Sports",
                 "ESPN Unlimited",
-                "ESPN2",
+                "ESPN",
                 "TSN+"
               ],
               "notes": [],
-              "venue": "Malone Stadium, Monroe, LA",
-              "raw": "https://www.livesportsontv.com/match/ul-monroe-louisiana-1986783"
+              "venue": "Folsom Field, Boulder, CO",
+              "raw": "https://www.livesportsontv.com/match/colorado-houston-1952224"
             }
           ]
         },
         {
-          "league": "NFL",
+          "league": "High School Football",
           "country": "USA",
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T20:15:00-05:00",
-              "title": "Washington Commanders @ New York Giants",
-              "away": "Washington Commanders",
-              "home": "New York Giants",
+              "time": "2026-11-13T16:00:00-05:00",
+              "title": "NDHSAA Division AA",
+              "away": null,
+              "home": null,
               "channels": [
-                "Prime Video (US)",
-                "NFL+",
-                "FOX 5 New York",
-                "WTTG-FOX",
-                "TSN+",
-                "TSN1",
-                "TSN4",
-                "RDS Info",
-                "DAZN Canada"
+                "Fubo Sports",
+                "ESPN Unlimited",
+                "ABC"
               ],
               "notes": [],
-              "venue": "MetLife Stadium",
-              "raw": "https://www.livesportsontv.com/match/new-york-giants-washington-commanders-1894840"
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/ndhsaa-division-aa-1988700"
+            },
+            {
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "NDHSAA Division AAA",
+              "away": null,
+              "home": null,
+              "channels": [
+                "Fubo Sports",
+                "ESPN Unlimited",
+                "ABC"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/ndhsaa-division-aaa-1988701"
+            },
+            {
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "IHSAA Class 5A Tournament",
+              "away": null,
+              "home": null,
+              "channels": [
+                "Marquee Sports Network"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/ihsaa-class-5a-tournament-1994895"
+            },
+            {
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "Corpus Christi Veterans Memorial - McAllen Memorial",
+              "away": null,
+              "home": null,
+              "channels": [
+                "NBC"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/corpus-christi-veterans-memorial-mcallen-memorial-1996808"
             }
           ]
         }
@@ -82,132 +155,133 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Johnson & Wales @ Boston University",
-              "away": "Johnson & Wales",
-              "home": "Boston University",
+              "time": "2026-11-13T12:00:00-05:00",
+              "title": "Viterbo @ Green Bay",
+              "away": "Viterbo",
+              "home": "Green Bay",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Case Gym, Boston, MA",
-              "raw": "https://www.livesportsontv.com/match/boston-university-johnson-wales-1989889"
+              "venue": "Resch Center, Ashwaubenon, WI",
+              "raw": "https://www.livesportsontv.com/match/green-bay-viterbo-1991148"
             },
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Morgan State @ UMBC",
-              "away": "Morgan State",
-              "home": "UMBC",
+              "time": "2026-11-13T15:00:00-05:00",
+              "title": "West Florida @ Cleveland State",
+              "away": "West Florida",
+              "home": "Cleveland State",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
+                "SWAC TV"
               ],
               "notes": [],
-              "venue": "Chesapeake Employers Insurance Arena, Baltimore, MD",
-              "raw": "https://www.livesportsontv.com/match/umbc-morgan-state-1989890"
+              "venue": "Event Center, Huntsville, AL",
+              "raw": "https://www.livesportsontv.com/match/cleveland-state-west-florida-1996052"
             },
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Bradley @ Coppin State",
-              "away": "Bradley",
-              "home": "Coppin State",
+              "time": "2026-11-13T17:00:00-05:00",
+              "title": "North Alabama @ Miami",
+              "away": "North Alabama",
+              "home": "Miami",
               "channels": [
-                "YouTube US"
+                "ESPN Unlimited",
+                "ACC Network"
               ],
               "notes": [],
-              "venue": "McArthur Center, St. Petersburg, FL",
-              "raw": "https://www.livesportsontv.com/match/coppin-state-bradley-1995809"
+              "venue": "Watsco Center, Coral Gables, FL",
+              "raw": "https://www.livesportsontv.com/match/miami-north-alabama-1982904"
             },
             {
-              "time": "2026-11-12T18:30:00-05:00",
-              "title": "Mercyhurst @ Penn State",
-              "away": "Mercyhurst",
-              "home": "Penn State",
+              "time": "2026-11-13T17:00:00-05:00",
+              "title": "Texas A&M-CC @ Florida State",
+              "away": "Texas A&M-CC",
+              "home": "Florida State",
+              "channels": [
+                "ESPN Unlimited",
+                "ACC Network X"
+              ],
+              "notes": [],
+              "venue": "Tucker Center, Tallahassee, FL",
+              "raw": "https://www.livesportsontv.com/match/florida-state-texas-am-cc-1989933"
+            },
+            {
+              "time": "2026-11-13T18:00:00-05:00",
+              "title": "Georgetown @ Clemson",
+              "away": "Georgetown",
+              "home": "Clemson",
+              "channels": [
+                "ESPN Unlimited",
+                "ESPN U"
+              ],
+              "notes": [],
+              "venue": "Littlejohn Coliseum, Clemson, SC",
+              "raw": "https://www.livesportsontv.com/match/clemson-georgetown-1982905"
+            },
+            {
+              "time": "2026-11-13T18:00:00-05:00",
+              "title": "Bryant @ Rutgers",
+              "away": "Bryant",
+              "home": "Rutgers",
               "channels": [
                 "Big Ten Plus"
               ],
               "notes": [],
-              "venue": "Bryce Jordan Center, University Park, PA",
-              "raw": "https://www.livesportsontv.com/match/penn-state-mercyhurst-1982473"
+              "venue": "Jersey Mike’s Arena, Piscataway, NJ",
+              "raw": "https://www.livesportsontv.com/match/rutgers-bryant-1991567"
             },
             {
-              "time": "2026-11-12T18:30:00-05:00",
-              "title": "Tennessee Tech @ Indiana",
-              "away": "Tennessee Tech",
-              "home": "Indiana",
+              "time": "2026-11-13T18:30:00-05:00",
+              "title": "Pittsburgh @ Butler",
+              "away": "Pittsburgh",
+              "home": "Butler",
               "channels": [
-                "Big Ten Network",
+                "Peacock"
+              ],
+              "notes": [],
+              "venue": "Hinkle Fieldhouse, Indianapolis, IN",
+              "raw": "https://www.livesportsontv.com/match/butler-pittsburgh-1982906"
+            },
+            {
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Ohio @ Purdue",
+              "away": "Ohio",
+              "home": "Purdue",
+              "channels": [
+                "Big Ten Plus"
+              ],
+              "notes": [],
+              "venue": "Mackey Arena, West Lafayette, IN",
+              "raw": "https://www.livesportsontv.com/match/purdue-ohio-1982907"
+            },
+            {
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Northern Iowa @ Michigan State",
+              "away": "Northern Iowa",
+              "home": "Michigan State",
+              "channels": [
+                "Fubo Sports",
+                "FOX Deportes",
+                "FOX Sports 1",
+                "FOX One",
                 "DAZN Canada"
               ],
               "notes": [],
-              "venue": "Simon Skjodt Assembly Hall, Bloomington, IN",
-              "raw": "https://www.livesportsontv.com/match/indiana-tennessee-tech-1982475"
+              "venue": "Breslin Center, East Lansing, MI",
+              "raw": "https://www.livesportsontv.com/match/michigan-state-northern-iowa-1982908"
             },
             {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Virginia Lynchburg @ Coastal Carolina",
-              "away": "Virginia Lynchburg",
-              "home": "Coastal Carolina",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Troy @ NC State",
+              "away": "Troy",
+              "home": "NC State",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
+                "ESPN Unlimited",
+                "ACC Network"
               ],
               "notes": [],
-              "venue": "The HTC Center, Conway, SC",
-              "raw": "https://www.livesportsontv.com/match/coastal-carolina-virginia-lynchburg-1989897"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Western Michigan @ Purdue Fort Wayne",
-              "away": "Western Michigan",
-              "home": "Purdue Fort Wayne",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Memorial Coliseum (IN), Fort Wayne, IN",
-              "raw": "https://www.livesportsontv.com/match/purdue-fort-wayne-western-michigan-1989898"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "LaGrange @ Kennesaw State",
-              "away": "LaGrange",
-              "home": "Kennesaw State",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "VyStar Arena, Kennesaw, GA",
-              "raw": "https://www.livesportsontv.com/match/kennesaw-state-lagrange-1989899"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Central Connecticut @ Sacred Heart",
-              "away": "Central Connecticut",
-              "home": "Sacred Heart",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "William H. Pitt Center, Fairfield, CT",
-              "raw": "https://www.livesportsontv.com/match/sacred-heart-central-connecticut-1989900"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Monmouth @ Quinnipiac",
-              "away": "Monmouth",
-              "home": "Quinnipiac",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "M&T Bank Arena, Hamden, CT",
-              "raw": "https://www.livesportsontv.com/match/quinnipiac-monmouth-1989901"
+              "venue": "Lenovo Center, Raleigh, NC",
+              "raw": "https://www.livesportsontv.com/match/nc-state-troy-1982909"
             }
           ]
         },
@@ -217,70 +291,156 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Toronto Raptors @ Philadelphia 76ers",
-              "away": "Toronto Raptors",
-              "home": "Philadelphia 76ers",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "New York Knicks @ Indiana Pacers",
+              "away": "New York Knicks",
+              "home": "Indiana Pacers",
+              "channels": [
+                "Prime Video (US)",
+                "DAZN US",
+                "MSG Sportsnet",
+                "Prime Video (CA)"
+              ],
+              "notes": [],
+              "venue": "Indianapolis Gainbridge Fieldhouse",
+              "raw": "https://www.livesportsontv.com/match/indiana-pacers-new-york-knicks-1950117"
+            },
+            {
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Milwaukee Bucks @ Orlando Magic",
+              "away": "Milwaukee Bucks",
+              "home": "Orlando Magic",
               "channels": [
                 "NBA League Pass",
-                "Peacock",
-                "NBC Sports Philadelphia",
+                "DAZN US",
+                "Bucks+",
+                "MY24",
+                "MagicTV 27"
+              ],
+              "notes": [],
+              "venue": "Orlando Kia Center",
+              "raw": "https://www.livesportsontv.com/match/orlando-magic-milwaukee-bucks-1950118"
+            },
+            {
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "Cleveland Cavaliers @ Miami Heat",
+              "away": "Cleveland Cavaliers",
+              "home": "Miami Heat",
+              "channels": [
+                "NBA League Pass",
+                "DAZN US",
+                "WPLG Local 10",
+                "Local10+ Platinum",
                 "Sportsnet",
                 "Sportsnet One",
-                "Sportsnet NOW",
+                "Sportsnet NOW"
+              ],
+              "notes": [],
+              "venue": "Miami Kaseya Center",
+              "raw": "https://www.livesportsontv.com/match/miami-heat-cleveland-cavaliers-1950119"
+            },
+            {
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "Atlanta Hawks @ Chicago Bulls",
+              "away": "Atlanta Hawks",
+              "home": "Chicago Bulls",
+              "channels": [
+                "NBA League Pass",
+                "Chicago Sports Network",
+                "Atlanta News First",
+                "Peachtree Sports Network",
+                "Prime Video (Local)",
                 "Sportsnet+"
               ],
               "notes": [],
-              "venue": "Philadelphia Xfinity Mobile Arena",
-              "raw": "https://www.livesportsontv.com/match/philadelphia-76ers-toronto-raptors-1950623"
+              "venue": "Chicago United Center",
+              "raw": "https://www.livesportsontv.com/match/chicago-bulls-atlanta-hawks-1950120"
             },
             {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Detroit Pistons @ Washington Wizards",
-              "away": "Detroit Pistons",
-              "home": "Washington Wizards",
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "Memphis Grizzlies @ New Orleans Pelicans",
+              "away": "Memphis Grizzlies",
+              "home": "New Orleans Pelicans",
               "channels": [
                 "NBA League Pass",
                 "DAZN US",
-                "Monumental Sports Network 2",
-                "Monumental Sports Network+",
-                "TV20 Detroit"
+                "Pelicans+",
+                "Gulf Coast Sports & Entertainment Network"
               ],
               "notes": [],
-              "venue": "Washington Capital One Arena",
-              "raw": "https://www.livesportsontv.com/match/washington-wizards-detroit-pistons-1950624"
+              "venue": "New Orleans Smoothie King Center",
+              "raw": "https://www.livesportsontv.com/match/new-orleans-pelicans-memphis-grizzlies-1950121"
             },
             {
-              "time": "2026-11-12T20:00:00-05:00",
-              "title": "Dallas Mavericks @ Minnesota Timberwolves",
-              "away": "Dallas Mavericks",
-              "home": "Minnesota Timberwolves",
-              "channels": [
-                "DAZN US",
-                "MavsTV+",
-                "NBA TV",
-                "KFAA 29",
-                "KARE 11"
-              ],
-              "notes": [],
-              "venue": "Minneapolis Target Center",
-              "raw": "https://www.livesportsontv.com/match/minnesota-timberwolves-dallas-mavericks-1950625"
-            },
-            {
-              "time": "2026-11-12T21:00:00-05:00",
-              "title": "Charlotte Hornets @ Phoenix Suns",
-              "away": "Charlotte Hornets",
-              "home": "Phoenix Suns",
+              "time": "2026-11-13T20:30:00-05:00",
+              "title": "Utah Jazz @ Houston Rockets",
+              "away": "Utah Jazz",
+              "home": "Houston Rockets",
               "channels": [
                 "NBA League Pass",
-                "DAZN US",
-                "Arizona's Family Sports",
-                "Suns+",
-                "TV 64"
+                "Space City Home Network",
+                "Jazz+",
+                "KJZZ 14",
+                "TSN+",
+                "TSN4",
+                "TSN"
               ],
               "notes": [],
-              "venue": "Phoenix Mortgage Matchup Center",
-              "raw": "https://www.livesportsontv.com/match/phoenix-suns-charlotte-hornets-1950626"
+              "venue": "Houston Toyota Center",
+              "raw": "https://www.livesportsontv.com/match/houston-rockets-utah-jazz-1950122"
+            },
+            {
+              "time": "2026-11-13T21:30:00-05:00",
+              "title": "Golden State Warriors @ San Antonio Spurs",
+              "away": "Golden State Warriors",
+              "home": "San Antonio Spurs",
+              "channels": [
+                "Prime Video (US)",
+                "DAZN US",
+                "CW San Antonio",
+                "Prime Video (CA)"
+              ],
+              "notes": [],
+              "venue": "San Antonio Frost Bank Center",
+              "raw": "https://www.livesportsontv.com/match/san-antonio-spurs-golden-state-warriors-1950123"
+            },
+            {
+              "time": "2026-11-13T22:00:00-05:00",
+              "title": "Portland Trail Blazers @ Sacramento Kings",
+              "away": "Portland Trail Blazers",
+              "home": "Sacramento Kings",
+              "channels": [
+                "NBA League Pass",
+                "Peacock",
+                "BlazerVision",
+                "NBC Sports California",
+                "KUNP Portland",
+                "NBA TV Canada"
+              ],
+              "notes": [],
+              "venue": "Sacramento Golden 1 Center",
+              "raw": "https://www.livesportsontv.com/match/sacramento-kings-portland-trail-blazers-1950124"
+            },
+            {
+              "time": "2026-11-13T22:30:00-05:00",
+              "title": "Oklahoma City Thunder @ Los Angeles Clippers",
+              "away": "Oklahoma City Thunder",
+              "home": "Los Angeles Clippers",
+              "channels": [
+                "NBA League Pass",
+                "NBC Sports Bay Area",
+                "Thunder+",
+                "ClipperVision",
+                "KTLA 5",
+                "KSBI Channel 52",
+                "KQCW-CW",
+                "Sportsnet",
+                "Sportsnet One",
+                "Sportsnet NOW"
+              ],
+              "notes": [],
+              "venue": "Inglewood Intuit Dome",
+              "raw": "https://www.livesportsontv.com/match/los-angeles-clippers-oklahoma-city-thunder-1950125"
             }
           ]
         },
@@ -290,69 +450,134 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Mexico City Capitanes @ Osceola Magic",
-              "away": "Mexico City Capitanes",
-              "home": "Osceola Magic",
+              "time": "2026-11-13T18:30:00-05:00",
+              "title": "Noblesville Boom @ Motor City Cruise",
+              "away": "Noblesville Boom",
+              "home": "Motor City Cruise",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
+                "NBA App"
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/osceola-magic-mexico-city-capitanes-1960485"
+              "raw": "https://www.livesportsontv.com/match/motor-city-cruise-noblesville-boom-1960490"
             },
             {
-              "time": "2026-11-12T19:30:00-05:00",
-              "title": "Greensboro Swarm @ Raptors 905",
-              "away": "Greensboro Swarm",
-              "home": "Raptors 905",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Maine Celtics @ Delaware Blue Coats",
+              "away": "Maine Celtics",
+              "home": "Delaware Blue Coats",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
+                "Philly 57",
+                "NBA App"
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/raptors-905-greensboro-swarm-1960486"
+              "raw": "https://www.livesportsontv.com/match/delaware-blue-coats-maine-celtics-1960491"
             },
             {
-              "time": "2026-11-12T20:00:00-05:00",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "College Park Skyhawks @ Long Island Nets",
+              "away": "College Park Skyhawks",
+              "home": "Long Island Nets",
+              "channels": [
+                "Roku Sports",
+                "YES",
+                "NBA App"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/long-island-nets-college-park-skyhawks-1960492"
+            },
+            {
+              "time": "2026-11-13T20:00:00-05:00",
               "title": "Oklahoma City Blue @ Memphis Hustle",
               "away": "Oklahoma City Blue",
               "home": "Memphis Hustle",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
+                "NBA App"
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/memphis-hustle-oklahoma-city-blue-1960487"
+              "raw": "https://www.livesportsontv.com/match/memphis-hustle-oklahoma-city-blue-1960493"
             },
             {
-              "time": "2026-11-12T20:00:00-05:00",
-              "title": "Grand Rapids Gold @ Windy City Bulls",
-              "away": "Grand Rapids Gold",
-              "home": "Windy City Bulls",
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "Rio Grande Valley Vipers @ Texas Legends",
+              "away": "Rio Grande Valley Vipers",
+              "home": "Texas Legends",
+              "channels": [
+                "KFAA 29",
+                "NBA App"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/texas-legends-rio-grande-valley-vipers-1960494"
+            },
+            {
+              "time": "2026-11-13T22:00:00-05:00",
+              "title": "Agua Caliente Clippers @ Santa Cruz Warriors",
+              "away": "Agua Caliente Clippers",
+              "home": "Santa Cruz Warriors",
+              "channels": [
+                "Roku Sports",
+                "NBC Sports Bay Area",
+                "NBA App"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/santa-cruz-warriors-agua-caliente-clippers-1960495"
+            },
+            {
+              "time": "2026-11-13T22:00:00-05:00",
+              "title": "Rip City Remix @ Stockton Kings",
+              "away": "Rip City Remix",
+              "home": "Stockton Kings",
+              "channels": [
+                "NBA App"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/stockton-kings-rip-city-remix-1960496"
+            }
+          ]
+        },
+        {
+          "league": "Super League Basketball",
+          "country": "United Kingdom",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-13T14:30:00-05:00",
+              "title": "Surrey 89ers @ London Lions",
+              "away": "Surrey 89ers",
+              "home": "London Lions",
+              "channels": [
+                "DAZN US",
+                "DAZN Canada"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/london-lions-surrey-89ers-1955126"
+            }
+          ]
+        },
+        {
+          "league": "Tauihi Basketball",
+          "country": "New Zealand",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-11-13T01:30:00-05:00",
+              "title": "Southern Hoiho - Tauranga Whai",
+              "away": null,
+              "home": null,
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/windy-city-bulls-grand-rapids-gold-1960488"
-            },
-            {
-              "time": "2026-11-12T21:00:00-05:00",
-              "title": "Coachella Valley Lakers @ Valley Suns",
-              "away": "Coachella Valley Lakers",
-              "home": "Valley Suns",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/valley-suns-coachella-valley-lakers-1960489"
+              "raw": "https://www.livesportsontv.com/match/southern-hoiho-tauranga-whai-1996804"
             }
           ]
         },
@@ -362,137 +587,130 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "South Florida @ Florida",
-              "away": "South Florida",
-              "home": "Florida",
+              "time": "2026-11-13T11:00:00-05:00",
+              "title": "Towson @ Loyola Maryland",
+              "away": "Towson",
+              "home": "Loyola Maryland",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Reitz Arena, Baltimore, MD",
+              "raw": "https://www.livesportsontv.com/match/loyola-maryland-towson-1989927"
+            },
+            {
+              "time": "2026-11-13T11:00:00-05:00",
+              "title": "Valparaiso @ Purdue Fort Wayne",
+              "away": "Valparaiso",
+              "home": "Purdue Fort Wayne",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Hilliard Gates Sports Center, Fort Wayne, IN",
+              "raw": "https://www.livesportsontv.com/match/purdue-fort-wayne-valparaiso-1989928"
+            },
+            {
+              "time": "2026-11-13T11:00:00-05:00",
+              "title": "American @ Delaware State",
+              "away": "American",
+              "home": "Delaware State",
+              "channels": [
+                "MEAC Network"
+              ],
+              "notes": [],
+              "venue": "Memorial Hall (DE), Dover, DE",
+              "raw": "https://www.livesportsontv.com/match/delaware-state-american-1991787"
+            },
+            {
+              "time": "2026-11-13T11:30:00-05:00",
+              "title": "Oral Roberts @ Oklahoma",
+              "away": "Oral Roberts",
+              "home": "Oklahoma",
               "channels": [
                 "ESPN Unlimited",
                 "SEC Network +"
               ],
               "notes": [],
-              "venue": "Stephen C. O'Connell Center, Gainesville, FL",
-              "raw": "https://www.livesportsontv.com/match/florida-south-florida-1983173"
+              "venue": "Lloyd Noble Center, Norman, OK",
+              "raw": "https://www.livesportsontv.com/match/oklahoma-oral-roberts-1983179"
             },
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Oklahoma State @ Tulsa",
-              "away": "Oklahoma State",
-              "home": "Tulsa",
-              "channels": [
-                "ESPN Unlimited",
-                "ESPN U"
-              ],
-              "notes": [],
-              "venue": "Reynolds Center, Tulsa, OK",
-              "raw": "https://www.livesportsontv.com/match/tulsa-oklahoma-state-1987899"
-            },
-            {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Longwood @ Pennsylvania",
-              "away": "Longwood",
-              "home": "Pennsylvania",
+              "time": "2026-11-13T12:00:00-05:00",
+              "title": "Stephens @ Lindenwood",
+              "away": "Stephens",
+              "home": "Lindenwood",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "The Palestra, Philadelphia, PA",
-              "raw": "https://www.livesportsontv.com/match/pennsylvania-longwood-1989891"
+              "venue": "Hyland Arena, Saint Charles, MO",
+              "raw": "https://www.livesportsontv.com/match/lindenwood-stephens-1989930"
             },
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Sacramento State @ Buffalo",
-              "away": "Sacramento State",
-              "home": "Buffalo",
+              "time": "2026-11-13T12:00:00-05:00",
+              "title": "Troy @ Belmont",
+              "away": "Troy",
+              "home": "Belmont",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Broadview Arena, Buffalo, NY",
-              "raw": "https://www.livesportsontv.com/match/buffalo-sacramento-state-1989892"
+              "venue": "Curb Event Center Arena, Nashville, TN",
+              "raw": "https://www.livesportsontv.com/match/belmont-troy-1989931"
             },
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Southern Illinois @ Eastern Kentucky",
-              "away": "Southern Illinois",
-              "home": "Eastern Kentucky",
+              "time": "2026-11-13T12:30:00-05:00",
+              "title": "Texas A&M-CC @ Texas State",
+              "away": "Texas A&M-CC",
+              "home": "Texas State",
+              "channels": [
+                "YouTube US"
+              ],
+              "notes": [],
+              "venue": "Strahan Arena at the University Events Center, San Marcos, TX",
+              "raw": "https://www.livesportsontv.com/match/texas-state-texas-am-cc-1995887"
+            },
+            {
+              "time": "2026-11-13T13:00:00-05:00",
+              "title": "Bethune-Cookman @ Utah State",
+              "away": "Bethune-Cookman",
+              "home": "Utah State",
+              "channels": [
+                "YouTube US"
+              ],
+              "notes": [],
+              "venue": "Dee Glen Smith Spectrum, Logan, UT",
+              "raw": "https://www.livesportsontv.com/match/utah-state-bethune-cookman-1991648"
+            },
+            {
+              "time": "2026-11-13T15:00:00-05:00",
+              "title": "Walla Walla @ Eastern Washington",
+              "away": "Walla Walla",
+              "home": "Eastern Washington",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Baptist Health Arena, Richmond, KY",
-              "raw": "https://www.livesportsontv.com/match/eastern-kentucky-southern-illinois-1989893"
+              "venue": "Reese Court, Cheney, WA",
+              "raw": "https://www.livesportsontv.com/match/eastern-washington-walla-walla-1989932"
             },
             {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Virginia Tech @ VCU",
-              "away": "Virginia Tech",
-              "home": "VCU",
+              "time": "2026-11-13T16:00:00-05:00",
+              "title": "St. Mary's @ Hawai'i",
+              "away": "St. Mary's",
+              "home": "Hawai'i",
               "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "MASN"
+                "MW+"
               ],
               "notes": [],
-              "venue": "Siegel Center, Richmond, VA",
-              "raw": "https://www.livesportsontv.com/match/vcu-virginia-tech-1989894"
-            },
-            {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Old Dominion @ Richmond",
-              "away": "Old Dominion",
-              "home": "Richmond",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Robins Center, Richmond, VA",
-              "raw": "https://www.livesportsontv.com/match/richmond-old-dominion-1989895"
-            },
-            {
-              "time": "2026-11-12T18:30:00-05:00",
-              "title": "UConn @ Ohio State",
-              "away": "UConn",
-              "home": "Ohio State",
-              "channels": [
-                "Fubo Sports",
-                "FOX Sports 1",
-                "FOX One",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "Schottenstein Center, Columbus, OH",
-              "raw": "https://www.livesportsontv.com/match/ohio-state-uconn-1982476"
-            },
-            {
-              "time": "2026-11-12T18:30:00-05:00",
-              "title": "Middle Tennessee @ Tennessee",
-              "away": "Middle Tennessee",
-              "home": "Tennessee",
-              "channels": [
-                "ESPN Unlimited",
-                "SEC Network +"
-              ],
-              "notes": [],
-              "venue": "Food City Center, Knoxville, TN",
-              "raw": "https://www.livesportsontv.com/match/tennessee-middle-tennessee-1983172"
-            },
-            {
-              "time": "2026-11-12T18:30:00-05:00",
-              "title": "Western Carolina @ UNC Asheville",
-              "away": "Western Carolina",
-              "home": "UNC Asheville",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Kimmel Arena, Asheville, NC",
-              "raw": "https://www.livesportsontv.com/match/unc-asheville-western-carolina-1989896"
+              "venue": "Stan Sheriff Center, Honolulu, HI",
+              "raw": "https://www.livesportsontv.com/match/hawaii-st-marys-1991951"
             }
           ]
         }
@@ -507,28 +725,100 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T22:00:00-05:00",
-              "title": "San Jose Barracuda @ Coachella Valley Firebirds",
-              "away": "San Jose Barracuda",
-              "home": "Coachella Valley Firebirds",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Wilkes-Barre/Scranton @ Hershey Bears",
+              "away": "Wilkes-Barre/Scranton",
+              "home": "Hershey Bears",
               "channels": [
                 "FloHockey"
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/coachella-valley-firebirds-san-jose-barracuda-1924844"
+              "raw": "https://www.livesportsontv.com/match/hershey-bears-wilkes-barrescranton-1924846"
             },
             {
-              "time": "2026-11-12T22:00:00-05:00",
-              "title": "Calgary Wranglers @ Henderson Silver Knights",
-              "away": "Calgary Wranglers",
-              "home": "Henderson Silver Knights",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Toronto Marlies @ Syracuse Crunch",
+              "away": "Toronto Marlies",
+              "home": "Syracuse Crunch",
               "channels": [
                 "FloHockey"
               ],
               "notes": [],
               "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/henderson-silver-knights-calgary-wranglers-1924845"
+              "raw": "https://www.livesportsontv.com/match/syracuse-crunch-toronto-marlies-1924847"
+            },
+            {
+              "time": "2026-11-13T19:05:00-05:00",
+              "title": "Hamilton Hammers @ Lehigh Valley Phantoms",
+              "away": "Hamilton Hammers",
+              "home": "Lehigh Valley Phantoms",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/lehigh-valley-phantoms-hamilton-1924848"
+            },
+            {
+              "time": "2026-11-13T19:05:00-05:00",
+              "title": "Springfield Thunderbirds @ Providence Bruins",
+              "away": "Springfield Thunderbirds",
+              "home": "Providence Bruins",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/providence-bruins-springfield-thunderbirds-1924849"
+            },
+            {
+              "time": "2026-11-13T19:05:00-05:00",
+              "title": "Laval Rocket @ Rochester Americans",
+              "away": "Laval Rocket",
+              "home": "Rochester Americans",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/rochester-americans-laval-rocket-1925211"
+            },
+            {
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "Grand Rapids Griffins @ Iowa Wild",
+              "away": "Grand Rapids Griffins",
+              "home": "Iowa Wild",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/iowa-wild-grand-rapids-griffins-1925212"
+            },
+            {
+              "time": "2026-11-13T20:00:00-05:00",
+              "title": "Milwaukee Admirals @ Rockford IceHogs",
+              "away": "Milwaukee Admirals",
+              "home": "Rockford IceHogs",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/rockford-icehogs-milwaukee-admirals-1925213"
+            },
+            {
+              "time": "2026-11-13T22:10:00-05:00",
+              "title": "San Diego Gulls @ Bakersfield Condors",
+              "away": "San Diego Gulls",
+              "home": "Bakersfield Condors",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/bakersfield-condors-san-diego-gulls-1925214"
             }
           ]
         },
@@ -538,73 +828,43 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Michigan State @ Notre Dame",
-              "away": "Michigan State",
-              "home": "Notre Dame",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Colgate @ Yale",
+              "away": "Colgate",
+              "home": "Yale",
               "channels": [
-                "Peacock",
-                "NBC Sports Network"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/notre-dame-michigan-state-1996585"
+              "venue": "Ingalls Rink, New Haven, CT",
+              "raw": "https://www.livesportsontv.com/match/yale-colgate-1985527"
             },
             {
-              "time": "2026-11-12T21:05:00-05:00",
-              "title": "Bentley @ Air Force",
-              "away": "Bentley",
-              "home": "Air Force",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Harvard @ Princeton",
+              "away": "Harvard",
+              "home": "Princeton",
               "channels": [
-                "FloSports",
-                "FloHockey"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Cadet Ice Arena, USAF Academy, CO",
-              "raw": "https://www.livesportsontv.com/match/air-force-bentley-1991838"
-            }
-          ]
-        },
-        {
-          "league": "ECHL",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Worcester Railers @ Greensboro Gargoyles",
-              "away": "Worcester Railers",
-              "home": "Greensboro Gargoyles",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/greensboro-gargoyles-worcester-railers-1903944"
+              "venue": "Hobey Baker Memorial Rink, Princeton, NJ",
+              "raw": "https://www.livesportsontv.com/match/princeton-harvard-1985528"
             },
             {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Trois-Rivieres Lions @ Savannah Ghost Pirates",
-              "away": "Trois-Rivieres Lions",
-              "home": "Savannah Ghost Pirates",
+              "time": "2026-11-13T19:00:00-05:00",
+              "title": "Cornell @ Brown",
+              "away": "Cornell",
+              "home": "Brown",
               "channels": [
-                "FloHockey"
+                "ESPN Select",
+                "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/savannah-ghost-pirates-trois-rivieres-lions-1903945"
-            },
-            {
-              "time": "2026-11-12T19:05:00-05:00",
-              "title": "Atlanta Gladiators @ Greenville Swamp Rabbits",
-              "away": "Atlanta Gladiators",
-              "home": "Greenville Swamp Rabbits",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/greenville-swamp-rabbits-atlanta-gladiators-1903946"
+              "venue": "Meehan Auditorium, Providence, RI",
+              "raw": "https://www.livesportsontv.com/match/brown-cornell-1985529"
             }
           ]
         },
@@ -614,345 +874,37 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Montreal Canadiens @ Boston Bruins",
-              "away": "Montreal Canadiens",
-              "home": "Boston Bruins",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "NESN",
-                "Sportsnet+",
-                "TSN+",
-                "RDS",
-                "TSN2"
-              ],
-              "notes": [],
-              "venue": "TD Garden",
-              "raw": "https://www.livesportsontv.com/match/boston-bruins-montreal-canadiens-1947044"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Minnesota Wild @ Toronto Maple Leafs",
-              "away": "Minnesota Wild",
-              "home": "Toronto Maple Leafs",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Wild+",
-                "Sportsnet",
-                "Sportsnet NOW",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Scotiabank Arena",
-              "raw": "https://www.livesportsontv.com/match/toronto-maple-leafs-minnesota-wild-1947045"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Colorado Avalanche @ Ottawa Senators",
-              "away": "Colorado Avalanche",
-              "home": "Ottawa Senators",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Altitude",
-                "Sportsnet+",
-                "TSN+",
-                "TSN5",
-                "RDS 2"
-              ],
-              "notes": [],
-              "venue": "Canadian Tire Centre",
-              "raw": "https://www.livesportsontv.com/match/ottawa-senators-colorado-avalanche-1947046"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Washington Capitals @ New Jersey Devils",
-              "away": "Washington Capitals",
-              "home": "New Jersey Devils",
+              "time": "2026-11-13T21:00:00-05:00",
+              "title": "New York Rangers @ Vancouver Canucks",
+              "away": "New York Rangers",
+              "home": "Vancouver Canucks",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited",
                 "MSG Sportsnet",
-                "Monumental Sports Network",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Prudential Center",
-              "raw": "https://www.livesportsontv.com/match/new-jersey-devils-washington-capitals-1947048"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Tampa Bay Lightning @ Columbus Blue Jackets",
-              "away": "Tampa Bay Lightning",
-              "home": "Columbus Blue Jackets",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "The Spot",
-                "Blue Jackets Hockey Network",
-                "WWHO-CW",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Nationwide Arena",
-              "raw": "https://www.livesportsontv.com/match/columbus-blue-jackets-tampa-bay-lightning-1947049"
-            },
-            {
-              "time": "2026-11-12T19:30:00-05:00",
-              "title": "Detroit Red Wings @ Florida Panthers",
-              "away": "Detroit Red Wings",
-              "home": "Florida Panthers",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Hulu",
-                "Disney+",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Amerant Bank Arena",
-              "raw": "https://www.livesportsontv.com/match/florida-panthers-detroit-red-wings-1947047"
-            },
-            {
-              "time": "2026-11-12T20:00:00-05:00",
-              "title": "Buffalo Sabres @ Chicago Blackhawks",
-              "away": "Buffalo Sabres",
-              "home": "Chicago Blackhawks",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "MSG Sportsnet",
-                "Chicago Sports Network",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "United Center",
-              "raw": "https://www.livesportsontv.com/match/chicago-blackhawks-buffalo-sabres-1947050"
-            },
-            {
-              "time": "2026-11-12T20:00:00-05:00",
-              "title": "Winnipeg Jets @ Dallas Stars",
-              "away": "Winnipeg Jets",
-              "home": "Dallas Stars",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Prime Video (US)",
-                "KDFI-FOX",
-                "Sportsnet+",
-                "TSN+",
-                "TSN3"
-              ],
-              "notes": [],
-              "venue": "American Airlines Center",
-              "raw": "https://www.livesportsontv.com/match/dallas-stars-winnipeg-jets-1947051"
-            },
-            {
-              "time": "2026-11-12T21:00:00-05:00",
-              "title": "St. Louis Blues @ Utah Mammoth",
-              "away": "St. Louis Blues",
-              "home": "Utah Mammoth",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Utah 16",
-                "Blue Note+",
-                "Mammoth+",
-                "Sportsnet+"
-              ],
-              "notes": [],
-              "venue": "Delta Center",
-              "raw": "https://www.livesportsontv.com/match/utah-mammoth-st-louis-blues-1947052"
-            },
-            {
-              "time": "2026-11-12T22:00:00-05:00",
-              "title": "New York Islanders @ Los Angeles Kings",
-              "away": "New York Islanders",
-              "home": "Los Angeles Kings",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited",
-                "Hulu",
-                "Disney+",
                 "Sportsnet",
                 "Sportsnet NOW",
                 "Sportsnet+",
                 "TVA Sports"
               ],
               "notes": [],
-              "venue": "Crypto.com Arena",
-              "raw": "https://www.livesportsontv.com/match/los-angeles-kings-new-york-islanders-1947053"
-            }
-          ]
-        },
-        {
-          "league": "OHL",
-          "country": "Canada",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Sarnia Sting @ North Bay Battalion",
-              "away": "Sarnia Sting",
-              "home": "North Bay Battalion",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/north-bay-battalion-sarnia-sting-1992823"
+              "venue": "Rogers Arena",
+              "raw": "https://www.livesportsontv.com/match/vancouver-canucks-new-york-rangers-1947690"
             },
             {
-              "time": "2026-11-12T19:05:00-05:00",
-              "title": "Kingston Frontenacs @ Peterborough Petes",
-              "away": "Kingston Frontenacs",
-              "home": "Peterborough Petes",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/peterborough-petes-kingston-frontenacs-1992826"
-            },
-            {
-              "time": "2026-11-12T19:05:00-05:00",
-              "title": "Ottawa 67s @ Saginaw Spirit",
-              "away": "Ottawa 67s",
-              "home": "Saginaw Spirit",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/saginaw-spirit-ottawa-67s-1992827"
-            },
-            {
-              "time": "2026-11-12T19:05:00-05:00",
-              "title": "Niagara IceDogs @ Windsor Spitfires",
-              "away": "Niagara IceDogs",
-              "home": "Windsor Spitfires",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/windsor-spitfires-niagara-icedogs-1992828"
-            }
-          ]
-        },
-        {
-          "league": "QMJHL",
-          "country": "Canada",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Quebec Remparts @ Saint John Sea Dogs",
-              "away": "Quebec Remparts",
-              "home": "Saint John Sea Dogs",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/saint-john-sea-dogs-quebec-remparts-1992822"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Baie-Comeau Drakkar @ Blainville-Boisbriand Armada",
-              "away": "Baie-Comeau Drakkar",
-              "home": "Blainville-Boisbriand Armada",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/blainville-boisbriand-armada-baie-comeau-drakkar-1992824"
-            },
-            {
-              "time": "2026-11-12T19:00:00-05:00",
-              "title": "Drummondville Voltigeurs @ Shawinigan Cataractes",
-              "away": "Drummondville Voltigeurs",
-              "home": "Shawinigan Cataractes",
-              "channels": [
-                "FloHockey"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/shawinigan-cataractes-drummondville-voltigeurs-1992825"
-            }
-          ]
-        },
-        {
-          "league": "Women's College Ice Hockey",
-          "country": "USA",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Vermont @ New Hampshire",
-              "away": "Vermont",
-              "home": "New Hampshire",
+              "time": "2026-11-13T22:00:00-05:00",
+              "title": "Nashville Predators @ Vegas Golden Knights",
+              "away": "Nashville Predators",
+              "home": "Vegas Golden Knights",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited",
-                "TSN+"
+                "Scripps 66",
+                "Sportsnet+"
               ],
               "notes": [],
-              "venue": "Whittemore Center, Durham, NH",
-              "raw": "https://www.livesportsontv.com/match/new-hampshire-vermont-1987965"
-            },
-            {
-              "time": "2026-11-12T18:00:00-05:00",
-              "title": "Robert Morris @ University of Delaware",
-              "away": "Robert Morris",
-              "home": "University of Delaware",
-              "channels": [
-                "FloSports"
-              ],
-              "notes": [],
-              "venue": "Fred Rust Ice Arena, Newark, DE",
-              "raw": "https://www.livesportsontv.com/match/university-of-delaware-robert-morris-1991945"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Soccer",
-      "leagues": [
-        {
-          "league": "College Soccer",
-          "country": "USA",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-12T17:00:00-05:00",
-              "title": "Akron @ Creighton",
-              "away": "Akron",
-              "home": "Creighton",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Maryland SoccerPlex, Boyds, Maryland",
-              "raw": "https://www.livesportsontv.com/match/creighton-akron-1994452"
-            },
-            {
-              "time": "2026-11-12T17:30:00-05:00",
-              "title": "NC State @ North Carolina",
-              "away": "NC State",
-              "home": "North Carolina",
-              "channels": [
-                "ESPN Unlimited",
-                "ACC Network"
-              ],
-              "notes": [],
-              "venue": "WakeMed Soccer Park, Cary, North Carolina",
-              "raw": "https://www.livesportsontv.com/match/nc-state-north-carolina-1994879"
+              "venue": "T-Mobile Arena",
+              "raw": "https://www.livesportsontv.com/match/vegas-golden-knights-nashville-predators-1947691"
             }
           ]
         }
