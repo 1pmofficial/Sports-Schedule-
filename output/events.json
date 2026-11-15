@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T09:11:31.315216+00:00",
+  "generated_at": "2026-11-15T16:58:34.310343+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -58,26 +58,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-15T09:30:00-05:00",
-              "title": "New England Patriots @ Detroit Lions",
-              "away": "New England Patriots",
-              "home": "Detroit Lions",
-              "channels": [
-                "Fubo Sports",
-                "NFL+",
-                "FOX",
-                "FOX Deportes",
-                "FOX One",
-                "TSN+",
-                "RDS",
-                "TSN3",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "FC Bayern Munich Stadium (Munich, Germany)",
-              "raw": "https://www.livesportsontv.com/match/detroit-lions-new-england-patriots-1894841"
-            },
             {
               "time": "2026-11-15T13:00:00-05:00",
               "title": "Kansas City Chiefs @ Atlanta Falcons",
@@ -159,6 +139,7 @@
                 "FOX",
                 "FOX One",
                 "NFL Sunday Ticket",
+                "TSN+",
                 "DAZN Canada"
               ],
               "notes": [],
@@ -282,45 +263,6 @@
           "country": "Spain",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-15T06:00:00-05:00",
-              "title": "Manresa @ Forca Lleida",
-              "away": "Manresa",
-              "home": "Forca Lleida",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/forca-lleida-manresa-1949964"
-            },
-            {
-              "time": "2026-11-15T06:00:00-05:00",
-              "title": "Leyma Coruna @ Valencia",
-              "away": "Leyma Coruna",
-              "home": "Valencia",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/valencia-leyma-coruna-1949965"
-            },
-            {
-              "time": "2026-11-15T06:30:00-05:00",
-              "title": "Basquet Girona @ Unicaja",
-              "away": "Basquet Girona",
-              "home": "Unicaja",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/unicaja-basquet-girona-1949966"
-            },
             {
               "time": "2026-11-15T11:00:00-05:00",
               "title": "Obradoiro CAB @ Barcelona",
@@ -956,6 +898,88 @@
               "notes": [],
               "venue": "Atlantic Union Bank Center, Harrisonburg, VA",
               "raw": "https://www.livesportsontv.com/match/james-madison-east-carolina-1990073"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Ice Hockey",
+      "leagues": [
+        {
+          "league": "NHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-15T19:30:00-05:00",
+              "title": "Edmonton Oilers @ Philadelphia Flyers",
+              "away": "Edmonton Oilers",
+              "home": "Philadelphia Flyers",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "NBC Sports Philadelphia",
+                "Sportsnet",
+                "Sportsnet Ontario",
+                "Sportsnet NOW",
+                "Sportsnet+",
+                "TVA Sports"
+              ],
+              "notes": [],
+              "venue": "Xfinity Mobile Arena",
+              "raw": "https://www.livesportsontv.com/match/philadelphia-flyers-edmonton-oilers-1950311"
+            },
+            {
+              "time": "2026-11-15T20:00:00-05:00",
+              "title": "Florida Panthers @ Dallas Stars",
+              "away": "Florida Panthers",
+              "home": "Dallas Stars",
+              "channels": [
+                "Fubo Sports",
+                "NHL Network",
+                "Scripps 66",
+                "Prime Video (Local)",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "American Airlines Center",
+              "raw": "https://www.livesportsontv.com/match/dallas-stars-florida-panthers-1950312"
+            },
+            {
+              "time": "2026-11-15T20:00:00-05:00",
+              "title": "Calgary Flames @ Anaheim Ducks",
+              "away": "Calgary Flames",
+              "home": "Anaheim Ducks",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "KCOP-FOX",
+                "Prime Video (Local)",
+                "Sportsnet One",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Honda Center",
+              "raw": "https://www.livesportsontv.com/match/anaheim-ducks-calgary-flames-1950313"
+            },
+            {
+              "time": "2026-11-15T21:00:00-05:00",
+              "title": "Vancouver Canucks @ Vegas Golden Knights",
+              "away": "Vancouver Canucks",
+              "home": "Vegas Golden Knights",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Scripps 66",
+                "Sportsnet Pacific",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "T-Mobile Arena",
+              "raw": "https://www.livesportsontv.com/match/vegas-golden-knights-vancouver-canucks-1950314"
             }
           ]
         }
