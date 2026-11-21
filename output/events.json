@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:36:43.551090+00:00",
+  "generated_at": "2026-11-21T17:21:04.596438+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -780,25 +780,6 @@
               "raw": "https://www.livesportsontv.com/match/brown-umbc-1990430"
             }
           ]
-        },
-        {
-          "league": "World Tour 3x3",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-21T11:00:00-05:00",
-              "title": "Manama",
-              "away": null,
-              "home": null,
-              "channels": [
-                "CBC Gem"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/manama-1999940"
-            }
-          ]
         }
       ]
     },
@@ -820,6 +801,9 @@
                 "NHL Network",
                 "Hurricanes Hockey Network",
                 "Sportsnet",
+                "Sportsnet Ontario",
+                "Sportsnet Pacific",
+                "Sportsnet West",
                 "Sportsnet NOW",
                 "Sportsnet+"
               ],
@@ -912,31 +896,42 @@
               "notes": [],
               "venue": "Scotiabank Arena",
               "raw": "https://www.livesportsontv.com/match/toronto-maple-leafs-columbus-blue-jackets-1953840"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sport": "Soccer",
-      "leagues": [
-        {
-          "league": "Süper Lig",
-          "country": "Turkiye",
-          "gender": "male",
-          "events": [
+            },
             {
-              "time": "2026-11-21T07:30:00-05:00",
-              "title": "Tofas @ Turk Telekom",
-              "away": "Tofas",
-              "home": "Turk Telekom",
+              "time": "2026-11-21T19:00:00-05:00",
+              "title": "Philadelphia Flyers @ Montreal Canadiens",
+              "away": "Philadelphia Flyers",
+              "home": "Montreal Canadiens",
               "channels": [
-                "DAZN US",
-                "DAZN Canada"
+                "Fubo Sports",
+                "NBC Sports Philadelphia",
+                "NHL Network",
+                "Sportsnet East",
+                "Sportsnet NOW",
+                "Sportsnet+",
+                "TVA Sports"
               ],
               "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/turk-telekom-tofas-1945028"
+              "venue": "Centre Bell",
+              "raw": "https://www.livesportsontv.com/match/montreal-canadiens-philadelphia-flyers-1953841"
+            },
+            {
+              "time": "2026-11-21T19:00:00-05:00",
+              "title": "Los Angeles Kings @ Ottawa Senators",
+              "away": "Los Angeles Kings",
+              "home": "Ottawa Senators",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Angels Broadcast Television",
+                "Sportsnet One",
+                "Sportsnet NOW",
+                "Sportsnet+",
+                "TVA Sports 2"
+              ],
+              "notes": [],
+              "venue": "Canadian Tire Centre",
+              "raw": "https://www.livesportsontv.com/match/ottawa-senators-los-angeles-kings-1953842"
             }
           ]
         }
