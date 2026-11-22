@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:03:09.596165+00:00",
+  "generated_at": "2026-11-22T18:26:22.749894+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -220,58 +220,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-22T06:00:00-05:00",
-              "title": "Saski Baskonia @ Bilbao",
-              "away": "Saski Baskonia",
-              "home": "Bilbao",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/bilbao-saski-baskonia-1949973"
-            },
-            {
-              "time": "2026-11-22T06:00:00-05:00",
-              "title": "Basquet Girona @ Obradoiro CAB",
-              "away": "Basquet Girona",
-              "home": "Obradoiro CAB",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/obradoiro-cab-basquet-girona-1949974"
-            },
-            {
-              "time": "2026-11-22T06:30:00-05:00",
-              "title": "Forca Lleida @ Leyma Coruna",
-              "away": "Forca Lleida",
-              "home": "Leyma Coruna",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/leyma-coruna-forca-lleida-1949975"
-            },
-            {
-              "time": "2026-11-22T11:00:00-05:00",
-              "title": "Breogan @ Valencia",
-              "away": "Breogan",
-              "home": "Valencia",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/valencia-breogan-1949976"
-            },
-            {
               "time": "2026-11-22T12:00:00-05:00",
               "title": "Barcelona @ Tenerife",
               "away": "Barcelona",
@@ -316,25 +264,6 @@
               "notes": [],
               "venue": "TBD",
               "raw": "https://www.livesportsontv.com/match/prolific-prep-fla-bella-vista-ariz-1999880"
-            }
-          ]
-        },
-        {
-          "league": "LNB Pro A",
-          "country": "France",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-22T10:30:00-05:00",
-              "title": "Gravelines-Dunkerque @ Paris",
-              "away": "Gravelines-Dunkerque",
-              "home": "Paris",
-              "channels": [
-                "Fanatiz"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/paris-gravelines-dunkerque-1963413"
             }
           ]
         },
@@ -686,32 +615,6 @@
           "gender": "male",
           "events": [
             {
-              "time": "2026-11-22T11:00:00-05:00",
-              "title": "London Lions @ Manchester Basketball",
-              "away": "London Lions",
-              "home": "Manchester Basketball",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/manchester-basketball-london-lions-1955134"
-            },
-            {
-              "time": "2026-11-22T11:00:00-05:00",
-              "title": "Leicester Riders @ Liverpool",
-              "away": "Leicester Riders",
-              "home": "Liverpool",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/liverpool-leicester-riders-1955135"
-            },
-            {
               "time": "2026-11-22T12:30:00-05:00",
               "title": "Caledonia Gladiators @ Cheshire Phoenix",
               "away": "Caledonia Gladiators",
@@ -872,6 +775,87 @@
       "sport": "Ice Hockey",
       "leagues": [
         {
+          "league": "AHL",
+          "country": "USA",
+          "gender": "male",
+          "events": [
+            {
+              "time": "2026-11-22T14:00:00-05:00",
+              "title": "Rockford IceHogs @ Manitoba Moose",
+              "away": "Rockford IceHogs",
+              "home": "Manitoba Moose",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/manitoba-moose-rockford-icehogs-1925276"
+            },
+            {
+              "time": "2026-11-22T15:00:00-05:00",
+              "title": "Utica Comets @ Cleveland Monsters",
+              "away": "Utica Comets",
+              "home": "Cleveland Monsters",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/cleveland-monsters-utica-comets-1925273"
+            },
+            {
+              "time": "2026-11-22T15:00:00-05:00",
+              "title": "Springfield Thunderbirds @ Hartford Wolf Pack",
+              "away": "Springfield Thunderbirds",
+              "home": "Hartford Wolf Pack",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/hartford-wolf-pack-springfield-thunderbirds-1925274"
+            },
+            {
+              "time": "2026-11-22T15:00:00-05:00",
+              "title": "Calgary Wranglers @ Laval Rocket",
+              "away": "Calgary Wranglers",
+              "home": "Laval Rocket",
+              "channels": [
+                "FloHockey",
+                "RDS"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/laval-rocket-calgary-wranglers-1925275"
+            },
+            {
+              "time": "2026-11-22T15:05:00-05:00",
+              "title": "Milwaukee Admirals @ Providence Bruins",
+              "away": "Milwaukee Admirals",
+              "home": "Providence Bruins",
+              "channels": [
+                "FloHockey"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/providence-bruins-milwaukee-admirals-1925277"
+            },
+            {
+              "time": "2026-11-22T16:00:00-05:00",
+              "title": "Chicago Wolves @ Toronto Marlies",
+              "away": "Chicago Wolves",
+              "home": "Toronto Marlies",
+              "channels": [
+                "FloHockey",
+                "CITY Toronto"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/toronto-marlies-chicago-wolves-1925278"
+            }
+          ]
+        },
+        {
           "league": "NHL",
           "country": "USA",
           "gender": "male",
@@ -914,6 +898,58 @@
               "notes": [],
               "venue": "Benchmark International Arena",
               "raw": "https://www.livesportsontv.com/match/tampa-bay-lightning-buffalo-sabres-1954374"
+            },
+            {
+              "time": "2026-11-22T19:00:00-05:00",
+              "title": "Edmonton Oilers @ St. Louis Blues",
+              "away": "Edmonton Oilers",
+              "home": "St. Louis Blues",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Blue Note+",
+                "Sportsnet One",
+                "Sportsnet West",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Enterprise Center",
+              "raw": "https://www.livesportsontv.com/match/st-louis-blues-edmonton-oilers-1954375"
+            },
+            {
+              "time": "2026-11-22T19:00:00-05:00",
+              "title": "Pittsburgh Penguins @ Dallas Stars",
+              "away": "Pittsburgh Penguins",
+              "home": "Dallas Stars",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "SportsNet Pittsburgh",
+                "Prime Video (Local)",
+                "Sportsnet+",
+                "TVA Sports"
+              ],
+              "notes": [],
+              "venue": "American Airlines Center",
+              "raw": "https://www.livesportsontv.com/match/dallas-stars-pittsburgh-penguins-1954376"
+            },
+            {
+              "time": "2026-11-22T20:00:00-05:00",
+              "title": "Chicago Blackhawks @ Vancouver Canucks",
+              "away": "Chicago Blackhawks",
+              "home": "Vancouver Canucks",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited",
+                "Chicago Sports Network",
+                "Sportsnet Pacific",
+                "Sportsnet NOW",
+                "Sportsnet+"
+              ],
+              "notes": [],
+              "venue": "Rogers Arena",
+              "raw": "https://www.livesportsontv.com/match/vancouver-canucks-chicago-blackhawks-1954377"
             }
           ]
         }
@@ -927,32 +963,6 @@
           "country": "Turkiye",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-22T07:30:00-05:00",
-              "title": "Anadolu Efes @ Trabzonspor",
-              "away": "Anadolu Efes",
-              "home": "Trabzonspor",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/trabzonspor-anadolu-efes-1970403"
-            },
-            {
-              "time": "2026-11-22T10:00:00-05:00",
-              "title": "Petkim Spor @ Galatasaray",
-              "away": "Petkim Spor",
-              "home": "Galatasaray",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/galatasaray-petkim-spor-1945026"
-            },
             {
               "time": "2026-11-22T12:30:00-05:00",
               "title": "Fenerbahce @ Besiktas",
