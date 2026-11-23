@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T08:54:48.484879+00:00",
+  "generated_at": "2026-11-23T21:13:07.338250+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -41,6 +41,28 @@
       ]
     },
     {
+      "sport": "Baseball",
+      "leagues": [
+        {
+          "league": "LBPRC",
+          "events": [
+            {
+              "time": "2026-11-23T18:21:00-05:00",
+              "title": "Criollos Caguas @ San Juan",
+              "away": "Criollos Caguas",
+              "home": "San Juan",
+              "channels": [
+                "ViX"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/san-juan-criollos-caguas-1988487"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "sport": "Basketball",
       "leagues": [
         {
@@ -48,71 +70,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-23T11:00:00-05:00",
-              "title": "St. Bonaventure @ Appalachian State",
-              "away": "St. Bonaventure",
-              "home": "Appalachian State",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN2"
-              ],
-              "notes": [],
-              "venue": "State Farm Field House, Kissimmee, FL",
-              "raw": "https://www.livesportsontv.com/match/appalachian-state-st-bonaventure-1990531"
-            },
-            {
-              "time": "2026-11-23T13:00:00-05:00",
-              "title": "Long Beach State @ Florida International",
-              "away": "Long Beach State",
-              "home": "Florida International",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Ocean Bank Convocation Center, Miami, FL",
-              "raw": "https://www.livesportsontv.com/match/florida-international-long-beach-state-1990532"
-            },
-            {
-              "time": "2026-11-23T13:00:00-05:00",
-              "title": "Indiana U South Bend @ Eastern Illinois",
-              "away": "Indiana U South Bend",
-              "home": "Eastern Illinois",
-              "channels": [
-                "ESPN Select",
-                "ESPN Unlimited"
-              ],
-              "notes": [],
-              "venue": "Groniger Arena, Charleston, IL",
-              "raw": "https://www.livesportsontv.com/match/eastern-illinois-indiana-u-south-bend-1991163"
-            },
-            {
-              "time": "2026-11-23T13:30:00-05:00",
-              "title": "Akron @ Wright State",
-              "away": "Akron",
-              "home": "Wright State",
-              "channels": [
-                "ESPN Unlimited",
-                "ESPN U"
-              ],
-              "notes": [],
-              "venue": "State Farm Field House, Kissimmee, FL",
-              "raw": "https://www.livesportsontv.com/match/wright-state-akron-1990533"
-            },
-            {
-              "time": "2026-11-23T14:00:00-05:00",
-              "title": "Tulsa @ Oregon State",
-              "away": "Tulsa",
-              "home": "Oregon State",
-              "channels": [
-                "FloSports"
-              ],
-              "notes": [],
-              "venue": "Acrisure Arena, Palm Springs, CA",
-              "raw": "https://www.livesportsontv.com/match/oregon-state-tulsa-1997613"
-            },
             {
               "time": "2026-11-23T14:30:00-05:00",
               "title": "Mississippi @ Clemson",
@@ -126,6 +83,19 @@
               "notes": [],
               "venue": "Lahaina Civic Center, Maui, HI",
               "raw": "https://www.livesportsontv.com/match/clemson-mississippi-1990534"
+            },
+            {
+              "time": "2026-11-23T15:00:00-05:00",
+              "title": "Middle Tennessee @ Southern Illinois",
+              "away": "Middle Tennessee",
+              "home": "Southern Illinois",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Elridge Blake Sports and Fitness Center, Charlotte Amalie, Virgin Islands",
+              "raw": "https://www.livesportsontv.com/match/southern-illinois-middle-tennessee-2000550"
             },
             {
               "time": "2026-11-23T15:30:00-05:00",
@@ -177,6 +147,59 @@
               "notes": [],
               "venue": "Acrisure Arena, Palm Springs, CA",
               "raw": "https://www.livesportsontv.com/match/san-francisco-nevada-1996080"
+            },
+            {
+              "time": "2026-11-23T17:00:00-05:00",
+              "title": "Washington @ BYU",
+              "away": "Washington",
+              "home": "BYU",
+              "channels": [
+                "Fubo Sports",
+                "ESPN Unlimited",
+                "ESPN2"
+              ],
+              "notes": [],
+              "venue": "Lahaina Civic Center, Maui, HI",
+              "raw": "https://www.livesportsontv.com/match/byu-washington-1986089"
+            },
+            {
+              "time": "2026-11-23T17:30:00-05:00",
+              "title": "Temple @ UT Martin",
+              "away": "Temple",
+              "home": "UT Martin",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Elridge Blake Sports and Fitness Center, Charlotte Amalie, Virgin Islands",
+              "raw": "https://www.livesportsontv.com/match/ut-martin-temple-2000666"
+            },
+            {
+              "time": "2026-11-23T18:30:00-05:00",
+              "title": "Maryland Eastern Shore @ Youngstown State",
+              "away": "Maryland Eastern Shore",
+              "home": "Youngstown State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Zidian Family Arena at Beeghly Center, Youngstown, OH",
+              "raw": "https://www.livesportsontv.com/match/youngstown-state-maryland-eastern-shore-1990541"
+            },
+            {
+              "time": "2026-11-23T18:30:00-05:00",
+              "title": "RIT @ Buffalo",
+              "away": "RIT",
+              "home": "Buffalo",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Broadview Arena, Buffalo, NY",
+              "raw": "https://www.livesportsontv.com/match/buffalo-rit-1990542"
             }
           ]
         },
@@ -324,8 +347,8 @@
                 "KJZZ 14",
                 "Spectrum SportsNet+",
                 "Sportsnet",
-                "Sportsnet One",
-                "Sportsnet NOW"
+                "Sportsnet NOW",
+                "Sportsnet+"
               ],
               "notes": [],
               "venue": "Los Angeles Crypto.com Arena",
@@ -372,18 +395,6 @@
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-11-23T12:00:00-05:00",
-              "title": "Alcorn State @ Michigan State",
-              "away": "Alcorn State",
-              "home": "Michigan State",
-              "channels": [
-                "FloSports"
-              ],
-              "notes": [],
-              "venue": "Raider Arena, Destin, FL",
-              "raw": "https://www.livesportsontv.com/match/michigan-state-alcorn-state-1997610"
-            },
             {
               "time": "2026-11-23T14:30:00-05:00",
               "title": "Virginia Tech @ UT Martin",
@@ -496,6 +507,19 @@
               "notes": [],
               "venue": "Timmons Arena, Greenville, SC",
               "raw": "https://www.livesportsontv.com/match/furman-radford-1990543"
+            },
+            {
+              "time": "2026-11-23T19:00:00-05:00",
+              "title": "Texas @ Incarnate Word",
+              "away": "Texas",
+              "home": "Incarnate Word",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "McDermott Center, San Antonio, TX",
+              "raw": "https://www.livesportsontv.com/match/incarnate-word-texas-1990550"
             }
           ]
         }
@@ -652,18 +676,6 @@
           "gender": "female",
           "events": [
             {
-              "time": "2026-11-23T13:30:00-05:00",
-              "title": "Detroit Clutch W @ Ottawa",
-              "away": "Detroit Clutch W",
-              "home": "Ottawa",
-              "channels": [
-                "YouTube US"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/ottawa-detroit-clutch-w-1965824"
-            },
-            {
               "time": "2026-11-23T16:00:00-05:00",
               "title": "Vancouver Goldeneyes @ Minnesota Frost",
               "away": "Vancouver Goldeneyes",
@@ -704,30 +716,30 @@
       ]
     },
     {
-      "sport": "Soccer",
+      "sport": "Motorsports",
       "leagues": [
         {
-          "league": "Ekstraklasa",
-          "country": "Poland",
-          "gender": "male",
+          "league": "Other",
           "events": [
             {
-              "time": "2026-11-23T13:00:00-05:00",
-              "title": "Lublin @ Wieczysta Kraków",
-              "away": "Lublin",
-              "home": "Wieczysta Kraków",
+              "time": "2026-11-23T21:00:00-05:00",
+              "title": "USAC Racing",
+              "away": null,
+              "home": null,
               "channels": [
-                "beIN Sport USA",
-                "beIN Sport USA Espanol",
-                "beIN Sport Canada",
-                "beIN Sport Canada Espanol"
+                "FloRacing"
               ],
               "notes": [],
-              "venue": "Synerise Arena - Stadion Miejski im. Henryka Reymana",
-              "raw": "https://www.livesportsontv.com/match/wieczysta-krakow-lublin-1901733"
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/usac-racing-1999635"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "leagues": [
         {
           "league": "La Liga",
           "country": "Spain",
@@ -782,10 +794,16 @@
               "away": "Los Angeles FC",
               "home": "St. Louis City",
               "channels": [
+                "Fubo Sports",
                 "Apple TV",
+                "FOX Deportes",
+                "FOX Sports 1",
+                "FOX One",
                 "TSN+",
+                "RDS",
                 "TSN2",
-                "RDS 2"
+                "RDS 2",
+                "TSN"
               ],
               "notes": [],
               "venue": "Energizer Park (St. Louis, USA)",
@@ -913,72 +931,6 @@
           ]
         },
         {
-          "league": "U17 World Cup",
-          "country": "International",
-          "gender": "male",
-          "events": [
-            {
-              "time": "2026-11-23T07:30:00-05:00",
-              "title": "Fiji U17 @ Spain U17",
-              "away": "Fiji U17",
-              "home": "Spain U17",
-              "channels": [
-                "Fubo Sports",
-                "FOX Sports 2",
-                "FOX One",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/spain-u17-fiji-u17-1894378"
-            },
-            {
-              "time": "2026-11-23T07:30:00-05:00",
-              "title": "Croatia U17 @ Tajikistan U17",
-              "away": "Croatia U17",
-              "home": "Tajikistan U17",
-              "channels": [
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/tajikistan-u17-croatia-u17-1894379"
-            },
-            {
-              "time": "2026-11-23T08:00:00-05:00",
-              "title": "Jamaica U17 @ Uzbekistan U17",
-              "away": "Jamaica U17",
-              "home": "Uzbekistan U17",
-              "channels": [
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/uzbekistan-u17-jamaica-u17-1894382"
-            }
-          ]
-        },
-        {
-          "league": "Women's Bundesliga",
-          "country": "Germany",
-          "gender": "female",
-          "events": [
-            {
-              "time": "2026-11-23T12:00:00-05:00",
-              "title": "Hoffenheim @ Bayern München",
-              "away": "Hoffenheim",
-              "home": "Bayern München",
-              "channels": [
-                "DAZN US",
-                "DAZN Canada"
-              ],
-              "notes": [],
-              "venue": "TBD",
-              "raw": "https://www.livesportsontv.com/match/bayern-munchen-hoffenheim-1929209"
-            }
-          ]
-        },
-        {
           "league": "Women's College Soccer",
           "country": "USA",
           "gender": "female",
@@ -994,6 +946,70 @@
               "notes": [],
               "venue": "Palm Springs, California",
               "raw": "https://www.livesportsontv.com/match/nevada-san-francisco-1986173"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sport": "Volleyball",
+      "leagues": [
+        {
+          "league": "Women's College Volleyball",
+          "country": "USA",
+          "gender": "female",
+          "events": [
+            {
+              "time": "2026-11-23T15:00:00-05:00",
+              "title": "Portland State @ Northern Colorado",
+              "away": "Portland State",
+              "home": "Northern Colorado",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Rolle Activity Center, Flagstaff, Arizona",
+              "raw": "https://www.livesportsontv.com/match/northern-colorado-portland-state-1986474"
+            },
+            {
+              "time": "2026-11-23T16:00:00-05:00",
+              "title": "Eastern Illinois @ Southeast Missouri State",
+              "away": "Eastern Illinois",
+              "home": "Southeast Missouri State",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "TBD",
+              "raw": "https://www.livesportsontv.com/match/southeast-missouri-state-eastern-illinois-1986751"
+            },
+            {
+              "time": "2026-11-23T18:00:00-05:00",
+              "title": "Eastern Washington @ Utah Tech",
+              "away": "Eastern Washington",
+              "home": "Utah Tech",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "Rolle Activity Center, Flagstaff, Arizona",
+              "raw": "https://www.livesportsontv.com/match/utah-tech-eastern-washington-1986475"
+            },
+            {
+              "time": "2026-11-23T18:00:00-05:00",
+              "title": "Georgia @ Tennessee",
+              "away": "Georgia",
+              "home": "Tennessee",
+              "channels": [
+                "ESPN Unlimited",
+                "SEC Network"
+              ],
+              "notes": [],
+              "venue": "Enmarket Arena, Savannah, Georgia",
+              "raw": "https://www.livesportsontv.com/match/tennessee-georgia-2000553"
             }
           ]
         }
