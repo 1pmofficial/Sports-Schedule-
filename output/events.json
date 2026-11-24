@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:54:54.820273+00:00",
+  "generated_at": "2026-11-24T17:29:33.563041+00:00",
   "source": "https://www.livesportsontv.com",
   "timezone": "America/New_York",
   "total_events": 60,
@@ -53,20 +53,6 @@
           "country": "USA",
           "gender": "male",
           "events": [
-            {
-              "time": "2026-11-24T10:00:00-05:00",
-              "title": "Wright State @ St. Bonaventure",
-              "away": "Wright State",
-              "home": "St. Bonaventure",
-              "channels": [
-                "Fubo Sports",
-                "ESPN Unlimited",
-                "ESPN2"
-              ],
-              "notes": [],
-              "venue": "State Farm Field House, Kissimmee, FL",
-              "raw": "https://www.livesportsontv.com/match/st-bonaventure-wright-state-1990564"
-            },
             {
               "time": "2026-11-24T12:30:00-05:00",
               "title": "Belmont @ Akron",
@@ -188,6 +174,19 @@
               "notes": [],
               "venue": "T-Mobile Arena, Las Vegas, NV",
               "raw": "https://www.livesportsontv.com/match/tcu-miami-1986374"
+            },
+            {
+              "time": "2026-11-24T15:00:00-05:00",
+              "title": "Appalachian State @ Yale",
+              "away": "Appalachian State",
+              "home": "Yale",
+              "channels": [
+                "ESPN Select",
+                "ESPN Unlimited"
+              ],
+              "notes": [],
+              "venue": "State Farm Field House, Kissimmee, FL",
+              "raw": "https://www.livesportsontv.com/match/yale-appalachian-state-1990574"
             }
           ]
         },
@@ -421,16 +420,16 @@
             },
             {
               "time": "2026-11-24T14:00:00-05:00",
-              "title": "George Mason @ Longwood",
-              "away": "George Mason",
-              "home": "Longwood",
+              "title": "Fresno State @ Florida Gulf Coast",
+              "away": "Fresno State",
+              "home": "Florida Gulf Coast",
               "channels": [
                 "ESPN Select",
                 "ESPN Unlimited"
               ],
               "notes": [],
-              "venue": "Joan Perry Brock Center, Farmville, VA",
-              "raw": "https://www.livesportsontv.com/match/longwood-george-mason-1990571"
+              "venue": "Alico Arena, Fort Myers, FL",
+              "raw": "https://www.livesportsontv.com/match/florida-gulf-coast-fresno-state-1990570"
             }
           ]
         }
@@ -696,6 +695,18 @@
               "notes": [],
               "venue": "Ashton Gate (Bristol, England)",
               "raw": "https://www.livesportsontv.com/match/bristol-city-wrexham-1931969"
+            },
+            {
+              "time": "2026-11-24T14:45:00-05:00",
+              "title": "West Ham United @ Portsmouth",
+              "away": "West Ham United",
+              "home": "Portsmouth",
+              "channels": [
+                "Paramount+ (US)"
+              ],
+              "notes": [],
+              "venue": "Fratton Park (Portsmouth, England)",
+              "raw": "https://www.livesportsontv.com/match/portsmouth-west-ham-united-1931974"
             }
           ]
         },
@@ -813,6 +824,7 @@
               "home": "Feyenoord",
               "channels": [
                 "Paramount+ (US)",
+                "CBS Sports Golazo Network",
                 "ViX",
                 "DAZN Canada"
               ],
@@ -888,18 +900,6 @@
           "country": "USA",
           "gender": "female",
           "events": [
-            {
-              "time": "2026-11-24T00:00:00-05:00",
-              "title": "UC San Diego @ San Jose State",
-              "away": "UC San Diego",
-              "home": "San Jose State",
-              "channels": [
-                "FloSports"
-              ],
-              "notes": [],
-              "venue": "Palm Desert, California",
-              "raw": "https://www.livesportsontv.com/match/san-jose-state-uc-san-diego-2000725"
-            },
             {
               "time": "2026-11-24T17:30:00-05:00",
               "title": "Kent State @ Wyoming",
